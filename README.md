@@ -8,7 +8,7 @@ This paper compares more than NUMBER Greek editions of the Antigone, beginning w
 
 The list below includes both major new editions as well as bilingual editions (Greek/French, Greek/English, Greek/German) where the translator largely followed another edition. The critical editions may have more authority for specialists but the Greek text adopted in the bilingual editions, through the accompanying translations, serves a much broader potential audience.
 
-1. 1806: Sophoclis Dramata quae supersunt et deperditorum fragmenta Graece et Latine, Richard Brunck and Friedrich Bothe (Weidmann, Leipzig)
+1. [1806](./greek/soph.ant.bothe.grc.xml): Sophoclis Dramata quae supersunt et deperditorum fragmenta Graece et Latine, Richard Brunck and Friedrich Bothe (Weidmann, Leipzig)
 
 2. 1830: Sophoclis Tragoediae, Editio Tertia, Karl Erfurdt and Gottfried Hermann (Fleischer, Leipzig)
 
