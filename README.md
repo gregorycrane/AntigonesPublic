@@ -55,3 +55,10 @@ The following are not available because of the uncertainty of UK copyright over 
 13. 1994: Sophocles: v2, Antigone, Women of Trachis, Oedipus at Colonus (Loeb Classical Library, Harvard University Press, Cambridge MA)
 
 14. 1999: Sophocles, Antigone, Mark Griffith (Cambridge Greek and Latin Classics, Cambridge University Press)
+
+
+## Translations
+
+For now the following are available in the translations folder:
+
+1. Latin -- Bothe 1806 (see above)
