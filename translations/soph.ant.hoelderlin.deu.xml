@@ -1,0 +1,3438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="eng">
+<fileDesc>
+<titleStmt>
+<title xml:lang="lat">Antigonae</title>
+<author xml:lang="lat">Sophocles</author>
+<editor role="translator">August Lentz</editor>
+<funder>National Endowment for the Humanities</funder>
+<respStmt>
+<resp>Published original versions of the electronic texts</resp>
+<orgName ref="https://www.opengreekandlatin.org">Open Greek and Latin</orgName>
+<persName role="principal">Gregory Crane</persName>
+<persName role="principal">Leonard Muellner</persName>
+<persName role="principal">Bruce Robertson</persName>
+</respStmt>
+
+<respStmt>
+<resp>Proofreading and CTS conversion</resp>
+<persName>Gregory Crane</persName>
+</respStmt>
+</titleStmt>
+
+<publicationStmt>
+<publisher>Open Greek and Latin</publisher>
+<idno type="filename">tlg0087.tlg002.1st1K-grc1.xml</idno>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a
+Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+</availability>
+<date>2023-08-05</date>
+</publicationStmt>
+
+
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title xml:lang="deu">Die Trauerspiele des Sophokles</title>
+<editor role="translator">Friedrich Hölderlin</editor>
+<author xml:lang="grc">Sophocles</author>
+<imprint>
+<publisher>Friedrich Wilmans</publisher>
+<pubPlace>Frankfurt am Main</pubPlace>
+<date>1804</date>
+</imprint>
+<biblScope unit="volume">2</biblScope>
+</monogr>
+<ref target="https://hdl.handle.net/2027/inu.30000009171616?urlappend=%3Bseq=123%3Bownerid=13510798896953817-147">Hathi
+Trust</ref>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+<quotation marks="none"/>
+<normalization>
+<p/>
+</normalization>
+<correction>
+<p>Original OCR by Tesseract 4.0.</p>
+</correction>
+</editorialDecl>
+
+<refsDecl n="CTS">
+<cRefPattern matchPattern="(\w+)" n="section" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+<p>This pointer pattern extracts sections.</p>
+</cRefPattern>
+</refsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="deu">German</language>
+</langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change when="2023-08-05" who="Gregory Crane">Digital conversion and editing</change>
+</revisionDesc>
+</teiHeader>
+
+<text>
+<body>
+<div type="translation" n="urn:cts:greekLit:tlg0011.tlg002.TBA" xml:lang="deu">
+
+<pb n="5"/>
+
+
+<head>Erster Act.</head>
+<head>Erste Scene.</head>
+
+<stage>ANTIGONAE ISMENE</stage>
+
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Gemeinsamschwesterliches! o Ismenes Haupt!</l>
+<l>Weisst du etwas, das nicht der Erde Vater</l>
+<l>Erfuhr, mit uns, die wir bis hieher leben,</l>
+
+<l>Ein Nennbares, seit Oedipus gehascht ward?</l>
+<l>Nicht eine traur’ge Arbeit, auch kein Irrsaal,</l>
+<l>Und schändlich ist, und ehrlos nirgend eines,</l>
+<l>Das ich in deinem, meinem Unglück nicht gesehn.</l>
+<l>Jetzt aber, ahnest du das, was der Feldherr</l>
+<l>Uns kundgethan, in offner Stadt, so eben?</l>
+<l>Hast du gehört es? oder weist du nicht,</l>
+
+<l>Wie auf die Lieben kommet Feindesübel?</l>
+
+
+<pb n="6"/> 
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Nicht kam ein Wort zu mir, Antigonä, vonLieben,</l>
+<l>Kein liebliches und auch kein trauriges, seitdem</l>
+<l>Die beyden Brüder beyde wir verloren;</l>
+<l>Die starben, Einen Tag, von zweyen Händen;</l>
+<l>Scıt aber fort das Heer von Argos ist,</l>
+<l>Vergangne Nacht, weiss ich nichts weiter mehr,</l>
+<l>Und bin nicht glücklicher und nicht betrübter.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Das dacht’ ich wohl und rief aus dem Hofthor</l>
+<l>Daıum, dass du’s besonders hören könntest.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Was ist’s, du scheinst ein rothes Wort zu färben ?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Hat mit der lezten Ehre denn nicht unsre Brüder</l>
+<l>Kreon gekränzt, beschimpfet, wechselsweise ?</l>
+<l>Eteokles zwar, sagt man, behandelt er</l>
+<l>Mit rechtem Recht, gesezgemäls, und birgt</l>
+<l>Ihn in der Erd’, ehrsam den Todten drunten.</l>
+<l>Vom andern aber, der gestorben ist armseelig,</l>
+<l>Von Polynikes Leibe sagen sie, man hab’</l>
+<l>Es in der Stadt verkündet, dass man ihn</l>
+<l>Mit keinem Grabe berg’ und nicht betraure.</l>
+
+<l>Man soll ihn lassen unbeweint und grablos,,</l>
+
+
+
+<pb n="7"/>
+
+
+
+
+<l>Süfs Mahl den Vögeln, die auf Fralses Lust sehn.</l>
+
+<l>So etwas, sagt man, hat der gute Kreon dir</l>
+
+<l>Und mir, denn mich auch mein’ ich, kund gethan,</l>
+
+<l>Und hierher kommt er, difs Unwissenden</l>
+
+<l>Deutlich zu melden. Und die Sache sei</l>
+
+<l>Nicht, wie für nichts. Wer etwas thut dabei,</l>
+
+<l>Dem wird der Tod des Steinigens im Orte.</l>
+
+<l>So steht esdir. Und gleich wirst du beweisen,</l>
+
+<l>Ob gutgeboren, ob die Böse du der Guten?</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Wasaber, o du Arme, wenn es so steht?</l>
+
+<l>Soll ich es lassen oder doch zu Grab gehn?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Ob mitthun du, mithelfen wollest, forsche!</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Das ist vermessen. Wie bist du daran?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Ob du den Todten mit der Hand hier tragest?</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Dem willst zu Grabe du gehn, dem die Stadt entsagt hat?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Von dir und mir mein’ ich, auch wenn du nicht es willst,</l>
+
+
+<pb n="8"/>
+
+
+
+<l>Den Bruder. Denn treulos fängt man mich nicht,</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Verwilderte! wenn Kreon es verbietet?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Mit diesem hat das Meine nichts zu thun.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>O mir! bedenke, Schwester, wie der Vater,</l>
+
+<l>Von uns, verhalst und ruhmlos untergangen,</l>
+
+<l>Nach selbstverschuldeten Verirrungen ,</l>
+
+<l>Da er sein Augenpaar mit eigner Hand zerstochen.</l>
+
+<l>Und dann die Mutter, Ehefrau zugleich,</l>
+
+<l>Ein doppelt Leiden, mit gewundnen Striken</l>
+
+<l>Verstümmelte das Leben sie. Zum dritten</l>
+
+<l>Die beiden Brüder, die an Einem Tage</l>
+
+<l>Verwandten Tod mit Gegnershand bewirket.,</l>
+
+<l>Und nun wir zwei, die wir allein geblieben,</l>
+
+<l>Sieh, wie am schlimmsten wir vergiengen, wenn</l>
+
+<l>Gewaltsam wir des Herrn Befehl und Kraft</l>
+
+<l>Verfehlten. Difs auch denke, Weiber sind wir,</l>
+
+<l>Und dürfen so nicht gegen Männer streiten.</l>
+
+<l>Und dann auch, weil von Stärkern wir beherrscht sind,</l>
+
+<l>So müssen wir diess hören; Härters noch!</l>
+
+
+
+<pb n="9"/>
+
+
+
+
+<l>Ich also bitte sie, die drunten sind,</l>
+
+<l>Mir zu verzeihen, dass mir diess geschieht,</l>
+<l>Und lafs sie walten, die da ferne gehen,</l>
+
+<l>Denn Ueberflüfsiges zu thun, ist sinnlos.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Befehlen will ichs nicht, und wolltest dus nun</l>
+<l>Noch thun, es wär in deiner Hülfe Lust nicht.</l>
+<l>Nein! denke du, wie diess gefällt; doch ihn</l>
+<l>Begrab’ ich. Schön ist es hernach, zu sterben.</l>
+<l>Lieb werd’ ich bei ihm liegen, bei dem Lieben,</l>
+<l>Wenn Heiligs ich vollbracht. Und dann ists mehr Zeit,</l>
+
+<l>Dafs denen drunten ich gefall’ , als hier.</l>
+
+<l>Dort wohn’ ich ja für immer einst. Doch du,</l>
+<l>Beliebt es, halt ehrlos vor Göttern Ehrsams.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Für ehrlos halt’ ichs nicht. Zum Schritt allein, den Bürger</l>
+<l>Im Aufstand thun, bin linkisch ich geboren.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Nimm nun zum Vorwand diess. Ich aber gehe,</l>
+<l>Ein Grab dem liebsten Bruder aufzuwerfen.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Ich Arme! o! wie fürcht’ ich für dich!</l>
+
+
+<pb n="10"/>
+
+
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Mir rathe nicht! komm’ aus mit deinem Leben!</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Meinwegen. Lafs die That nur niemand hören!</l>
+<l>Halt dich jezt still! So kann ich mit dabei seyn.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>O mir! schrei laut es aus! Ich hasse nur noch mehr dich,</l>
+<l>Schweigst du und sagst nicht dieses aus vor allen.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Warm für die Kalten leidet deine Seele.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Ich weiss, wem ich gefallen muss am meisten.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Könntst du es, doch Unthunliches versuchst du,</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Gewils! kann ich es nicht, so muls ichs lassen.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Gleich Anfangs muss Niemand Unthunlichs jagen.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Magst du so etwas sagen, hass’ ich dich,</l>
+<l>Hafst auch dich der Gestorbene mit Recht.</l>
+<l>Lafs aber mich und meinen irren Rath</l>
+
+<l>Das Gewaltige leiden. Ich bin überall nicht so</l>
+
+
+
+<pb n="11"/>
+
+
+<l>Empfindsam , dass’ ich sollt’ unschönen Todes sterben.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Wenn dir es.dünkt, so geh. Wiss aber difs,</l>
+
+<l>Sinnlos, doch lieb in liebem Tone sprichst du.</l>
+</sp>
+<sp><speaker>CHOR der Thebanischen Alten.</speaker>
+
+
+<l>O Blik der Sonne, du schönster, der</l>
+
+<l>Dem siebenthorigen Thebe</l>
+
+<l>Seit langem scheint, bist eirimal du</l>
+<l>Erschienen, o Licht, bist du</l>
+
+<l>O Augenblik des goldenen Tages,</l>
+
+<l>Gegangen über die Dirzäischen Bäche,</l>
+
+<l>Und den Weifsschild,, ihn von Argos,</l>
+
+<l>Den Mann, gekommen in Waffenrüstung,</l>
+<l>Den hinstürzenden Flüchtling</l>
+
+<l>Bewegst du mit der Schärfe des Zaums, ihn,</l>
+<l>Mit welchem über unser Land</l>
+
+<l>Sich geschwungen Polynikes</l>
+
+<l>Aus zweideutigem Zank und scharf, wie ein Adler,</l>
+<l>Schrie er und flog,</l>
+
+<l>Schneeweis sein Flügel,</l>
+
+<pb n="12"/>
+
+
+
+<l>Furchtbar, mit Waffen viel,</l>
+<l>Und Helmen, geschmükt mit dem Rofsschweiff,</l>
+
+<l>Und über Pallästen stand er und wies,</l>
+
+<l>Voll blutiger Spiefse, rings</l>
+
+<l>Das siebenthorige Maul;</l>
+
+<l>Doch gieng er davon,</l>
+
+<l>Noch ehe von unsrem</l>
+
+<l>Blut er die Baken</l>
+
+<l>Gefüllt, und ehe</l>
+
+<l>Die Krone der Thürme</l>
+
+<l>Die Fakel des Hephästos genommen.</l>
+
+<l>So über dem Rüken ist Getümmel</l>
+
+<l>Des Mars dem Feind, ein Hindernils</l>
+
+<l>Den Drachen geworden.</l>
+
+<l>Denn sehr hafst Zevs das Prangen</l>
+
+<l>Der grofsen Zung’ und wo er,</l>
+
+<l>Wenn sie langschreitend kommen,</l>
+
+<l>Ins goldene ihnen sieht, ins eitle Hinaussehn,</l>
+<l>Mit geschwungenem Feuer stürzet er sie, wo einer</l>
+<l>Von steilen Treppen schon</l>
+
+<l>Den Sieg anhebet zu jauchzen.</l>
+
+<l>Aufharten Boden aber fällt er, hinunter taumelnd,</l>
+
+
+<pb n="13"/> 
+
+<l>Liebestrunken, der mit rasender Schaar</l>
+
+<l>Hinschnob, bacchantisch</l>
+
+<l>Im Wurf’ ungünstiger Winde;</l>
+
+<l>Fand aber anders;</l>
+
+<l>Anderes andrem</l>
+
+<l>Bescheidet der Schlachtgeist, wenn der hart</l>
+
+<l>Anregend einen mit dem Rechten die Hand er- schüttert.</l>
+
+<l>Sieben Fürsten, vor sieben Thoren</l>
+
+<l>Geordnet, gleiche zu gleichen, liefsen</l>
+
+<l>Dem Zevs, dem triumphirenden, die ehernen Waffen,</l>
+
+<l>Ausser den abscheulichen, die von Einem Vater</l>
+
+<l>Und einer Mutter gezeuget, gegeneinander</l>
+
+<l>Die gedoppelten Speere gerichtet und empfangen</l>
+
+<l>Des gemeinsamen Todes Theil, die beiden.</l>
+
+<l>Der grofsnahmige Sieg ist aber gekommen,</l>
+
+<l>Der wagenreichen günstig, der Thebe,</l>
+
+<l>Und nach dem Kriege hier,</l>
+
+<l>Macht die Vergessenheit aus!</l>
+
+<l>Zu allen Göttertempeln,</l>
+
+<l>Mit Chören, die Nacht durch,</l>
+
+<l>Kommt her! und, Thebe</l>
+
+<l>Erschütternd, herrsche der Bacchusreigen!</l>
+
+
+<pb n="14"/>
+
+
+
+<l>Doch er, der König der Gegend,</l>
+
+<l>Kreon, Menökeus Sohn, neu nach</l>
+
+<l>Der Götter neuen Verhängnissen,</l>
+
+<l>Kommt wohl, um einen Rath</l>
+
+<l>Zu sagen, da er zusammenberufen</l>
+
+<l>Und verordnet hier der Alten Versammlung,</l>
+
+<l>Und öffentliche Botschaft gesendet.</l>
+
+
+
+ <milestone unit="scene" n="Zweite Scene"/>
+
+ <stage>KREON. DER CHOR.</stage>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Ihr Männer, wärs die Stadt allein, die haben</l>
+
+<l>Nachdem in grofser Fluth sie die geschüttert ,</l>
+
+<l>Nun wiederum gestaltet unsre Götter.</l>
+
+<l>Euch aber rief aus zwei Ursachen ich</l>
+
+<l>Aus den Gesammten, einmal, weil ich weiss,</l>
+
+<l>Ihr achtet überhaupt von Lajos Thron die Herr- schaft,</l>
+
+<l>Dann auch, als Oedipus die Stadt errichtet,</l>
+
+<l>Und nachher untergieng, seid treugesinnt</l>
+
+
+<pb n="15"/>
+
+
+
+<l>Geblieben ihr den Kindern jener Eltern,</l>
+
+<l>Da nun aus doppeltem Verhängnis diese</l>
+
+<l>An einem Tag’ umkamen, schlagend und</l>
+
+<l>Geschlagen in der eigenhändgen Schande,</l>
+
+<l>Hab’ ich die Kraft alsb und Thron durchaus,</l>
+
+<l>Aus Folge des Geschlechts von den Gestorbnen.</l>
+
+<l>Doch nur mit solchen, die Recht und Befehl ge- wohnt sind,</l>
+
+<l>Kann einer, in der Seel’ und Sinnesart und Mei- nungen,</l>
+
+<l>Verstehn sich, allenfalls, mit andern schwerlich.</l>
+
+<l>Mir nemlich scheint, wenn einer vornehm ist,</l>
+
+<l>Und nicht sich hält im höchsten Sinn’, hingegen</l>
+
+<l>In einer Furcht verschlofsne Zunge führet,</l>
+
+<l>Ein schlechtes Leben das, jezt und von jeher.</l>
+
+<l>Und wenn für gröfser, als sein Vaterland,</l>
+
+<l>Das liebste jemand hält, der gilt mir ganz nichts.</l>
+
+<l>Ich nemlich, weiss es Zevs, der alles schauet, allzeit,</l>
+
+<l>Ich werd’ es nicht verschweigen, seh’ ich Irrung</l>
+
+<l>Den Städtern gehen gegen ihre Wohlfahrt, nicht,</l>
+
+<l>Wenn auf dem Grund hier ein Verdrofsner ist,</l>
+
+<l>Den mir zum Freunde machen, denn ich weiß,</l>
+
+<l>Der hält zusammen, und so wir auf diesem</l>
+
+
+<pb n="16"/>
+
+
+
+<l>Recht fahren, mögen Freunde wir gewinnen.</l>
+
+<l>Nach solcher Sazung will die Stadt ich fördern.</l>
+
+<l>Dermalen aber hab’ ich Aehnliches verkündet</l>
+
+<l>Den Städtern wegen Oedipus Geschlecht.</l>
+
+<l>Eteokles wohl, der kämpfend für die Stadt ist</l>
+
+<l>Gestorben, all anordnend mit dem Speer’,</l>
+
+<l>Ihn deket mit dem Grab’ und fertiget,</l>
+
+<l>Was nur gehört, den besten Todten drunten.</l>
+
+<l>Doch jenem, der sein Blutsverwandter ist,</l>
+
+<l>Polynikes, der das väterliche Land,</l>
+
+<l>Der Heimath Götter, kommend von der Flucht,</l>
+
+<l>Vom Gipfel an, mit Feuer, wollte stürzen,</l>
+
+<l>Sich waiden an verwandtem Blut und diese</l>
+
+<l>Wegführen in Gefangenschaft, von diesem</l>
+
+<l>Sag’ ich und in der Stadt ists ausgerufen,</l>
+
+<l>Dafs keiner ihn begrabe, keiner traure,</l>
+
+<l>Dafs unbegraben er gelassen sey, zu schaun</l>
+
+<l>Ein Mahl, zerfleischt von Vögeln und von Hunden.</l>
+
+<l>Difs ist mein Sinn und niemals werden mir</l>
+
+<l>Die Schlimmen mehr geehrt seyn, als die Guten.</l>
+
+<l>Doch wer es gut meint mit der Stadt, todt oder</l>
+
+<l>Lebendig, immer sey er gleich von mir geschäzet.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Dir dünket difs, o Sohn Menökeus, Kreon,</l>
+
+
+
+<pb n="17"/>
+
+
+<l>Des Feindes wegen und des Freunds der Stadt,</l>
+
+<l>Und das Gesez gebrauchst du überall,</l>
+
+<l>Der Todten wegen und der Lebenden.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Tragt ihr die Aufsicht nun in dem Besagten!</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Beseze du mit Jungen derley Posten!</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Nicht das. Die Wach’ ist schon für den Entleibten draufsen,</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Du nehmestaber auch noch in die Pflicht uns andre.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Ja. Weils gewisse giebt, bei denen dieses mifsfällt.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Hier ist kein solcher Thor, der gerne stirbet.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Diefs ist der Lohn. Doch hat mit Hoffnungen</l>
+
+<l>Oft der Gewinn den Mann zu Grund gerichtet.</l>
+
+
+<pb n="18"/> 
+
+ <milestone unit="scene" n="Dritte Scene"/>
+
+ <stage>KREON. DER CHOR EIN BOTE.</stage>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Mein König, difsmal plaudr’ ich nicht, wie mich</l>
+<l>Die othemlose Schnelle bring’, und wie</l>
+<l>Sich leicht gehoben mir der Fuls. Denn öfters</l>
+<l>Hielt mich die Sorg’ und wendet auf dem Wege</l>
+<l>Mich um zur Rükkehr. Denn die Seele sang</l>
+<l>Mir träumend viel. Wo gehst du hin, du Armer!</l>
+<l>Wohin gelangt, giebst du die Rechenschaft ?</l>
+<l>Bleibst du zurük, Unglüklicher ? so aber</l>
+<l>Wird Kreon es von einem andern hören.</l>
+<l>Wie kümmerst du defswegen denn dich nicht?</l>
+<l>Derlei bedenkend, gieng ich müfsig langsam,</l>
+<l>Und so wird auch ein kurzer Weg zum weiten.</l>
+<l>Zulezt hat freilich diess gesiegt, ich soll</l>
+<l>Hieher, und wenn mein Sorgen auch für nichts ist,</l>
+<l>So sprech’ ich doch. Denn in der Hoffnung komm’ ich,</l>
+
+<l>Es folge nur, dem, wasich that, was noth ist.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Was giebts, warum du so kleinmüthig kommest?</l>
+
+
+
+<pb n="19"/>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Ich will dir alles nennen, was an mir ist,</l>
+
+<l>Denn nicht gethan hab’ ichs; weiss auch nicht, wer es that.</l>
+<l>Und nicht mit Recht würd’ ich in Strafe fallen.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Du siehst dich wohl für. Hüllest ringsherum</l>
+<l>Die That, und scheinst zu deuten auf ein Neues.</l>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Gewaltiges macht nemlich auch viel Mühe.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>So sag’ esizt, und gehe wieder weiter!</l>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Ich sag’ esdir. Es hat den Todten eben</l>
+<l>Begraben eines, das entkam, die Haut zweimal</l>
+<l>Mit Staub bestreut, und, wies geziemt, gefeiert.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Was meinst du? wer hat diess sich unterfangen?</l>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Undenklich. Nirgend war von einem Karst</l>
+<l>Ein Schlag; und nicht der Stofs von einerSchaufel,</l>
+<l>Und dicht das Land; der Boden ungegraben ;</l>
+<l>Von Rädern nicht befahren. Zeichenlos war</l>
+
+<l>Der Meister, und wie das der erste Tagesblik</l>
+
+
+<pb n="20"/>
+
+
+<l>Anzeigte, kams unhold uns all’an, wie ein Wunder.</l>
+
+<l>Nichts feierlichs. Es war kein Grabmal nicht.</l>
+
+<l>Nur zarter Staub, wie wenn man das Verbot</l>
+
+<l>Gescheut. Und auch des Wilds Fufstritte nirgend nicht,</l>
+
+<l>Noch eines Hundes, der gekommen und zerrissen.</l>
+
+<l>Und schlimme Worte fuhren durcheinander.</l>
+
+<l>Ein Wächter klagt den andern an; und fast</l>
+
+<l>Gekommen wärs zu Streichen. Niemand war,</l>
+
+<l>Der abgewehrt. Denn jeder schien, als hätt’</l>
+
+<l>Für es gethan, doch keiner offenbar,</l>
+
+<l>Und jeder wulfst’ etwas für sich zu sagen.</l>
+
+<l>Wir waren aber bereit, mit Händen glühend Eisen</l>
+
+<l>Zu nehmen und durch Feuer zu gehn und bei den Göttern</l>
+
+<l>Zu schwören, dass wir nichts gethan, und dass wir</l>
+
+<l>Von dem nichts wufsten, welcher das Geschehne</l>
+
+<l>Berathschlagt oder ausgeführt. Zulezt,</l>
+
+<l>Als weiter nichts zu forschen war, spricht einer,</l>
+
+<l>Der alle dahin brachte, dass das Haupt</l>
+
+<l>Zu Boden ihnen sank, aus Furcht, denn nichts</l>
+
+<l>Dagegen wulsten wir, noch auch, wie wir</l>
+
+<l>Es schön vollbrächten, und es hiefs, man müsse</l>
+
+<l>Die That anzeigen, dir es nicht verbergen.</l>
+
+
+
+<pb n="21"/>
+
+
+<l>Und dieses siegt’, und mich den Geisterlosen</l>
+
+<l>Erliest das Loos, dass die Gewissenhaftigkeit</l>
+
+<l>Ich hab’ und bin zugegen, wider Willen;</l>
+
+<l>Ich weiss, ich bin es vor Unwilligen,</l>
+
+<l>Denn niemand liebt den Boten schlimmer Worte.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Mein König, lange räth, es möchte göttlich</l>
+
+<l>Getrieben seyn das Werk, mir das Gewissen.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Lafs das! damit du nicht zum Zorngericht auch mich noch</l>
+<l>Beredest, und ein Narr erfunden seyst und Alter.</l>
+<l>Denn allzuschwer fällt dieses, dass du sagst,</l>
+<l>Die Geister aus jenseitigem Lande können</l>
+<l>Nachdenklich seyn um dieses Todten willen.</l>
+<l>So zärtlich ehren sollten sie, unıschatten einen,</l>
+<l>Der doch die Gruppen ihrer Tempelsäulen</l>
+<l>Und Opfer zu verbrennen kam, ihr Land</l>
+<l>Und ihr Gesez zu sprengen ; oder siehest du,</l>
+<l>Dafs Schlimme von den Himmlischen sind geehrt?</l>
+<l>Mit nichten. Doch es nehmen einige</l>
+<l>Von sonst her mir diess übel in der Stadt,</l>
+<l>Und murren ingeheim die Häupter schüttelnd,</l>
+
+<l>Und im Geschirre biegen diese mir</l>
+
+
+<pb n="22"/>
+
+
+<l>Den Naken so nicht ein, dass Menschlichs kommen könnte.</l>
+
+<l>Von diesen sind Geschenke worden diesen,</l>
+
+<l>Das weiss ich wohl, dass sie derlei gestiftet.</l>
+
+<l>Denn unter allem, was gestempelt ist,</l>
+
+<l>Ist schlimm nichts, wie das Silber. Ganze Städte</l>
+
+<l>Verführet diess, reizt Männer aus den Häufsern.</l>
+
+<l>Verbilden und verwandeln kanns aufrichtige Sinne,</l>
+
+<l>Dafs sie der Sterblichen ihr schändlich Werk erkennen.</l>
+
+<l>Und viel Geschäft den Menschen weist es an,</l>
+
+<l>Und jeder That Gottlosigkeit zu wissen.</l>
+
+<l>So viele diess gethan, durch Lohn bewegt,</l>
+
+<l>Sie thatens in der Zeit, zu Rechenschaft.</l>
+
+<l>Wenn aber Leben hat der Erde Herr, in mir auch,</l>
+
+<l>So weißs ich diess, und, dargestellt zum Eide,</l>
+
+<l>Sag’ ich dir diess: den Thäter müfst ihr liefern,</l>
+
+<l>Der hakt die Todten, den vors Auge mülst ihr</l>
+
+<l>Mir schaffen, oder leben erst, ans Kreuz gehängt,</l>
+
+<l>Das üppige Beginnen mir verrathen,</l>
+
+<l>Dann könnet ihr gefafst seyn auf die Hölle.</l>
+
+<l>Da schaut ihr dann, woher man den Gewinn hohlt,</l>
+
+<l>Vermacht die Plünderung einander, und erfahrt,</l>
+
+<l>Dafs alles nicht gemacht ist zum Erwerbe.</l>
+
+
+
+<pb n="23"/>
+
+
+
+<l>Das weifst du gut, durch schlimmen Vortheil sind</l>
+<l>Betrogen mehrere, denn wohlbehalten.</l>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Giebst du, was auszurichten, oder kehr’ ich so?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Weist du, wie eine Quaal jezt ist in deinen Worten?</l>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Sticht es im Ohre, stichts im Innern dir?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Was rechnest du, wo sich mein Kummer finde?</l>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Der Thäter plagt den Sinn, die Ohren ich.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>O mir! welch furchtbarer Sprechart bist du geboren?</l>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>So ists, weilich nicht in der Sache mit bin.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Du bists! um Geld verrathend deine Seele!</l>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Ach! furchtbar ist Gewissen ohne Wahrheit!</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>So mahl die Sazung aus! Wenn aber ihr</l>
+
+
+<pb n="24"/>
+
+
+
+<l>Nicht anzeigt, diess gethan, so möcht’ ihr sagen,</l>
+<l>Gewaltiges Gewinnen gebe Schaden.</l>
+<stage>(Kreon geht ab.)</stage>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Dem kann denn doch wohl nachgespüret werden.</l>
+<l>Ob’s aber treffen auch sich läfst? So etwas</l>
+<l>Geht nemlich, wie es zustöfst, eben; nun scheints nicht,</l>
+<l>Als sähest du mich wieder hieher kommen.</l>
+<l>Denn unverhofft und gegen meine Meinung</l>
+
+<l>Erhalten, sag’ ich jezt viel Dank den Göttern.</l>
+
+<stage>( er gehet ab.)</stage>
+
+
+<pb n="25"/>
+
+
+
+<milestone unit="act" n="Zweiter Act."/>
+</sp>
+
+<sp><speaker>CHOR der Thebanischen Alten</speaker>
+<l>Ungeheuer ist viele. Doch nichts</l>
+<l>Ungeheuerer, als der Mensch.</l>
+
+<l>Denn der, über die Nacht</l>
+
+<l>Des Meers, wenn gegen den Winter wehet</l>
+<l>Der Südwind, fähret er aus</l>
+
+<l>In geflügelten sausenden Häufsern.</l>
+
+<l>Und der Hinmlischen erhabene Erde</l>
+
+<l>Die unverderbliche, unermüdete</l>
+
+<l>Reibet er auf; mit dem strebenden Pfluge,</l>
+<l>Von Jahr zu Jahr,</l>
+
+<l>Treibt sein Verkehr er, mit dem Rossegeschlecht’,</l>
+<l>Und leichträumender Vögel Welt</l>
+
+<l>Bestrikt er, und jagt sie;</l>
+
+<l>Und wilder Thiere Zug,</l>
+
+
+<pb n="26"/>
+
+
+
+<l>Und des Pontos salzbelebte Natur</l>
+
+<l>Mit gesponnenen Nezen,</l>
+
+<l>Der kundige Mann.</l>
+
+<l>Und fängt mit Künsten das Wild,</l>
+
+<l>Das auf Bergen übernachtet und schweift.</l>
+<l>Und dem rauhmähnigen Rosse wirft er um</l>
+<l>Den Naken das Joch, und dem Berge</l>
+
+<l>Bewandelnden unbezähmten Stier.</l>
+
+<l>Und die Red’ und den luftigen</l>
+
+<l>Gedanken und städtebeherrschenden Stolz</l>
+
+<l>Hat erlernet er, und übelwohnender</l>
+
+<l>Hügel feuchte Lüfte, und</l>
+
+<l>Die unglüklichen zu fliehen, die Pfeile. Allbe- wandert,</l>
+
+<l>Unbewandert. Zu nichts kommt er.</l>
+
+<l>Der Todten künftigen Ort nur</l>
+
+<l>Zu fliehen weiss er nicht,</l>
+
+<l>Und die Flucht unbehaltener Seuchen</l>
+
+<l>Zu überdenken.</l>
+
+<l>Von Weisem etwas, und das Geschikte der Kunst</l>
+
+<l>Mehr, als er hoffen kann, besizend,</l>
+
+<l>Kommt einmal er auf Schlimmes, das andre zu Gutem.</l>
+
+
+
+<pb n="27"/>
+
+
+<l>Die Gesezze kränkt er, der Erd’und Naturgewalt’ger</l>
+<l>Beschwornes Gewissen ;</l>
+
+<l>Hochstädtisch kommt, unstädtisch</l>
+
+<l>Zu nichts er, wo das Schöne</l>
+
+<l>Mit ihm ist und mit Frechheit.</l>
+
+<l>Nicht. sey am Heerde mit mir,</l>
+
+<l>Noch gleichgesinnet,</l>
+
+<l>Wer solches thut.</l>
+
+<l>Wie Gottesversuchung aber stehet es vor mir,</l>
+<l>Dafs ich sie seh’ und sagen doch soll,</l>
+
+<l>Das Kind seys nicht, Antigonä.</l>
+
+<l>O Unglükliche, vom unglüklichen</l>
+
+<l>Vater Oedipus, was führt über dir und wohin,</l>
+<l>Als ungehorsam dich</l>
+
+<l>Den königlichen Gesezen,</l>
+
+<l>In Unvernunft dich ergreifend?</l>
+
+
+<pb n="28"/>
+
+
+<milestone unit="scene" n="Erste Scene"/>
+
+ <stage>DER BOTE. DER CHOR. KREON.</stage>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+<l>Die ists. Die hats gethan. Die griffen wir,</l>
+<l>Da sie das Grab gemacht, doch wo ist Kreon?</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Er kommet eben da zurük vom Haufse.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Was ist es? welch gemelsner Fall geht vor?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+<l>Mein König, Menschen müssen nichts verschwören.</l>
+<l>Bildung lacht aus die Meinung. Was ich sag’;</l>
+<l>Ich dachte nicht so leicht hieher zurükzukonımen,</l>
+<l>Der Drohungnach, die mich zuvor herumgestürmet.</l>
+<l>Deni Ueberraschen einer Freude gleicht jedoch</l>
+<l>In keinem Grad ein anderes Vergnügen.</l>
+<l>Beschworen komm’ ich, obich gleich es abschwur,</l>
+<l>Die Jungfrau bringend hier; die ward erfunden,</l>
+<l>Wie sie das Grab geschmükt. Da ward kein Loos</l>
+
+<l>Geschwungen. Sondern dieser Fund ist mein,</l>
+
+
+
+<pb n="29"/>
+
+
+<l>Und keines andern; nimm, o König, nun</l>
+<l>Sie selber, wie du willst, und richt’ und strafe!</l>
+<l>Ich bin mit Recht befreit von diesem Unglük.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Wie bringst du diese her? wo griffst du sie?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+<l>Die hat den Mann begraben. Alles weist du.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Weist du und sagst auch recht, was du geredet ?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+<l>Begraben sah ich die den Todten, wo du es</l>
+<l>Verboten. Hinterbring’ ich klares, deutlichs?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Und wie ward sie gesehn und schuldig funden ?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+<l>So war dieSache. Wie wir weggegangen</l>
+<l>Von dir, als du Gewaltiges gedrohet,</l>
+<l>So wischten allen Staub wir ab, der um</l>
+<l>Den Todten, wohl den nassen Leib entblöfsend ;</l>
+<l>Und sezten uns auf hohen Hügel, an die Luft;</l>
+<l>Dafs er Geruch nicht von sich gebe, fürchtend.</l>
+<l>Es regt’ ein Mann den andern auf und drohte,</l>
+<l>Wenn einer nicht die Arbeit achten würde.</l>
+
+<l>Und lange blieb es so, bis auseinander brechend</l>
+
+
+<pb n="30"/>
+
+
+
+
+<l>Der Sonne Kreis sich bükte grad herab +</l>
+
+<l>Vom Aether, und der Brand erglühte .Plözlich hub</l>
+<l>Vom Boden dann ein warmer Sturm den Wirbel,</l>
+<l>Der Himmlisches betrübt, das Feld erfüllt und reifst</l>
+<l>Die Haare rings vom Wald des Thals, und voll ward</l>
+<l>Davon der grofse Aether; wir verschlossen</l>
+
+<l>Die Augen, hatten göttlich Weh, und als</l>
+
+<l>Wir frei davon, in guter Zeit hernach,</l>
+
+<l>So wird das Kind gesehn und weinet auf</l>
+
+<l>Mit scharfer Stimme, wie ein Vogel trauert,</l>
+<l>Wenn in dem leeren Nest verwaist von Jungen er</l>
+<l>Das Lager sieht. So sie, da sie entblöfst</l>
+
+<l>Erblikt den Todten , jammerte sie laut auf,</l>
+
+<l>Und fluchte böse Flüche, wers gethan,</l>
+
+<l>Und bringet Staub mit beiden Händen, schnell,</l>
+<l>Und aus dem wohlgeschlagnen Eisenkruge kränzt</l>
+<l>Sie dreimal mit Ergielsungen den Todten.</l>
+
+<l>Wir, die’s gesehen, kamen, haschten sie,</l>
+
+<l>Die nicht betroffen war, und klagten sie</l>
+
+<l>Des jezigen und schongeschehnen an.</l>
+
+<l>Sie läugnet’ aber nichts mir ab, und war</l>
+
+<l>Lieblich zugleich und auch betrübt, vor mir.</l>
+<l>Denn, dass man selbst entflieht aus Uebeln, ist</l>
+
+<l>Das angenehmste. Doch ins Unglük Freunde</l>
+
+
+<pb n="31"/>
+
+
+<l>Zu bringen, ist betrübt. Doch dieses alles</l>
+
+<l>Ist kleiner, als mein eignes Heil zu nehmen.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Du also, die zur Erde neigt das Haupt,</l>
+
+<l>Sagst oder läugnest du, dass dus gethan habst?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Ich sage, dass ich’s that und läugn’ es nicht.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Du, gehe du, wohin du willst, hinaus,</l>
+<l>Von schwerer Schuld befreit; sag’ aber du mir,</l>
+<l>Nicht lange, sondern kurz, ist dir bekannt,</l>
+<l>Wie ausgerufen ward, dass solches nicht zuthun ist ?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Ich wußste das. Wie nicht? Es war ja deutlich.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Was wagtest du, ein solch Gesez zu brechen?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Darum. Mein Zevs berichtete mirs nicht;</l>
+<l>Noch hier im Haus das Recht der Todesgötter,</l>
+<l>Die unter Menschen das Gesez begrenzet ;</l>
+<l>Auch dacht’ ich nicht, es sey dein Ausgebot so sehr viel.</l>
+<l>Dafs eins, das sterben muss, die ungeschriebnen drüber,</l>
+
+
+<pb n="32"/> 
+
+<l>Die festen Sazungen im Himmel brechen sollte.</l>
+<l>Nicht heut’ und gestern nur, die leben immer,</l>
+<l>Und niemand weiss, woher sie sind gekommen.</l>
+<l>Drum wollt’ ich unter Himmlischen nicht, aus Furcht</l>
+<l>Vor eines Manns Gedanken, Strafe wagen.</l>
+<l>Ich wufste aber, dass ich sterben mülste.</l>
+<l>Warum nicht? hättst du’s auch nicht kundgethan.</l>
+<l>Wenn aber vor der Zeit ich sterbe, sag’ ich, dass es</l>
+<l>So gar Gewinn ist. Wer, wie ich, viel lebt mit Uebeln,</l>
+<l>Bekommt doch wohl im Tod ein wenig Vortheil?</l>
+<l>So ist es mir, auf solch Schiksaal zu treffen,</l>
+<l>Betrübnifs nicht; wenn meiner Mutter Todten,</l>
+<l>Als er gestorben, ich grablos gelassen hätte,</l>
+<l>Das würde mich betrüben. Aber das</l>
+<l>Betrübt mich gar nicht. Bin ich aber dir,</l>
+<l>Wie ich es that, nun auf die Närrin kummen,</l>
+<l>War ich dem Narren fast Narrheit ein wenig schuldig.</l>
+ <stage>CH O R:</stage>
+<l>Man sieht das rauh Geschlecht vom rauhen Vater</l>
+
+<l>Am Kind! Allein beiseit im Uebel kann’s nicht.</l>
+
+
+
+<pb n="33"/>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Doch weist du wohl, dass allzuspröde-Sprach’</l>
+<l>Am liebsten fällt. Und auch dem stärksten Eisen</l>
+<l>Bricht und vergeht das Störrige, gekocht</l>
+<l>Im Ofen. Alle Tage kannst du diess sehn.</l>
+<l>Und kaum mit einem Zaume weiss ich, dass gestellt</l>
+<l>Die grausamweitgestrekten Rosse werden.</l>
+<l>Nicht seine Sach’ ists, gro[s zu denken, dem,</l>
+<l>Der Diener derer ist, die ihn umgeben.</l>
+<l>Die aber findet eine Lust aus, damit,</l>
+<l>Dafs sie die vorgeschriebenen Geseze trüb macht.</l>
+<l>Und das ist noch die zweite Frechheit, da</l>
+<l>Sie es gethan, dass dessen sie sich rühmt und lacht,</l>
+<l>Dafs sie’s gethan. Nein! nun bin ich kein Mann,</l>
+<l>Sie ein Mann aber, wenn ihr solche Kraft</l>
+<l>Zukommet ungestraft. Doch wenn sie schon</l>
+<l>Von meiner Schwester und Verwandtesten,</l>
+<l>Vonı ganzen Gotte meines Heerdes da ist,</l>
+<l>Dem allem ungeachtet meidet sie</l>
+<l>Den schlimmen Tod nicht. Auch die Baase nicht.</l>
+
+<l>Zu theuerst,</l>
+
+<l>Auch diese klag’ ich an, wie diese da,</l>
+<l>Dafs sie gesorget, des Verscharrens wegen.</l>
+
+<l>Ruft sie heraus. Denn eben sah ich drinnen,</l>
+
+
+
+<pb n="34"/>
+
+
+
+
+<l>Sie wüten, nicht der Sinne mächtig. Gleich</l>
+
+<l>Will ein geheimer Muth gefangen seyn,</l>
+
+<l>Wenn etwas nicht ist rechtgethan im Dunkeln.</l>
+
+<l>Gewils, das lafs’ ich, ist auf Schlimmem einer</l>
+
+<l>Ertappt, wenn er daraus noch Schönes machen möchte.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Willst du denn mehr, da du mich hast, alstödten?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Nichts will ich. Hab’ ich diess, so hab’ ich Alles.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Was soll’s also? Von deinen Worten keins</l>
+<l>Ist mir gefällig, kann niemals gefällig werden.</l>
+<l>Drum sind die meinigen auch dir mifsfällig.</l>
+<l>Obwohl, woher hätt’ ich wohllautenderen Ruhm,</l>
+<l>Als wenn ich in das Grab den Bruder lege.</l>
+<l>Denn, dass es wohlgefall’ all diesen da,</l>
+<l>Gestände, sperrete die Zunge nur die Furcht nicht.</l>
+<l>Das Königtum ist aber überall</l>
+<l>Geistreich und thut und sagt, was ihm beliebet.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Siehst du allein diess von den Kadmiern ?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Auch diese sehn’s, doch halten sie das Maul die.</l>
+
+
+
+<pb n="35"/> 
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Schämst du dich nicht, die ungefragt zu deuten ?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Man ehrt doch wohldie Menschen eines Fleisches.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Und eines Bluts noch auch ist, der für's Land gestorben.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Eins Blutes. Kind eins einigen Geschlechtes.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Und du bringst doch Gottlosen einen Dank?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Das läfst gewils nicht gelten der Entschlafne.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Freilich. Wenn dir als Eins Gottloses gilt und anders.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Nicht in des Knechtes Werk, ein Bruder ist er weiter.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Verderbt hat der das Land; der ist dafür gestanden.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Dennoch hat solch Gesez die Todtenwelt gern.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Doch, Guten gleich sind Schlimme nicht zunehmen.</l>
+
+
+<pb n="36"/>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Wer weiss, da kann doch drunt’ einandrer Brauch seyn.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Nie ist der Feind, auch wenn er todt ist, Freund.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Aber gewils. Zum Hasse nicht, zur Liebe bin ich.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>So geh’ hinunter, wenn du lieben willst,</l>
+<l>Und liebe dort! mir herrscht kein Weib im Leben.</l>
+
+ <milestone unit="scene" n="Zweite Scene"/>
+ <stage>DER CHOR. KREON. ANTIGONAE. ISMENE.</stage>
+
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Aber jezt kommt aus dem Thor’ Ismene,</l>
+<l>Friedlich, schwesterliche Thränen vergiefsend.</l>
+<l>Ein Geist über den Augenbraunen das blutige Gesicht dekt,</l>
+
+<l>Waschet rege von den Schläfen die Wangen.</l>
+
+
+
+<pb n="37"/>
+
+
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Ja! du! die du drin hokst, daheim, wie Schlangen,</l>
+<l>Geborgen und mich aussaugst! hat nicht einer mir</l>
+<l>Berichtet, dafsich zwei Einbildungen hab’anmir</l>
+<l>Und Feinde des Throns? geh, sage, hast du mit- gemacht</l>
+<l>Am Grabe, oder hast du’s mit der Unschuld?</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Gethan das Werk hab’ ich, wenn die mit einstimmt,</l>
+<l>Und nehme Theil. Die Schuld nehm’ ich auf mich.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Das wird das Recht ja aber nicht erlauben.</l>
+
+<l>Du wolltest nicht. Ich nahm dich nicht dazu mit.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Ich schäme mich an deinem Unglük nicht,</l>
+
+<l>Und mache zur Gefährtin mich im Leiden.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Bei denen, die durchgängiger Weise sind,</l>
+
+<l>Und die Gespräche halten miteinander, drunten,</l>
+
+<l>Die mit den Worten liebt, die mag ich nicht,</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Bring so mich in Verdacht nicht, Schwester, wie als könnt’</l>
+
+<l>Ich sterben nie, mit dir; des Grabs Unschik vergüten.</l>
+
+
+<pb n="38"/>
+
+
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Stirb du nicht allgemein. Was dich nicht angeht,</l>
+
+<l>Das mache dein nicht. Mein Tod wird genugseyn.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Hab’ ich denn, wenn du weg, noch eine Lieb’ im Leben?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Den Kreon, liebe den. Dem weisest du den Wegja.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Was plagest du mich, ohne Nuzen, so?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Anfechtung ist es, wenn ich dich verlache.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Was aber kann ich nüzen dir, auch jezt noch?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Nüz dir. Das gönn’ ich dir, dass du mit hingehst.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Ich Arme! weh! hab’ ich Schuld, , dass du stirbst ?</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Dein Theil ist ja das Leben, meines Tod.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Doch was ich sprach zu dir, ist auch dabei doch.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Das war auch schön. Doch so wollt’ ich gesinnt seyn.</l>
+
+
+
+<pb n="39"/>
+
+
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Allein der Fehl ist für uns beide gleich,</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Sey gutes Muths! du lebst, doch meine Seele,</l>
+
+<l>Längst ist siettodt, so dass ich Todten diene.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Von diesem Weibe da, sag’ ich, wird eben da</l>
+<l>Sinnlos die ein’, einheimisch ist’s die andre.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Es bleibt kein Herz, auch nicht das heimatliche</l>
+<l>Im Uebelstand, mein König, sondern ausser sich geräth es.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Dir, weil du schlimm mit Schlimmen dich gestellt.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Mir lebt nichts, wo allein ich bin, nicht die auch.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Die Red’ ist nicht von dieser. Die ist nimmer.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Du tödtest aber deines Sohnes Braut.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Von anderen gefallen auch die Weiber.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Es schikte keine sich, wie er und sie.</l>
+
+<pb n="40"/>
+
+
+<l>Vor bösen Weibern warn’ ich meine Söhne,</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>O liebster Hämon ! wie entehrt er dich!</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Gar lustig bist du auch, du und dein Bette.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Dem nimmst du sie, der deines Lebens Theil ist.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Die Höll’ ist da, derlei Zuwachs zu scheiden.</l>
+</sp>
+
+<sp><speaker>ISMENE</speaker>
+<l>Beschlossen scheint es, dass sie sterben soll.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Für dich und mich! Umstände nimmer! bringt</l>
+<l>Hinein, ihr Mägde, sie! Von nunan noth ist,</l>
+<l>Dafs diese Weiber seyn nicht freigelassen.</l>
+<l>Denn Flucht ist auch der Starken Art, wenn ihnen</l>
+
+<l>Der Hölle Reich aufgeht am Rand des Lebens.</l>
+
+<stage>(Antigonä und Ismene werden weggeführt.)</stage>
+
+
+
+<pb n="41"/>
+
+
+<milestone unit="act" n="Dritter Act."/>
+
+ <stage>CHOR der Thebanischen Alten KREON</stage>
+
+<l>Gsiüxseelige solcher Zeit, da man nicht schmeket das Uebel;</l>
+
+<l>Denn, wenn sich reget von Himmlischen</l>
+
+<l>Einmal ein Haus, fehlts dem an Wahnsinn nicht,</l>
+
+<l>In der Folge, wenn es</l>
+
+<l>Sich mehrt. Denn gleich, wenn unten,</l>
+
+<l>Auf Pontischer See, bei übelwehenden</l>
+
+<l>Thrazischen Winden, die Nacht unter dem Salze</l>
+
+<l>Eine Hüpte befallen;</l>
+
+<l>Von Grund aus wälzt sie das dunkle</l>
+
+<l>Gestad’ um, das zersauste,</l>
+
+<l>Und von Gestöhne rauschen die geschlagnen Ufer,</l>
+<l>Alternd von Labdakos Häufsern ,</l>
+
+<l>Den untergegangenen, sch’ ich Ruin fallen</l>
+
+<l>Auf Ruin; noch löset ab ein Geschlecht</l>
+
+<pb n="42"/>
+
+
+
+<l>Das andre, sondern es schlägt</l>
+
+<l>Ein Gott es nieder. Und nicht Erlösung hat ex.</l>
+<l>Denn jezt ist über die lezte</l>
+
+<l>Wurzel gerichtet das Licht</l>
+
+<l>In Oedipus Häufsern.</l>
+
+<l>Und der tödtliche, der Staub</l>
+
+<l>Der Todesgötter zehret sie aus,</l>
+
+<l>Und ungehaltnes Wort und der Sinne Wüthen.</l>
+
+<l>Unter der Erde, deine Macht</l>
+
+<l>Von Männern , wer mag die mit Uebertreiben erreichen?</l>
+
+<l>Die nimmt der Schlaf, dem alles versinket, nicht</l>
+
+<l>Und die stürmischen, die Monde der Geister</l>
+
+<l>In alterloser Zeit, ein Reicher,</l>
+
+<l>Behältst des Olympos</l>
+
+<l>Marmornen Glanz du,</l>
+
+<l>Und das Nächste und Künftige</l>
+
+<l>Und Vergangne besorgst du.</l>
+
+<l>Doch wohl auch Wahnsinn kostet</l>
+
+<l>Bei Sterblichen im Leben</l>
+
+<l>Solch ein geseztes Denken.</l>
+
+<l>Die Hoffnung lebet, ruhlos irrend,</l>
+
+
+
+<pb n="43"/>
+
+
+
+
+<l>Und vielen Männern hilft sie,</l>
+<l>Täuscht vieler leichte Sinne.</l>
+
+<l>Bleibt, bis dem, der an nichts denkt,</l>
+<l>Die Sohle brennet von heilsem Feuer.</l>
+<l>Aus eines Mannes Weisheit ist</l>
+
+<l>Ein rühmlich Wort gekommen;</l>
+
+<l>Das Schlimme schein’ oft treflich</l>
+
+<l>Vor einem, so bald ein Gott</l>
+
+<l>Zu Wahn den Sinn hintreibet.</l>
+
+<l>Er treibet’s aber die wenigste Zeit</l>
+
+<l>Gescheuet, ohne Wahnsinn.</l>
+
+<l>Hämon kommt hier, von deinen Söhnen</l>
+
+<l>Der Jüngstgeborne, bekümmert ist der,</l>
+
+<l>Dafs untergehen soll Antigonä,</l>
+<l>Die junge Frau, die hochzeitliche,</l>
+<l>Vom tükischen Bett erkranket.</l>
+</sp>
+
+
+<pb n="44"/>
+
+<milestone unit="scene" n="Erste Scene"/>
+
+
+ <stage>KREON. HAEMON. DER CHOR.</stage>
+
+
+<sp><speaker>KREON</speaker>
+<l>Bald haben wohl, o Sohn, melır, als die Seher</l>
+
+<l>Wir endliche Entscheidung. Schliefsest du dein</l>
+<l>Ohr mir,</l>
+
+<l>Der jungen Frau zu lieb und kommst mit Wuth zum Vater?</l>
+
+<l>Sag’ oder bleibst du mir in allem meinem Handeln?</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Vater, dein bin ich. Milde Denkart hast du,</l>
+
+<l>Richtest mir recht. Da mag ich gern dir folgen.</l>
+
+<l>Denn so viel schäz’ ich keine Hochzeit nicht,</l>
+
+<l>Dafs sie mir lieber, als dein Glük im Herrschen.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Wohl Sohn. So auch muss in der Brust es seyn,</l>
+
+<l>Dafs väterlicher Meinung alles nachgeht.</l>
+
+<l>Darum auch wünschete zuerst der Mann</l>
+
+<l>Ein fromm Geschlecht, und häuslich zu gewohnen,</l>
+
+<l>Dals es mit Schaden fern hält einen Feind,</l>
+
+<l>Den Freund hingegen ehrt, so wie den Vater.</l>
+
+
+
+<pb n="45"/>
+
+
+
+<l>Wenn aber untaugliche Kinder einer zeugt,</l>
+
+<l>Von dem sprichst du auch wohl nichts anderes,</l>
+<l>Als dass er Mühe nur sich selbst, und viel</l>
+<l>Gelächter Für die Feinde sich gezeuget.</l>
+
+<l>Wirf darum jezt, o Sohn, des Weibes wegen nicht</l>
+<l>Aus Lust die Sinne weg, und denke, dass</l>
+
+<l>Das eine frostige Umarmung wird,</l>
+
+<l>Ein böses Weib beiwohnend in den Häufsern.</l>
+
+<l>Auf Erden was schlägt mifslichere Beulen,</l>
+
+<l>Als schlimme Freund’? Acht’ aber du das gleich</l>
+<l>Gottlosen'! lafs das Mädchen einen frei’n</l>
+
+<l>Beim Höllengott! denn offenbar hab’ ich</l>
+<l>Getroffen sie, dass von der ganzen Stadt</l>
+<l>Sieuntreu war allein; und darf jeztnichtals Lügner</l>
+<l>Bestehen vor der Stadt, und mus sie tödten.</l>
+
+<l>Mag dann sie das wegsingen bey dem Bruder.</l>
+<l>Verdirbt dasEingeborne, nähr’ ich fremd Geschlecht.</l>
+<l>Denn wer im Angehörigen nur gut ist,</l>
+
+<l>Erscheint auch in der Stadt als ein Gerechter.</l>
+<l>Wer aber übertretend den Gesezen</l>
+
+<l>Gewalt will anthun, oder Herrscher meistern,</l>
+<l>Von mir kann dem nicht wohl ein Lob zufallen.</l>
+<l>Wen aber eine Stadt hat eingesezt,</l>
+
+<l>Dem soll man kleines, rechtes, ungereimtes hören.</l>
+
+
+<pb n="46"/>
+
+
+<l>Und dieser Mann, ich glaube das, er wird</l>
+<l>Wohl herrschen, wird auch gute Herrschaft wollen,</l>
+<l>Und in der Speere Stürmen angestellt,</l>
+<l>Wird ein gerechter Helfer der und treflich bleiben.</l>
+<l>Denn herrnlos seyn, kein gröfser Uebel giebt es.</l>
+<l>Denn das verderbet Städte, das empört</l>
+<l>Die Häufser, das reifst Lüken im Speergefecht.</l>
+<l>Die aber recht gerichtet sind, bei denen</l>
+<l>Erhält die Obrigkeit die vielen Körper.</l>
+<l>So sichre du, die eine Welt dir bilden,</l>
+<l>Und weiche nie dem Weib’, in keinem Dinge.</l>
+<l>Denn mehr gilt’s, wmufs es seyn, mit einem Mann zu fallen,</l>
+<l>Dafs nimmer 'wir genannt seyn hinter Weibern!</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Uns, wenn uns nicht im Finstern hält die Zeit,</l>
+<l>Scheint das mit Sinn gesagt, wovon du redest.</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Als wie von Gott, himmlisch kommt dieBesinnung,</l>
+<l>Mein Vater, die auch ist von allem Gut das beste.</l>
+<l>Mein eigen Leben aber kann es nicht,</l>
+<l>Weifs auch nicht, ob du recht geredt, zu sagen.</l>
+<l>Mag andern zu das Schöne ziehn, von nun an,</l>
+
+<l>Für dich war ich am Leben, zu beschauen,</l>
+
+
+
+<pb n="47"/>
+
+
+
+<l>Was einer sagt und thut und tadelt, alles.</l>
+
+<l>Von dir das Auge wäre für das Volk,</l>
+
+<l>Für Worte, die du gern nicht hörst, zu furchtbar?</l>
+
+<l>Mir aber ward, zu hören das Vertrauen,</l>
+
+<l>Und wie die Stadt voll ist von Trauer um die Jungfrau.</l>
+
+<l>„Die soll, die unschuldigste von den Weibern,</l>
+
+<l>„So schlecht vergehn ob dem, was sehr ruhmvoll gethan war.</l>
+
+<l>„Die ihren Bruder, der in Mord gefallen,</l>
+
+<l>„Vom unbarmherzgen Hunde grablos wollte</l>
+
+<l>„Nicht fressen lassen, noch der Vögel einem,</l>
+
+<l>„Soll eine solche goldnen Ruhmsnicht werth seyn?“</l>
+
+<l>So finster ingeheim kommt das Gerücht uns.</l>
+
+<l>Wenn dir es aber wohl von statten geht,</l>
+
+<l>Mein Vater, drüber geht kein Eigentum mir.</l>
+
+<l>Wenn ja der Vater blüht, was steht dann Kindern</l>
+
+<l>Von gutem Rufe gottesähnlicher,</l>
+
+<l>Als kindliches Betragen vor dem Vater?</l>
+
+<l>Und hege nur in dir jezt keine eigne Sitte,</l>
+
+<l>Und sage nicht, du habest Recht, kein andrer.</l>
+
+<l>Denn wer allein hält von sich selbst, er habe</l>
+
+<l>Gedanken nicht und Sprach’ und Seele, wie ein andrer,</l>
+
+
+<pb n="48"/>
+
+
+
+<l>Wenn aufgeschlossen würd’ ein solcher Mensch,</l>
+<l>Erschien er leer. An einem Manne aber,</l>
+<l>Wenn irgendwo ein Weiser ist, ists keineSchande,</l>
+<l>Viellernen , und nichts gar zu weit zu treiben.</l>
+<l>Sieh, wieam Regenbache, der vorbeistürzt,</l>
+<l>Die Bäume all’ ausweichen; alle denen</l>
+<l>Erwärmet ihr Gezweig; die aber gegenstreben,</l>
+<l>Sind gleich hin; sonst auch, wenn ein habhaft Schiff</l>
+<l>Sich breit macht, und nicht weichen will in etwas,</l>
+<l>Rüklings hinunter von den Ruderbänken muss das zulezt den Weg und gehet scheitern.</l>
+<l>Gieb nach, da wo der Geist ist, schenk’ uns Aendrung,</l>
+<l>Und wenn im Wort hier aus mir selber auch</l>
+<l>Dabei ist eine jugendliche Meinung,</l>
+<l>Ist alten Geists ein Mann, voll in vollkommnem Wissen;</l>
+<l>Ist dieser nicht dabei, denn selten will es so gehn,</l>
+<l>So ist von Worten auch, die gut sind, gut zu lernen.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Mein König, billig ist es, wenn er an der Zeit spricht,</l>
+
+
+
+<pb n="49"/>
+
+
+<l>Zu lernen, aber du von dem auch. Denn</l>
+<l>Mit zweien Stimmen wurde recht gesprochen.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Da ich so alt bin, will ich meinetwegen</l>
+
+<l>Auch lernen denken in der Art von denn hier.</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Niemals beleidigen. Bin ich ein junger Mensch, muss man nicht auf die Zeit mehr, als die That sehn.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Ists That, dem huldigen, was gegen eine Welt ist?</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Mein Rath ists nicht, an Bösen Frömmigkeit zu üben.</l>
+
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Ist nicht die hier in solcher Krankheit troffen?</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>So nicht spricht diess genachbarte Volk Thebes.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Der Ort sagt mir wohl, was ich ordnen muss.</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>O sieh nun auf, allda, wie das verwegen jungklingt.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Und wohlein anderer soll Herr seynin dem Lande.</l>
+
+
+<pb n="50"/>
+
+
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Es ist kein rechter Ort nicht auch, der eines</l>
+<l>Manns ist.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Wird nicht gesagt, es sey die Stadt desHerrschers?</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Ein rechter Herrscher wär’st allein du in der Wildnißs.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Der, scheint’s, ist von dem Weib ein Waffen- bruder.</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Wenn du das Weib bist. Deinetwillen sorg’ ich.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>O schlecht! schlecht! ins Gericht gehn mit dem Vater.</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Weilich nicht seh, wie du das Recht anlügest.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Wenn meinem Uranfang’ ich treu beistehe, lüg’ ich?</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Das bist du nicht, hältst du nicht heilig Gottes Nahmen.</l>
+
+
+
+<pb n="51"/>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>O schaamlos Wesen, schlechter, als das Weib.</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Nicht wirst du wohl mich finden hinter Schlechtem,</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Und so bis hieher sezest du dich ihr zu Lieb’ aus?</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Ihr, dir und mir zu Lieb’, und Todesgöttern,</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Schon ist es nicht mehr Zeit, dass du sie nehmest, lebend,</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>So sterbe sie, verderbe sterbend einen,</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Ist es heraus? wie frech noch nach der Zornlust !</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Das ist für einen leeren Sinn sie freilich,</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Wein’ und besinne dich; leersinnig kannst auch du seyn.</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Wärst du es selbst nicht, hielt ich dich Für treulos.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Schönthun, des Weibes Werk, bethöre mich nicht!</l>
+
+
+<pb n="52"/> 
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Du möchtest etwas sagen, hören nichts.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>So istes. Doch beim Himmel meiner Väter!</l>
+<l>So nach Gelust sollst du nicht kränken mich mit Tadel.</l>
+
+<l>Schafft weg die Brut, vor Augen soll sie, zleich,</l>
+<l>In Gegenwart, hart an dem Bräutigam ‚ sterben.</l>
+</sp>
+
+<sp><speaker>HAEMON</speaker>
+<l>Nicht warlich mir. Das lasse nie dir dünken.</l>
+<l>Nicht untergehn wird diese, nahe mir.</l>
+<l>Und nimmer sollst du sehn mein Haupt vor Augen,</l>
+<l>Damit du ungestört mit denen bleibst, die dein sind.</l>
+<stage>(Himon geht ab.)</stage>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Der Mann, mein König, gieng im Zorne schnell,</l>
+<l>Ein solch Gemüth ist aber schwer im Leiden.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Er tlıu’ es! denke grölser, als ein Mann!</l>
+<l>Doch rettet er vom Tode nicht die Mädchen.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Denkst du sogar zu tödten diese beiden ?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Nicht die, die’s nicht berührt; da hast du Recht.</l>
+
+
+
+<pb n="53"/>
+
+
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Und denkst du über jenenach ; wie willst dutödten?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Sie führen, wo einsam der Menschen Spur ist,</l>
+<l>Lebendig in dem Felsengrunde wahren,</l>
+<l>So viele Nahrung reichen, als sich schikt,</l>
+<l>Dafs nicht die Stadt zu Schanden werde, vollends.</l>
+<l>Dort wird sie wohl zum Todesgotte beten,</l>
+<l>Den sie allein von allen Göttern chrt,</l>
+<l>Und werden kann ihr’s, dass sie nimmer stirbt.</l>
+<l>So wird sie einsehn, aber geisterweise;</l>
+
+<l>Es sey doch Ueberflufs nur, Todtes ehren.</l>
+
+<stage>(Kreon gehet hinein.)</stage>
+
+<milestone unit="scene" n="Zweite Scene"/>
+
+ <stage>DER CHOR Hemach ANTIGONAT.</stage>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Geist der Liebe, dennoch Sieger</l>
+
+<l>Imuner, in Streit! Du Friedensgeist, der über</l>
+<l>Gewerb einniket, und über zärtlicher Wange bei</l>
+
+<l>Der Jungfrau übernachtet,</l>
+
+
+<pb n="54"/>
+
+<l>Und schwebet über Wassern ,</l>
+
+<l>Und Häufsern, in dem Freien.</l>
+
+<l>Fast auch Unsterblicher Herz zerbricht</l>
+
+<l>Dir und entschlafender Menschen, und es ist,</l>
+
+<l>Wer’s an sich hat, nicht bei sich. Denn</l>
+
+<l>Du machest scheu der Gerechten</l>
+
+<l>Unrechtere Sinne, dass in die Schhmach weg</l>
+
+<l>Sie flüchten, hältst dich hier auf, im Männerzank’, |</l>
+
+<l>Im blutsverwandten, und wirfst es untereinander.</l>
+
+<l>Und nie zu Schanden wird es,</l>
+
+<l>Das Mächtigbittende,</l>
+
+<l>Am Augenliede der hochzeitlichen</l>
+
+<l>Jungfrau, im Anbeginne dem Werden grolser</l>
+
+<l>Veıständigungen gesellet. Unkriegerisch spielt nemlich</l>
+
+<l>Die göttliche Schönheit mit.</l>
+
+<l>Jezt aber komm’ ich, eben, selber, aus</l>
+
+<l>Dem Geseze. Denn anschn muß ich diess, und halten kann ich</l>
+<l>Nicht mehr die Qttelle der Thränen,</l>
+<l>Da in das alles schwaigende Bett’</l>
+<l>Ich seh’ Antigonä wandeln.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Seht, ihr des Vaterlandes Bürger,</l>
+
+
+
+<pb n="55"/>
+
+
+<l>Den lezten Weg gehn mich,</l>
+<l>Und das lezte Licht</l>
+<l>Anschauen der Sonne.</l>
+<l>Und nie das wieder? Der alles schwaigende Todesgott,</l>
+<l>Lebendig führt er mich</l>
+<l>Zu des Acherons Ufer, und nicht zu Hymenäen</l>
+<l>Berufen bin ich, noch ein bräutlicher singt</l>
+<l>Mich, irgend ein Lobgesang, dagegen</l>
+<l>Dem Acheron bin ich vermälılt.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Gehst du bekannt doch und geleitet mit Lob</l>
+<l>Hinweg in diese Kammer der Todten.</l>
+<l>Verderbend trifft dich Krankheit nicht,</l>
+<l>Nicht für das Schwert empfängst du Handlohn.</l>
+<l>Dein eigen Leben lebend, unter</l>
+<l>Den Sterblichen einzig,</l>
+<l>Gehst du hinab, in die Welt der Todten.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Ich habe gehört, der Wüste gleich sey worden</l>
+<l>Die Lebensreiche, Phrygische,</l>
+<l>Von Tantalos im Schoose gezogen, an Sipylos Gipfel ;</l>
+<l>Hökricht sey worden dieund wie eins Epheuketten</l>
+
+
+<pb n="56"/>
+
+
+<l>Anthut, in langsamen Fels</l>
+
+<l>Zusammengezogen ; und immerhin bei ihr,</l>
+
+<l>Wie Männer sagen, bleibt der Winter;</l>
+
+<l>Und waschet den Hals ihr unter</l>
+
+<l>Schneehellen Thränen der Wimpern. Recht der gleich</l>
+
+<l>Bringt mich ein Geist zu Bette.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Doch heilig gesprochen, heilig gezeuget</l>
+
+<l>Ist die, wir aber Erd’ und irdisch gezeuget.</l>
+
+<l>Vergehst du gleich, doch ist ein Grofses, zu hören,</l>
+
+<l>Du habst, Gott gleichen gleich, empfangen ein Loos,</l>
+
+<l>Lebendig und dann gestorben.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Weh! Närrisch machen sie mich. Warum</l>
+
+<l>Bei Vaterlandsschuzgeistern überhebest du</l>
+
+<l>Dich mein, die noch nicht untergegangen,</l>
+
+<l>Die noch am Tag? ist.</l>
+
+<l>O Stadt, o aus der Stadt</l>
+
+<l>Ihr vielbegüterten Männer!</l>
+
+<l>Io, ihr Dirzäischen Quellen !</l>
+
+<l>Um Thebe rings, wo die Wagen</l>
+
+<l>Hochziehen, o ihr Wälder! Doch, doch mülst</l>
+
+
+<pb n="57"/>
+
+
+<l>Ihr mir bezeugen, einst, wie unbeweinet</l>
+
+<l>Von Lieben und nach was für</l>
+
+<l>Gesezen in die gegrabene Kluft ich,</l>
+
+<l>Ins inerhörte Grab muß.</l>
+
+<l>Io! ich Arme!</l>
+
+<l>Nicht unter Sterblichen, nicht unter Todten.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Mitwohnend Lebenden nicht und nicht Gestorbnen.</l>
+
+<l>Forttreibend bis zur Scheide der Kühnheit,</l>
+
+<l>Bis auf die Höhe des Rechts</l>
+
+<l>Bist du, o Kind, wohl tiefgefallen,</l>
+
+<l>Stirbst aber väterlichen Kampf.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Die zornigste hast du angereget</l>
+
+<l>Der lieben Sorgen,</l>
+
+<l>Die vielfache Weheklage des Vaters</l>
+
+<l>Und alles</l>
+
+<l>Unseres Schiksaals,</l>
+
+<l>Uns rühmlichen Labdakiden.</l>
+
+<l>Io! du mütterlicher Wahn</l>
+
+<l>In den Betten, ihr Umarmungen, selbstgebährend,</l>
+
+<l>Mit meinem Vater, von unglüklicher Mutter,</l>
+
+<l>Von denen einmal ich Trübsinnige kam,</l>
+
+<l>Zu denen ich im Fluche</l>
+
+<pb n="58"/>
+
+
+<l>Mannlos zu wohnen komme.</l>
+<l>Io! Io! mein Bruder!</l>
+<l>In gefährlicher Hochzeit gefallen !</l>
+<l>Mich auch, dienur noch da war,</l>
+<l>Ziehst sterbend du mit hinab.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Zu ehren ist von Gottesfurcht</l>
+<l>Etwas. Macht aber, wo es die gilt,</l>
+<l>Die weichet nicht. Dich hat verderbt</l>
+<l>Das zornige Selbsterkennen.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>Unbeweinet und ohne Freund’ und ehlos</l>
+<l>Werd’ ich Trübsinnige geführet</l>
+<l>Diesen bereiteten Weg. Mir ists nicht</l>
+<l>Gebrauch ınehr , dieser Leuchte heiliges Auge</l>
+<l>Zu sehn, mir Armen. Und diess</l>
+<l>Mein Geschik , das thränenlose,</l>
+
+<l>Betrauert, liebet niemand.</l>
+
+
+
+
+
+<pb n="59"/>
+
+
+<milestone unit="scene" n="Dritte Scene"/>
+
+ <stage>KREON. ANTIGONAE. DER CHOR.</stage>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Ihr wisset, keines läfst das Singen und das Heulen</l>
+
+<l>In Todesnoth, so lang man hin und her spricht.</l>
+
+<l>Führt sie gleich weg, und mit der Gruft, der dunklen,</l>
+
+<l>Umschattet ihr sie, wie gesagt, dort lafst sie rulır</l>
+
+<l>Einsam allein; mag sie nun sterben müsser</l>
+
+<l>Mag lebend unter solchem Dache zehren.</l>
+
+<l>Denn wir sind rein, was dieses Mädchen angeht,</l>
+
+<l>Die Häuslichkeit hier oben aber felılt ihr.</l>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>O Grab! o Brautbett! unterirdische</l>
+
+<l>Behausung, immerwach! Da werd’ ich reisen</l>
+
+<l>Den Meinen zu, von denen zu den Todten</l>
+
+<l>Die meiste Zahl, nachdem sie weiter gangen,</l>
+
+<l>Zornigmitleidig dort ein Licht bezrüfst hat;</l>
+
+<l>Von denen ich die Leztenun anı schlimnisten</l>
+
+<l>In weiter Welt vergehn muss, ehe ınir</l>
+
+
+<pb n="60"/>
+
+
+
+<l>Des Lebens Gränze kommt. Doch komm’ ich an,</l>
+<l>So nähr’ ich das mit Hoffnungen gar sehr,</l>
+<l>Dafs lieb ich kommen werde für den Vater,</l>
+<l>Auch dir lieb, meine Mutter! lieb auch dir,</l>
+<l>Du brüderliches Haupt! Denn als ihr starbt,</l>
+<l>Hab’ ich genommen euch mit eigner Hand,</l>
+<l>Und ausgeschmükt, und über eurem Grabe</l>
+<l>Trankopfer euch gebracht. Nun, Poiynikes,</l>
+<l>Indem ich deke deinen Leib, erlang”’ ich diess,</l>
+<l>Obgleich ich dich geehrt, vor Wohlgesinnten.</l>
+<l>Nie nemlich, weder, wenn ich Mutter</l>
+<l>Von Kindern wäre, oder ein Gemahl</l>
+<l>Iın Tode sich verzehret, hätt’ ich mit Gewalt,</l>
+<l>Als wollt ich einen Aufstand, diess errungen.</l>
+<l>Und welchem Geseze sag’ ich diess zu Dank?</l>
+<l>Wär’ ein Geimalıl gestorben, gäb’ es andre,</l>
+<l>Und auch ein Kind von einem andern Manne,</l>
+<l>Wenn diesen ich umarmt. Wenn aber Mutter</l>
+<l>Und Vater schläft, im Ort der Todten beides,</l>
+<l>Stehtsnicht, als wüch’s ein andrer Bruder wieder.</l>
+<l>Nach solchem Geseze hab’ ich dich geelırt,</l>
+<l>Dem Kreon aber schien es eine Sünde,</l>
+
+<l>Und sehr gewagt, o brüderliches Haupt!</l>
+
+
+
+<pb n="61"/>
+
+
+
+
+<l>Und jezt führt er mich weg, mit Händen so mich greifend,</l>
+<l>Mich ohne Bett und Hochzeit; noch der Ehe Theil</l>
+<l>Hab’ ich empfangen, noch ein Kind zu nähren.</l>
+<l>Doch einsam so von Lieben, unglükseelig,</l>
+<l>Lebendig in die Wildnifs der Gestorbnen</l>
+<l>Komm’ ich hinab. Welch Recht der Geister übertretend ?</l>
+
+<l>Was soll ich Arme noch zu himmlischen</l>
+<l>Gewalten schaun? Wen singen der Waffengenossen?</l>
+<l>Da ich Gottlosigkeit aus Frömmigkeit empfangen.</l>
+<l>Doch wenn nun dieses schön ist vor den Göttern,</l>
+<l>So leiden wir und bitten ab, was wir</l>
+<l>Gesündiget. Wenn aber diese fehlen,</l>
+<l>So mögen sie nicht gröfser Unglük leiden,</l>
+
+<l>Als sie bewirken offenbar an mir.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Noch von denselben Stürmen hat</l>
+
+<l>Sie noch dieselben Stöfse in der Scele.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Deswegen werden denen, die sie führen,</l>
+
+<l>Thränen kommen, des Aufschubs wegen.</l>
+
+
+<pb n="62"/>
+
+
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>O mir! grad vor dem Tode</l>
+<l>Ist diess das Wort.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Ich rathe, nichts zu wagen,</l>
+<l>Nichts derlei dieser zuzusprechen.</l>
+<stage>( Kreon geht ab.)</stage>
+
+
+
+<pb n="63"/>
+
+
+ <milestone unit="act" n="Vierter Act"/>
+
+ <milestone unit="scene" n="Erste Scene"/>
+
+ <stage>ANTIGONAE CHOR.</stage>
+</sp>
+
+<sp><speaker>ANTIGONAE</speaker>
+<l>O des Landes Thebes väterliche Stadt,</l>
+
+<l>Ihr guten Geister alle, den Vätern geworden,</l>
+
+<l>Also werd’ ich geführt und weile nicht mehr?</l>
+
+<l>Seht übrig von den anderen allen</l>
+
+<l>Die Königin, Thebes Herrn! welch eine</l>
+
+<l>Gebühr’ ich leide von gebührigen Männern,</l>
+
+<l>Der ich gefangen in Gottesfurcht bin.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Der Leib auch Danaes mufste,</l>
+
+<l>Statt himmlischen Lichts , in Gedult</l>
+
+<l>Das eiserne Gitter haben.</l>
+
+
+<pb n="64"/>
+
+
+
+<l>Iın Dunkel lag sie</l>
+
+<l>In der Todtenkammer, in Fesseln ;</l>
+<l>Obgleich an Geschlechtadel, o Kind!</l>
+<l>Sie zählete dem Vater der Zeit</l>
+
+<l>Die Stundenschläge, die goldnen.</l>
+
+<l>Aber des Schiksaals ist furchtbar die Kraft.</l>
+
+<l>Der Reegen nicht, der Schlachtgeist</l>
+
+<l>Und der Thurm nicht, und die meerumrauschten</l>
+<l>Fliehn sie, die schwarzen Schiffe.</l>
+
+<l>Und gehascht ward zornig behend Dryas Sohn,</l>
+<l>Der Edenen König in begeistertem Schimpf</l>
+
+<l>Von Dionysos, von den stürzenden</l>
+
+<l>Steinhaufen gedeket,</l>
+
+<l>Den Wahnsinn weint’ er so fast aus,</l>
+
+<l>Und den blühenden Zorn. Und kennen lernt’ er,</l>
+
+<l>Im Wahnsinn tastend, den Gott mit schimpfender Zunge.</l>
+
+<l>Denn stoken macht’ er die Weiber</l>
+
+<l>Des Gottes voll, und das evische Feuer</l>
+
+<l>Und die flötenliebenden</l>
+
+<l>Reizt er, die Musen.</l>
+
+
+<pb n="65"/> 
+
+<l>Bei himmelblauen Felsen aber, wo</l>
+
+<l>An beiden Enden Meerist,</l>
+
+<l>Dort sind des Bosphoros Ufer</l>
+
+<l>Und der Busen Salmidessos,</l>
+
+<l>Der Thraziern gehöret; daselbst sah, nahe</l>
+
+<l>Der Stadt, der Schlachtgeist zu, ‚als beiden</l>
+<l>Phineiden ward die Wunde der Blindheit</l>
+
+<l>Vom wilden Weibe gestofsen ,</l>
+
+<l>Und finster wars in den muthwillgen Augenzirkeln.</l>
+
+<l>Veni Speeren Stiche. Unter</l>
+<l>Blutigen Händen und Nadelspizen.</l>
+<l>Und verschnıachtend, die Armen weinten</l>
+<l>Das arme Leiden der Mutter; sie hatten</l>
+<l>Ehlosen Ursprung; jene aber war</l>
+<l>Vom Saamen der altentsprungenen Erechtheiden.</l>
+<l>In feruewandelnden Grotten</l>
+<l>Ernährt ward sie, in Stürmen des Vaters, die Boreade</l>
+<l>Zu Rossen gesellt, auf gradem Hügel,</l>
+<l>Der Götter Kind. Doch auch auf jener</l>
+<l>Das grolse Schiksaal ruhte, Kind!</l>
+
+<stage>(Antigonä wird weggefihrt. )</stage>
+
+
+
+
+<pb n="66"/>
+
+
+
+
+ <milestone unit="scene" n="Zweite Scene"/>
+
+ <stage>TIRESIAS KREON.</stage>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+<stage>( von einem Knaben geführt )</stage>
+<l>Ihr Fürsten Thebes! miteinander kommen</l>
+<l>Des Weges wir, durch Einen beide sehend.</l>
+<l>Wir Blinden gehen mit Wegweisern so des Weges.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Was giebt es Neues, Greis Tiresias!</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+<l>Ich will es.sagen , höre du den Seher.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Auch war ich sonst von deinem Sinn nicht ferne.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+<l>Drum steuerst du gerad auch mit der Stadt.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Erfahren hab’ ich Nüzliches und zeug’ es.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+<l>Auch jezt im zarten Augenblike denke.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Was ist es denn? Furchtbar ist dieser Mund mir.</l>
+
+<pb n="67"/>
+
+
+
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+<l>Du weist es; hörst die Zeichen meiner Kunst.</l>
+<l>Denn auf dem alten Stuhle, Vögel schauend,</l>
+<l>Safs ich, wo vor mir war ein Hafen aller Vögel,</l>
+<l>Da hört’ ich unbekannt von denen ein Geschrei,</l>
+<l>Mit üblem Wüthen schrien sie und wild,</l>
+<l>Und zerrten mit den Klauen sich einander,</l>
+<l>In Mord, das merkt’ ich, denn nicht unverständ- lich war</l>
+<l>Der Flügel Sausen. Schnell befürchtet’ ich,</l>
+<l>Und kostete die Flamm’, auf allentzündeten</l>
+<l>Altären. Aber aus den Opfern leuchtet</l>
+<l>Hephästos nicht. Hingegen aus der Asche</l>
+<l>Der nasse Geruch verzehrte die Hüften,</l>
+<l>Und raucht’ und wälzte sich, und hoher Zorn ward</l>
+<l>Umhergesäet, und die benezten Hüften</l>
+<l>Sahn offen aus dem Fett, das sie bedckte,</l>
+<l>Die hab’ ich von dem Knaben hier erfahren,</l>
+<l>Der zeichenlosen Orgien tödtliche Erklärung.</l>
+<l>Denn dieser ist mir Führer, andern ich.</l>
+<l>Und diess. Nach deinem Sinn’ erkrankt die Stadt.</l>
+<l>Denn die Altäre sind und Feuerstellen</l>
+<l>Voll von dem Fras der Vögel und des Hunds,</l>
+<l>Vom unschiklich gefallnen Sohn des Oedipus.</l>
+
+
+<pb n="68"/>
+
+
+
+
+<l>Und nicht mehr nehmen auf beim Opfer das Gebet</l>
+
+<l>Von uns die Götter, noch der Hüften Flamme;</l>
+
+<l>Noch rauscht der Vögel wohlbedeutendes</l>
+
+<l>Geschrei her, denn es hat vontodtem Menschenblut</l>
+
+<l>Das Fett gegessen. Das bedenke nun, o Kind!</l>
+
+<l>Denn allen Menschen ist’s gemein, zu fehlen.</l>
+
+<l>Wenn aber einer fehlt, der Mann ist eben</l>
+
+<l>Nicht ungescheut und nicht ein Unglükseel’ger,</l>
+
+<l>Wenn er, gefallen in ein Uebel, heilen</l>
+
+<l>Sich läfset und nicht unbeweglich bleibet.</l>
+
+<l>Denn Eigendünkel zeiget Grobheit an.</l>
+
+<l>Weich du dem Todten und verfolge nicht</l>
+
+<l>Den, der dahin ist. Welche Kraft ist das,</l>
+
+<l>Zu tödten Todte? Gut für dich gesinnt,</l>
+
+<l>Sag’ ich es gut. Zu lernen ist erfreulich,</l>
+
+<l>Spricht einer gut, und nüzet, was er saget.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>O Alter! alle, wie auf eines Schüzen Ziel</l>
+
+<l>Zielt ihr auf unser einen. Ungeschult nicht bin</l>
+
+<l>Von eurer Art ich in der Seherkunst nicht ;</l>
+
+<l>Verkauft bin ich seit langem und betrogen.</l>
+
+<l>Gewinnet! Kauft von Sardes das Electrum,</l>
+
+<l>Wenn ihr es wollt, und Gold von Indien,</l>
+
+<l>Doch in dem Grabe berget ihr nicht jenen,</l>
+
+
+<pb n="69"/>
+
+<l>Nicht, wenn der Donnervogel zukend ihn,</l>
+<l>Vor Gottes Thron, als Speise tragen wollte.</l>
+<l>Dels ungeachtet lals’ ich, der Krankheiten nicht</l>
+<l>Des Himmels fürchtet, nicht ein Grab dem Manne.</l>
+<l>Gott regt kein Mensch an, dieses weiss ich.</l>
+<l>Es fallen aber, Greis Tiresias ,</l>
+<l>Von Sterblichen auch sehr Gewaltige,</l>
+<l>Sehr wüsten Fall, wenn solche Worte sie,</l>
+<l>Die wüst sind, schön aussprechen, Vortlieils wegen.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+<l>Ach! weiss es jemand? ists gesprochen irgend ?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Was giebts? was sagst du dieses Allgemeine?</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+<l>Um wie viel gilt izt mehr Gutmüthj gkeit,, als Wohlseyn?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>So viel, denk’ ich, nicht denken, viel Verlust ist.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+<l>Von dieser Krankheit aber bist du voll.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Ich will dem Seher schlimm nicht widersprechen.</l>
+
+
+<pb n="70"/>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+<l>So sprichst du, da du sagst, ich prophezeihe fälschlich,</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Die Seherart liebt nemlich all das Silber,</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+<l>Tyrannenart liebt schändlichen Gewinn,</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Weist du, dass Feldherrn sind, wozu du redest?</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+<l>Das weiss ich. Denn durch mich erhieltest diese</l>
+<l>Stadt du.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Ein weiser Seher bist du, liebest dennoch Unrecht.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+<l>Aufregen wirst du mich, das, was noch unerschüt- tert</l>
+<l>Von meinen Gedanken ist, herauszusagen.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Erschütt’ es! Nur sprich Vortheils wegen nicht!</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+<l>Schein’ ich so sehr dein Theilzu seyn auch izt noch?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Du wirst nicht täuschen meinen Sinn, das wisse!</l>
+
+
+
+<pb n="71"/>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+<l>Wifs aber du, nicht lange Zeit mehr brütest</l>
+<l>In eifersücht’ger Sonne du, von nun an;</l>
+<l>Denn bald aus deinem Eingewaide zahlst</l>
+<l>Du selber einen Todten für die Todten,</l>
+<l>Für die, die du von oben warfst hinunter,</l>
+<l>Und deren Seele schmählich du im Grabe</l>
+<l>Zu wohnen hast gesandt. Von unten hast</l>
+<l>Auch oben einen du, den schiksaallosen ,</l>
+<l>Den unbegrabenen, unheiligen Todtien</l>
+<l>Des Todtes Todesgotts, der weder dich, noch obıe Götter</l>
+<l>Angehet, aber du brauchst so Gewalt.</l>
+<l>Und darum lauern wunderlich verderblich</l>
+<l>Im Jenseits dir die Spötter und die Richterinnen</l>
+<l>Der Götter, also, dass da in denselben Uebeln</l>
+<l>Du troffen werdest, und betrachte das,</l>
+<l>Ob ich das dunı von Silber spreche. Denn es kommt,</l>
+<l>Nicht lange Zeit mehrists, von Männern, Weibern</l>
+<l>In deinen Häufsern eine Weheklage.</l>
+<l>In Misverstand muls aber jede Stadt</l>
+<l>Vergehen, deren Leichname zur Ruhe</l>
+
+<l>Die Hund’ und wilden Thiere bringen, oder wenn</l>
+
+
+<pb n="72"/>
+
+
+<l>Mit Fittigen ein Vogel mit unheiligem</l>
+
+<l>Geruche zum gesezten Heerd der Stadt kommt.</l>
+<l>So stehts mit dir. Verdrossen bist du freilich;</l>
+<l>Als wie ein Schüze sandt’ ich aus dem Muthe</l>
+<l>Des Herzens Pfeile vest. Und ihrer Wärme</l>
+<l>Entgehst du nicht! O Kind! Du aber führ’ uns</l>
+<l>Hinweg ins Haus, dass dieser seinen Muth</l>
+<l>Auslasse gegen Jüngere. Und lernen</l>
+
+<l>Mag er, die Zunge stiller zu gewöhnen,</l>
+
+<l>Und besser sein Gemüth gesinnt, denn’s jezt ist.</l>
+
+<stage>(Tiresias geht ab.)</stage>
+
+<milestone unit="scene" n="Dritter Scene"/>
+ <stage>DER CHOR.  KREON.</stage>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Der Mann, mein König, gieng viel prophezeiend,</l>
+<l>Wir wissen aber, seit wir mit dem weissen</l>
+<l>Das schwarze Haar vertauschet, wie du siehst,</l>
+
+<l>Dafs nie er Lügen in der Stadt gebrauchet.</l>
+
+
+
+<pb n="73"/>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Ich weiß es selbst, und bin verwirrt im Sinn ;</l>
+<l>Denn weichen, ist ein Grofses. Doch wenn einer</l>
+<l>Mit Wahn mir aufden Muthtritt, wird dasschwierig.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Es brauchet guten Rath, Kreon, Menökeus Sohn!</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Was ist zuthun? Sag’ es, ich will dir folgen.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Komm, lafs die Jungfrau aus dem Felsenhaufse,</l>
+<l>Und schaff ein Grab, dem, welcher draussen liegt.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Du lobest diess und scheinst es gutzuheilsen.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>So schnell, mein König, als es möglich ist,</l>
+
+<l>Denn in die Kürze falst den Schlimmgesinnten</l>
+
+<l>Die schnellgefüfste Züchtigung der Götter.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>O mir. Kaum mag ich, denn mir fehlt das Herz</l>
+
+<l>Dazu, doch mit der Noth ist nicht zu streiten.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Thu nun diess, Komm. Komm nun nicht mehr auf anders.</l>
+
+<pb n="74"/>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>So wie ich bin, will ich hinweggehn. Diener!</l> 
+<l>Abwesend, gegenwärtig! nimmt zur Hand</l>
+<l>Die Beil’ und eilt zum Orte, den ihr sehet.</l>
+<l>Ich aber, weil für die sich kehrt die Meinung,</l>
+<l>Und ich sie selbst band, will auch selbst sie lösen.</l>
+<l>Ich fürcht’, es ist am besten, zu erhalten</l>
+
+<l>Bestehendes Gesez und so zu enden.</l>
+
+
+
+
+<pb n="75"/>
+
+
+ <milestone unit="act" n="Fünfter Act"/>
+
+ <stage>CHOR der Thebanischen Alten</stage>
+
+<l>N ahmenschöpfer , der du von den Wassern, welche Kadmos</l>
+
+<l>Geliebet, der Stolz bist, und defs, der im Echo donnert,</l>
+
+<l>Ein Theil, des Vaters der Erd’,</l>
+
+<l>Und Italia in Wachstum weit umschweifst,</l>
+
+<l>Die allbekannt ist. Allen gemein</l>
+
+<l>Ist aber Undurchdringliches; denn auch waltest</l>
+
+<l>Im Schoose du, zu Elevsis.</l>
+
+<l>Hier aber, Freudengott,</l>
+
+<l>In der Mutterstadt, der bacchantischen,</l>
+
+<l>In Thebe wohnest du, an Ismenos kaltem Bach,</l>
+
+<l>Anden Zäunen, wo den Othem</l>
+
+<l>Das Maul des Drachen haschet,</l>
+
+
+<pb n="76"/>
+
+
+<l>Der Opferrauch, der wohlgestalt ist über</l>
+<l>Des Felses Schultern, hat dich gesehen; am</l>
+<l>Cocytus, wo die Wasser</l>
+
+<l>Bacchantisch fallen, und</l>
+
+<l>Kastalias Wald auch.</l>
+
+<l>Und unter Nyssäischen Bergen regen</l>
+<l>Fernhorchend Brunnen dich auf,</l>
+
+<l>Und grün Gestad,</l>
+
+<l>Voll Trauben hängend,</l>
+
+<l>Nach Thebes</l>
+
+<l>Unsterblichen Worten zu gehn, |</l>
+<l>In die Gassen, da sie frohlokten.</l>
+<l>Denn die ehrst du vor allen</l>
+
+<l>Als höchste der Städte</l>
+
+<l>Mit der blizgetroffenen Mutter.</l>
+
+<l>Jezt aber, da von gewaltiger</l>
+
+<l>Krankheit die ganze Stadt |</l>
+<l>Ist befangen, müssen wir</l>
+
+<l>Der Bufse Schritte gehen über</l>
+<l>Den Parnassischen Hügel oder</l>
+<l>Die seufzende Furth.</l>
+
+<l>Jo! du! in Feuer wandelnd!</l>
+
+<l>Chorführer der Gestirn’ und geheimer</l>
+
+
+
+<pb n="77"/>
+
+
+<l>Reden Bewahrer!</l>
+
+<l>Sohn , Zevs Geburt!</l>
+
+<l>Werd’ offenbar! mit den Naxischen</l>
+<l>Zugleich, den wachenden</l>
+<l>Thyaden, die wahnsinnig</l>
+
+<l>Dir Chor singen, dem jauchzenden Merrn.</l>
+
+ <milestone unit="scene" n="Erste Scene"/>
+
+ <stage>EIN BOTE. DER CHOR. Hernach EURYDICE.</stage>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>O ihr des Kadmos Nachbarn und Amphions,</l>
+<l>Es steht nicht so, dass ich des Menschen Leben,</l>
+<l>Wie’s auch verfalst sey, loben möcht’ und tadeln.</l>
+<l>Undenklichs hebt , undenklichs stürzet nemlich</l>
+<l>Allzeit den Glüklichen und den Unglüklichen.</l>
+<l>Kein Schergeist erreicht nicht das, was da ist.</l>
+<l>So war sonst Kreon mir beneidenswerth ,</l>
+<l>Da cr von Feinden rettete das Land</l>
+<l>Des Kadmos und allein Herrschaft gewann,</l>
+
+<l>In dieser Gegend, und regiert und blüht</l>
+
+
+<pb n="78"/>
+
+
+
+<l>In wohlgeborner Saat von Kindern. Nun</l>
+<l>Geht alles hin. Das Angenehme nemlich,</l>
+<l>Das untreu wird, halt’ ich des Mannes unwerth.</l>
+<l>Reich, wenn du willst, ist er im Hause sehr,</l>
+<l>Und lebet in tyrannischer Gestalt.</l>
+<l>Doch wenn von dem weggeht die Freude, möcht’</l>
+<l>Um eines Rauches Schatten ich das andre nicht</l>
+<l>Als angenehm für einen Mann verkaufen.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Wie kommt dir denn vom Fürsten diese Klage?</l>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Gestorben sind sie. Schuldig sind, die leben.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Und welcher tödtet? welcher liegt? sag’ an!</l>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Hämon ist hin, von eignen Händen blutend.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Was? von des Vaters oder eigner Hand?</l>
+</sp>
+
+<sp><speaker>DERBOTE</speaker>
+<l>Er selbst. Dem Vater zürnt’ in seinem Mord’ er.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Wie führtest du ein richtig Wort, o Seher!</l>
+
+ <stage>DER BOTE</stage>
+<l>So stehtes. Anderes ist zu bedenken.</l>
+
+
+
+<pb n="79"/>
+
+</sp>
+
+<sp><speaker>CHOR</speaker>
+
+<l>Ich sch’, Eurydice, die unglükliche,</l>
+<l>Die Frau des Kreon eben. Ob im Hause sie’s</l>
+<l>Gehört hat, oder da aus Zufall ist.</l>
+</sp>
+
+<sp><speaker>EURYDICE</speaker>
+<l>O all ihr Bürger! eine Rede merkt’ ich,</l>
+<l>Da ich zur Pforte gieng der Göttin Pallas,</l>
+<l>Damit ich käm’ und mit Gebet anspräche.</l>
+<l>Da thu’ ich eben auf des T'hores Riegel;</l>
+<l>Es öffnet sich, und eirie Stimme trifft‘</l>
+<l>Von Unglük in dem Haufse mich durchs Ohr.</l>
+<l>Rüklings fall’ ich in Furcht ‚auf meine Mägde,</l>
+<l>In Unmacht. Aber welch Gerücht es war,</l>
+<l>Sagt esnoch einmal mir. Ich werde nicht</l>
+<l>In Uebeln unerfahren es vernehmen.</l>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Ich, liebe Frau, sag’ es, als Augenzeuge,</l>
+<l>Kein Wort der Wahrheit lafs ich ungesagt,</l>
+<l>Was sollt’ ich nemlich dich besänftigen,,</l>
+<l>Wenn ich nachher als Lügner dir erschiene?</l>
+<l>Gerad ist immerhin die Wahrheit. Ich</l>
+<l>Bin als Gefährte deinem Herrn gefolst,</l>
+<l>Zum hohen Felde, wo, vom Hund zerfleischt,</l>
+
+<l>Der arme Leichnam lag des Polynikes.</l>
+
+
+<pb n="80"/>
+
+
+
+<l>Enodia, die Göttin, bitten wir,</l>
+
+<l>Und Pluto, wohlgesinnten Zorn zu halten,</l>
+<l>Bereiten heilig Bad, und legen ihn</l>
+
+<l>In frische Zweige, so viel übrig war,</l>
+
+<l>Und einen Hügel mit geradem Haupt</l>
+
+<l>Erbauten wir von heimatlicher Erde.</l>
+
+<l>Und giengen dann zum hohlen, steinerbauten,</l>
+<l>Nach Todter Art, vermählten Bett der Jungfrau.</l>
+<l>Es höret aber einer eine Stimme,</l>
+
+<l>Und laute Klage rufen in der Kammer,</l>
+
+<l>Und nahet sich und deutet Kreon sie</l>
+
+<l>Dem Herren an. Und wie der gieng, umgab</l>
+<l>Ihn merkbarer die dunkle, müheseel’ge Stimme,</l>
+<l>Dann schrie er auf, nah.dran, und übel klagend</l>
+<l>Sprach er das Wort, das ärmlich klagende:</l>
+
+<l>Bin ich Wahrsager mir? geh’ich den unglüklichsten</l>
+<l>Wirklich der Wege, welche kommen können?</l>
+<l>Mich rührt des Kindes Stimme. Doch ihr Diener</l>
+<l>Geht schnell hinzu, zum Grab’ und seht genau</l>
+<l>Den Riegel an, der aus der Mauer ist gerissen,</l>
+<l>Geht in die Thüre selbst hinein, und sehet</l>
+
+<l>Ob ich des Hämons Stimme höre, oder</l>
+
+<l>Göttlich getäuscht bin. Des geängsteten</l>
+
+<l>Herrn Wort nach forschen wir. Darauf</l>
+
+
+
+<pb n="81"/>
+
+
+
+
+<l>Zu hinterst in den Gräbern sehen wir</l>
+
+<l>Am Naken hängend, sie, am Gürtelbande</l>
+
+<l>Des Leinenkleids herab; und ihn, rundum</l>
+
+<l>Um sie bestrikt, dahingestrekt, und jammernd</l>
+
+<l>Ums Brautbett, und den Abgrund drunten, und</l>
+
+<l>Des Vaters Werk und unglükliche Lager.</l>
+
+<l>Er, wie er dieses sieht, schreit greulich auf,</l>
+
+<l>Und geht hinein, zu ihm, und wehcklagt und rufet:</l>
+
+<l>O Armer, was hast du gethan? was hattest</l>
+
+<l>Im Sinne du? Durch welch Verhängnifs starbst du?</l>
+
+<l>O komm heraus, mein Kind, fufsfällig bitt’ ich.</l>
+
+<l>Schnöd blikend, nichts entgegensagend, starrt</l>
+
+<l>Mit wilden Augen gegen ihn der Sohn;</l>
+
+<l>Und zieht das Schwert, zweischneidig, gegen ihn erst,</l>
+
+<l>Und da der Vater, aufgeschrökt, zur Flucht</l>
+
+<l>Sich wandte, fehlt‘ er. Grimmig dann im Geiste,</l>
+
+<l>Der Unglükliche sties, so wie er ausgestrekt stand,</l>
+
+<l>Die Spize mitten sich in seine Seite.</l>
+
+<l>Den feuchten Arm, bei Sinnen noch, külst er</l>
+
+<l>Der Jungfrau. Schnaubend stöfst auf weisser Wange</l>
+
+<l>Er scharfen Hauch von blut’gen Tropfen aus.</l>
+
+
+
+<pb n="82"/>
+
+
+
+<l>Das Todte liegt beim Todten, bräutliche</l>
+
+<l>Erfüllung trifft es schüchtern in den Häufsern</l>
+
+<l>Der Todtenwelt, und zeigt der Menschen rathlos Wesen,</l>
+
+<l>Und wie als gröstes Uebel diess der Mann hat.</l>
+
+<stage>(Eurydice geht ab. )</stage>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Wie nimmst du diess? Die Frau gteng wieder weg,</l>
+<l>Eh sie gut oder schlimm ein Wort gesagt.</l>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Mich wunderts auch , doch nähr’ ich mich mit Hoffnung,</l>
+<l>Dafs auf des Kindes Unglük sie das Jammern</l>
+<l>Anständig nicht gehalten vor der Stadt,</l>
+<l>Und in den Zimmern drinn den Mägden sage,</l>
+<l>Dals sie des Hauses Klage klagen. Denn</l>
+<l>So ohne Rath ist sie nicht, dass sie fehlte.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Ich weiss nicht. Doch das allzugrofse Schweigen</l>
+<l>Scheint bei vergebnem Schreien mir bedeutend.</l>
+</sp>
+
+<sp><speaker>DER BOTE</speaker>
+<l>Lafs sehen uns, ob nicht Verhaltenes</l>
+
+<l>Geheim verberg' ihr schwellend Herz; hinein</l>
+
+
+
+<pb n="83"/>
+
+
+
+
+<l>Ins Haus gehn. Denn du redest wohl, es ist</l>
+
+<l>Bedeutend auch das ailzugrolse Schweigen.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Allein der König kommet selbst.</l>
+
+<l>Ein grofses Angedenken in Händen trägt er.</l>
+
+<l>Wenn’s Recht ist, es zu sagen, aus fremdem</l>
+
+<l>Irsaal nicht, sondern selber hat er gefehlt.</l>
+
+ <milestone unit="scene" n="Zweite Scene"/>
+<l>D Eılız Cr DO;:B, KREON.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Io! unsinnige Sinne!</l>
+<l>Harte Fehle!</l>
+<l>Tödtliche! O tödtend und</l>
+<l>Getödtet sehn wir Blutsfreunde.</l>
+<l>Io! mir! über meinen armen Rathschlägen.</l>
+
+<l>Io! Kind! Frühzeitig gestorben !</l>
+
+<pb n="84"/>
+
+
+
+
+<l>Weh! Weh! Weh!</l>
+<l>Gestorben bist du, geschieden ,</l>
+<l>Durch meine, nicht deine Thorheit.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>O mir, wie mufstest du so spät erst seh’n das Rechte.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Ich hab’s gelernet in Furcht. An meinem Haupt aber</l>
+<l>Ein Gott dort, dort mich</l>
+<l>Mit grolser Schwere gefalst</l>
+<l>Und geschlagen hat, und geschüttelt auf wilden Wegen.</l>
+<l>Ach! ach!</l>
+<l>Io! ihr Mühen der Menschen! ihr Mühsamen !</l>
+
+<milestone unit="scene" n="Dritte Scene"/>
+
+ <stage>DER BOTE. KREON. DER CHOR.</stage>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+<l>O Herr! wie hast du schon und wie empfängst (u.</l>
+
+<l>Das in den Händen trägst du, das. Unddasim Haufs’</l>
+
+<l>Auch das Unglük znsehen mufst du kommen.</l>
+
+
+
+<pb n="85"/>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Was ist denn schlimmer noch, als das, was schlimm ist?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+<l>Die Frau ist todt; ganz Mutter dieses Todten.</l>
+<l>Noch krümmt sie sich von neugeschlagnen Schlägen.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Io! Io! du schmuziger Hafen</l>
+
+<l>Der Unterwelt! was? mich nun? was? verderbest du mich?</l>
+
+<l>Io! der übelberichtet mir</l>
+
+<l>Hersandte das Unglük, führest solch Geschrei du?</l>
+
+<l>Weh! Weh! du hast zu Grunde den Mann gerichtet.</l>
+
+<l>Was sprichstdu, Kind ? was bringest dumir Neues?</l>
+
+<l>Weh! Weh! Weh!</l>
+
+<l>Geschlachtet an dem Boden liege</l>
+
+<l>Des Weibs Theil über allgemeinem Zerfalle.</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+<l>Du kannst es selın. Noch ist sie im Gemach nicht.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>O mir!</l>
+
+<l>Auch das Unglük, das zweite, seh’ ich Armer?</l>
+
+<l>Was nun noch? was erwartet mich ein Schiksaal?</l>
+
+<l>Ich hab’ in Händen eben da das Kind,</l>
+
+
+<pb n="86"/>
+
+<l>Ich Armer; sehe vor mir hier den Todten.</l>
+
+<l>Ach! ach! mühseel’ge Mutter! ach mein Kind!</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Wie ist sie scharfgetroffen, wie geschlachtet rings!</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Sie schlägt die schwarzen Augen auf. Was klagt sie?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+<l>Des ehgestorbenen Magareus rühmlich Bett.</l>
+
+<l>Dann hat geklaget sie um den, zulezt lobpries sie</l>
+
+<l>Die schlechten Thaten dir, dem Kindermörder.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Weh! Weh! Weh! Weh!</l>
+
+<l>Mich beflügelt die Furcht. Warum</l>
+
+<l>Hat nicht mich einer erschlagen</l>
+
+<l>Mit entgegengestelltem Schwert’?</l>
+
+<l>Ich Feiger! ach! ach!</l>
+
+<l>In feiger Noth gemenget.</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+<l>Da du die Schuld von dem und jenem trägst,</l>
+
+<l>So gieb Befehl auch wegen des Gestorbnen.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Was Art in Mord ward aber jen’ entbunden ?</l>
+
+
+
+<pb n="87"/>
+
+
+
+</sp>
+
+<sp><speaker>BOTE</speaker>
+<l>Sich selber auf die Leber schlug ste, da</l>
+<l>Des Kindes Leiden lautgeklagt an sie kan.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>O mir! mir! das gehöret keinem andern</l>
+<l>Der Menschen an. Mein ist die Schuld in diesem.</l>
+<l>Ich habe dich getödtet ich. Io! ihr Diener!</l>
+<l>Führt eilig mich hinweg! führt Schritt vor Schritt,</l>
+<l>Mich, der nun nichts mehr Anders ist, als Niemand.</l>
+
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Ist Vortheil noch im Unglük, trifst du Vortheil;</l>
+<l>Denn kurz ist vor den Fülsen grofses Uebel</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>O komm! o komm!</l>
+<l>Eischeine, meiner Verhängnisse schönstes,</l>
+<l>Den endlichen Tag mir bringend,</l>
+<l>Den lezten. Komm! o komme,</l>
+<l>Dass ich nicht mehr den andern Tag schaun muss!</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+<l>Diess kommt. Was aber thun, in dem, was da ist?</l>
+<l>Deun solches lieget uns ob, das uns angeht.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Was ich gesaget, eben, das hab’ ich gewünschet.</l>
+
+
+<pb n="88"/>
+
+
+</sp>
+
+<sp><speaker>BOTE</speaker>
+<l>Du mufst nichts wünschen. Vom zuvorgesezten</l>
+<l>Verlängnifs hat kein Sterblicher Befreiung.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+<l>Führt Schritt vor Schritt den eiteln Mann. Der ich</l>
+<l>Dich, Kind, doch gernenicht, getödtet, sieauch, sie;</l>
+<l>Ich Armer weiss nicht, wen ich ansehn soll,</l>
+<l>Und nicht, wohin ich gehe.</l>
+<l>Denn alles Schiefe hat</l>
+<l>Hier in den Händen und hier mir auf das Haupt</l>
+<l>Ein wüst Schiksaal gehäufet.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+<l>Um vieles ist das Denken mehr, denn</l>
+<l>Glükseeligkeit. Man muss, was Himmlischer ist, nicht</l>
+<l>Entheiligen. Grofse Blike aber</l>
+<l>Grofse Streiche der hohen Schultern Vergeltend,</l>
+
+<l>Sie haben im Alter gelehrt, zu denken.</l>
+
+
+
+
+
+</sp>
+
+
+</div>
+</body>
+</text>
+</TEI>
