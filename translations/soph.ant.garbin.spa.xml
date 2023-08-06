@@ -1,69 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="work" n="Ant.">Antigone</title>
-                <title type="sub">Machine readable text</title>
-                <author n="Soph.">Sophocles</author>
-                <editor role="translator">Richard Claverhouse Jebb</editor>
-                <sponsor>Perseus Project, Tufts University</sponsor>
-                <principal>Gregory Crane</principal>
-                <respStmt>
-                    <resp>Prepared under the supervision of</resp>
-                    <name>Gregory Crane</name>
-                </respStmt>
-                <funder>Tufts University</funder>
-            </titleStmt>
-            <extent>About 9000 words</extent>
-            <publicationStmt>
-                <publisher>Trustees of Tufts University</publisher>
-                <pubPlace>Medford, MA</pubPlace>
-                <authority>Perseus Project</authority>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>Sophocles</author>
-                        <title>The Tragedies of Sophocles: translated into English Prose</title>
-                        <imprint>
-                            <pubPlace>Cambridge, UK</pubPlace>
-                            <publisher>Cambridge University Press</publisher>
-                            <date>1904</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <refsDecl n="CTS">
-                <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
-                    <p>This pointer pattern extracts line</p>
-                </cRefPattern>
-             </refsDecl>
-            <!--<refsDecl n="CTS">
+<teiHeader xml:lang="eng">
+<fileDesc>
+<titleStmt>
+<title xml:lang="lat">La Antígona de Sofócles</title>
+<author xml:lang="lat">Sophocles</author>
+<editor role="translator">Antonio G. Garbin</editor>
+<funder>National Endowment for the Humanities</funder>
+<respStmt>
+<resp>Published original versions of the electronic texts</resp>
+<orgName ref="https://www.opengreekandlatin.org">Open Greek and Latin</orgName>
+<persName role="principal">Gregory Crane</persName>
+<persName role="principal">Leonard Muellner</persName>
+<persName role="principal">Bruce Robertson</persName>
+</respStmt>
 
-                <cRefPattern n="card" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-                    <p>This pointer pattern extracts cards</p>
-                </cRefPattern>
+<respStmt>
+<resp>Proofreading and CTS conversion</resp>
+<persName>Gregory Crane</persName>
+</respStmt>
+</titleStmt>
 
-            </refsDecl>-->
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="grc">Greek</language>
-            </langUsage>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021" who="GRC">Basic formatting.</change>
+<publicationStmt>
+<publisher>Open Greek and Latin</publisher>
+<idno type="filename">tlg0087.tlg002.1st1K-grc1.xml</idno>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a
+Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+</availability>
+<date>2023-08-05</date>
+</publicationStmt>
+
+
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title xml:lang="deu">La Antígona de Sofócles, la Apología de Sócrates, las Poetisas de Lesbos</title>
+<editor role="translator">Antionio G. Garbin</editor>
+<author xml:lang="grc">Sophocles</author>
+<imprint>
+<publisher>Juan Iniesta Impresor</publisher>
+<pubPlace>Madrid</pubPlace>
+<date>1889</date>
+</imprint>
+<biblScope unit="volume">2</biblScope>
+</monogr>
+<ref target="https://hdl.handle.net/2027/inu.30000009171616?urlappend=%3Bseq=123%3Bownerid=13510798896953817-147">Hathi
+Trust</ref>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+<quotation marks="none"/>
+<normalization>
+<p/>
+</normalization>
+<correction>
+<p>Original OCR by Tesseract 4.0.</p>
+</correction>
+</editorialDecl>
+
+<refsDecl n="CTS">
+<cRefPattern matchPattern="(\w+)" n="section" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+<p>This pointer pattern extracts sections.</p>
+</cRefPattern>
+</refsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="spa">Spanish</language>
+</langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change when="2023-08-05" who="Gregory Crane">Digital conversion and editing</change>
 </revisionDesc>
-    </teiHeader>
+</teiHeader>
 
-    <text xml:lang="grc">
-        <body>
-            <div type="edition" n="urn:cts:greekLit:tlg0011.tlg002.TBA" xml:lang="grc">
-
+<text>
+<body>
+<div type="translation" n="urn:cts:greekLit:tlg0011.tlg002.TBA" xml:lang="spa">
 
 <p>
 
