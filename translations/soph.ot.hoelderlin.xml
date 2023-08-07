@@ -1,0 +1,4388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="eng">
+<fileDesc>
+<titleStmt>
+<title xml:lang="lat">Oedipus der Tyrann</title>
+<author xml:lang="lat">Sophocles</author>
+<editor role="translator">Friedrich Hölderlin</editor>
+<funder>National Endowment for the Humanities</funder>
+<respStmt>
+<resp>Published original versions of the electronic texts</resp>
+<orgName ref="https://www.opengreekandlatin.org">Open Greek and Latin</orgName>
+<persName role="principal">Gregory Crane</persName>
+<persName role="principal">Leonard Muellner</persName>
+<persName role="principal">Bruce Robertson</persName>
+</respStmt>
+
+<respStmt>
+<resp>Proofreading and CTS conversion</resp>
+<persName>Gregory Crane</persName>
+</respStmt>
+</titleStmt>
+
+<publicationStmt>
+<publisher>Open Greek and Latin</publisher>
+<idno type="filename">tlg0087.tlg002.1st1K-grc1.xml</idno>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a
+ Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+</availability>
+<date>2023-08-05</date>
+</publicationStmt>
+
+
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title xml:lang="deu">Die Trauerspiele des Sophokles</title>
+<editor role="translator">Friedrich Hölderlin</editor>
+<author xml:lang="grc">Sophocles</author>
+<imprint>
+<publisher>Friedrich Wilmans</publisher>
+<pubPlace>Frankfurt am Main</pubPlace>
+<date>1804</date>
+</imprint>
+<biblScope unit="volume">2</biblScope>
+</monogr>
+<ref target="https://hdl.handle.net/2027/inu.30000009171616?urlappend=%3Bseq=123%3Bownerid=13510798896953817-147">Hathi
+ Trust</ref>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+<quotation marks="none"/>
+<normalization>
+<p/>
+</normalization>
+<correction>
+<p>Original OCR by Tesseract 4.0.</p>
+</correction>
+</editorialDecl>
+
+<refsDecl n="CTS">
+<cRefPattern matchPattern="(\w+)" n="section" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+<p>This pointer pattern extracts sections.</p>
+</cRefPattern>
+</refsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="deu">German</language>
+</langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change when="2023-08-05" who="Gregory Crane">Digital conversion and editing</change>
+</revisionDesc>
+</teiHeader>
+
+<text>
+<body>
+<div type="translation" n="urn:cts:greekLit:tlg0011.tlg002.TBA" xml:lang="deu">
+
+<pb n="3"/>
+
+<milestone unit="act" n="1"/>
+<milestone unit="act-scene" n="1.1"/>
+
+
+<stage>OEDIPUS EIN PRIESTER.</stage>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>O ihr des alten Kadmos Kinder, neu Geschlecht,</l>
+ <l>In welcher Stellung hier bestürmt ihr mich,</l>
+ <l>Ringsum gekränzt mit bittenden Gezweigen?</l>
+ <l>Auch ist die Stadt mit Opfern angefüllt,</l>
+ <l>Vom Päan und von seufzendem Gebet;</l>
+ <l>Das wollt’ ich nicht von andern Boten, Kinder,</l>
+ <l>Vernchmen, selber komm’ ich hieher, ich,</l>
+ <l>Mit Ruhm von allen Oedipus genannt.</l>
+ <l>Doch, Alter, rede! denn du bist geschikt,</l>
+ <l>Für die zu sprechen; welcher Weiser, steht</l>
+
+ <l>In Furcht ihr oder leidet schon? Ich will</l>
+
+
+<pb n="4"/>
+
+
+
+
+ <l>Für alles helfen. Fühllos wär ich ja,</l>
+
+ <l>Hätt’ ich vor solcher Stellung nicht Erbarmen.</l>
+</sp>
+
+<sp><speaker>DER PRIESTER</speaker>
+ <l>O Herrscher meines Landes, Oedipus!</l>
+
+ <l>Du siehest uns, wie viele niederliegen</l>
+
+ <l>An deinem Altar, diese, weit noch nicht</l>
+
+ <l>Zu fliegen stark, die anderen, die Priester,</l>
+
+ <l>Von Alterschwer. Ich bin des Zevs! Aus Jünglingen</l>
+
+ <l>Erwählt sind die. Das andere Gezweig</l>
+
+ <l>Häuft sich bekränzt auf Pläzen, bei der Pallas</l>
+
+ <l>Zweifachem Tempel, und des Ismenos</l>
+
+ <l>Weissagender Asche. Denn dieStadt, die du siehst,</l>
+
+ <l>Sehr wankt sie schon, und heben kann das Haupt</l>
+
+ <l>Vom Abgrund sie nicht mehr und rother Welle.</l>
+
+ <l>Sie merkt den Tod im Koth der fruchtbarn Erd’,</l>
+
+ <l>In Heerden und in ungeborener Geburt</l>
+
+ <l>Des Weibs; und Feuer bringt von innen</l>
+
+ <l>Der Gott der Pest und leert das Kadmos Haus;</l>
+
+ <l>Von Seufzern reich und Jammer wird die Hölle.</l>
+
+ <l>Nun acht ich zwar den Göttern dich nicht gleich,</l>
+
+ <l>Noch auch die Kinder hier, am Altar liegend,</l>
+
+ <l>Doch als den ersten in Begegnissen</l>
+
+ <l>Der Welt und auch in Einigkeit der Geister.</l>
+
+ <l>Du kamst und lösetest des Kadmos Stadt</l>
+
+
+<pb n="5"/>
+
+
+
+ <l>Vom Zolle, welchen wir der Sängerin,</l>
+
+ <l>Der Grausamen gebracht; und dass von uns</l>
+
+ <l>Nichts weiter wissend, noch belehrt; durch Gottes Ruf</l>
+
+ <l>Sagt man und denkt, du habst uns aufgerichtet.</l>
+
+ <l>Jezt aber auch, o Haupt des Oedipus!</l>
+
+ <l>Stark über alle, flehen wir dich an,</l>
+
+ <l>Demüthig, einen Schuz uns zu erfinden,</l>
+
+ <l>Habst du gehört von Göttern eine Stimme,</l>
+
+ <l>Habst dus von einem Manne, denn ich weiss,</l>
+
+ <l>Dalfs auch Verhängnisse sogar am meisten</l>
+
+ <l>Sich durch den Rath Erfahrener beleben.</l>
+
+ <l>Wolan, der Menschen Bester ! richte wieder auf</l>
+
+ <l>Die Stadt, wolan sei klug! Es nennt das Land</l>
+
+ <l>Den Retter dich vom alten wilden Sinne;</l>
+
+ <l>Zu wenig denkt man aber deiner Herrschaft,</l>
+
+ <l>Sind wir zurecht gestellt und fallen wieder.</l>
+
+ <l>Mit Vestigkeit errichte diese Stadt!</l>
+
+ <l>Denn herrschest du im Lande, wie du Kraft hast,</l>
+
+ <l>Ist schöner es von Männern voll, als leer.</l>
+
+ <l>Denn nichts ist weder Thurm noch Schiff allein,</l>
+ <l>Wenn Männer drinnen nicht zusammen wohnen.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>O Kinder arm, bekanntes, unbekannt nicht,</l>
+
+
+<pb n="6"/>
+
+
+
+
+ <l>Kommt ihr begehrend. Denn ich weiss es wohl,</l>
+
+ <l>All seid ihr krank, undso, dass euer keiner</l>
+
+ <l>Krank ist, wie ich. Denn euer Leiden kommt</l>
+
+ <l>Auf einen, der allein ist bei ihm selber,</l>
+
+ <l>Auf keinen andern nicht. Und meine Seele</l>
+
+ <l>Beklagt die Stadt zugleich und mich und dich,</l>
+
+ <l>Und nicht vom Schlafe wekt ihr schlafend mich ;</l>
+
+ <l>Ihr wisset aber, dass ich viel geweint,</l>
+
+ <l>Viel Sorgenweg’ auf Irren bin gekommen.</l>
+
+ <l>Was aber wohl erforschend ich erfand,</l>
+
+ <l>Ich hab es ausgeführt, das eine Mittel.</l>
+
+ <l>Den Sohn Nenökeus, Kraon, meinen Schwager,</l>
+
+ <l>Sandt’ich zu Phöbos Häusern, zu den Pythischen,</l>
+
+ <l>Damit er schauen möge, was ich thun,</l>
+
+ <l>Was sagen soll, um diese Stadt zn retten.</l>
+
+ <l>Und schon macht Sorge mir, durchmessen von der Zeit</l>
+
+ <l>Der Tag, was er wohlthut. Denn mehr, alsschiklich,</l>
+
+ <l>Bleibt aus er über die gewohnte Zeit.</l>
+
+ <l>Doch wenn er kommt, dann wär ich böse, thätich</l>
+
+ <l>Nicht alles, was uns offenbart der Gott.</l>
+</sp>
+
+<sp><speaker>DER PRIESTER</speaker>
+ <l>Zum Schönen sprachest du, und eben sagen</l>
+
+ <l>Des Kreons Ankunft diese da mir an,</l>
+
+
+<pb n="7"/>
+
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>O König Apollon! trift er nemlich hier ein,</l>
+ <l>Mag glänzender mit Rettersauge kommen.</l>
+</sp>
+
+<sp><speaker>DER PRIESTER</speaker>
+ <l>Er scheint jedoch vergnügt; er käme sonst nicht</l>
+
+ <l>So vollgekrönt vom Baum der Bäume, demLorbeer.</l>
+</sp>
+
+<milestone unit="act-scene" n="1.2"/>
+
+<stage>OEDIPUS. DER PRIESTER. KREON.</stage>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Gleich wissen wirs. Nah ist er, dass man hört.</l>
+
+ <l>O König, meine Sorge, Sohn Menökeus,</l>
+
+ <l>Welch eine Stimme bringst du von dem Gotte?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Die rechte. Denn ich sag’, auch schlimmes, wenn</l>
+
+ <l>Es’recht hinausgeht, überall ists glüklich.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Was für ein Wort ists aber, Weder kühn,</l>
+
+ <l>Noch auch vorsichtig macht mich diese Rede.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Willst du es hören hier, wo die umherstehn ?</l>
+
+<pb n="8"/>
+
+
+
+
+ <l>Bereit bin ich, zu reden, oder mitzugehn.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Vor allen sag’ es, denn für diese trag’</l>
+ <l>Ich mehr die Last, als meiner Seele wegen.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Mög? ich denn sagen, was vom Gott ich hörte.</l>
+ <l>Geboten hat uns Phöbos klar, der König,</l>
+ <l>Man soll des Landes Schmach, auf diesem Grund genährt,</l>
+ <l>Verfolgen, nicht Unheilbares ernähren.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Durch welche Reinigung? welch Unglük ists?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Verbannen sollen, oder Mord mit Mord</l>
+ <l>Ausrichten wir, solch Blut reg’ auf die Städt.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Und welchem Mann bedeutet er diess Schiksaal?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Uns war, o König! Lajos vormals Herr</l>
+
+ <l>In diesem Land’, eh’ du die Stadt gelenket.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ich weiss es, habs gehört, nicht wohl gesehn.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Da der gestorben, will er deutlich nun,</l>
+
+
+
+<pb n="9"/>
+
+
+
+ <l>Dafs man mit Händen strafe jene Mörder.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Doch wo zu Land sind die? wo findet man</l>
+ <l>Die zeichenlose Spur der alten Schuld?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>In diesem Lande, sagt er. Was gesuchet wird,</l>
+ <l>Das fängt man. Es entflieht, was übersehn wird.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Fällt in den Häusern oder draufsen Lajos?</l>
+ <l>Fällt er in fremden Land in diesem Morde?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Gott anzuschauen, gieng er aus, so hiels es,</l>
+ <l>Nicht kehrt” er in das Haus, wie er gesandt war.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Sahs nicht ein Bote oder ein Begleiter,</l>
+ <l>Von dem es einer hört’ und forschete?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Todt sind sie. Einer nur, der floh aus Furcht,</l>
+ <l>Wufst’ eins von dem zu sagen, was er wulste.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Und was? denn Eins giebt vieles, zu erfahren,</l>
+ <l>Wenn kleinen Anfang es empfängt von Hoffnung.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Ihn hätten Räuber angefallen, sagt er,</l>
+
+
+<pb n="10"/>
+
+
+ <l>Nicht eine Kraft, zu tödten, viele Hände.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wie konnt’ er nun, wenn es um Silber nicht</l>
+
+ <l>Der Räuber that, in solche Frechheit eingehn ?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Wohl, dennoch war, als Lajos umgekommen,</l>
+
+ <l>Nicht einer, der zu helfen kam im Uebel.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Welch Uebel hindert es, da so die Herrschaft</l>
+
+ <l>Gefallen war, und wehrte nachzuforschen ?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Uns trieb die sängereiche Sphinx, da wirs gehört,</l>
+
+ <l>Das Dunkle, was zu lösen war, zu forschen.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Von Anbeginn will aber ichs beleuchten.</l>
+
+ <l>Denn treffend hat Apollo, treffend du</l>
+
+ <l>Bestimmet diese Rache dem Gestorbnen ;</l>
+
+ <l>Dafs offenbar als Waffenbruder ihn</l>
+
+<l>Auch mich sehn werdet, Rächer dieses Lands,</l>
+
+ <l>Des Gottes auch. Nicht fremder Lieben wegen,</l>
+
+ <l>Selbst, mir zu lieb, vertreib’ ich solchen Abscheu.</l>
+
+ <l>Denn welcher jene tödtete , wohl möchıt’ er</l>
+
+ <l>Auch mich ermorden mit derselben Hand.</l>
+
+ <l>Indem ich jenem diene, nüz’ ich mir.</l>
+
+
+
+<pb n="11"/>
+
+
+
+
+ <l>Doch, Kinder, schnell steht von den Stuffen auf,</l>
+ <l>Und nehmet hier die bittenden Gezweige.</l>
+ <l>Ein andrer sammle Kadmos Volk hicher.</l>
+ <l>Denn alles werd’ ich thun, entweder glüklich</l>
+ <l>Erscheinen mit dem Gott wir oder stürzen.</l>
+
+ <l>DIE PRIESTER.</l>
+ <l>O Kinder! stehn wir auf. Denn darum kamen</l>
+ <l>Wir hieher auch, wefswegen diess gesagt ward.</l>
+ <l>Und der gesandt die Prophezeiungen,</l>
+ <l>Als Retter komm’ und Arzt der Krankheit Phöbos.</l>
+
+<stage>(sie gehen ab.)</stage>
+</sp>
+
+<sp><speaker>CHOR der Thehanischen Alten.</speaker>
+ <l>O du von Zevs hold redendes Wort, was bist du für uns wohl</l>
+ <l>Von der goldereichen Pytho</l>
+ <l>Zu der glänzenden gekommen, zu Thebe?</l>
+ <l>Weit bin ich gespannt im furchtsamen Sinne,</l>
+ <l>Von Aengsten taumelnd.</l>
+ <l>Klagender, delischer Päan,</l>
+ <l>Ringsum dich fürchtend,</l>
+
+ <l>Wirst du ein neues, oder, wiederkehrend</l>
+
+<pb n="12"/>
+
+
+
+ <l>Nach rollenden Stunden, mir vollenden ein Verhängnifs ?</l>
+
+ <l>Sags mir, der goldenen Kind,</l>
+
+ <l>Der Hoffnung, du, unsterbliche Sage!</l>
+
+ <l>Zuerst dich nennend komm’ ich,</l>
+
+ <l>Zevs Tochter, unsterbliche Athene,</l>
+
+ <l>Und den Erdumfassenden, und</l>
+
+ <l>Die Schwester Artemis, die</l>
+
+ <l>Den kreisenden, der Agora Thron,</l>
+
+ <l>Den rühmlichen besizet,</l>
+
+ <l>Und den Phöbos fernhin treffend. Jo! Jo!</l>
+ <l>Ihr drei todtwehrenden! Erscheinet mir!</l>
+ <l>Wenn vormals auch, in vergangener Irre,</l>
+ <l>Die hergestürzt war über die Stadt,</l>
+ <l>Vertrieben ihr die Flamme des Uebels,</l>
+
+ <l>So kommet auch jezt, ihr Götter!</l>
+
+ <l>Unzählich nemlich trag ich Uebel,</l>
+
+ <l>Und krank ist mir das ganze Volk.</l>
+
+ <l>Nicht einem blieb der Sorge Speer,</l>
+
+ <l>Von welchem einer beschüzt wird. Nocherwachsen</l>
+ <l>Die Sprossen des rühmlichen Lands,</l>
+
+ <l>Noch halten für die Geburt</l>
+
+
+
+<pb n="13"/>
+
+
+ <l>Die kläglichen Mühen aus</l>
+
+ <l>Die Weiber. Einen aber über</l>
+
+ <l>Den andern kannst du sehn,</l>
+
+ <l>Wie wohlgeflügelte Vögel</l>
+
+ <l>Und stärker, denn unaufhaltsames Feuer</l>
+ <l>Sich erheben zum Ufer des abendlichen</l>
+ <l>Gottes, wodurch zahllos die Stadt</l>
+ <l>Vergeht. Die armen aler, die Kinder,</l>
+ <l>Am Felde tödtlich liegen</l>
+
+ <l>Sie unbetrauert. Aber drinn die grauen</l>
+ <l>Fraun und die Mütter</l>
+
+ <l>Das Ufer des Altars, anderswoher</l>
+
+ <l>Andre die grausamen Mühn</l>
+
+ <l>Abbüssend umseufzen,</l>
+
+ <l>Und der Päan glänzt und die seufzende Stimme Mitwohnend.</l>
+
+ <l>Darum o goldene</l>
+ <l>Tochter Zevs, gutblikende, sende</l>
+ <l>Stärke. Und den Ares, den reissenden, der</l>
+ <l>Jezt, ohne den ehernen Schild</l>
+ <l>Mir brennend, der verrufne, begegnet,</l>
+ <l>Das rükgängige Wesen treibe zurük</l>
+
+ <l>Vom Vaterlande, ohne Feuer, entweder ins grosse</l>
+
+<pb n="14"/>
+
+
+ <l>Bett Amphitrites oder</l>
+
+ <l>In den unwirtlichen Hafen,</l>
+
+ <l>In die Thrazische Welle.</l>
+
+ <l>Amı Ende nemlich, wenn die Nacht gehet,</l>
+
+ <l>Herein ein solcher Tag kommt.</l>
+
+ <l>Ihn dann, o du der richtet von zündenden Wetterstralen</l>
+
+ <l>Die Kräfte, Jupiter! Vater! unter deinem</l>
+
+ <l>Verderb’ ihn, unter dem Bliz!</l>
+
+ <l>Lycischer König, die deinen auch, vom heiligfalschen</l>
+
+ <l>Bogen möcht’ ich. die Pfeile</l>
+
+ <l>Die Ungebundensten austheilen,</l>
+
+ <l>Wie Gesellen, zugeordnet!</l>
+
+ <l>Und den zündenden, ihn, der Artemis Schein,</l>
+
+ <l>Womit sie springt durch Lycische Berge!</l>
+
+ <l>Auch ihn nenn’ ich, benannt nach diesem Lande</l>
+
+ <l>Den berauschten Bacchus, den Evier,</l>
+
+ <l>Mit Mänaden vereinsamt; dieser komnie,</l>
+
+ <l>Mit der glänzend scheinenden Fakel brennend,</l>
+
+ <l>Auf ihn, der ehrlos ist vor Göttern, den Gott!</l>
+</sp>
+
+
+
+
+<pb n="15"/>
+
+
+<milestone unit="act" n="2"/>
+<milestone unit="act-scene" n="1"/>
+
+
+ <stage>OEDIPUS, DER CHOR.</stage>
+<sp><speaker>OEDIPUS</speaker>
+ <l>Du bittest, wie du bittest, willst von mir du</l>
+
+ <l>Zum Ohr die Worte nelımen und der Krankheit weichen.</l>
+
+ <l>Kraft sollst du haben und Erleichterung</l>
+
+ <l>Des Uebels. Forschen will ich, bin ich gleich</l>
+
+ <l>Fremd in der Sache, fremder noch im Vorgang.</l>
+
+ <l>Nicht weil hätt ich geforscht , hätt ich kein Zeichen.</l>
+
+ <l>Nun aber komm’, ein später Bürger, ich</l>
+
+ <l>Den Bürgern, rufauch, allen Kadmiern,</l>
+
+ <l>Wer unter euch den Sohn des Labdakos</l>
+
+ <l>Lajos gekannt. Durch wen er umgekommen,</l>
+
+ <l>Dem sag’ ich, dass ers all anzeige mir,</l>
+
+ <l>Und wenn die Klag’ er fürchtet, giebt ers selbstan.</l>
+
+ <l>So wird unsanft er anders nicht erleiden.</l>
+
+<pb n="16"/>
+
+
+
+ <l>Vom Lande geht er unbeschädiget.</l>
+
+ <l>Wenn aber einen andern einer weiss,</l>
+
+ <l>Von andrem Land, er schweige nicht den Thäter;</l>
+ <l>Denn den Gewinn vollbring’ ich, und der Dank</l>
+ <l>Wird auch dabei seyn; wenn ihr aber schweigt,</l>
+ <l>Und fürchtend für den Lieben oder sich</l>
+
+ <l>Es einer wegschiebt, was ich darinn thue,</l>
+
+ <l>Das hört von mir. Um dieses Mannes willen</l>
+ <l>Fluch ich (wer er auch sei im Lande hier,</l>
+
+ <l>Von dem die Kraft und Thronen ich verwalte)</l>
+ <l>Nicht leiden soll man, noch ansprechen ihn</l>
+
+ <l>Zu göttlichen Gelübden nicht, und nicht</l>
+
+ <l>Ihn nehmen zu den Opfern, noch dieHände waschen,</l>
+ <l>Soll überall vom Haus ihn treiben, denn es ist</l>
+ <l>Ein Schandflek solches uns. Er zeiget diess</l>
+
+ <l>Der Götterspruch, der Pythische mir deutlich.</l>
+ <l>So bin ich nun mit diesem Dämon und</l>
+
+ <l>Dem todten Mann ein Waffenbruder worden.</l>
+
+ <l>Ich wünsche, ders gethan, sei einer nur</l>
+ <l>Verborgen, seis mit mehreren, er soll</l>
+
+ <l>Abnüzen schlimm ein schlimm unschiklich Leben;</l>
+ <l>Wünsch auch, wenn der von meinem eignen Haus’</l>
+ <l>Ein Tischgenofs er ist und ich weiss darum,</l>
+
+ <l>Zu leiden, was ich diesem hier geflucht.</l>
+
+
+
+<pb n="17"/>
+
+
+ <l>Doch euch befehl’ ich dieses all zu thun</l>
+
+ <l>Von meinet und des Gotts und Landes wegen,</l>
+
+ <l>Das fruchtlos so und götterlos vergehet.</l>
+
+ <l>Nicht, wär’ auch nicht von Gott bestimmt dieRache,</l>
+
+ <l>War billig es, so unrein euch zu lassen,</l>
+
+ <l>Da umgekommen ist der beste Mann, der Fürst,</l>
+
+ <l>Hingegen zu erforschen. Aber jezt hab’ ich</l>
+
+ <l>Erlangt die Herrschaft, die zuvor er hatt’,</l>
+
+ <l>Erlangt das Bett und das gemeinsame</l>
+
+ <l>Gemahl und Kinder auch, wenn das Geschlecht</l>
+
+ <l>Ihm nicht verunglükt wäre, wären uns</l>
+
+ <l>Gemein ; doch traf das Schiksaal jenes Haupt.</l>
+
+ <l>Für das, als wär’s mein Vater, will ich streiten,</l>
+
+ <l>Auf alles kommen, greifich einst den Mörder,</l>
+
+ <l>Zu Lieb des Labdakos und Polydoros Sohn’</l>
+
+ <l>Und alten Kadmos, der vormals regiert.</l>
+
+ <l>Und die diess nicht thun, über diese bet’ ich,</l>
+
+ <l>Zu Göttern, dass sie nicht ein Land, zu pflügen,</l>
+
+ <l>Noch Kinder ihnen gönnen von den Weibern,</l>
+
+ <l>Dafs sie vergehn durch solch Geschik und schlimmers.</l>
+
+ <l>Doch uns, den andern Kadmiern , denen diess</l>
+
+ <l>Gefället, die im Falle Waffenbrüder,</l>
+
+ <l>Allzeit sei’n wohl mit euch die Götter alle.</l>
+
+
+<pb n="18"/>
+
+
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Da du im Fluche mich anfassest, König, red’</l>
+
+ <l>Ich so, nicht mordet’ ich, nein! nicht kann ich</l>
+ <l>Den Mörder zeigen. Sucht man aber nach,</l>
+ <l>Mufs Phöbos Botschaft sagen, wers gethan hat.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Recht sprachest du. Doch nöthigen die Götter,</l>
+ <l>Wo sie nicht wollen, kann nicht ein Mann, auch nicht Einer.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Das zweite möcht’ ich sagen, das mir dünkt.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ein drittes anch, versäums nicht, dalsdu schwiegest.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Am wenigsten weiss hierinn vom König Phöbos</l>
+ <l>Tiresias der König, wenn den einer fragt’,</l>
+ <l>Am deutlichsten, o König! könnt’ ers hören.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Nicht hab’ ich diess, wie Träge, diess auch nicht</l>
+ <l>Versucht. Ich sandt, auf Kreons Rath, zwei Boten,</l>
+ <l>Und lang schon wundert man sich, dafser ausbleibt.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Auch sind die andern längst umsonst die Worte.</l>
+
+
+<pb n="19"/>
+
+
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wie sind sie diess? denn alle Worte späh’ ich.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Man sagt, er sei von Wanderern getödtet.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ich hört’ es auch, doch den sieht niemand, ders gesehn.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Doch wenn von Furcht er mit sich einen Theil hat,</l>
+ <l>Und deinen hört, er hält nicht solchen Fluch aus.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Der, wenn ers thut, nicht Scheu hat, scheut das</l>
+
+ <l>Wort nicht.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Doch einer ist, der prüft ihn. Diese bringen</l>
+ <l>Den göttlichen, den Seher schon daher,</l>
+
+ <l>Der Wahrheit inne hat allein von Menschen.</l>
+</sp>
+
+
+
+<pb n="20"/>
+
+<milestone unit="act-scene" n="1.2"/>
+
+<stage>OEDIPUS DER CHOR. TIRESIAS.</stage>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>O der du alles bedenkst, Tiresias!</l>
+
+ <l>Gesagtes, ungesagtes, himmlisches und was</l>
+
+ <l>AufErden wandelt. Siehst du auch die Stadt nicht,</l>
+
+ <l>So weist du doch, in welcher Krankheit sie</l>
+
+ <l>Begriffen ist. Von ihr, als ersten Retter,</l>
+
+ <l>O König, finden wir allein dich aus.</l>
+
+ <l>Denn Phöbos, wenn du gleich nicht hörst die Boten,</l>
+
+ <l>Entgegnete die Botschaft unsrer Botschaft,</l>
+
+ <l>Es komm allein von dieser Krankheit Rettung,</l>
+
+ <l>Wenn wir die Mörder Lajos, wohl erforschend</l>
+
+ <l>Umbrächten oder landesflüchtig machten.</l>
+
+ <l>Du aber neide nun die Sage nicht von Vögeln,</l>
+
+ <l>Zu lösen dich, die Stadt, auch mich zu lösen,</l>
+
+ <l>Zu lösen auch die ganze Schmach des Todten.</l>
+
+ <l>Dein nemlich sind wir. Und dass nüz’ ein Mann,</l>
+
+ <l>So viel er hat und kann, ist schönste Mühe.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Ach! ach! wie schwer ist Wissen, wo es unnüz</l>
+
+ <l>Dem Wissenden. Denn weilich wohl es weiß,</l>
+
+ <l>Bin ich verloren; nicht wär’ ich gekommen!</l>
+
+
+
+<pb n="21"/>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Was ist's, dass du so muthlos aufgetreten?</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Lafs mich nach Haus. Am besten wirst du deines,</l>
+
+ <l>Ich meines treiben, bifs du mir gefolgt.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Nicht recht hast du geredt,, noch liebes für die Stadt,</l>
+
+ <l>Die dich genährt, entziehend diese Sage.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Ich sehe nemlich zu, wie dirauch, was du sagst,</l>
+ <l>Nicht recht geht, um nicht gleiches zu erfahren.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Bei Göttern nicht! sei’s mit Bedacht auch! kehre</l>
+
+ <l>Nicht um! denn all knien flehend wir vor dir.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Denn alle seid ihr sinnlos. Aber dass ich nicht</l>
+
+ <l>Das meine sage! nicht dein Uebel künde!</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Was sagst du, sprichst du nicht, wenn du es weist,</l>
+
+<l>Willst du verrathen uns, die Stadt verderben?</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Ich sorg’ um mich, nicht dich; du kannst im Grund</l>
+ <l>Nicht tadeln diess. Du folgtest mir ja doch nicht!</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Sprichst du der schlimmen schlimmster (denn dubist</l>
+
+
+<pb n="22"/>
+
+
+
+
+ <l>Nach Felsenart gemacht) einmal heraus?</l>
+ <l>Erscheinst so farblos du, so unerbittlich?</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Den Zorn hast du getadelt mir. Den deinen,</l>
+ <l>Der beiwohnt, siehst du nicht, mich aber schiltst du.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wer sollte denn nicht solchem Worte zürnen,</l>
+ <l>Mit welchem du entehrest diese Stadt?</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Eskommetdoch, geh’ich auch wegmit Schweigen.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Mit nichten kommt es! sagen must dus mir!</l>
+</sp>
+
+<sp><speaker>TIRESTAS</speaker>
+ <l>Nicht weiter red’ ich. Zürne, wenn du willst,</l>
+ <l>Darob mit Zorn, der nur am wildsten ist.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>O ja! ich werde nichts, wie auch der Zorn seyn mag,</l>
+ <l>Weglassen , was ich weiss. Verdächtig bist du mir,</l>
+ <l>Mit angelegt das Werk zu haben und gewirkt,</l>
+ <l>Nur nicht mit Händen mordend; wärst du sehend,</l>
+ <l>Das Werk auch, sagt’ ich, sei von dir allein.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>In Wahrheit! Ich bestätig’ es, du bleibst</l>
+
+ <l>Im Tone, wo duanfıengst, redest noch</l>
+
+
+
+<pb n="23"/>
+
+
+
+
+ <l>Auf diesen Tag zu diesen nicht, zu mir nicht,</l>
+ <l>Du sprichst mit dem, der unsrem Land’ ein Flek ist,</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>So schaamlos wirfst du dieses Wort heraus?</l>
+ <l>Und glaubest wohl, nun wieder dich zu sichern?</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Gesichert bin ich, nähr’ ein Kräftigwahres.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Vonwem belehrt? denn nicht aus deiner Kunst ists.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Von dir. Du zwangst mich wider Willen zu reden.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Und welch Wort? wiederhols, dass ich es besser weiss.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Weist dus nicht längst? und reden zu Versuch wir?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Nichts, was man längst weiss, wiederhols!</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Des Manns Mord, den du suchst, ich sag’, auf dich da fällt er.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Mit Lust jedoch nicht, zweifach mifslich sprichst du.</l>
+
+
+<pb n="24"/>
+
+
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Sag’ ich noch anders nun, damit du mehr zürnst.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wie viel du willst! vergebens wirds gesagt seyn!</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Ganz schändlich, sag’ ich, lebst du mit den Liebsten</l>
+
+ <l>Geheim, weifst nicht, woran du bist im Unglük.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Glaubst du allzeit frohlokend diess zu sagen?</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Wenn irgend etwas nur der Wahrheit Macht gilt.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Sie gilt, bei dir nicht, dir gehört diess nicht,</l>
+
+ <l>Blind bist an Ohren du, an Muth und Augen.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Elend bist aber du, duschiltst, da keiner,</l>
+
+ <l>Der bald nicht so wird schelten gegen dich.</l>
+</sp>
+
+<sp><speaker>OEDJIPUS</speaker>
+ <l>Der lezten Nacht genährt bist du, mich nimmer,</l>
+
+ <l>Nicht einen andern siehst du, der das Licht sieht.</l>
+ <l>TRRES IA: S.</l>
+ <l>Vor dir zu fallen, ist mein Schiksaal nicht,</l>
+
+ <l>Apollo bürgt, der diess zu enden denket.</l>
+
+
+<pb n="25"/>
+
+
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Sind Kreons oder sind von dir die Worte?</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Kreon ist dir kein Schade, sondern du bists.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>O Reichthum, Herrschaft, Kunst, die Kunst:</l>
+ <l>Im eiferreichen Leben übertreffend !</l>
+ <l>Wie grofs ist nicht der Neid, den ihr bewachet!</l>
+ <l>Wenn dieser Herrschaft wegen, die die Stadt mir</l>
+ <l>Gegeben, ungefodert anvertraut hat,</l>
+ <l>Kreon von der, der treue, lieb von je,</l>
+ <l>Geheim anfallend mich zu treiben strebet ?</l>
+ <l>Bestellend diesen listgen Zauberer,</l>
+ <l>Den trügerischen, bettelhaften, der Gewinn</l>
+ <l>Nur ansieht, aber blind an Kunst geboren.</l>
+ <l>Denn siehe, sag’, ob du ein Seher weise bist?</l>
+ <l>Was sangst du nicht, als hier die Sängerin war,</l>
+ <l>Die hündische, ein Löselied den Bürgern?</l>
+ <l>Obgleich das Räthsel nicht für jeden Mann</l>
+ <l>Zu lösen war und Seherkunst bedurfte,</l>
+ <l>Die weder du von Vögeln als Geschenk</l>
+ <l>Herabgebracht, noch von der Götter einem.</l>
+ <l>Doch ich, der ungelehrte Oedipus,</l>
+
+ <l>Da ich dazu gekommen, schwaigte sie,</l>
+
+
+<pb n="26"/>
+
+
+ <l>Fa 26 —</l>
+
+ <l>Mit dem Verstand es treffend, nicht gelehrt</l>
+
+ <l>Von Vögeln. Auszustossen denkst du</l>
+
+ <l>Den, meinest nah an Kreons Thron zu kommen.</l>
+
+ <l>Mit Thränen wirst du, wie mir dünkt, und ders</l>
+
+ <l>Zusammen spann, es büssen. Wärst dualt nicht,</l>
+
+ <l>Du würdest leidend fühlen, wie du denkst.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Es scheinen uns zugleich von dem die Worte</l>
+
+ <l>Im Zorn gesagt und deine, Oedipus.</l>
+
+ <l>Doch diess bedarfs nicht, wie des Gottes Spruch</l>
+
+ <l>Am besten sei zu lösen, ist zu sehn.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Bist du noch eigenmächtig, mufs ein Gleiches</l>
+
+ <l>Ich dir erwiedern. Hierinn hab’ ich auch Macht.</l>
+
+ <l>Nicht dir leb’ ich ein Knecht, dem Loxias,</l>
+
+ <l>Nicht unter Kreon werd’ ich eingeschrieben.</l>
+
+ <l>Ich sage aber, da mich Blinden du auch schaltst,</l>
+
+ <l>Gesehen hast auch du, siehst nicht, woran du bist,</l>
+
+ <l>Im Uebel, wo du wohnst, womit du haussest.</l>
+
+ <l>Weist du, woher du bist? du bist geheim</l>
+
+ <l>Verhafst den Deinen, die hier unten sind,</l>
+
+ <l>Und oben auf der Erd’, und ringsum treffend</l>
+
+ <l>Vertreibet von der Mutter und vom Vater</l>
+
+ <l>Dich aus dem Land der Fluch gewaltig wandelnd.</l>
+
+
+
+<pb n="27"/>
+
+
+
+ <l>Jezt sehend wohl, hernach in Finsternifs;</l>
+
+ <l>Und deines Geschreies, welcher Hafen wird</l>
+
+ <l>Nicht voll seyn, welcher Kithäron nicht mitrufen bald?</l>
+
+ <l>Fühlst du die Hochzeit, wie du landetest</l>
+
+ <l>Auf guter Schiffahrt an der Uferlosen?</l>
+
+ <l>Der andern Uebel Menge fühlst du auch nicht,</l>
+
+ <l>Die dich zugleich und deine Kinder treffen.</l>
+
+ <l>Nun schimpfe noch auf Kreon und auch mir</l>
+
+ <l>Ins Angesicht, denn schlimmer ist, als du,</l>
+
+ <l>Kein Sterblicher, der jemals wird gezeugt seyn.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ist wohl von dem zu hören diess erduldbar?</l>
+
+ <l>Gehst du zu Grund nicht plözlich? wendest nicht</l>
+
+ <l>DenRüken hier dem Haus und kehrst und gehest ?</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Nicht wär’ ich hergekommen, riefst du nicht.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wohl wufst’ ich nicht, du würdest tolles reden,</l>
+ <l>Sonst hätt’ ich nicht dich her ins Haus geholt,</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Wir sind also geboren, wie du meinst,</l>
+
+ <l>Toll, Eines Sinns, den Eltern, die dich zeugten.</l>
+
+<pb n="28"/>
+
+
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Und welchen? Bleib ! wer zeugt mich unter Menschen?</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Der Tag, der! wird dich zeugen und verderben.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wie sagst du alles räthselhaft und dunkel!</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Dennoch glükt dir nicht sehr, derlei zu lösen.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Schilt das, worinn du wirst mich grofls erfinden.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Es hat dich freilich diess Geschik veredelt.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Doch rettet’ ich die Stadt, so acht’ ichs nicht.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Ich geh’ also. Du Knabe führe mich !</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Er mag dich führen, wenn du so dabei bist,</l>
+
+ <l>Du möchtest vollends noch das Elend häuffen.</l>
+</sp>
+
+<sp><speaker>TIRESIAS</speaker>
+ <l>Ich habs gesagt, ich geh, um defs, warum ich kam,</l>
+
+ <l>Dein Angesicht nicht fürchtend. Nichts ist, wo du mich</l>
+
+
+
+<pb n="29"/>
+
+
+ <l>Verderbest, sage aber dir, der Mann, den längst</l>
+ <l>Du suchest, drohend und verkündigend den Mord</l>
+ <l>DesLajos, der ist hier, als Fremder, nach der Rede,</l>
+ <l>Wohnt er mit uns, doch bald als Eingeborner,</l>
+ <l>Kund wird er als Thebaner seyn, und nicht</l>
+
+ <l>Sich freun am Unfall. Blind aus Sehendem,</l>
+
+ <l>Und arm, statt reich, wird erin fremdes Land</l>
+ <l>Vordeutend mit dem Zepter wandern müssen.</l>
+ <l>Kundwirder aberseyn, beiseinen Kindern wohnend</l>
+ <l>Als Bruder und als Vater und vom Weib, das ılın</l>
+ <l>Gebahr, Sohn und Gemahl, in Einem Bette mit</l>
+ <l>Dem Vater und sein Mörder; gehhinein! bedenks!</l>
+ <l>Und findest du als Lügner mich, so sage,</l>
+
+ <l>Dafs ich die Seherkunst jezt sinnlos treibe.</l>
+
+<stage>(sie gehen ab.)</stage>
+</sp>
+
+<sp><speaker>CHOR der Thebanischen Alte.</speaker>
+ <l>Wer ists, von welchem prophezeiend</l>
+ <l>Gesprochen hat der delphische Fels,</l>
+ <l>Als hab’ Unsäglichstes</l>
+
+ <l>Vollendet er mit blutigen Händen?</l>
+
+ <l>Es kommet die Stunde, da kräftiger er,</l>
+
+ <l>Denn sturmgleich wandelnde Rosse, muls</l>
+
+
+<pb n="30"/> 
+
+ <l>Zu der Flucht die Fülse bewegen.</l>
+
+ <l>Denn gewaffnet auf ihn stürzt</l>
+
+ <l>Mit Feuer und Wetterstral</l>
+
+ <l>Zevs Sohn, und gewaltig kommen zugleich</l>
+
+ <l>Die unerbittlichen Parzen.</l>
+
+ <l>Geglänzt hat nemlich vom</l>
+
+ <l>Schneeweissen , eben erschienen</l>
+
+ <l>Ist von Parnassos die Sage,</l>
+
+ <l>Der verborgene Mann sei überall zu erforschen</l>
+ <l>Denn er irret unter wildem Wald</l>
+
+ <l>In Höhlen und Felsen, dem Stier gleich,</l>
+
+ <l>Der Unglükliche mit Unglüksfüssen , verwaist,</l>
+ <l>Die Prophezeiungen flieht er</l>
+
+ <l>Die, aus der Mitte der Erd’,</l>
+
+ <l>Allzeit lebendig fliegen umher.</l>
+
+ <l>Gewaltiges regt, gewaltiges auf</l>
+
+ <l>Der weise Vogeldeuter;</l>
+
+ <l>Das weder klar ist, noch sich läugnet,</l>
+ <l>Und was ich sagen soll, ich weiss nicht,</l>
+ <l>Flieg aber in Hoffnungen auf,</l>
+
+ <l>Nicht hieher schauend, noch rükwärts.</l>
+
+ <l>Denn was ein Streit ist zwischen</l>
+
+
+
+<pb n="31"/>
+
+
+ <l>Den Labdakiden und Polybos Sohn,</l>
+ <l>Nicht vormals hab’ ichs</l>
+
+ <l>Gewulfst, noch weiss ich jezt auch,</l>
+ <l>In welcher Prüfung</l>
+
+ <l>Ich begegne</l>
+
+ <l>Der fremden Sage von Oedipus</l>
+
+ <l>Den Labdakiden ein Helfer</l>
+
+ <l>Im verborgenen Tode?</l>
+
+ <l>Zevs aber und Apollon</l>
+
+ <l>Sind weis’ und kennen die Sterblichen.</l>
+ <l>Dafs aber unter Männern</l>
+
+ <l>Ein Seher mehr ist geachtet, denn ich,</l>
+ <l>Ist nicht ein wahres Urtheil.</l>
+
+ <l>Mit Weisheit die Weisheit</l>
+
+ <l>Erwiedre der Mann.</l>
+
+ <l>Nicht möcht’ ich aber jemals, eh’ ich säh’</l>
+ <l>Ein gerades Wort, mich unter</l>
+
+ <l>Den Tadelnden zeigen. Denn offenbayz</l>
+ <l>Kam über ihn die geflügelte Jungfrau,</l>
+ <l>Vormals, und weise erschien sie,</l>
+
+ <l>In der Prüfung aber freundlich der Stadt. Darum</l>
+ <l>Nach meinem Sinne niemals</l>
+
+ <l>Wird er es büssen, das Schlimme.</l>
+
+
+<pb n="32"/>
+
+
+ <l>Drıtter Ack</l>
+
+ <l>Erste Scene</l>
+ <l>KREON. DER CHOR.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Ihr Männer! Bürger! harte Wort’ erfahr’ ich,</l>
+ <l>Dafs mich beschuldigt Oedipus, der Herr.</l>
+ <l>Defswegen komm!’ ich, leidend. Wenn er nemlich denkt,</l>
+ <l>Dafs er von mir in diesem Fall erfahren</l>
+ <l>Mit Worten oder Werken Schädliches,</l>
+ <l>Hab’ ich am weiten Leben keine Freude,</l>
+ <l>Wenn ich die Schmach erdulde. Nemlich einfach</l>
+ <l>Trift nicht von diesem Worte mich die Strafe,</l>
+ <l>Aufs höchste, bin ich schlimm in dieser Stadt,</l>
+ <l>Schlimm gegen dich geheifsen und die Lieben.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Doch ist gekommen dieser Schimpf, vielleicht</l>
+
+ <l>Aus Zorn erzwungen mehr, als Rath der Sinne.</l>
+
+
+
+<pb n="33"/> 
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Woraus erwies es sich, dass meinem Rath</l>
+ <l>Der Seher folgend Lügenworte spreche?</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Man sagts. Ich weiss es nicht, in welcher Stimmung?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Ist aus geraden Augen, rechten Sinnen</l>
+ <l>Verkündet worden über mich die Klage?</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Ich weiss es nicht. Was Grosse thun, ich seh’</l>
+
+ <l>Es nicht. Doch selber kommt er aus dem Hausse. zu eite Sten®.</l></sp>
+
+ <stage>OEDIPUS. KREON. DER CHOR</stage>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Du! der! wie kommst du her? hast du so frech</l>
+
+ <l>Ein Angesicht, dass in mein Haus du kommst,</l>
+ <l>Der Mörder unser eines offenbar,</l>
+
+ <l>Und Räuber, wie es klar ist, meiner Herrschaft?</l>
+ <l>Geh, sage bei den Göttern, hast du Feigheit</l>
+
+
+ <l>An mir gesehen oder Narrheit, dass du diess</l>
+
+
+<pb n="34"/>
+
+
+
+ <l>Zu thun gedacht, und dass ich diess dein Werk</l>
+ <l>Im Truge schleichend nicht erkennte, nicht</l>
+ <l>Abwehrte, wennich eserkannt? dein Unternehmen</l>
+ <l>Ists drum nicht, ohne Volk und Freunde nach dem Thron</l>
+ <l>Zu jagen, der durch Volk erobert wird und Geld?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Weist du, was du beginnst? vernimm ein Gleiches</l>
+ <l>Für dein Wort, richte, wenn du es erkannt!</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Im Reden bist du stark, ich schlimm, wenn ich von dir</l>
+ <l>Muls lernen. Falschgesinnt und schwierig find’ ich dich.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Darüber eben hör’ erst, was ich sage.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Das eben sage nicht, du sei’st nicht böse.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Wenn du gedenkst, ein Gut sei ohne Muth</l>
+ <l>Der Eigensinn, so denkest du-nicht richtig.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wenn du gedenkst, man könne den Verwandten</l>
+
+ <l>Mishandeln, ungestraft, so denkst du gut nicht.</l>
+
+
+<pb n="35"/>
+
+
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Ich stimme bei, dass dieses recht gesagt ist,</l>
+ <l>Doch sage mir das Leiden, das du leidest.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Hast du gerathen oder nicht, dass Noth sei,</l>
+ <l>Zum heil’gen Seher einen Mann zu schiken ?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Auch jezt noch bin ich gleich in der Gesinnung.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wie lange Zeit nun ist es schon, dass Lajos</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Gethan was für ein Werk? ich weiss es nicht.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Unsichtbar ward er durch ein tödtlich Uebel.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Weil ist und lang gemessen schon die Zeit.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>War damals so der Seher in der Kunst ?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Zugleich auch weis’ und billig wohl geachtet.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Gedacht er meiner wohl in jener Zeit?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Nicht, dass ich jemals nah dabei gestanden.</l>
+
+
+<pb n="36"/> 
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Doch habt ihr nicht dem Todten nachgeforscht ?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Wir habenes. Wienicht? und nichts gehört.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+
+ <l>Warum sprach damals nicht, wie jezt, der Weise</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Ich weilsesnicht. Versteh ichs nicht, so schweig? ich.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>So vieles weist du. Sag’ es gutgesinnt.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Was wohl? weiss ich es, läugn’ ich nicht.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Das, dass er, hätt’ er nicht mit dir gehalten,</l>
+ <l>Nicht ausgesagt von mir des Lajos Mord.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Ob er das aussagt, weist du selbst. Ich aber</l>
+ <l>Will hören das von dir, was du von mir willst.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Hör’ es, denn nicht, als Mörder, werd’ ich treffen.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Wasdenn? bist du vermählt mit deiner Schwester?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Nicht ist zu läugnen das, was du gesagt.</l>
+
+
+
+<pb n="37"/>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Du herrschest so, wie sie, des Bodens waltend.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Was sie begehrt, wird all von mir besorgt.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Bin ich der dritte nicht gesellt euch zweien?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Hierinn erscheinst du nun ein arger Freund.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Nicht magst du Rechenschaft, wie ich, dir geben.</l>
+ <l>Betrachte aber allererst, diess, ob du glaubst,</l>
+ <l>Dafs einer lieber Herrschaft wünscht’, in Furcht,</l>
+ <l>Als sanft zu schlafen, wenn er gleiche Machu hat.</l>
+ <l>Ich bin nun nicht gemacht, dass mehr ich wünscht’</l>
+ <l>Ein Herr zu seyn, als herrliches zu thun,</l>
+ <l>Und jeder so, der sich zu zähmen weiß.</l>
+ <l>Jezt hab’ ich alles ohne Furcht von dir,</l>
+ <l>Regiert’ ich selbst, viel müfst’ ich ungern thun.</l>
+ <l>Wie sollte nun die Herrschaft lieblicher ,</l>
+ <l>Als Ehre kummerlos und Macht mir seyn?</l>
+ <l>Noch nicht so thörig bin ich, zu verlangen</l>
+ <l>Ein anderes, als Schönes mit Gewinn.</l>
+ <l>Nun freut mich alles, nun begrüfst mich jedes,</l>
+
+ <l>Nun rufen die mich an, die dein bedürfen.</l>
+
+
+<pb n="38"/>
+
+
+ <l>Denn darinn liegts, dass ihnen alles glükt.</l>
+
+ <l>Wie sollt’ ich lassen diess, nach jenem greiffen?</l>
+
+ <l>Schlimm nicht wird ein Gemüth seyn, welches schön denkt.</l>
+
+ <l>Nun bin ich nicht von solchem Sinn, und nie,</l>
+
+ <l>Thät’ es ein andrer, wagt’ ich es mit ihm.</l>
+
+ <l>Nimm deinen Vorwurf, geh damit nach Pytho,</l>
+
+ <l>Frag’, ob den Spruch ich deutlich dir verkündet.</l>
+
+ <l>Und findest du, dafsich mit dem Zeichendeuter</l>
+
+ <l>Zusammenpflog, auf Ein Wort sollst du nicht,</l>
+
+ <l>Zweifach verdammt, von dir und mir, mich tödten.</l>
+
+ <l>Verklage nur aus dunkler Meinung mich nicht!</l>
+
+ <l>Denn nicht ists recht, die schlimmen eitler Weise</l>
+
+ <l>Für treflich halten, trefliche für schlimm.</l>
+
+ <l>Denn, wenn ein Edler einen Freund verwirft,</l>
+
+ <l>Ist mir, als wär's am eignen liebsten Leben.</l>
+
+ <l>Doch mit der Zeit erfährst du dieses sicher.</l>
+
+ <l>Es zeigt die Zeit den rechten Mann allein.</l>
+
+ <l>An einem Tage kennest du den schlimmen.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Schön sprach er, dass daraus ein Glük mag kommen,</l>
+ <l>Denn schnell zu denken, König! ist nicht sicher.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Will einer schnell, der Schlingen legt, entwischen,</l>
+
+
+
+<pb n="39"/>
+
+
+
+ <l>Mufs ich auch schnell mir rathen, meinerseits.</l>
+ <l>Bin ich bequem, und warte sein, so bringt</l>
+ <l>Er seins hinaus, und meines ist verfehlet.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Was willst du denn, als mich vom Lande treiben?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Nein! sterben sollst du oder fliehn, das will ich.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Wenn du mir zeigest, wases um den Neid ist,</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Sprichst du nachgiebig mir und glaubig nicht?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Such’ ich Besinnung ! —</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Meine Sache nun! —</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Auch meine heisst sie,</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ja! wenn du nicht schlimm wärst!</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Wenn aber du nicht weist!</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Man mulfs doch herrschen.</l>
+</sp>
+
+<pb n="40"/>
+
+
+
+<sp><speaker>KREON</speaker>
+ <l>Ja! aber nicht die schlimmen Herrn.</l>
+</sp>
+
+<sp><speaker>OEDIPUE</speaker>
+ <l>O Stadt! Stadt!</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Anch mich geht an die Stadt, nicht dich allein.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Hört auf ihr Herrn! Die Frau seh’ ich zu euch</l>
+ <l>ITier aus dem Hausse kommen, Jokasta,</l>
+
+ <l>Mit dieser ist der Streit hier auszurichten.</l>
+</sp>
+
+
+<milestone unit="act-scene" n="3"/>
+
+<sp><speaker>JOKASTA</speaker>
+    <l>Warum habt ihr ratlılosen Zungenkrieg</l>
+
+ <l>Erregt, ihr Armen! schämt euch nicht, da so</l>
+
+ <l>Erkrankt das Land, zu weken eigen Unheil?</l>
+
+ <l>Gehst in die Burg, und Kreon du ins Haus nicht,</l>
+
+ <l>Damit ihr kleine Last nicht macht zu grosser ?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>O Schwester! viel denkt Oedipus, dein Mann,</l>
+
+ <l>Mir anzuthun, und wählet zwei der Uebel.</l>
+
+ <l>Vom Land mich treiben will er oder tödten.</l>
+
+
+
+<pb n="41"/>
+
+
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Das sag’ich auch. Schlimm handelnd fand, o Weib!</l>
+ <l>An meinem Leib ich ihn mit schlimmen Künsten.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Nicht möcht’ ich Vortheil ziehen jezt, doch sollich</l>
+ <l>Verflucht vergehen, that ich, wels du mich</l>
+ <l>Beschuldigest, dass ich gethan es habe.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>O bei den Göttern! glaub’ es, Oedipus!</l>
+ <l>Und ehre hoch der Götter Eid vor allen,</l>
+ <l>Auch mich und diese, die zugegen sind.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Vertraue, woll’ es, denk’ es,</l>
+ <l>Ich bitte, König!</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wie willst du, dass ich weiche dir?</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Den, der nie vormals thörig war,</l>
+ <l>Und nur im Eide grofs,</l>
+ <l>Ehr’ ihn!</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Weist du, was du verlangst?</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Ich weiss es,</l>
+
+
+<pb n="42"/>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Sag, was du meinst!</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Du sollst den heilig lieben,</l>
+ <l>Niemals in Schuld,</l>
+ <l>Mit ungewissem Wort’</l>
+ <l>Ehrlos vertreiben.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wifs’ einmal, wenn du dieses suchest, suchst</l>
+
+ <l>Du mein Verderben oder Landesflucht.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Das nicht! bei aller Götter</l>
+ <l>Vorläufer Helios!</l>
+ <l>Denn gottlos, freundlos</l>
+ <l>Im äussersten will ich untergehn,</l>
+ <l>Wenn solchen Gedanken ich habe.</l>
+ <l>Mir unglüklichen aber ermattet</l>
+ <l>Vom welkenden Lande die Seele,</l>
+ <l>Wenn die auch kommen, zu Uebeln die Uebel,</l>
+ <l>Zu den alten die neuern.</l>
+</sp>
+
+<sp><speaker>TEDIPFUS</speaker>
+ <l>So mag er gehn, mufs ich durchaus gleich sterben,</l>
+
+ <l>Ehrlos verbannt vom Lande mit Gewalt.</l>
+
+
+
+<pb n="43"/>
+
+
+
+ <l>Von dir, von diesem nicht erbarmet mich</l>
+
+ <l>Der Jammermund. Der sei durchaus mir Abscheu!</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Feig bist du, wenn du traurig weichst, und wenn du</l>
+
+ <l>Schwer über deinen Muth springst. Solche Seelen</l>
+
+ <l>Unwillig tragen sie mit Recht sich selbst.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Läfst du mich nicht und gehst hinaus?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Ich gehe,</l>
+ <l>Von dirmiskannt, doch gleichgesinnt mit diesen.</l>
+<stage>( Kreon gcht ab. ) </stage>
+
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Weib! willst du diesen</l>
+
+ <l>In’s Haus hinein nicht bringen?</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Weifs ich erst, was es ist.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Ein Schein ist unbekannt in die Worte</l>
+ <l>Gekommen , aber es sticht:</l>
+ <l>Auch ungerechtes.</l>
+
+ <l>TOM ASTA</l>
+ <l>Von ihnen beiden.</l>
+
+
+<pb n="44"/>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Gewißs.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Und welches war das Wort ?</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Da mir genug, genug das Land schon müd ist,</l>
+ <l>So dürft es wohl so bleiben, wie es stelıt.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Sieh, wo du hinkommst, mit der guten Meinung,</l>
+ <l>Wenn du das meine lässest und das Herz umkehrst.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Ich hab’ es gesagt, o König!</l>
+ <l>Nicht einmal mır, du weißst es aber</l>
+ <l>Gedankenlos, ausfchweifend</l>
+ <l>Im Weisen, erschien ıch,</l>
+ <l>Wenn ich von dir mich trennte.</l>
+ <l>Du! der mein Land, das liebe</l>
+ <l>In Ruhe umirrend,</l>
+ <l>Recht hat geführt mit günstigem Winde,</l>
+ <l>Auch jezt noch fahre glüklich, wenn du kannst.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Bei Göttern! sage mir es auch, o König!</l>
+
+ <l>Welfshalb du solchen Zorn hast angestiftet.</l>
+
+
+
+<pb n="45"/>
+
+
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ich sag’ es, denn iclı ehre dich am meisten</l>
+
+ <l>Von diesen hier, was Kreon mir bereitet.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Sags, wenn du deutlich Klage führst im Streit.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Der Mörder Lajos sei ich, sagen sie.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Weist du es selbst, erfuhrest dus von andeın?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Den Scher sandt er her, den Unheilstifter,</l>
+
+ <l>Weiler, so viel er kann, die Zungen alle löst.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Lafs du das deine nun, wovon du sprichst,</l>
+
+ <l>Gehorche mir, und lerne das: es giebt</l>
+
+ <l>Nichts Sterbliches, das Seherkunst besässe.</l>
+
+ <l>Ich zeige dir von dem ein treffend Zeichen,</l>
+
+ <l>Ein Spruch kam Lajos einst, ich will nicht sagen,</l>
+
+ <l>Von Phöbos selbst, doch von des Gottes Dieneru,</l>
+
+ <l>Dafs sein das Schiksaal warte, von dem Sohne</l>
+
+ <l>Zu sterben, der von jenem kän’ und mir.</l>
+
+ <l>Es tödteten doch aber ihn, so spricht die Sage,</l>
+
+ <l>Einst fremde Mörder auf dreifachem Heerweg.</l>
+
+ <l>Jedoch als ihm gebohren war das Kind,</l>
+
+
+<pb n="46"/>
+
+
+
+ <l>Es standen nicht drei Tag’ an, band er ihm</l>
+
+ <l>Der Fülse Glieder und, mit fremden Händen,</l>
+
+ <l>Warf ers ins unzugangbare Gebirg.</l>
+
+ <l>Und nicht erfüllte dort Apollon, dass er sei</l>
+
+ <l>Des Vaters Mörder, dass, der das Gewaltige</l>
+
+ <l>Gefürchtet, von dem Sohne Lajos sterbe.</l>
+
+ <l>So haben sich erklärt der Seher Sagen.</l>
+
+ <l>Und kehre dran dich nicht! denn, was ein Gott</l>
+
+ <l>Nothwendig sieht, leicht offenbart er selbst es.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wie fasset, da ich eben höre, Weib!</l>
+
+ <l>Verwirrung mir die Seel’, Aufruhr die Sinne.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Von welcher Sage sagst du diess empört?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Mir scheint, gehört von dir zu haben, Lajos</l>
+
+ <l>Sei umgekommen auf dreifachem Heerweg.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Man sagte das, noch ist es nicht geendet.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wo ist der Ort, da sich diess Schiksaal zutrug?</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Phocis nennt man dasT.and. Ein Scheideweg</l>
+
+ <l>Von Delphi führt und Danlia hieherzn.</l>
+
+
+
+<pb n="47"/>
+
+
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Und welche Zeit ist über diess gegangen?</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Beinahe vorher , eh’ du von dem Lande</l>
+
+ <l>Die Herrschaft nalımst, ward es derStadt verkündet.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>O Zevs! was willst du, dass von mir geschehe ?</l>
+</sp>
+
+<sp><speaker>TUORABER</speaker>
+ <l>Wie ist dir diess, o Oedipus, im Sinne?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Frag mich nicht, doch von Lajos sage nur,</l>
+
+ <l>Wie war der Mann , auf welches Alters Höhe ?</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Grofs, wollig schon um sein weifsblühend Haupt,</l>
+
+ <l>Und der Gestalt von dir war er nicht ungleich.</l>
+</sp>
+
+<sp><speaker>OEDTPUS</speaker>
+ <l>Ich armer. Wohl hab’ ich, da ich in Flüche</l>
+
+ <l>Gewaltig ausbrach eben, nichts gewufst!</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Was sagst? mich ängstets, seh’ ich so dich, König!</l>
+ <l>VEDTP US:</l>
+
+ <l>Gewaltig fürcht’ ich, dafsnicht sehend sei der Seher,</l>
+
+ <l>Du wirst es mehr aufklären, sagst du eins noch.</l>
+
+
+<pb n="48"/>
+
+
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Mich ängstets. Fragst du doch, so sag’ ich, was ich weiss.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Gieng er allein aus, oder hatt’ er viele</l>
+
+ <l>Streitbare Männer, wies bei Oberherrn ist?</l>
+ <l>TO KIA S TA.</l>
+
+ <l>Fünf waren all. Ein Herold war mit ihnen,</l>
+
+ <l>Ein Maulthierwagen führte Lajos nur.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Weh! Weh! nun ist es offenbar. \WVer war</l>
+
+ <l>Es einst, der angesagt die Worte hat, o Weib!</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Ein Diener, der entflohen war allein.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ist in den Häusern er auch jezt noch da?</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Nein! nicht! seit dort er herkam und erfuhr,</l>
+
+ <l>Du habst die Macht, und Lajos sei getödtet,</l>
+
+ <l>Bat er mich sehr, die Hände mir berülrend,</l>
+
+ <l>Aufs Land zu senden ihn, zu Schaafewaiden,</l>
+
+ <l>Wo er die Stadt vom Angesicht am meisten.</l>
+
+ <l>Auch sandt’ ich ihn, denn werth war dieser Mann,</l>
+
+ <l>Der Knecht, zu haben gröfsre Gnad’, als diese.</l>
+
+
+
+<pb n="49"/>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wie käm’ er nun zu uns geschwind zurük?</l>
+
+ <l>Er ist zugegen, warum willst du diess?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ich fürchte vor mir selbst mich, Weib, dass ich</l>
+
+ <l>Zu viel gesagt, warum ihn sehn ich will.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Er kommet, doch zu hören würdig bin</l>
+
+ <l>Auch ich wohl, was dir schlimmes ist, o König!</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Erniedrige dich nur jezt allzusehr nicht</l>
+
+ <l>Drob, wie ich bin; auch grösseren, als du bist,</l>
+
+ <l>Sagt’ ich, wie mir solch ein Loos zugetheilt ist.</l>
+
+ <l>Mein Vater Polybos war von Korinth,</l>
+
+ <l>Die Mutter Merope von Doris. Dort</l>
+
+ <l>Ward ich geschäzt der gröste von den Städtern,</l>
+
+ <l>Eh diess Geschik kam über mich, und werth</l>
+
+ <l>Zu wundern ists, doch meines Eifers nicht.</l>
+
+ <l>Ein Mann beim Mahle voll von Trunkenheit</l>
+
+ <l>Sagt mir beim Wein’, ich sei unächt dem Vater,</l>
+
+ <l>Und ich, erzürnt, den gegenwärtigen Tag</l>
+
+ <l>Kaum aushielt; doch am andern gieng ich hin,</l>
+
+ <l>Zur Mutter und zum Vater, fragte drüber.</l>
+
+
+<pb n="50"/> 
+
+ <l>Unwillig trugen die den Schimpf von dem,</l>
+
+ <l>Dem dieses Wort entgangen. Das erfreute</l>
+
+ <l>An ihnen mich. Doch stach mich dieses immer.</l>
+
+ <l>Denn vieles war dahinter. Und geheim</l>
+
+ <l>Vor Vater und vor Mutter reis’ich weg</l>
+
+ <l>Nach Pytho. Mir verachtet Phöbos das,</l>
+
+ <l>Warum ich kam, und schikt mich weg, und anders</l>
+
+ <l>Mühsame, Grosse, Unglükliche zeigt</l>
+
+ <l>Er mir und sagt, ich mülste mit der Mutter</l>
+
+ <l>Vermischet seyn, und Menschen unerträglich</l>
+
+ <l>Zu schauen ein Geschlecht erzeugen, auch der Mörder</l>
+
+ <l>Des Vaters seyn, der mich gepflanzet hätte.</l>
+
+ <l>Da ichs gehört, durchmessend unter Sternen</l>
+
+ <l>Zulezt den Boden von Korinth, entfloh ich,</l>
+
+ <l>Damit ich nie daselbst von meiner bösen</l>
+
+ <l>Orakelsprache schauete die Schande.</l>
+
+ <l>Gewandert aber komm’ ich in die Gegend,</l>
+
+ <l>Wo umgebracht der Herr ist, wie du sagst.</l>
+
+ <l>Auch dir o Weib! und wahres sag’ ich, dass</l>
+
+ <l>Ich nahe wandelt’ auf dem Dreiweg, wo</l>
+
+ <l>Der Herold und auf einem Füllenwagen</l>
+
+ <l>Ein Mann herfahrend, wie du mir berichtet, mir</l>
+
+ <l>Begegneten, und aus dem Wege mich</l>
+
+
+
+<pb n="51"/> 
+
+ <l>Der Führer und der Alte mit Gewalt trieb.</l>
+
+ <l>Ich schlage, wie heran er lenkt, den Fuhrmann</l>
+
+ <l>Im Zorn, und wie mich stehen an dem Wagen</l>
+
+ <l>Der Alte siehet, zielt’ er mitten mir</l>
+
+ <l>AufsHaupt und schlugmich mit dem Doppelstachel.</l>
+
+ <l>Ungleich hat ers gebüfst. Denn schnell getroffen</l>
+
+ <l>Vom Stabe dieser Hände, rüklings wird</l>
+
+ <l>Heraus vem Wagen plözlich er gewälzt.</l>
+
+ <l>Ich Lödtet’ alle. Wenn der Frenide aber</l>
+
+ <l>Mit Lajos jener irgend was gemein hat,</l>
+
+ <l>Wer ist unseeliger, als unser einer?</l>
+
+ <l>Und welcher Mann den Geistern mehr verhafst ?</l>
+
+ <l>Den in der Fremde keiner und kein Städter darf</l>
+
+ <l>Einladen in das Haus, ansprechen keiner,</l>
+
+ <l>Den man vom Hausse treiben mufs? und diesen Fluch</l>
+
+ <l>Hat keiner sonst, als ich mir selbst gestiftet.</l>
+
+ <l>Das Elıbett auch des Todten mit den Händen</l>
+
+ <l>Beflek’ ich es, durch die er umkam. Bin ich bös?</l>
+
+ <l>Bin ich nicht ganz unrein? und wenn ich fliehn muß,</l>
+
+ <l>Darf auf der Flucht die meinen ich nicht sehn,</l>
+
+ <l>Noch gchn zur Heimath; oder soll ich seyn</l>
+
+ <l>Zusammen mit der Mutter gejocht zur Hoclızeit,</l>
+
+
+<pb n="52"/>
+
+
+
+
+ <l>Soll ich den Vater morden, Polybos,</l>
+
+ <l>Der mich gezeuget und mich aufgenälırt?</l>
+ <l>Würd’ einer, der von unser einem urtheilt,</l>
+ <l>Die Sache nicht von rohem Geist’ erklären?</l>
+ <l>Nein, nicht, o du der Götter heilig Licht,</l>
+ <l>Mag diesen Tag ich schen, sondern lieber</l>
+ <l>Schwind’ ich von Menschen, eh’ ich sehe,</l>
+
+ <l>Wie soich cin Schimpf des Zufalls mir begegnet.</l>
+
+</sp>
+
+<sp><speaker>CHORUS</speaker>
+ <l>Uns, König, ist es furchtbar, aber bifs dus</l>
+
+ <l>Von gegenwärtigem crfährest, hoffe.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Nun aber bleibt so viel von Hoffnung mir</l>
+
+ <l>Allein, den Mann, den Hirten zu erwarten.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Wenn er erscheinet, was ist dein Verlangen?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ich will dirs sagen. Findet sich, dass er</l>
+
+ <l>Dir jenes sagt, so mag ich fliehn das Leiden.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Welch Wort vornemlich hörtest du von mir?</l>
+
+
+
+<pb n="53"/>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Von räuberischen Männern sprech’ er, sagst du,</l>
+ <l>Sie haben ihn getödtet. Wenn er nun noch</l>
+ <l>Dieselbe Zahl aussagt, hab’ ich ihn nicht</l>
+ <l>Getödtet. Nicht mag Einer vielen gleich seyn.</l>
+ <l>Wenn Einen Mann gefährtenlos er newnt,</l>
+
+ <l>Kommt deutlich diese That jezt über mich.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Wifs’ aber, dass so offenbar das Wort ist,</l>
+
+ <l>Uud nicht umwerfen darf er dieses wieder.</l>
+
+ <l>Die Stadt hat es gehört, nicht ich allein.</l>
+
+ <l>Wenn nun etwas vom alten Wort er abweicht,</l>
+ <l>Nicht wohl, o König! macht des Lajos Mord</l>
+ <l>Er kund, recht und gerad wie Loxias</l>
+
+ <l>Ihn aussprach, dass von meinem Kind er sterbe.</l>
+ <l>Auch hat ihn ja das Unglükseelige nicht</l>
+ <l>Getödtet, damals, selbst kam es zuvor um.</l>
+ <l>Und so mag in den Prophezeiungen</l>
+
+ <l>Ich jezt nichts sehn, undauch das erstemal nicht.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Schön meinest du es. Sende aber doch</l>
+
+ <l>Zum Landmann einen Boten, lafs es nicht!</l>
+
+
+<pb n="54"/>
+
+
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Schnell will ich senden. Doch lals uns hineingehn,</l>
+
+ <l>Nicht möcht’ ich nemlich thun , was du nicht liebtest.</l>
+<stage>( sie gehen ab. )</stage>
+</sp>
+
+<sp><speaker>CHOR der Thebanischen. Alten.</speaker>
+ <l>Hätt’ ich mit mir das Theil</l>
+ <l>Zu haben Heiligkeit in Worten genau,</l>
+ <l>In den Werken allen, deren Geseze</l>
+ <l>Vor Augen sind, hochwandelnd, durch den himmlischen</l>
+ <l>Aether geboren, von denen</l>
+ <l>Der Olymp ist Vater allein; den hatnicht sterbliche</l>
+ <l>Natur von Männern gezeugt,</l>
+ <l>Noch jemals in Vergessenheit er einschläft.</l>
+ <l>Grofs ist in jenen der Gott,</l>
+
+ <l>Nicht altert er.</l>
+
+ <l>Frechheit pflanzt Tyrannen. Frechheit,</l>
+ <l>Wenn eitel sie von vielem überfüllt ist,</l>
+ <l>Was zeitig nicht und nicht zuträglich,</l>
+ <l>Zur höchsten steigt sie, sie stürzt</l>
+
+ <l>In die schroffe Nothwendigkeit,</l>
+
+
+
+
+<pb n="55"/> 
+
+ <l>Da sie die Füsse nicht recht braucht.</l>
+
+ <l>Das wohlanständige aber in der Stadt, das Altertum,</l>
+
+ <l>Dafs nie es löse der Gott, bitt’ ich,</l>
+
+ <l>Gott will ich niemals lassen, als</l>
+
+ <l>Vorsteher ıhn halten.</l>
+
+ <l>Wenn aber überschauend einer mit Händen waıdelt, oder</l>
+
+ <l>Mit Worten, und fürchtet das Recht nicht, und</l>
+
+ <l>Die Thronen nicht der Dämonen verchrt,</l>
+
+ <l>Den hab ein böses Schiksaal,</l>
+
+ <l>Unschiklichen Prangens wegen,</l>
+
+ <l>Wenn nicht Gewinn er gewinnet recht,</l>
+
+ <l>Und offenbares verschleufst,</l>
+
+ <l>Und unberührbares angreifft albern.</l>
+
+ <l>Wer mag noch wohl hiebei, ein Mann,</l>
+
+ <l>Im Gemüthe die Pfeile verschliessen, und nicht</l>
+
+ <l>Die Seele vertheidigen? Sind</l>
+
+ <l>Denn solche Handlungen ehrsam ?</l>
+
+ <l>Was soll ich singen?</l>
+
+ <l>Nicht mehr zum unberührbaren geh’ ich,</l>
+
+ <l>Zu der Erde Nabel mit Ehrfurcht,</l>
+
+ <l>Noch zu dem Tempel in Aba’,</l>
+
+ <l>Wenn diess nicht offenbar</l>
+
+ <l>Den Sterblichen allen recht ist.</l>
+
+
+<pb n="56"/>
+
+
+ <l>O Mächtiger aber, wenn du</l>
+ <l>Aufrichtiges hörst, Zevs, allbeherrschend,</l>
+ <l>Verborgen sei es dir und deiner</l>
+ <l>Unsterblich währenden Herrschaft nicht!</l>
+ <l>Zu Schanden nemlich werden die alten</l>
+ <l>Von Lajos die Göttersprüche schon, und nimmer</l>
+
+ <l>In Ehren Apollon offenbar ist. |</l>
+ <l>Unglüklich aber gehet das Göttliche</l>
+
+</sp>
+<pb n="57"/>
+
+
+<milestone unit="act" n="4"/>
+<milestone unit="act-scene" n="4.1"/>
+
+
+
+
+ <stage>JOKASTA. :EIN BOTE .DER.CHOR</stage>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Tr Könige des Landes, der Gedanke kam mir,</l>
+ <l>Zu gehn in der Dämonen Tempel, hier</l>
+ <l>Zu nehmen Kronen in die Hand und Rauchwerk.</l>
+ <l>Denn aufwärts bieget Oedipus den Muth</l>
+ <l>In mannigfacher Quaal, nicht, wie ein Mann,</l>
+ <l>Desonnen, deutet er aus altem neues.</l>
+ <l>Sein Wort ist aber, mag er Furcht aussprechen,</l>
+ <l>Dafs ich, zum Ende, weiter nichts mehr thun,</l>
+ <l>Zu dir, o Lycischer Apollon, aber,</l>
+ <l>Denn sehr nah bist du, kniend kommen soll</l>
+ <l>Mit diesen Huldigungen, dass du uns</l>
+ <l>Ein eiligrettend Mittel senden mögest.</l>
+ <l>Denn all jezt fürchten wir, betroffen ihn</l>
+
+ <l>Erblikend, gleich dem Steuermann des Schiffes.</l>
+
+
+<pb n="58"/>
+
+
+
+ <l>EIN BOTE.</l>
+ <l>Kann ich von euch, ihr Fremden, hören, wo</l>
+
+ <l>Des Herren Häusser sind, des Oedipus?</l>
+ <l>Am besten könn’t ihr sagen, wo er wohnet.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Das Haus ist hier und drinnen ist er, Fremder,</l>
+ <l>Und diese Frau ist Mutter seiner Kinder.</l>
+ <l>DER BOTE.</l>
+ <l>Reich soll sie seyn, mit Reichen immerhin,</l>
+ <l>Und immerdar von jenem die Gemahlin!</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>So duauch, Fremder; würdig bist du es,</l>
+ <l>Des guten Wortes wegen. Aber sage,</l>
+ <l>Mit welcher Bitte kommst du, welcher Nachricht ?</l>
+
+ <l>DER BOTE.</l>
+ <l>Mit guter in das Haus, und zum Gemahl, Frau!</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Was ist es? und von wem bist du gekommen?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Ich komme von Korinth. Es freut vielleicht</l>
+ <l>Mein Wort. Wienicht? Es kann dich auch betrüben.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Was ist es, das so zweifach eine Kraft hat ?</l>
+
+
+
+<pb n="59"/>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Zum Herren wollen ihn die Eingebornen</l>
+ <l>Des Isthmos sezen, dass daselbst er throne.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Wie? herrscht der alte Polybos nicht mehr?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Nicht mehr, seitdem der Tod ihn hält im Grabe.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Was sagst du, ist gestorben Polybos?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Sag’ ich die Wahrheit nicht, so will ich sterben.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>O Magd, willst du nicht gleich zum Herren gehn,</l>
+ <l>Es sagen? o ihr Prophezeiungen</l>
+ <l>Der Götter, wo seid ihr? lang hat Oedipus</l>
+ <l>Den Mann geflohen, dass er nicht ihn tödte.</l>
+ <l>Jezt stirbt er weg, zufällig, nicht durch jenen.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>O liebstes, du, des Weibs, Jokastas Haupt!</l>
+ <l>Was riefest du heraus mich von den Häussern ?</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Hör diesen Mann, und forsch’ und höre, wo</l>
+
+ <l>Die hohen sind, des Gottes Sehersprüche.</l>
+
+
+<pb n="60"/> 
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Doch wer ist dieser, und was sagt er mir?</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Er kommet von Korinth, sagt, Polybos</l>
+ <l>Dein Vater sei nicht mehr, er seie todt.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Was sagst du Fremder ? kläre du mich selbst auf!</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Wenn diess zuerst ich deutlich künden mufs,</l>
+ <l>So wisse, dass mit Tod er abgezangen.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Starb heimlich er, zog er sich Krankheit zu ?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Ein kleiner Fall macht still die alten Körper.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>An Krankheit welkte, wie es scheint, der Alte.</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Und an der grofsen Zeit genug gemessen.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wolan ! Wer sollte nın, o Weib, noch einmal</l>
+ <l>Den prophezeienden Heerd befragen, oder</l>
+ <l>Von oben schreiend die Vögel? deren Sinn nach</l>
+ <l>Ich tödten sollte meinen Vater, der</l>
+
+ <l>Gestorben schlummert unter der Erd’; hier aber</l>
+
+
+
+<pb n="61"/>
+
+
+ <l>Binich, und rein ist meineLanze, wenn er anders</l>
+
+ <l>Im Traume nicht umkam, von mir. So mag er</l>
+
+ <l>Gestorben seyn, von mir; zugleich nahm er auch</l>
+
+ <l>Die heutigen Schersprüchie mit und liegt nun</l>
+
+ <l>Im Hades, Polybos, nicht weiter gültig.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Hab’ ich dir diess nicht längst vorausgesagt ?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Du hasts gesagt. Ich ward von Furcht verführt.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Nimih nun nichts mehr von jenem dir zu Herzen.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Was? auch der Mutter Bett soll ich nicht fürchten ?</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Was fürchtet denn der Mensch, der mit dem Glük</l>
+
+ <l>Es hält? Von nichts giebts eine Ahnung deutlich,</l>
+
+ <l>Dahin zu leben, so wie einer kann,</l>
+
+ <l>Das ist das Beste. Fürchte du die Hochzeit</l>
+
+ <l>Mit deiner Mutter nicht! denn öfters hat</l>
+
+ <l>Ein Sterblicher der eignen Mutter schon</l>
+
+ <l>Im Traume beigewohnt: doch wenn wie nichts</l>
+
+ <l>Diefs gilt, er trägt am leichtesten das Leben.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Schön wär all diess von dir gesagt, wo nicht</l>
+
+
+<pb n="62"/>
+
+
+
+ <l>Die Mutter lebte, doch so lang sie lebt,</l>
+ <l>Ists hohe Noth, so schön du sprichst, zu fürchten.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Jedoch ein grofs Licht ist des Vaters Grab dir.</l>
+ <l>OEDIPUS. |</l>
+ <l>Ein grofses. Recht! die Lebende fürcht’ ich nur.</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Um welches Weibes willen fürchtest du?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Meropes, Greis, der Frau des Polybos.</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Was ist es, das euch fürchten maclhıt vor jener?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Göttlich bereiteter ProphezeiungKraft, o Freinder !</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Darf oder darf es nicht ein andrer wissen ?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Gar wohl. Es sagt’ einst Loxias mir nemlich,</l>
+ <l>Ich müsse mit der Mutter mich vermischen,</l>
+ <l>Entreissen mit der Hand sein Blut dem Vater.</l>
+ <l>Defswegen bin ich lange von Korinth</l>
+ <l>Und weit hinweg geflohn, mit Glük, doch ist</l>
+
+ <l>Es lieblich auch, zu schaun der Eltern Augen.</l>
+
+
+
+<pb n="63"/> </sp>
+
+<sp><speaker>BOOTE</speaker>
+ <l>Bist du aus Furcht davor von da entfremdet?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Des Vaters Mörder nicht zu seyn, o Alter!</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Hab’ ich dich nicht aus dieser deiner Furcht,</l>
+ <l>Als wohlgemuth ich kam, befreit, o König!</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Auch einen Dank, der meiner werth, empfängst du.</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Auch bin ich meist darum hieher gekommen,</l>
+ <l>Dals, wenn du heimikehrst, mir es wohlergehe.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Nun komm ich nahe denen, die mich pflegten.</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Wohl zeigst du, Kind! du wissest, was du thust, nicht.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wie, bei dem Göttlichen, Alter, sprich etwas!</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Willst wegen jenen du nach Haus nicht gehn?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ich fürchte, dass nicht klar mir Phöbos komme.</l>
+
+
+<pb n="64"/>
+
+
+
+ <l>Boa TE</l>
+ <l>Dafs keine Schmach von Eltern du empfangst ?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Das eben, Alter, dieses schrökt mich immer.</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Weist du es denn, dass du mit Unrecht fürchtest?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wie? bin ich denn das Kind nicht jener Mutter ?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Nein. Polybos war nicht von deinem Stamme.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Was sagst du? pflanzte Polybos mich nicht ?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Beinahe so etwas, wie unser einer.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wie das? ein Vater, der dem Niemand gleich ist?</l>
+ <l>BO’T E</l>
+ <l>Ein Vater eben, Polybos nicht, nicht ich.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wofür denn aber nennt der mich das Kind?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Von meiner Hand empfieng er als Geschenk dichı.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Warum aus andrer Hand liebt’ er mich so?</l>
+
+
+
+<pb n="65"/>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Die Kinderlosigkeit hatt’ ihn bewogen.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Hattst du gekauft mich, gabst du mich als Vater?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Ich fand dich in Kithärons grüner Schlucht.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ziehst du zu etwas um in diesen Orten ?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Ich hütete daselbst des Arges Vieh.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Als Hirte, oder irrtest du im Taglohn.</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Ich war dein Retter, Kind, in dieser Zeit.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Was hatt’ ich, dass zu Armen du mich zähltest ?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Der Füsse Glieder zeigen es an dir.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>O mir! was nennest du diess alte Uebel.</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Ich löse dich, da dir die Zeh’n genäht sind.</l>
+
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Gewaltigen Schimpf bracht’ aus den Windeln ich</l>
+
+
+
+<pb n="66"/>
+
+
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>So dass genannt du bist nach diesem Dinge.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Das Götter! das, bei Mutter, Vater! rede.</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Ich weiss es nicht, ders gab, er weiss es besser.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Empfiengst du mich von andern, fandst du selbst mich?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Nein ! denn es gab dich mir ein andrer Hirte.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wer ist der? kannst du deutlich mir es nennen?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Er nannte wohl von Lajos Leuten sich.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Der vormals Herr gewesen dieses Lands?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Aın meisten war er dieses Mannes Hirte.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ist er noch lebend, dass ich sehn ihn kann?</l>
+</sp>
+
+<sp><speaker>BOTE</speaker>
+ <l>Ihr wifst am besten das, die Eingebornen.</l>
+
+
+
+<pb n="67"/>
+
+
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ist euer einer, die zugegen sind,</l>
+
+ <l>Der nennet diesen Hirten, den ihr nennet ,</l>
+
+ <l>Dafs er gesehn ihn .auf den Aekern oder hier?</l>
+
+ <l>Zeigt esmiran, Zeit ist es, diess zu finden.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Ich weiss sonst keinen, als den auf dem Lande,</l>
+
+ <l>Den du zuvor zu sehen schon verlangt,</l>
+
+ <l>Am besten doch möcht’ es Jokasta sagen.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Meinst du nicht, Weib! derselbe, dem wir eben</l>
+
+ <l>Gesandt den Boten, sei gemeint von diesem ?</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Wer sprach, von welchem? kehr dich nicht daran!</l>
+
+ <l>Und was man sagt, bedenke nicht zu viel es.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Das seie ferne, dass, bei solchen Zeichen,</l>
+
+ <l>Ich nicht entdeken sollte mein Geschlecht!</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Bei Göttern, nein! bist du besorgt ums Leben,</l>
+
+ <l>So suche nicht. Gemug erkrankt bin ich.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Sei gutes Muths! käm’ ich von dreien Müttern</l>
+
+ <l>Dreifach einKneclıt,esmachte dich nicht schlimmer</l>
+
+
+<pb n="68"/>
+
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Doch, folge mir, ich bitte, thu es nicht!</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ich kann nicht, mufs genau es noch erfahren.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Ich mein’ es gut und sage dir das beste.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Diefs beste doch, es quälet mich schon lange.</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>O Armer, wülstest nie du, wer du bist!</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wird einer gehn und mir den Hirten bringen?</l>
+ <l>Lafst diese sich am reichen Stamm’ erfreun!</l>
+</sp>
+
+<sp><speaker>JOKASTA</speaker>
+ <l>Weh! weh! Unglüklicher ! diess Eine kann ich</l>
+ <l>Zu dir noch sagen, andres nun und ninmer!</l>
+<stage>( sie geht ab. )</stage>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Warum wohl gieng die Frau des Oedipus,</l>
+ <l>Von wilder Quaal aufspringend? ich fürchte, dass</l>
+ <l>Aus dieser Stille nicht ein Unheil breche!</l>
+</sp>
+
+<sp><speaker>OEDIPUSB</speaker>
+ <l>Was soll, das breche. Mein Geschlecht will ich,</l>
+
+ <l>Scis auch gering, doch will ich es erfahren.</l>
+
+
+<pb n="69"/>
+
+
+
+ <l>Mit Recht ist sie, denn Weiber denken grofs,</l>
+ <l>Ob meiner niedrigen Geburt beschämt.</l>
+
+ <l>Ich aber will, als Sohn des Glüks mich haltend,</l>
+ <l>Des wohlbegabten,, nicht verunehrt werden;</l>
+ <l>Denn diess ist meiner Mutter. Und klein und grofs</l>
+ <l>Umfiengen mich die mitgebornen Monde.</l>
+
+ <l>Und so erzeugt, will ich nicht ausgehn,, so,</l>
+
+ <l>So dass ich nicht, ganz, wels ich bin, ausforschte.</l>
+</sp>
+
+<sp><speaker>CHOR der Thebanischen Alten,</speaker>
+ <l>Wenn iclı Wahrsager bin,</l>
+ <l>Und kundig der Meinung,</l>
+ <l>Wirst, bein Olyınpos! du</l>
+ <l>Nicht allzuspröde, Kithäron!</l>
+ <l>Am morgenden Vollinond seyn,</l>
+ <l>Dafs man nicht dürft’, als Landesverwandte</l>
+ <l>Des Oedipus, und äls Nährerin und</l>
+ <l>Als Mutter erheben dich und sagen von dir,</l>
+ <l>Dafs liebenswürdiges du</l>
+
+ <l>Gebracht habst unseren Fürsten, aber dir</l>
+ <l>Sei, dunkler Plöbos, diess gefällig.</l>
+
+ <l>Wer hat dich, Kind, wer hat gezeugt</l>
+
+ <l>Von den Seeligen dich? hat eine sich</l>
+
+
+
+<pb n="70"/>
+
+
+
+ <l>Dem Pan genaht, dem Bergumschweifer, oder hat.</l>
+
+ <l>Gebracht dich eine Tochter des Loxias?</l>
+
+ <l>Dem lieb sind all die</l>
+
+ <l>Ebnen des Landes; oder Kyllanas</l>
+
+ <l>König, oder der batchische Gott,</l>
+
+ <l>Der wohnt auf hohen Gebirgen,</l>
+
+ <l>Hat er als Fund dich bekommen, von einer der Nymphen,</l>
+
+ <l>Der Helikoniaden, mit denen er öfters spielte?</l>
+
+ <l>Zweite Scene.</l>
+
+ <l>OEDIPUS DER'CHOR "VDER’BOFR</l>
+ <l>EIN DIENER.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Darf ich auch, da ich nicht zugegen war,</l>
+
+ <l>Ihr Alten, etwas sagen? jenen Hirten</l>
+
+ <l>Glaub’ ich zu schn, den lange wir gesucht.</l>
+ <l>Denn dieser sieht, wie langes Alter aus,</l>
+ <l>Gleich ; auch meine Diener kenn’ ich,</l>
+
+ <l>Die Führer, doch mit deiner Kunde magst du</l>
+
+ <l>Mir helfen, sahst vielleicht sonst schon den Hirten.</l>
+
+
+
+<pb n="71"/>
+
+
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Ich kenn’ ihn wohl, damit dus weist. War einer</l>
+
+ <l>Bei Lajos treu, so wars der Mann, der Hirte.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Dich frag’ ich erst, den Fremden von Korinth, einst diesen du ?</l>
+</sp>
+
+<sp><speaker>BOOTE</speaker>
+ <l>Denselben, den du anblikst.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Du Alter hier, sieh hieher, sage mir,</l>
+ <l>Was ich dich frage; warst du einst des Lajos?</l>
+
+ <l>DER DIENER.</l>
+ <l>Sein Diener, nicht gekauft, im Hauss’ erzogen.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Was für ein Werk besorgend, welches Leben?</l>
+</sp>
+
+<sp><speaker>DIENER</speaker>
+ <l>Bey Heerden bracht’ ich meist das Leben zu.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>In welcher Gegend wohntest du am meisten?</l>
+</sp>
+
+<sp><speaker>DIENER</speaker>
+ <l>Kithäron war es und das Land umher.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Den Mann hier, weist du nicht, wo du ihn fandest?</l>
+
+
+<pb n="72"/>
+
+
+ <l>DER DIENER.</l>
+ <l>Was war sein Thun? von welchem Manne sprichst du?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Von dem, der daist. Warst du einst mit ihm?</l>
+
+ <l>DER DIENER.</l>
+ <l>Nicht, um es schnell besonnen dir zu sagen.</l>
+
+ <l>DER BOTE.</l>
+ <l>Kein Wunder ists, doch ich erinnere</l>
+ <l>Mich wohl des Unbekannten, weiss auch wohl,</l>
+ <l>Dafs er es weiss, wie in Kithärons Gegend</l>
+ <l>Mit zweien Heerden er, und ich mit einer</l>
+ <l>Zusammenkam mit ihm, vom Frühling an,</l>
+ <l>Bis zum Arctur, die Zeit drei ganzer Monde.</l>
+ <l>Im Winter nun trieb ich in meine Ställe</l>
+ <l>Hinweg, und er zurük zu Lajos Höfen.</l>
+ <l>Sag’ oder sag’ ich nicht von dem Wahren ?</l>
+ <l>DER DIENER.</l>
+ <l>Du redest wahr, wiewohl aus langer Zeit.</l>
+ <l>DER BOTE.</l>
+ <l>Geh, sagenun, weist du, du gabest mir</l>
+ <l>Ein Kind, dass ich zur Pflege mirs erzöge.</l>
+
+ <l>DER DIENER.</l>
+ <l>Was ists, wofür sagst du von der Geschichte?</l>
+
+
+
+<pb n="73"/>
+
+
+
+ <l>DER BOTE.</l>
+ <l>Der ists, ojener, der noch jung war damals.</l>
+ <l>DER DIENER.</l>
+ <l>Gehst du zu Grunde nicht ? willst du nicht schweigen?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>O tadle den nicht, Alter! deine Worte</l>
+ <l>Verdienen Tadel mehr, als die von dem.</l>
+ <l>DER DIENER.</l>
+ <l>Hab’ ich gefehlt in etwas , bester Herr?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Nenn du dies Kind, wovon er redet, der hier.</l>
+ <l>DER DIENER.</l>
+ <l>Er spricht gedankenlos, der hier ist anderswo.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Du redest nicht zu Dank und redest weinend.</l>
+ <l>DER DIENER.</l>
+ <l>Nicht, bei den Göttern, geifsle drum mich Alten.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wirst du nicht gleich die Hände binden dem?</l>
+ <l>DER DIENER.</l>
+
+ <l>Unglüklicher, wofür, was willst du wissen?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Gabst diesem du das Kind, wovon er spricht?</l>
+
+
+<pb n="74"/>
+
+
+ <l>DER DIENER.</l>
+ <l>Ich gabs. Wär’ ich vergangen jenes Tages!</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Das wird dir auch, sagst du das Rechte nicht.</l>
+ <l>DER DIENER.</l>
+ <l>Noch viel mehr, wenn ich rede, bin ich hin.</l>
+</sp>
+
+<sp><speaker>OEDTITPUS</speaker>
+ <l>Der Mann, so scheint es , treibet es zum Aufschub ?</l>
+
+ <l>DER DIENER.</l>
+ <l>Nicht so; ich sagte längst, dass ich es that.</l>
+</sp>
+
+<sp><speaker>OEDIPYVS</speaker>
+ <l>Wo nahmst dus her? wars eigen oder andern?</l>
+ <l>DER DIENER.</l>
+ <l>Mein war es, nicht empfieng ich es von einem.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Von welchem Bürger das, aus welchem Hausse?</l>
+ <l>DER DIENER.</l>
+ <l>Nicht, bei den Göttern, frage weiter, Herr!</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Du bist verloren, frag’ ich diefsnoch einmal!</l>
+ <l>DER DIENER.</l>
+ <l>Von Lajos Hausse also war es einer.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ein Diener oder jenem anverwandt?</l>
+
+
+
+<pb n="75"/>
+
+
+ <l>DER DIENER.</l>
+ <l>O ende! dasSchrökliche selbst zu sagen, bin ich dran.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Und ich zu hören. Dennoch hören mufs ich.</l>
+
+ <l>DER DIENER.</l>
+ <l>Von jenem ward er Sohn genannt, doch drinnen</l>
+
+ <l>Mag dir am besten deine Frau es sagen.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Giebt diese denn es dir?</l>
+
+ <l>DER DIENER.</l>
+ <l>Ja wohl, mein König.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Was mit zu thun?</l>
+
+ <l>DER DIENER.</l>
+ <l>Damit ich es vertilgte.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Weil sie unglüklich gebahr.</l>
+
+ <l>DER DIENER.</l>
+ <l>Aus Furcht vor bösen Sprüchen.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Und welchen?</l>
+
+ <l>DER DIENER.</l>
+ <l>Es tödte die Eltern, war das Wort.</l>
+
+
+<pb n="76"/>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wo kamst du denn zusammen mit dem Greise?</l>
+ <l>DER DIENER.</l>
+ <l>Er wohnte, Herr, als wollt’ in andres Land</l>
+ <l>Er ferne ziehn, daselbst. Errettet’ aber</l>
+ <l>Zu grösten Dingen dich; denn bist du der,</l>
+ <l>Den dieser nennt, so bist du unglükseelig.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Ju! Ju! das Ganze kommt genau heraus!</l>
+ <l>O Licht! zum leztenmal seh’ ich’ dich nun!</l>
+ <l>Man sagt, ich sei gezeugt, wovon ich nicht</l>
+ <l>Gesollt, und wohne bei, woichnicht sollt’, und da,</l>
+
+ <l>Wo ich es nicht gedurft, hab’ ich getödtet.</l>
+<stage>( er gelıet ab.)</stage>
+</sp>
+
+<sp><speaker>CHOR der Thebanischen Alten.</speaker>
+ <l>Io! ihr Geschlechter der Sterblichen !</l>
+ <l>Wie zähl’ ich gleich und wie nichts</l>
+ <l>Euch Lebenden.</l>
+ <l>Denn welcher, welcher Mann</l>
+ <l>Trägt mehr von Glük,</l>
+ <l>Als so weit, denn ihm scheint,</l>
+ <l>Und der im Schein lebt, abfällt.</l>
+ <l>Da ich dein Beispiel hab’</l>
+
+
+
+<pb n="77"/> 
+
+ <l>Und deinen Dämon, o Armer!</l>
+ <l>Preis’ ich der Sterblichen keinen glüklich.</l>
+
+ <l>Getroffen hattest du es über die Maas,</l>
+
+ <l>Und gewonnen durchaus glüklichen Reichthum,</l>
+
+ <l>O Zevs, und verderbet sie, mit krummem Nagel,</l>
+ <l>Die wahrsagende Jungfrau,</l>
+
+ <l>Aufstehend in denTodten meines Landes einThurm,</l>
+ <l>Woher du auch mir König genannt bist,</l>
+
+ <l>Und geehrt am höchsten,</l>
+
+ <l>Im grossen Thebe regierend.</l>
+
+ <l>Wo höret man aber jezt, von einem, der</l>
+ <l>Mülıseeliger wär’ im Wechsel des Lebens,</l>
+
+ <l>In Arbeit wohnend, in Quaalen wild?</l>
+
+ <l>Io! des Oedipus erlauchtes Haupt!</l>
+ <l>Dem grols genug ein Hafen war,</l>
+
+ <l>Als Sohn in ihm mit dem Vater,</l>
+
+ <l>Dem hochzeitlichen, zu fahren,</l>
+
+ <l>Wie konnten einst, wie konnten</l>
+
+ <l>Die väterlichen Spuren, o Armer!</l>
+ <l>Stillschweigend dich bringen hieher ?</l>
+ <l>Unwäillig hat dich gefunden</l>
+
+ <l>Die allesschauende Zeit,</l>
+
+<pb n="78"/>
+
+
+ <l>Und richtet die Eh’, ehlos</l>
+
+ <l>Von Alters her, weil sie</l>
+
+ <l>Sich mit sich selber gegattet.</l>
+
+ <l>Jo! des Lajos Kind!</l>
+
+ <l>Hätt’ ich dich, hätt’ ich nie dich gesehn,</l>
+
+ <l>Ich jammre nemlich, da überhin</l>
+
+ <l>Ich jauchze aus dem Munde.</l>
+
+ <l>Das Rechte aber zu sagen, athmet’ aus dir auf,</l>
+ <l>Und eingeschläfert hab’ ich mein Auge.</l>
+
+
+
+<pb n="79"/>
+
+
+ <l>Eee ze a</l>
+
+ <l>Fünfter Act.</l>
+
+ <l>Erste Scene</l>
+
+ <l>EIN BOTE DER CHOR.</l>
+
+ <l>DER BOTE.</l>
+ <l>O ihr, die ihr allzeit im Lande hier</l>
+ <l>Geehrt am meisten seid, was werdet ihr</l>
+ <l>Für Werke hören, selın, und welchen Jammer</l>
+ <l>Erheben, wenn, wie Eingeborne, nah.</l>
+ <l>Den Häussern Labdakos ihr Sorge gönnet?</l>
+ <l>Ich meine, .nicht der Ister, Phasis nıcht</l>
+ <l>Wird rein abwaschen dieses Haus, so viel</l>
+ <l>Es birgt. Bald aber kommt ans Licht das Schlimme,</l>
+ <l>Unschuldig oder schuldig. Doch von Uebeln</l>
+ <l>Am meisten schmerzt, was selbst erwähltsich zeiget.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Noch übrigist, dass jenes, was wir wissen,</l>
+
+ <l>Zum Seufzen nicht mehr sei, was weist du noch?</l>
+
+
+<pb n="80"/>
+
+
+ <l>DER BOTE.</l>
+ <l>Es ist das schnellste Wort, zu sagen und</l>
+
+ <l>Zu hören, todtis es, Jokastas göttlich Haupt.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Unglükliche! um welcher Sache willen?</l>
+ <l>DER BOOTE.</l>
+ <l>Sie selber durch sich selbst. Doch ist von dem</l>
+ <l>Das Traurigste entfernt. Der Anblik fehlet.</l>
+ <l>Doch sollst, so viel auch mir Gedächtnifs blieb,</l>
+ <l>Das Leiden du der Kämpfenden erfahren.</l>
+ <l>Denn da im Zorne stürzend sie gekommen</l>
+ <l>Ins Innere desHofs, lief sie zum Brauubett schnell,</l>
+ <l>Und rils das Haar sich aus mit Fingerspizen.</l>
+ <l>Als sie die Thüre hinter sich geschlossen ,</l>
+ <l>Ruft sie den Lajos, der schon lange todt ist,</l>
+ <l>Des alten Saamens eingedenk, worüber</l>
+ <l>Er todt sei und die Mutter übrig lasse,</l>
+ <l>Die kinderlos nach ihm die Kinder zeuge,</l>
+ <l>Und jammert unı ihr Bett, wo sie unglüklich</l>
+ <l>Zwei Männer aus dem Mann und Kinder bring aus Kindern.</l>
+ <l>Und wie sie drauf umkam, das weiss ich nimmer.</l>
+ <l>Denn schreiend stürzte Oedipus herein,</l>
+
+ <l>Vor dem man nicht ihr Unglük sehen konnte.</l>
+
+
+
+<pb n="81"/>
+
+
+
+ <l>Auf ihn, wie er umhergieng, sahen wir.</l>
+
+ <l>Er irrt und will, dass einen Speer wir reichen,</l>
+ <l>Dafs er sein Weib, sein Weib nicht, und das Feld,</l>
+ <l>Das mütterliche find’ und seine Kinder.</l>
+
+ <l>Dem Wütenden wies es von Dämonen einer,</l>
+ <l>Kein Mann von denen, die zugegen waren.</l>
+ <l>Gewaltig stürzt, als unter einem Treiber</l>
+
+ <l>Und trat auf beide Thüren er, und sprengte</l>
+
+ <l>Die hohlen Schlösser aus dem Grund und stürzt’</l>
+ <l>In das Gemach, wo hängend wir die Frau salın.</l>
+
+ <l>In Striken hättst du sie verstrikt gesehn.</l>
+
+ <l>Wie er sie sieht, lautbrüllend, der Arme löst</l>
+ <l>Das hiängende Seil, und auf die Erde fieler,</l>
+
+ <l>Der Leidende. Drauf wars ein Anblik schröklich.</l>
+ <l>Die goldnen Nadeln rifs er vom Gewand,</l>
+
+ <l>Mit denen sie geschmükt war, that es auf,</l>
+
+ <l>Und stach ins Helle seiner Augen sich und sprach,</l>
+ <l>So ungefähr, es sei, damit er sie nicht säh’</l>
+
+ <l>Und was er leid’, und was er schlimm gelhan,</l>
+ <l>Damit in Finsternifs er anderer in Zukunft,</l>
+
+ <l>Die er nicht sehen dürft’, ansichtig werden mög’</l>
+ <l>Und denen er bekannt sei, unbekannt.</l>
+
+ <l>Und so frohlokend stiefs er öfters, einmal nicht</l>
+
+ <l>Die Wimpern haltend, und die blutigen</l>
+
+
+<pb n="82"/>
+
+
+
+ <l>Augäpfel färbten ihm den Bart, und Tropfen aiclıt,</l>
+
+ <l>Als wie von Mord vergossen , rieselten, sondern schwarz</l>
+
+ <l>Vergossen ward das Blut, ein Hagelregen.</l>
+
+ <l>Aus einem Paare kam’s, kein einzeln Uebel,</l>
+
+ <l>Ein Uebel zusammen erzeugt von Mann und Weib.</l>
+
+ <l>Ihr alter Reichthum wahrhaft wars vor diesem</l>
+
+ <l>Ein Reichthum. Aber jezt, an diesem Tage,</l>
+
+ <l>Geseufz und Irr’ und Tod und Schmach, so viel</l>
+
+ <l>Von allen Uebeln Nalhımen sind, es fehlet keins.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Wie ruhet er im Uebel jezt, der Arme?</l>
+
+ <l>DER BOTE</l>
+ <l>Er schreit, man soll die Riegel öffnen, dass</l>
+ <l>Man jenen offenbare allen Kadmiern,</l>
+ <l>Den Vatermörder und der Mutter, spricht</l>
+ <l>Unheiliges, was ich nicht sagen darf.</l>
+ <l>Sich selbst verbannen woll’ er aus dem Lande,</l>
+ <l>Verflucht, wie er geflucht, im Haufs nicht bleiben.</l>
+ <l>Der Stärke nun und eines, der ihn leitet,</l>
+ <l>Bedarf er, denn zu grofs ist, dass er sie</l>
+
+ <l>Ertrage, seine Krankheit, doch er zeigt es dir.</l>
+
+
+<pb n="83"/>
+
+
+
+ <l>Die Riegel dieses Thores öffnen sich;</l>
+ <l>Und einen Anblik wirst du sehn vielleicht,</l>
+
+ <l>So dass ein Kind auch seiner sich erbarmte.</l>
+</sp>
+
+<milestone unit="act-scene" n="2"/>
+ <stage>DER CHOR. OEDIPUS.</stage>
+
+<sp><speaker>CHOR</speaker>
+ <l>O schröklich zu sehen ein Schmerz für Menschen,</l>
+ <l>O schröklichster von allen, so viel</l>
+ <l>Ich getroffen schon. Was ist, o Armer!</l>
+ <l>Dir gekommen ein Wahnsinn? welcher Dämon</l>
+ <l>Geleitete, den grössesten, dich</l>
+ <l>Zu deinem tödtlichen Schiksaal?</l>
+ <l>Ach! ach! du armer, aber ansehn kann</l>
+ <l>Ich nicht dich, vieles will ich sagen,</l>
+ <l>Viel rathen, viel betrachten,</l>
+
+ <l>Solch einen Schauder machest du mir,</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Weh! Weh! Weh! Weh!</l>
+
+ <l>Ach! ich Unglüklicher! Wohin auf Erden</l>
+
+
+<pb n="84"/>
+
+
+
+ <l>Werd’ ich getragen, ich Leidender?</l>
+ <l>Wo breitet sich um und bringt mich die Stimme?</l>
+ <l>Io! Dämon! wo reissest du hin?</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>In Gewaltiges, unerhört, unsichtbar.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Io! Nachtwolke mein! Du furchtbare</l>
+ <l>Ummwogend, unaussprechlich, unbezälmt,</l>
+ <l>Unüberwältiget! o mir! o mir!</l>
+ <l>Wie fährt in mich zugleich</l>
+ <l>Mit diesen Stacheln</l>
+
+ <l>Ein Treiben und Erinnerung der Uebel!</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Ein Wunder ists in solchem Unglük nicht,</l>
+
+ <l>Dafs zweifach du aufjammerst,zweifachUebelträgst!</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Io, lieber, der du mich</l>
+ <l>Geleitest, nah mir bleibend!</l>
+ <l>Denn jezt noch duldest du mich,</l>
+ <l>Den blinden besorgend. Ach! Ach!</l>
+
+
+
+<pb n="85"/>
+
+
+
+ <l>Denn nicht verborgen mir bist du und wohl,</l>
+ <l>Obgleich im Dunkeln, kenn’ ich deine Stimme,</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>O der du thatst gewaltiges ! wie konntest du</l>
+
+ <l>Dein Auge so befleken, welcher Dämon trieb dich?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Apollon wars, Apollon, o ihr Lieben,</l>
+ <l>Der solch Unglük vollbracht,</l>
+ <l>Hier meine, meine Leiden.</l>
+ <l>Es äffet kein Selbstmörder ihn,</l>
+ <l>Ich Leidender aber,</l>
+ <l>Was sollt’ ich sehn,</l>
+
+ <l>Dem sehend nichts zu schauen süss war.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Es warso, wieauch du sprichtst.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Was hab’ ich noch zu sehen und zu lieben,</l>
+ <l>Was freundliches zu hören? ihr Lieben!</l>
+ <l>Führt aus dem Orte geschwind mich,</l>
+
+ <l>Führt, o ihr Lieben! den ganz nichtswürdigen,</l>
+
+
+<pb n="86"/>
+
+
+
+
+ <l>Den Verfluchtesten und auch</l>
+ <l>Den Göttern verhasst am meisten unter den Menschen.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Kleinmüthiger und Eins mit dem Begegniss,</l>
+ <l>Wie wünsch’ ich, dass ich niemals dich gekannt.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Zu Grunde gehe, wer es war,</l>
+
+ <l>Der von der wilden</l>
+
+ <l>Bewanderten Haide die Füsse</l>
+
+ <l>Erlöst’ und von dem Mord</l>
+
+ <l>Errettet und erhielt, zu Dank</l>
+
+ <l>Nichts that er. Denn damals gestorben</l>
+
+ <l>Wär’ ich den Lieben nicht, nicht mir ein solcher  Kummer.</l>
+
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Nach Wunsche mir auch wäre dieses.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wohl wär’ ich nicht des Vaters Mörder</l>
+ <l>Gekommen, noch der Bräutigam genannt,</l>
+ <l>Von denen ich erzeugt ward,</l>
+ <l>Mühseelig bin ich nun. Der Sohn Unheiliger,</l>
+
+
+
+<pb n="87"/>
+
+
+
+ <l>Und Eines Geschlechts mit denen, wo ich selbst</l>
+ <l>Herstammt’ ich Armer. Giebts ein uralt Uebel,</l>
+
+ <l>Empfieng es Oedipus.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Ich kann nicht sagen, dass du gut gerathen,</l>
+
+ <l>Denn besser wärs, du lebtest nicht, als blind.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Da dieses nun zum besten nicht gethan ist,</l>
+
+ <l>So unterweise nicht und rathe mir nichts an.</l>
+
+ <l>Ich wusste nenllich nicht, mit welchen Augen ich</l>
+ <l>Den Vater angesehn, zum Hades wandelnd,</l>
+
+ <l>Und auch die arme Mutter. Welchen beiden</l>
+ <l>Ich Mühn vollbracht, die grösser sind, als Quaalen.</l>
+ <l>Da war der Kinder Angesicht, wuchs täglich auf,</l>
+ <l>So wie aufwuchsen, anzuschauen mir</l>
+
+ <l>Nun nimmermehr! und meinen alten Augen</l>
+ <l>Nicht Stadt und Thurm, die Bilder nicht der Geister,</l>
+ <l>Die heiligen, worum ich ärmlichster,</l>
+
+ <l>So gut, ein einziger Mann, gehalten und in Thebe,</l>
+ <l>Ich selber mich gebracht. Denn selber sagt’ ich,</l>
+ <l>Dass alle hassen ihn, den götterlosen,</l>
+
+ <l>Der als Unheiliger geoffenbaret</l>
+
+
+<pb n="88"/>
+
+
+
+
+ <l>Durch Götter sei und das Geschlecht des Lajos,</l>
+
+ <l>Da meinen Schimpf ich also kundgethan,</l>
+
+ <l>Sollt’ ich mit graden Augen diese sehn?</l>
+
+ <l>Mit nichten. Sondern wäre für den Quell,</l>
+
+ <l>Der in dem Ohre tönt, ein Schloss, ich hielt es nicht,</l>
+
+ <l>Ich schlösse meinen müheseelgen Leib,</l>
+
+ <l>Dass biind ich wär’ und taub. Denn süss ist es,</l>
+
+ <l>Wo der Gedanke wohnt, entfernt von Uebeln.</l>
+
+ <l>Io! Kithäron! warum nahmest du mich auf?</l>
+
+ <l>Und tödtetest empfangend mich nicht gleich,</l>
+
+ <l>Damit ich Menschen nie verräthe, wer ich wäre?</l>
+
+ <l>O Polybos und Korinth, ihr väterlichen,</l>
+
+ <l>Ihr altgerühmten Häuser, wie so schön</l>
+
+ <l>Erzogt ihr mich , vor Uebeln wohlverborgen?</l>
+
+ <l>Jezt werd’ ich schlecht, der Schlechten Sohn gefunden.</l>
+
+ <l>O ihr drei Wege! du verborgner Hain,</l>
+
+ <l>Du Wald und Winkel auf dem Dreiweg, wo</l>
+
+ <l>Von meinen Händen ihr mein Blut, des Vaters Blut,</l>
+
+ <l>Getrunken, denktihr mein? was ich für Werke</l>
+
+ <l>Gethan bei euch und dann, als ich hieher kam,</l>
+
+ <l>Was ich dann wieder that? o Ehe, Ehe!</l>
+
+ <l>Du pflanztest mich. Und da du mich gepflanzt,</l>
+
+
+<pb n="89"/>
+
+
+
+
+ <l>So sandtest du denselben Saamen aus,</l>
+
+ <l>Und zeigtest Väter, Brüder, Kinder, ein</l>
+
+ <l>Verwandtes Blut, und Jungfraun, Weiber, Mütter,</l>
+
+ <l>Und was nur schändlichstes entstehet unter Menschen!</l>
+
+ <l>Doch niemals sagtman, was zu thun nicht schön ist.</l>
+
+ <l>So schnell, als möglich, bei den Göttern, begrabt</l>
+
+ <l>Mich draussen irgend, tödtet oder werft</l>
+
+ <l>Ins Meer mich, wo ihr nimmermehr mich seht.</l>
+
+ <l>Geht! haltet es der Mühe werth, den Mann,</l>
+
+ <l>Mühseelig, anzurühren. Folget mir!</l>
+
+ <l>Habt keine Furcht! So nemlich ist mein Uebel,</l>
+ <l>Dass vor mir nie kein Mensch es tragen mochte. cuHoRn.</l>
+
+ <l>Für deinen Wunsch ist eben Kreon da,</l>
+
+ <l>Zu handeln und zu rathen. Denn er ist</l>
+
+ <l>Allein statt dir, des Landes Wächter übrig.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>O mir! was ist zu diesem Wort zu sagen?</l>
+
+ <l>Welch Zeichen wird von rechter Treue mir?</l>
+ <l>Denn längst bin ich vor ihm ganz schlimm befunden.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Nicht, als ein Spötter komm’ ich, Oedipus,</l>
+
+ <l>Noch von den alten Uebeln eins zu schelten.</l>
+
+
+<pb n="90"/>
+
+
+
+ <l>Allein, wenn ihr vor sterblichen Geschlechtern</l>
+ <l>Nicht Scheue habt, so ehret doch die Flamme</l>
+
+ <l>Die alles waidende des Königs Helios!</l>
+
+ <l>Nicht darf man unbedekt ein solches Unheil</l>
+ <l>Aufzeigen, das die Erde nicht, und nicht</l>
+
+ <l>Der heilge Regen und das Licht anspricht.</l>
+ <l>Geschwinde tragt hinein ihn in das Haus,</l>
+
+ <l>Denn denen im Geschlecht vornemlich steht es an</l>
+
+ <l>Zu sehn, zu hören eingeboren Uebel.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Bei Göttern! da du mir das Streben aufhieltst,</l>
+ <l>Der Treflichste, zum Schlechtesten gekommen,</l>
+
+ <l>Gehoörche mir. Zudir, zu mir nicht red’ ich.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Was zu gewinnen, bittest du so sehr?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Wirfaus dem Lande mich , so schnell du kannst,</l>
+
+ <l>Wo ich mit Menschen ins Gespräch nicht komme.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Schen wärs geschehn, das wisse, wollt’ ich nicht</l>
+
+ <l>Zuerst vom Gott erfahren, was zu thun sei.</l>
+</sp>
+
+
+<pb n="91"/>
+
+
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Doch schon ist ganz von ihm gesagt, die Sage,</l>
+
+ <l>Dafs man verderbe mich gottlosen Vatermörder.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>So ward gesagt, doch, wo wir stehn, im Falle,</l>
+
+ <l>Ists besser noch, zu hören, was zu thun sei.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>So um den Mann, mühseelig, wollt ihr fragen ?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Du magst auch jezt dem Gotte glaubig seyn.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Auch schreib’ ich es dir vor und heisse dichs.</l>
+ <l>Ihn seze in den Häussern, wie du willst,</l>
+ <l>Den Hügel, denn du tthust den deinen es mit Recht.</l>
+ <l>Mein wegen halt’ es nicht der Mühe werth,</l>
+ <l>Dafs mich die väterliche Stadt lebendig</l>
+ <l>Zum Mitbewohner habe. Sondern lafs</l>
+ <l>Mich wohnen auf den Bergen, wo berühmt ist</l>
+ <l>Hier mein Kitläron, den, noch lebend, Mutter</l>
+ <l>Und Vater mir zum Grabmal auserkoren,</l>
+ <l>Dais ich durch jene sterbe, welche mich verderbt,</l>
+ <l>Wiewohl ich dieses weiss, mich konnte Krankheit nicht,</l>
+
+
+<pb n="92"/>
+
+
+
+ <l>Nichts sonst zerstören; nicht bin ich vom Tod’</l>
+ <l>Errettet, denn zu diesem großsen Uebel.</l>
+ <l>Doch difs mein Schiksaal geh, wohin es will.</l>
+ <l>Für sie, die Kinder, für die männlichen ,</l>
+ <l>Für mich nicht sorge, Kreon. Sie sind Männer,</l>
+ <l>Dafs Mangel nie sie haben werden, wo</l>
+ <l>Sie sind im Leben. Meine müheseelgen</l>
+ <l>Erbarmungswerthen Jungfraun aber, denen</l>
+ <l>Nie leer von Speis’ und ohne unser einen</l>
+ <l>Mein Tisch war, die, was ich berührte, theilten,</l>
+ <l>Allzeit in allem, nehme der dich an.</l>
+ <l>Auch wohl erlaubst du, zu berühren sie</l>
+ <l>Mit Händen und das Unglük zu beweinen.</l>
+ <l>Geli o mein König!</l>
+ <l>Geh du aus edlem Stamm! berühr’ ich sie,</l>
+ <l>Wirds seyn, als hielt’ ich sie, da ich gesehn.</l>
+ <l>Was sag’ ich?</l>
+ <l>Hör’ ich, bei Göttern, nicht, die Lieben, wie</l>
+ <l>Sie um mich weinen? und erbarmend schikt</l>
+ <l>Sie Kreon mir, die liebsten meiner Kinder.</l>
+ <l>Hab’ ich nicht Recht?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Das hast du, eben bring’ ich sie zu dir.</l>
+
+ <l>Ich weiss, von je war dieses deine Freude.</l>
+
+
+
+<pb n="93"/>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Geseegmet seiest du, und dieses Wegs</l>
+ <l>Mag besser dich, als mich ein Geist geleiten.</l>
+ <l>O Kinder, wo seid ihr wolıl? kommit hieher, komnıt,</l>
+ <l>Zu meinen brüderlichen Händen, ihr,</l>
+ <l>Die ihr, da er die Pflanzen zog, dem Vater</l>
+ <l>Gewaidet habt die vormals hellen Augen,</l>
+ <l>Mir Kinder, der unwissend, unerfahren,</l>
+ <l>Ist Vater worden, wo er selbst gepflügt ward.</l>
+ <l>Beweinen mufs ich euch, kann euch nicht anselın,</l>
+ <l>Wenn ich den Rest des trüben Lebens denk’</l>
+ <l>Und wie Gewalt ihr leiden müfst von Mecaschen.</l>
+ <l>Wo in Versammlungen der Städter möcht’ ihr gehn?</l>
+ <l>Zu welcher Feier, wo ihr weinend nicht</l>
+ <l>Nach Haufse geht, statt mit dem Festtagsreihuen ?</l>
+ <l>Doch wenn ihrnun zum Gipfel kommt der Tiochzeit,</l>
+ <l>Wer wird esseyn? wer wirft hinweg die Kinder,</l>
+ <l>Nimimt an den Schimpf und so, wie meinen Eltern</l>
+ <l>Und euch sie kommen, die Belaidigungen ?</l>
+ <l>Denn welches Uebel fehlt nicht? Euren Vater</l>
+ <l>Ermordete der Vater, die Gebälhrerin</l>
+ <l>Hat er gepflügt, von der er selbst gesäet ward,</l>
+ <l>Und von denselben zeugt’ er euch, von denen</l>
+
+ <l>Er selbst gekommen. So seid ilır beschimpft.</l>
+
+
+<pb n="94"/>
+
+
+ <l>Und so, wer mag euch freien? keiner wirds,</l>
+ <l>Ihr Kinder, sondern sicher ist es, dürre</l>
+ <l>Vergehen müsset ihr und ohne Hochzeit.</l>
+
+ <l>O Sohn Menökes! aber, da allein du</l>
+
+ <l>Als Vater ihnen übrig bist, denn wir,</l>
+
+ <l>Die sie gezeugt, ein Paar, sind untergangen,</l>
+ <l>Verachte nicht die armen männerlosen</l>
+ <l>Verwandten Irrenden; du wirst sie nicht</l>
+ <l>Gleich stellen diesen meinen Uebeln, wirst dich</l>
+ <l>Erbarmen ihrer, diess ihr Alter schauend.</l>
+ <l>Verlassen sind sie ganz. Bei dir steht es.</l>
+ <l>Versprich es, Edler ! reiche deine Hand mir!</l>
+ <l>Euch, Kinder, wenn ihr schon die Sinne hättet,</l>
+ <l>Möcht’ ich noch vieles mahnen. Jezt gelobt mir,</l>
+ <l>Was immer leben muß, und dass ihr leichter</l>
+
+ <l>Wollt leben, als, der euch gezeugt, der Vater.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Genug, wohin geräthst du weinend?</l>
+ <l>Gehe nun hinein ins Haus?</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Folgen mufs man, freut es gleich nicht.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Alles ist zu rechter Zeit schön.</l>
+
+
+
+<pb n="95"/>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Weist du, was ich nun will?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Sag’ es. Ich weiss es, hör’ ich es.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Aus der Heimath sende fort mich.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Was der Gott giebt, bittst du mich.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Doch verhasset Göttern komm!’ ich.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Darum auch erhältst dus bald.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Sagst dus nun?</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Was ich nicht denke, sag’ ich zweimal nicht.</l>
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Führe du mich jezt von hinnen.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Gehe! lafs die Kinder nur!</l>
+
+</sp>
+
+<sp><speaker>OEDIPUS</speaker>
+ <l>Keineswegs nimmst du die mir.</l>
+</sp>
+
+<sp><speaker>KREON</speaker>
+ <l>Alles maafse dir nicht an.</l>
+
+
+<pb n="96"/>
+
+
+ <l>Auch was eigen dir gewesen, folgt dir nicht im</l>
+
+ <l>Leben nach.</l>
+</sp>
+
+<sp><speaker>CHOR</speaker>
+ <l>Ihr im Lande Thebe Bürger , sehet diesen Oedipus,</l>
+
+ <l>Der berühmte Räthsel löste, der vor allen war ein Mann.</l>
+
+ <l>Der nicht auf der Bürger Eifer, nicht gesehen auf das Glük,</l>
+
+ <l>Wie ins Wetter eines grofsen Schiksaals er gekommen ist,</l>
+
+ <l>Darum schauet hin auf jenen, der zulezt erscheint, den Tag,</l>
+
+ <l>Wer da sterblich ist, und preiset glüklich keinen, eh denn er</l>
+
+ <l>An des Lebens Ziel gedrungen, Elend nicht erfahren hat.</l>
+
+
+</sp>
+</div>
+</body>
+<back>
+
+<pb n="97"/>
+
+
+<head>Anmerkungen zum Oedipus.</head>
+
+
+
+<pb n="98"/>
+
+
+
+
+<pb n="99"/>
+
+<div type="textpart" subtype="section" n="1">
+
+
+<p>Es wird gut seyn, um den Dichtern, auch bei uns, eine bürgerliche Existenz zu sichern, wenn man die Pössie, auch bei uns, 'den Unterschied der Zeiten und Verfassungen abgerechnet, zur unxavn der Alten erhebt.</p>
+
+<p>Auch andern Kunstwerken fehlt, mit den griechischen verglichen, die Zuverlässigkeit ; wenigstens sind sie bis izt mehr nach Eindrüken beurtheilt worden, die sie machen, als nach ihrem gesezlichen Kalkul und sonstiger Werfahrungsart, wodurch das Schöne hervorgebracht wird. Der modernen Poesie fehlt es aber besonders an der Schule und am Handwerksmä/sigen, dass nemlich ihre Verfahrungsart berechnet und gelehrt, und wenn sie gelernt ist, in der Ausübung immer zuverlä/sig wiederhohlt werden kann. Man hat, unter Menschen, bei jedem Dinge, vor allem darauf zu sehen, dass es Etwas ist, d. h. dass es in dem Mittel (moyen) seiner Erscheinung erkennbar ist, dass die 4rt, wie es bedingt ist, bestimmt und gelehret werden kann. Deswegen und aus höheren Gründen bedarf die Pöesie besonders sicherer und karakteristischer Pı inzipien und Schranken,</p>
+
+<p>Dahin gehört einmal eben jener gesezliche Kalkul.</p>
+
+
+<pb n="100"/>
+
+<p>Dann hat man darauf zu sehen, wie der Innhalt sich von diesem unterscheidet, durch welche Verfahrungsart , und wie im unendlichen aber durchgängig bestimmten Zusammenhange der besondere Innhalt sich zum allgemeinen Kalkul verhält, und der Gang und das Westzusezende, der lebendige Sinn, der nicht berechnet werden kaun, mit dem kalkulablen Geseze in Beziehung gebracht wird.</p>
+
+<p>Das Gesez, der Kalkul, die Art, wie, ein Empfindungssystem, der ganze Mensch, als unter dem Einflusse des Elements sich entwikelt, und Vorstellung und Empfindung und Räsonnement, in verschiedenen Successionen, aber immer nach einer sichern Regel nacheinander hervorgehn, ist im Tragischen mehr Gleichgewicht, als reine Aufeinander folge.</p>
+
+<p>Der tragische Transport ist nemlich eigentlich leer, und der ungebundenste.</p>
+
+<p>Dadurch wird in der rhythmischen Aufeinanderfolge der Vorstellungen, worinn der Transport sich darstellt, das, was man im Sylbenmaa/se Cäsur heisst, dasreine Wort, die gegenrhythmische Unterbrechung nothwendig, um nemlich dem reifsenden VVechsel der Vorstellungen, auf seinem Summum, so zu begegnen, dass alsdann nicht mehr der FVechsel der Vorstellung, sondern die Vorstellung selber erscheint.</p>
+
+<p>Dadurch wird die Aufeinanderfolge des Kalkuls, und der Rhythmus getheilt,, und bezicht sich, in seinen
+
+
+<pb n="101"/> zweien Hälften so aufeinander , dass sie, als gleichwiegend , erscheinen.</p>
+
+<p>Ist nun der Rhythmus der Vorstellungen so beschaffen, dass, in exzentrischer Rapidität, die ersten mehr dureh die folgenden hingerissen sind, so mufs die Cäsur oder die gegenrhythmische Unterbrechung von vwurne liegen, so dass die erste Hälfte gleichsam gegen die zweite geschüzt ist, und das Gleichgewicht wird, eben weil die zweite Hälfte ursprünglich rapider ist, und schwerer zu wiegen scheint, der entgegenwirkenden Cäsur wegen, mehr sich von hinten her gegen den Aufang neigen.</p>
+
+<p>Ist der Rhythmus der Vorstellungen so beschaffen , dass die folgenden mehr gedrungen sind von den anfänglichen, so wird die Cüsur mehr gegen das Ende liegen, weil es das Ende ist, was gegen den Aufaug gleichsam geschüzt werden mu/s, und das Gleichgewicht wird folglich sich mehr gegen das Ende neigen, weil die erste Hälfte sich läuger dehnt, das Gleichgewicht folglich später vorkommt. So viel vom kalkulableu Geseze,</p>
+
+<p>Das erste nun der hier angedeuteten tragischen Geseze ist das des Oedipus.</p>
+
+<p>Die Antigonä gehet nach dem zweiten hier berührten.</p>
+
+<p>In beiden Stüken machen die Cüsur die Reden des Tiresias aus.
+
+
+<pb n="102"/></p>
+
+<p>Er tritt ein in den Gang des Schiksaals, als Aufseher über die Naturmacht, die tragisch, den Menschen seiner Lebenssphäre, dem Mittelpunkte seines innern Lebens in eine andere Welt entrükt und in die exzentrische Sphäre der Todten rei/st.
+</p></div>
+
+<div type="textpart" subtype="section" n="2">
+
+<p>Die Verständlichkeit des Ganzen beruhet vorzüglich darauf, dass man die Scene ins Auge fa/st, wo’Oedipus den Orakelspruch zu unendlich deu tet, zum nefas versucht wird. Nemlich der Orakelspruch heisst :
+
+<quote>
+<l>Geboten hat uns Phöbos klar, der König,</l>
+<l>Man soll des Landes Schmach, auf diesem Grund genährt,</l>
+<l>Verfolgen, nicht Unheilbares ernähren.</l>
+
+</quote> Das konnte hei/sen: Richtet, allgemein, ein streng und rein Gericht, haltet gute bürgerliche Ordnung. Oedipus aber spricht gleich darauf priesterlich:
+
+<quote>
+<l>Durch welche Reinigung, etc.</l>
+
+</quote> Und gehet ins besondere,
+
+<quote>
+<l>Und welchem Mann bedeutet er difs Schiksaal?</l>
+
+</quote> Und bringet so die Gedanken des Kreon auf das furchtbare Wort:
+
+<quote>
+<l>Uns war, o König, Lajos vormals Herr</l>
+<l>In diesem Land’, eh du die Stadt gelenket.</l>
+
+</quote> So wird der Orakelspruch und die nicht nothwendig darunter gehörige Geschichte von Lajos Tode zusammengebracht. In der gleich darauf folgenden Scene spricht
+
+
+<pb n="103"/> aber, inzorniger Ahnung, der Geist des Oedipus , alles wissend, das nefas eigentlich aus, indem er das allgemeine Gebot argwöhnisch ins Besondere deutet, und auf einen Mörder des Lajos anwendet , und dann auch dis Sünde als unendlich nimmt.
+
+<quote>
+<l>Wer unter euch den Sohn des Labdakos,</l>
+<l>Lajos, gekannt, durch wen er umgekommen,</l>
+<l>Dem sag’ ich, dass ers all anzeige mir etc.</l>
+
+<l>Um dieses Mannes willen</l>
+<l>Fluch’ ich, wer er auch sei, im Lande hier,</l>
+<l>Von dem die Kraft und Thronen ich verwalte,</l>
+<l>Nicht laden soll man noch ansprechen ihn;</l>
+<l>Zu göttlichen Gelübden nicht und nicht zu Opfern</l>
+<l>Ihn nehmen.</l>
+
+<l>Es zeiger difs</l>
+<l>Der Götterspruch, der Pythische, mir deutlich. etc.</l>
+
+</quote> Daher, im nachfolgenden Gespräche mit Tiresias, die wunderbare zornige Neugier, weil das Fissen, wenn es seine Schranke durchrissen hat, wie trunken in seiner herrlichen harmonischen Form, die doch bleiben kann, vorerst, sich selbst reizt, mehr zu wissen, alses tragen oder fassen kann.</p>
+
+<p>Daher in der Scene mit Kreon nachher der Argwohn, weil der unbändige, und von traurigen Geheimnifsen beladene Gedanke unsicher wird, und der treue gewi/se Geist im zornigen Unmaas leidet, das, zerstührungsfroh , der rei/senden Zeit nur folgt.</p>
+
+<p>Daher , in der Mitte des Stüks, in den Reden mit Jokasta die traurige Ruhe, das Blöde, der mitleids-
+
+<pb n="104"/> werthe naive Irrtum des gewaltigen Mannes, wo er Jokasten vom vermeintlichen Geburtsort und von Polybos erzählet, den er umzubringen fürchtet, weil er sein Water sey, und Meropen, die er fliehen will, um nicht sie, die seine Mutter sey, zu heurathen, den Worten des Tiresias nach, da dieser doch ihm sagte, er sey des Lajos Mörder und dieser sey sein Vater. Tiresias sagt nemlich im schon berührten Streite zwischen Oedipus und ihn :
+
+<quote>
+<l>Kund wird er aber seyn, bei seinen Kindern wohnend,</l>
+<l>Als Bruder und als Vater, und vom Weib, das ihn</l>
+<l>Gebahr, Sohn und Gemahl.</l>
+<l>Der Mann, den längst</l>
+
+<l>Du suchest, drohend und verkiindigend den Mord</l>
+<l>Des Lajos, der ist hier; als Fremder, nach der Rede,</l>
+<l>Wolnt er mit uns, doch bald, als Eingeborner,</l>
+<l>Kund wird er, als Thebaner seyn und nicht</l>
+<l>Sich freun am Unfall.</l>
+
+<l>Kund wird er seyn, bei seinen Eltern wohnend,</l>
+<l>Als Bruder und als Vater, und vom Weib, das ilın</l>
+<l>Gebahr, Sohn und Gemahl, in Einem Bette mit</l>
+<l>Dem Vater und sein Mörder.</l>
+
+</quote> Daher dann im Anfange der zweiten Hälfte, in der Scene mit dem Korinthischen Boten, da er zum Leben wieder versucht wird, das verzweifelnde Ringen, zu sich selbst zu kommen, das niedertretende fast schaamlose Streben, seiner mächtig zu werden, das närrischwilde Nachsuchen nach einem Bewufstseyn.
+
+<quote>
+<sp><speaker>Jokasta.</speaker>
+
+<l>Denn aufwärts bieget Oedipus den Muth</l>
+
+
+
+<pb n="105"/>
+
+
+
+<l>In mannichfacher Quaal, nicht, wie ein Mann,</l>
+<l>Besonnen, deutet er aus Altem Neues.</l>
+</sp>
+<sp><speaker>Oedipus.</speaker>
+<l>O liebstes, du, des \Veibs Jokastas Haupt!</l>
+<l>Was riefest du heraus mich aus den Häufsern?</l>
+</sp>
+<sp><speaker>Oedipus.</speaker>
+<l>An Krankheit welkte, wie es scheint, der Alte.</l>
+</sp>
+<sp><speaker>Bote.</speaker>
+
+<l>Und an der grofsen Zeit genug gemessen.</l>
+</sp>
+</quote></p>
+
+<p>Es ist wohl zu bemerken, wie sich Oedipus Geist hier an dem guten Spruche erhebt; so können die fulgenden Reden aus edlerem Motiv erscheinen. Hier wirft er, der jezt gerade nicht mit herkulischen Schultern trägt, in hoher Schwäche, seiner mächtig zu werden, die königlichen Sorgen weg:
+
+<quote>
+<l>Wolan! wer sollte nun, o Weib, noch einmal</l>
+<l>Den prophezeienden lleerd befragen, oder</l>
+
+<l>Von oben schreiend die Vögel? deren Sinn nach</l>
+<l>Ich tödten sollte meinen Vater, der</l>
+
+<l>Gestorben schlummert unter der Erd’; hier aber</l>
+<l>Bin ich und rein ist meine Lanze, wenn er anders</l>
+<l>Im Traume nicht umkam, von mir; so mag er</l>
+<l>Gestorben seyn, von mir; zugleich nalım er auch</l>
+<l>Die heutigen Seherspriiche mit, und liegt nun</l>
+
+<l>Im Hades, Polybos, nicht weiter gültig.</l>
+
+</quote> Zulezt herrscht in den Reden vorzüglich das geisteskranke Fragen nach einem Bewufstseyn.
+
+<quote>
+<sp>
+    <speaker>Bote.</speaker>
+
+<l>Wohl zeigst du, Kind, du wissest, was du thust, nicht.</l>
+</sp>
+<sp><speaker>Oedipus.</speaker>
+
+<l>Wie, bei dem Göttlichen, Alter, sprich etwas!</l>
+</sp>
+<pb n="106"/>
+
+
+
+<sp><speaker>Oedipus.</speaker>
+<l>Was sagst du? pflanzte Polybos mich nicht!</l>
+</sp>
+<sp><speaker>Bote.</speaker>
+<l>Beinahe so etwas, wie unser einer.</l>
+</sp>
+<sp><speaker>Oedipus.</speaker>
+
+<l>Wie das? ein Vater, der dem Niemand gleich ist ?</l>
+</sp>
+<sp><speaker>Bote.</speaker>
+<l>Ein Vater eben. Polybos nicht; nicht ich.</l>
+</sp>
+<sp><speaker>Oedipus.</speaker>
+
+<l>Wofür denn aber nennt der mich das Kind ?</l>
+</sp>
+<sp><speaker>Bote.</speaker>
+<l>Ich löse dich, da dir die Zehn vernäht sind.</l>
+</sp>
+<sp><speaker>Oedipus.</speaker>
+
+<l>Gewaltigen Schimpf bracht? aus den Windeln ich.</l>
+</sp>
+<sp><speaker>Bote.</speaker>
+
+
+<l>So dass genannt du bist nach diesem Dinge.</l>
+</sp>
+<sp><speaker>Oedipus.</speaker>
+
+
+<l>Das, Götter! das, bei Mutter, Vater, rede.</l>
+</sp>
+<sp><speaker>Jokasta.</speaker>
+<l>Bei Göttern, nein! bist du besorgt ums Leben,</l>
+
+<l>So suche nicht. Genug erkrankt bin ich.</l>
+</sp>
+<sp><speaker>Oedipus.</speaker>
+
+
+<l>Sey gutes Muths! käm’ ich von dreien Müttern</l>
+
+<l>Dreifach ein Knecht, es machte dich nicht schlimmer.</l>
+</sp>
+<sp><speaker>Oedipus.</speaker>
+
+<l>Was soll, das breche. Mein Geschlecht will ich,</l>
+<l>Seys auch gering, doch will ich es erfahren.</l>
+<l>Mit Recht ist sie, denn Weiber denken grofs,</l>
+<l>Ob meiner niedrigen Geburt beschämt.</l>
+<l>Ich aber will, als Sohn des Glüks mich haltend,</l>
+<l>Des wohlbegabten, nicht verunehrt werden.</l>
+<l>Denn difs ist meine Mutter. Und klein und grofs</l>
+<l>Umfiengen mich die mitgebornen Monde.</l>
+<l>Und so erzeugt, will ich nicht ausgehn,, so,</l>
+<l>So dass ich nicht gauz, was ich bin, erforschte.</l>
+</sp>
+</quote>
+</p>
+
+<pb n="107"/>
+
+
+<p>Eben difs Allessuchende, Allesdeutende ists auch, dass sein Geist am Ende der rohen und einfältigen Sprache seiner Diener unterliegt.</p>
+
+<p>Weil solche Menschen in gewaltsamen Verhältnissen stehn, spricht auch ihre Sprache, beinahe nach Furienart, in gewaltsamerem Zusammenhange. </p>
+</div>
+
+<div type="textpart" subtype="section" n="3">
+
+<p>Die Darstellung des Tragischen beruht vorzüglich darauf, dass das Ungeheure, wie der Gott und Mensch sich paart, und grenzenlos die Naturmacht und des Menschen Innerstes im Zorn Eins wird, dadurch sich begreift, dass das grünzenlose Eineswerden durch gränzenloses Scheiden sich reiniget. Tns Pvrswus yeaupareus nr Tov xaAauov amoßgexwv euvouv.</p>
+
+<p>Darum der immer widerstreitende Dialog, darum der Chor als Gegensaz gegen diesen. Darum das allzukeusche ‚ allzumechanische und factisch endigende Ineinandergreifen zwischen den verschiedenen Theilen, im Dialog, und zwischen dem Chor und Dialog und den grofsen Parthien oder Dramaten, welche aus Chor und Dialog bestehen. Alles ist Rede gegen Rede, die sich gegenseitig aufhebt.</p>
+
+<p>So in den Chören des Oedipus das Jammernde und Triedliche und Religiose, die fromıne Lüge, (wenn ich Wahrsager bin, etc.) und das Mitleid bis zur gänzlichen Erschöpfung gegen einen Diulog, der die Seele eben
+
+
+<pb n="108"/> dieser Hörer zerreissen will, in seiner zornigen Empfindlichkeit; in den Auftritten die schröklichfeierlichen Formen, das Drama wie eines Kezergerichtes, als Sprache für eine Welt, wo unter Pest und Sinnesverwirrung und allgemein entzündetem Wahrsagergeist, in mü/siger Zeit, der Gott und der Mensch, damit der Weltlauf keine Lüke hat und das Gedächtni/fs der Himmlischen nicht ausgehet, in der, allvergessenden Form der Untreue sich mittheilt, denn göttliche Untreue ist am besten zu behalten.</p>
+
+<p>In solchem Momente vergifst der Mensch sich und den Gott, und kehret, freilich heiliger Weise, wie ein Verräther sich um. — In der äufsersten Grenze des Leidens bestehet nemlich nichts mehr , als die Bedingungen der Zeit oder des Raums.</p>
+
+<p>In dieser vergifst sich der Meusch, weil er ganz im Moment ist; der Gott, weil er nichts als Zeit ist; und beides ist untren, die Zeit, weil sie in solchem Momente sich kategorisch wendet, und Anfang und Ende sich in ihr schlechterdings nicht reimen läfst; der Mensch, weil er in diesem Momente der kategorischen Umkehr folgen mufs, hiermit im Folgenden schlechterdings nicht dem Anfünglichen gleichen kann,</p>
+
+<p>So stehet Hämon in der Antigonä, So Oedipus selbst in der Mitte der Tragödie von Oedipus.
+
+
+
+
+
+</p>
+</div>
+</back>
+</text>
+</TEI>
