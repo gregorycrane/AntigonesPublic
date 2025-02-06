@@ -4,7 +4,7 @@
 Epsilon contracts
 * 3 τελέω: τελέ-ει --> τελεῖ
 * 17 εὐτυχέω: εὐτυχέ-ουσα -> εὐτυχοῦσα
-* 33 νεῖσθαι:	νέομαι
+* 33 νέομαι: νέ-εσθαι --> νεῖσθαι
 
 These are often denominative, i.e., they are verbs based on nouns or adjectives.
 * εὐτυχής, εὐτυχές, 3rd decl adjective "fortunate"
