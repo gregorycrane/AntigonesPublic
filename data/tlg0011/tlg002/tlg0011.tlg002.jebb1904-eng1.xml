@@ -81,12 +81,12 @@
 
 <sp><speaker>Antigone</speaker><p>
 
-Ismene, sister, mine own dear sister, knowest thou
+<milestone unit="card" n="1" edRef="Storr"/>Ismene, sister, mine own dear sister, knowest thou
 what ill there is, of all bequeathed by Oedipus, that
 Zeus fulfils not for us twain while we live? Nothing
 painful is there, nothing fraught with ruin, no shame, no
 dishonour, that I have not seen in thy woes and mine.
-
+</p><p>
 And now what new edict is this of which they tell,
 that our Captain hath just published to all Thebes?
 Knowest thou aught? Hast thou heard? Or is it hidden
@@ -140,7 +140,7 @@ show whether thou art nobly bred, or the base daughter
 of.a noble line.
 
 </p></sp><sp><speaker>Ismene</speaker><p>
-Poor sister,—and if things stand thus, what
+<milestone unit="card" n="39" edRef="Storr"/>Poor sister,—and if things stand thus, what
 
 <milestone unit="line" n="40"/>
 could I help to do or undo?
@@ -197,7 +197,7 @@ seeing that force is put on me herein, will hearken to
 our rulers; for ’tis witless to be over busy.
 
 </p></sp><sp><speaker>Antigone</speaker><p>
-I will not urge thee,—no, nor, if thou yet
+<milestone unit="card" n="69" edRef="Storr"/>I will not urge thee,—no, nor, if thou yet
 <milestone unit="line" n="70"/>
 shouldst have the mind, wouldst thou be welcome as
 a worker with me. Nay, be what thou wilt; but I will
@@ -275,7 +275,7 @@ thou art truly dear.
 </p></sp><sp><speaker>Chorus</speaker><p>
 <milestone unit="line" n="100"/>
 <milestone unit="str" n="1"/>
-Beam of the sun, fairest light that ever dawned on
+<milestone unit="card" n="100" edRef="Storr"/>Beam of the sun, fairest light that ever dawned on
 Thebè of the seven gates, thou hast shone forth at last,
 eye of golden day, arisen above Dircé’s streams! The
 warrior of the white shield, who came from Argos in
@@ -287,7 +287,7 @@ flight, in swifter career ;
 
 
 <milestone unit="syst" n="1"/>
-who set forth against our land by reason of the 
+<milestone unit="card" n="110" edRef="Storr"/>who set forth against our land by reason of the 
 <milestone unit="line" n="110"/>
 vexed claims of Polyneices; and, like shrill-screaming
 eagle, he flew over into our land, in snow-white pinion
@@ -295,7 +295,7 @@ sheathed, with an arméd throng, and with plumage of
 helms. </p>
 
 <p><milestone unit="ant" n="1"/>
-He paused above our dwellings; he ravened around 
+<milestone unit="card" n="117" edRef="Storr"/>He paused above our dwellings; he ravened around 
 <milestone unit="line" n="120"/>
 our sevenfold portals with spears athirst for blood; but
 he went hence, or ever his jaws were glutted with our
@@ -305,7 +305,7 @@ raised behind him, a thing too hard for him to conquer,
 as he wrestled with his dragon foe.</p>
 
 <p><milestone unit="syst" n="2"/>
-For Zeus utterly abhors the boasts of a proud 
+<milestone unit="card" n="127" edRef="Storr"/>For Zeus utterly abhors the boasts of a proud 
 tongue; and when he beheld them coming on in a
 <milestone unit="line" n="130"/>
 great stream, in the haughty pride of clanging gold,
@@ -314,7 +314,7 @@ he smote with brandished fire one who was now hasting
 to shout victory at his goal upon our ramparts.</p>
 
 <p><milestone unit="str" n="2"/>
-Swung down, he fell on the earth with a crash, 
+<milestone unit="card" n="134" edRef="Storr"/>Swung down, he fell on the earth with a crash, 
 torch in hand, he who so lately, in the frenzy of the
 mad onset, was raging against us with the blasts of his
 tempestuous hate. But those threats fared not as he
@@ -325,7 +325,7 @@ helper at our need.</p>
 
 <p>
 <milestone unit="syst" n="3"/>
-For seven captains at seven gates, matched against 
+<milestone unit="card" n="141" edRef="Storr"/>For seven captains at seven gates, matched against 
 seven, left the tribute of their panoplies to Zeus who
 tutns the battle; save those two of cruel fate, who,
 born of one sire and one mother, set against each other
@@ -338,7 +338,7 @@ their twain conquering spears, and are sharers in a
 common death.
 
 <milestone unit="ant" n="2"/>
-But since Victory of glorious name hath come to
+<milestone unit="card" n="148" edRef="Storr"/>But since Victory of glorious name hath come to
 
 us, with joy responsive to the joy of Thebè whose
 
@@ -351,7 +351,7 @@ night-long dance and song; and may Bacchus be our
 leader, whose dancing shakes the land of Thebè.
 
 <milestone unit="syst" n="4"/>
-But lo, the king of the land comes yonder, Creon,
+<milestone unit="card" n="155" edRef="Storr"/>But lo, the king of the land comes yonder, Creon,
 
 son of Menoeceus, our new ruler by the new fortunes
 
@@ -364,7 +364,7 @@ summoned by his general mandate?
 <stage>Enter CREON, from the central doors of the palace, in the garb of king ; with two attendants.</stage>
 
 </p></sp><sp><speaker>Creon</speaker><p>
-Sirs, the vessel of our State, after being tossed
+<milestone unit="card" n="162" edRef="Storr"/>Sirs, the vessel of our State, after being tossed
 on wild waves, hath once more been safely steadied by
 the gods: and ye, out of all the folk, have been called
 apart by my summons, because I knew, first of all, how
@@ -429,7 +429,7 @@ just ; but whoso hath good will to Thebes, he shall be
 honoured of me, in his life and in his death.
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-Such is thy pleasure, Creon, son of Menoeceus,
+<milestone unit="card" n="211" edRef="Storr"/>Such is thy pleasure, Creon, son of Menoeceus,
 touching this city’s foe, and its friend; and thou hast
 power, I ween, to take what order thou wilt, both for
 the dead, and for all us who live.
@@ -466,7 +466,7 @@ ruined men through their hopes.
 <stage>Enter GUARD.</stage>
 
 </p></sp><sp><speaker>Guard</speaker><p>
- My liege, I will not say that I come breathless
+ liege, I will not say that I come breathless
 from speed, or that I have plied a nimble foot ; for often
 did my thoughts make me pause, and wheel round in my
 path, to return. My mind was holding large discourse
@@ -488,7 +488,7 @@ a good grip on one hope,—that I can suffer nothing but ate
 what is my fate. 
 
 </p></sp><sp><speaker>Creon</speaker><p>
-And what is it that disquiets thee thus?
+<milestone unit="card" n="237" edRef="Storr"/>And what is it that disquiets thee thus?
 
 </p></sp><sp><speaker>Guard</speaker><p>
  I wish to tell thee first about myself—I did
@@ -558,7 +558,7 @@ as unwilling, well I wot; for no man delights in the
 bearer of bad news.
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-O king, my thoughts have long been whispering,
+<milestone unit="card" n="278" edRef="Storr"/>O king, my thoughts have long been whispering,
 can this deed, perchance, be e’en the work of gods?
 <milestone unit="line" n="280"/>
 
@@ -607,7 +607,7 @@ from every source. For thou wilt find that ill-gotten
 pelf brings more men to ruin than to weal.
 
 </p></sp><sp><speaker>Guard</speaker><p>
- May I speak? Or shall I just turn and go?
+ <milestone unit="card" n="315" edRef="Storr"/>May I speak? Or shall I just turn and go?
 
 </p></sp><sp><speaker>Creon</speaker><p>
 Knowest thou not that even now thy voice
@@ -662,7 +662,7 @@ thanks,
 <milestone unit="str" n="1"/>
 
 
-Wonders are many, and none is more wonderful than
+<milestone unit="card" n="333" edRef="Storr"/>Wonders are many, and none is more wonderful than
 
 man; the power that crosses the white sea, driven by
 
@@ -677,7 +677,7 @@ the soil with the offspring of horses, as the ploughs
 go to and fro from year to year.
 
 <milestone unit="ant" n="1"/>
-And the light-hearted race of birds, and the tribes
+<milestone unit="card" n="343" edRef="Storr"/>And the light-hearted race of birds, and the tribes
 
 of savage beasts, and the sea-brood of the deep, he
 
@@ -692,7 +692,7 @@ he tames the horse of shaggy mane, he puts the yoke
 upon its neck, he tames the tireless mountain bull,
 
 <milestone unit="str" n="2"/>
-And speech, and wind-swift thought, and all the
+<milestone unit="card" n="354" edRef="Storr"/>And speech, and wind-swift thought, and all the
 
 moods that mould a state, hath he taught himself; and
 
@@ -713,7 +713,7 @@ devised escapes.
 
 
 <milestone unit="ant" n="2"/>
-Cunning beyond fancy’s dream is the fertile skill 
+<milestone unit="card" n="365" edRef="Storr"/>Cunning beyond fancy’s dream is the fertile skill 
 which brings him, now to evil, now to good. When he
 honours the laws of the land, and that justice which
 he hath sworn by the gods to uphold, proudly stands
@@ -724,7 +724,7 @@ my thoughts, who doth these things!
 
 <stage>Enter the Guard on the spectators’ left, leading in ANTIGONE.</stage>
 
-What portent from the gods is this?—my soul is
+<milestone unit="card" n="376" edRef="Storr"/>What portent from the gods is this?—my soul is
 amazed. I know her—how can I deny that yon maiden
 is Antigone?
 
@@ -735,7 +735,7 @@ disloyal to the king’s laws, and taken in folly?
 
 </p></sp><sp><speaker>Guard</speaker><p>
 
-Here she is, the doer of the deed :—we caught this
+<milestone unit="card" n="384" edRef="Storr"/>Here she is, the doer of the deed :—we caught this
 girl burying him :—but where is Creon?
 
 </p></sp><sp><speaker>Chorus</speaker><p>
@@ -791,7 +791,7 @@ forbidden to bury, Is that plain and clear?
 And how was she seen? how taken in the act ?
 
 </p></sp><sp><speaker>Guard</speaker><p>
- It befell on this wise. When we had come to
+ <milestone unit="card" n="407" edRef="Storr"/>It befell on this wise. When we had come to
 the place,—with those dread menaces of thine upon
 
 <milestone unit="line" n="410"/>
@@ -841,7 +841,7 @@ ill. Howbeit, all such things are of less account to me
 than mine own safety.
 
 </p></sp><sp><speaker>Creon</speaker><p>
-Thou—thou whose face is bent to earth—dost
+<milestone unit="card" n="441" edRef="Storr"/>Thou—thou whose face is bent to earth—dost
 thou avow, or disavow, this deed ?
 
 </p></sp><sp><speaker>Antigone</speaker><p>
@@ -907,7 +907,7 @@ in thy sight, it may be that a foolish judge arraigns my
 folly.
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-The maid shows herself passionate child of
+<milestone unit="card" n="471" edRef="Storr"/>The maid shows herself passionate child of
 passionate sire, and knows not how to bend before
 troubles.
 
@@ -953,7 +953,7 @@ me?
 No more, indeed; having that, I have all.
 
 </p></sp><sp><speaker>Antigone</speaker><p>
-Why then dost thou delay? In thy discourse
+ <milestone unit="card" n="499"/>Why then dost thou delay? In thy discourse
 <milestone unit="line" n="500"/>
 there is nought that pleases me,—never may there be
 and so my words must needs be unpleasing to thee.
@@ -1041,7 +1041,7 @@ woman shall rule me,
 <stage>Enter ISMENE from the house, led in by two attendants.</stage>
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-Lo, yonder Ismene comes forth, shedding such
+<milestone unit="card" n="526" edRef="Storr"/>Lo, yonder Ismene comes forth, shedding such
 
 tears as fond sisters weep; a cloud upon her brow casts
 
@@ -1050,7 +1050,7 @@ its shadow over her darkly-flushing face, and breaks in
 rain on her fair cheek.
 
 </p></sp><sp><speaker>Creon</speaker><p>
-And thou, who, lurking like a viper in my
+<milestone unit="card" n="531"/>And thou, who, lurking like a viper in my
 house, wast secretly draining my life-blood, while I
 
 
@@ -1074,7 +1074,7 @@ part in it.
 
 </p></sp><sp><speaker>Ismene</speaker><p>
 <milestone unit="line" n="540"/>
-But, now that ills beset thee, I am not ashamed
+<milestone unit="card" n="556" edRef="Storr"/>But, now that ills beset thee, I am not ashamed
 to sail the sea of trouble at thy side. 
 
 </p></sp><sp><speaker>Antigone</speaker><p>
@@ -1218,7 +1218,7 @@ see Death now closing on their life.
 <stage>Exeunt attendants, guarding ANTIGONE and ISMENE.—CREON remains.</stage>
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-Blest are they whose days have not tasted of
+<milestone unit="card" n="583" edRef="Storr"/>Blest are they whose days have not tasted of
 evil. For when a house hath once been shaken from
 heaven, there the curse fails nevermore, passing from
 life to life of the race; even as, when the surge is driven
@@ -1228,7 +1228,7 @@ Thracian sea-winds, it rolls up the black sand from the
 depths, and there is a sullen roar from wind-vexed headlands
 that front the blows of the storm.</p>
 
-<p>I see that from olden time the sorrows in the house
+<p><milestone unit="card" n="593" edRef="Storr"/>I see that from olden time the sorrows in the house
 of the Labdacidae are heaped upon the sorrows of the
 dead; and generation is not freed by generation, but
 some god strikes them down, and the race hath no
@@ -1241,7 +1241,7 @@ that hope, in turn, is brought low—by the blood-stained
 dust due to the gods infernal, and by folly in speech,
 and frenzy at the heart.
 
-Thy power, O Zeus, what human trespass can limit?
+<milestone unit="card" n="605" edRef="Storr"/>Thy power, O Zeus, what human trespass can limit?
 That power which neither Sleep, the all-ensnaring, nor
 the untiring months of the gods can master; but thou,
 
@@ -1259,7 +1259,7 @@ dazzling splendour of Olympus.</p>
 past, shall this law hold good: Nothing that is vast
 enters into the life of mortals without a curse.
 
-For that hope whose wanderings are so wide is to
+<milestone unit="card" n="615" edRef="Storr"/>For that hope whose wanderings are so wide is to
 many men a comfort, but to many a false lure of giddy
 
 <milestone unit="line" n="620"/>
@@ -1272,7 +1272,7 @@ famous saying, that evil seems good, soon or late, to
 him whose mind the god draws to mischief; and but
 for the briefest space doth he fare free of woe.
 
-But lo, Haemon, the last of thy sons;—comes he
+<milestone unit="card" n="626" edRef="Storr"/>But lo, Haemon, the last of thy sons;—comes he
 grieving for the doom of his promised bride, Antigone,
 <milestone unit="line" n="630"/>
 and bitter for the baffled hope of his marriage?
@@ -1280,14 +1280,14 @@ and bitter for the baffled hope of his marriage?
 <stage>Enter HAEMON.</stage>
 
 </p></sp><sp><speaker>Creon</speaker><p>
-We shall know soon, better than seers could
+<milestone unit="card" n="631" edRef="Storr"/>We shall know soon, better than seers could
 tell us—My son, hearing the fixed doom of thy betrothed,
 art thou come in rage against thy father? Or
 have I thy good will, act how I may?
 
 </p></sp><sp><speaker>Haemon</speaker><p>
 Father, Iam thine; and thou, in thy wisdom,
-tracest for me_rules which I shall follow. No marriage
+tracest for me—rules which I shall follow. No marriage
 shall be deemed by me a-greater gain than thy good
 guidance.
 
@@ -1359,7 +1359,7 @@ hand; then we should not be called weaker than a
 woman.
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-To us, unless our years have stolen our wit,
+<milestone unit="card" n="681" edRef="Storr"/>To us, unless our years have stolen our wit,
 thou seemest to say wisely what thou sayest.
 
 </p></sp><sp><speaker>Haemon</speaker><p>
@@ -1421,7 +1421,7 @@ but, otherwise—and oft the scale inclines not so—'tis
 good also to learn from those who speak aright.
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-Sire, ’tis meet that thou shouldest profit by his
+<milestone unit="card" n="724" edRef="Storr"/>Sire, ’tis meet that thou shouldest profit by his
 words, if he speaks aught in season, and thou, Haemon,
 by thy father’s ; for on both parts there hath been wise
 speech.
@@ -1543,7 +1543,7 @@ reply?
 <pb n="153"/>
 
 </p></sp><sp><speaker>Creon</speaker><p>
-Sayest thou so? Now, by the heaven above
+<milestone unit="card" n="758" edRef="Storr"/>Sayest thou so? Now, by the heaven above
 us—be sure of it—thou shalt smart for taunting me in
 <milestone unit="line" n="760"/>
 this opprobrious strain. Bring forth that hated thing,
@@ -1590,7 +1590,7 @@ from death; or else will learn, at last, though late,
 that it is lost labour to revere the dead. [zit CREON.
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-Love, unconquered in the fight, Love, who sr. ‘
+<milestone unit="card" n="781" edRef="Storr"/>Love, unconquered in the fight, Love, who sr. ‘
 makest havoc of wealth, who keepest thy vigil on the
 soft cheek of a maiden; thou roamest over the sea, and
 among the homes of dwellers in the wilds; no immortal
@@ -1603,7 +1603,7 @@ among the homes of dwellers in the wilds; no immortal
 can escape thee, nor any among men whose life is for
 a day; and he to whom thou hast come is mad.
 
-ant. The just themselves have their minds warped by
+ant. <milestone unit="card" n="791" edRef="Storr"/>The just themselves have their minds warped by
 thee to wrong, for their ruin: ’tis thou that hast stirred
 up this prese if i ;~victorious is the lovekindling
 light from the eyes of the fair bride; it is a
@@ -1613,7 +1613,7 @@ power enthroned in sway beside the eternal laws; for
 there the goddess Aphrodite is working her unconquerable
 will.
 
-But now I also am carried beyond the bounds of
+<milestone unit="card" n="801" edRef="Storr"/>But now I also am carried beyond the bounds of
 loyalty, and can no more keep back the streaming tears,
 when I see Antigone thus passing to the bridal chamber
 where all are laid to rest.
@@ -1621,7 +1621,7 @@ where all are laid to rest.
 <milestone unit="str" n="1"/>
 
 </p></sp><sp><speaker>Antigone</speaker><p>
-See me, citizens of my fatherland, setting forth
+<milestone unit="card" n="806" edRef="Storr"/>See me, citizens of my fatherland, setting forth
 on my last way, looking my last on the sunlight that is
 <milestone unit="line" n="810"/>
 for me no more; no, Hades who gives sleep to all leads
@@ -1632,7 +1632,7 @@ been mine for the crowning of bridals; whom the lord
 of the Dark Lake shall wed.</p></sp>
 
 <milestone unit="syst" n="1"/><sp><speaker>Chorus</speaker><p>
-Glorious, therefore, and with praise, thou departest
+<milestone unit="card" n="817" edRef="Storr"/>Glorious, therefore, and with praise, thou departest
 
 to that deep place of the dead: wasting sickness
 
@@ -1649,7 +1649,7 @@ kind hath passed.
 
 </p></sp><sp><speaker>Antigone</speaker><p>
 <milestone unit="ant" n="1"/>
-I have heard in other days how dread a doom 
+<milestone unit="card" n="823" edRef="Storr"/>I have heard in other days how dread a doom 
 
 befell our Phrygian guest, the daughter of Tantalus, on
 
@@ -1666,7 +1666,7 @@ my rest.
 <milestone unit="syst" n="2"/>
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-Yet she was a goddess, thou knowest, and born 
+<milestone unit="card" n="834" edRef="Storr"/>Yet she was a goddess, thou knowest, and born 
 of gods; we are mortals, and of mortal race. But ’tis
 great renown for a woman who hath perished that she
 should have shared the doom of the godlike, in her life,
@@ -1675,7 +1675,7 @@ and afterward in death.
 </p></sp><sp><speaker>Antigone</speaker><p>
 
 <milestone unit="str" n="2"/>
-Ah, I am mocked! In the name of our 
+<milestone unit="card" n="839" edRef="Storr"/>Ah, I am mocked! In the name of our 
 <milestone unit="line" n="840"/>
 fathers’ gods, can ye not wait till I am gone,—must
 ye taunt me to my face, O my city, and ye, her wealthy
@@ -1691,7 +1691,7 @@ with the dead.
 <milestone unit="str" n="3"/>
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-Thou hast rushed forward to the utmost verge 
+<milestone unit="card" n="853" edRef="Storr"/>Thou hast rushed forward to the utmost verge 
 of daring; and against that throne where Justice sits
 on high thou hast fallen, my daughter, with a grievous
 fall. But in this ordeal thou art paying, haply, for thy
@@ -1706,7 +1706,7 @@ fathcr’s sin,
 <milestone unit="ant" n="2"/>
 
 </p></sp><sp><speaker>Antigone</speaker><p>
-Thou hast touched on my bitterest thought —
+<milestone unit="card" n="858" edRef="Storr"/>Thou hast touched on my bitterest thought —
 <milestone unit="line" n="860"/>
 awaking the ever-new lament for my sire and for all
 the doom given to us, the famed house of La
@@ -1722,7 +1722,7 @@ my life!
 <milestone unit="ant" n="3"/>
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-Reverent action claims a certain praise for
+<milestone unit="card" n="872" edRef="Storr"/>Reverent action claims a certain praise for
 
 reverence; but an offence against power cannot be
 brooked by him who hath power in his keeping. Thy
@@ -1731,7 +1731,7 @@ self-willed temper hath wrought thy ruin,
 <milestone unit="epode"/>
 
 </p></sp><sp><speaker>Antigone</speaker><p>
-Unwept, unfriended, without marriage-song,
+<milestone unit="card" n="876" edRef="Storr"/>Unwept, unfriended, without marriage-song,
 I am led forth in my sorrow on this journey that can
 
 <milestone unit="line" n="880"/>
@@ -1740,7 +1740,7 @@ I behold yon day-star’s sacred eye; but for my fate
 no tear is shed, no friend makes moan,
 
 </p></sp><sp><speaker>Creon</speaker><p>
-Know ye not that songs and wailings before
+<milestone unit="card" n="883" edRef="Storr"/>Know ye not that songs and wailings before
 death would never cease, if it profited to utter them?
 Away with her—away! And when ye have enclosed
 her, according to my word, in her vaulted grave, leave
@@ -1833,7 +1833,7 @@ cast away the fear of Heaven!
 <milestone unit="str" n="1"/>
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-Even thus endured Danaé in her beauty to
+<milestone unit="card" n="929" edRef="Storr"/>Even thus endured Danaé in her beauty to
 change the light of day for brass-bound walls; and in
 that chamber, secret as the grave, she was held close
 prisoner; yet was she of a proud lineage, O my
@@ -1849,7 +1849,7 @@ city, or dark, sea-beaten ships.
 
 
 <milestone unit="ant" n="1"/>
-And bonds tamed the son of Dryas, swift to wrath, 
+<milestone unit="card" n="944" edRef="Storr"/>And bonds tamed the son of Dryas, swift to wrath, 
 that king of the Edonians ; so paid he for his frenzied
 taunts, when, by the will of Dionysus, he was pent in
 a rocky prison. There the fierce exuberance of his
@@ -1861,7 +1861,7 @@ women, and the Bacchanalian fire; and he
 angered the Muses that love the flute.
 
 <milestone unit="str" n="2"/>
-And by the waters of the Dark Rocks, the waters 
+<milestone unit="card" n="955" edRef="Storr"/>And by the waters of the Dark Rocks, the waters 
 of the twofold sea, are the shores of Bosporus, and
 <milestone unit="line" n="970"/>
 Thracian Salmydessus; where Ares, neighbour to the
@@ -1873,7 +1873,7 @@ for a dagger.</p>
 
 <p>
 <milestone unit="ant" n="2"/>
-Pining in their misery, they bewailed their cruel 
+<milestone unit="card" n="966" edRef="Storr"/>Pining in their misery, they bewailed their cruel 
 <milestone unit="line" n="980"/>
 doom, those sons of a mother hapless in her marriage ;
 but she traced her descent from the ancient line of the
@@ -1885,7 +1885,7 @@ upon her also the gray Fates bore hard, my daughter.
 <stage>Enter TEIRESIAS, led by a Boy, on the spectators’ right.</stage>
 
 </p></sp><sp><speaker>Teiresias</speaker><p>
-Princes of Thebes, we have come with linked 
+<milestone unit="card" n="977" edRef="Storr"/>Princes of Thebes, we have come with linked 
 <milestone unit="line" n="990"/>
 steps, both served by the eyes of one; for thus, by a
 guide’s help, the blind must walk.
@@ -1897,7 +1897,7 @@ And what, aged Teiresias, are thy tidings?
 <pb n="160"/>
 
 </p></sp><sp><speaker>Teiresias</speaker><p>
-I will tell thee; and do thou hearken to the
+<milestone unit="card" n="988" edRef="Storr"/>I will tell thee; and do thou hearken to the
 seer.
 
 </p></sp><sp><speaker>Creon</speaker><p>
@@ -1981,7 +1981,7 @@ sweeter to learn from a good counsellor than when he
 counsels for thine own gain.
 
 </p></sp><sp><speaker>Creon</speaker><p>
-Old man, ye all shoot your shafts at me, as
+<milestone unit="card" n="1033" edRef="Storr"/>Old man, ye all shoot your shafts at me, as
 archers at the butts;—ye must needs practise on me
 with seer-craft also;—aye, the seer-tribe hath long
 trafficked in me, and made me their merchandise. Gain
@@ -2028,7 +2028,7 @@ Yet thou art tainted with that distemper.
 I would not answer the seer with a taunt.
 
 </p></sp><sp><speaker>Teiresias</speaker><p>
-But thou dost, in saying that I prophesy falsely.
+<milestone unit="card" n="1064" edRef="Storr"/>But thou dost, in saying that I prophesy falsely.
 
 </p></sp><sp><speaker>Creon</speaker><p>
 Well, the prophet-tribe was ever fond of money.
@@ -2112,7 +2112,7 @@ now he bears.
 <stage>Exit TEIRESIAS.</stage>
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-The man hath gone, O king, with dread prophecies.
+<milestone unit="card" n="1091" edRef="Storr"/>The man hath gone, O king, with dread prophecies.
 And, since the hair on this head, once dark,
 hath been white, I know that he hath never been a false 
 prophet to our city.
@@ -2171,7 +2171,7 @@ end.
 
 <milestone unit="str" n="1"/>
 
-O thou of many names, glory of the Cadmeian
+<milestone unit="card" n="1115" edRef="Storr"/>O thou of many names, glory of the Cadmeian
 
 bride, offspring of loud-thundering Zeus! thou who
 
@@ -2186,7 +2186,7 @@ by the softly-gliding stream of Ismenus, on the soil
 where the fierce dragon’s teeth were sown!
 
 <milestone unit="ant" n="1"/>
-Thou hast been seen where torch-flames glare through
+<milestone unit="card" n="1126" edRef="Storr"/>Thou hast been seen where torch-flames glare through
 
 smoke, above the crests of the twin peaks, where move
 
@@ -2207,7 +2207,7 @@ mortal power, as thou visitest the ways of Thebè:
 
 <milestone unit="str" n="2"/>
 
-Thebè, of all cities, thou holdest first in honour,
+<milestone unit="card" n="1137" edRef="Storr"/>Thebè, of all cities, thou holdest first in honour,
 thou, and thy mother whom the lightning smote; and
 <milestone unit="line" n="1140"/>
 now, when all our people is captive to a violent plague,
@@ -2220,7 +2220,7 @@ or over the moaning strait!
 
 
 <milestone unit="ant" n="2"/>
-O thou with whom the stars rejoice as they move, 
+<milestone unit="card" n="1146" edRef="Storr"/>O thou with whom the stars rejoice as they move, 
 
 the stars whose breath is fire; O master of the voices
 of the night; son begotten of Zeus; appear, O king,
@@ -2234,7 +2234,7 @@ dance before thee, the giver of good gifts, Iacchus!
 <stage>Enter MESSENGER, on the spectators left hand.</stage>
 
 </p></sp><sp><speaker>Messenger</speaker><p>
-Dwellers by the house of Cadmus and of Amphion,
+<milestone unit="card" n="1155" edRef="Storr"/>Dwellers by the house of Cadmus and of Amphion,
 there is no estate of mortal life that I would ever
 praise or blame as settled. Fortune raises and Fortune
 humbles the lucky or unlucky from day to day, and
@@ -2297,7 +2297,7 @@ haply,—or because she knows the tidings of her son.</p></sp>
 <stage>Enter EURYDICE.</stage>
     
     <sp><speaker>Eurydice</speaker><p>
-People of Thebes, I heard your words as
+<milestone unit="card" n="1183" edRef="Storr"/>People of Thebes, I heard your words as
 I was going forth, to salute the goddess Pallas with
 my prayers. Even as I was loosing the fastenings of
 the gate, to open it, the message of a household woe
@@ -2309,7 +2309,7 @@ say again what the tidings were; I shall hear them as
 one who is no stranger to sorrow.
 
 </p></sp><sp><speaker>Messenger</speaker><p>
-Dear lady, I will witness of what I saw, and
+<milestone unit="card" n="1219" edRef="Storr"/>Dear lady, I will witness of what I saw, and
 will leave no word of the truth untold. Why, indeed,
 should I soothe thee with words in which I must presently
 be found false? Truth is ever best.—I attended
@@ -2391,7 +2391,7 @@ curse.
 <stage>EURYDICE retires into the house.</stage>
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-What wouldst thou augur from this? The
+<milestone unit="card" n="1244" edRef="Storr"/>What wouldst thou augur from this? The
 lady hath turned back, and is gone, without a word,
 good or evil.
 
@@ -2411,7 +2411,7 @@ silence seems to portend peril, no less than vain abundance
 of lament.
 
 </p></sp><sp><speaker>Messenger</speaker><p>
-Well, I will enter the house, and learn whether
+<milestone unit="card" n="1257" edRef="Storr"/>Well, I will enter the house, and learn whether
 
 
 <pb n="169"/>
@@ -2436,7 +2436,8 @@ misdecds.
 <milestone unit="str" n="1"/>
 
 </p></sp><sp><speaker>Creon</speaker><p>
-Woe for the sins of a darkened soul, stubborn 
+
+<milestone unit="card" n="1261" edRef="Storr"/>Woe for the sins of a darkened soul, stubborn 
 sins, fraught with death! Ah, ye behold us, the sire
 who hath slain, the son who hath perished! Woe is
 me, for the wretched blindness of my counsels! Alas,
@@ -2446,8 +2447,10 @@ folly, but by mine own!
 
 </p></sp><sp><speaker>Chorus</speaker><p>
 <milestone unit="str" n="2"/>
-Ah me, how all too late thou seemest to see 
+<milestone unit="card" n="1270" edRef="Storr"/>
 <milestone unit="line" n="1270"/>
+Ah me, how all too late thou seemest to see 
+
 the right !
 
 </p></sp><sp><speaker>Creon</speaker><p>
@@ -2460,7 +2463,7 @@ joy! Woe, woe, for the troublous toils of men!
 <stage>Enter MESSENGER from the house.</stage>
 
 </p></sp><sp><speaker>Messenger</speaker><p>
-Sire, thou hast come, methinks, as one whose
+<milestone unit="card" n="1278"/>Sire, thou hast come, methinks, as one whose
 
 
 <pb n="170"/>
@@ -2471,6 +2474,7 @@ thou bearest yonder burden with thee; and thou
 <milestone unit="line" n="1280"/>
 art soon to look upon the woes within thy house.
 
+<milestone unit="card" n="1281" edRef="Storr"/>
 </p></sp><sp><speaker>Creon</speaker><p>
 And what worse ill is yet to follow upon ills?
 
@@ -2481,7 +2485,7 @@ corpse—ah, hapless lady !—by blows newly dealt.
 <milestone unit="ant" n="1"/>
 
 </p></sp><sp><speaker>Creon</speaker><p>
-Oh Hades, all-receiving, whom no sacrifice can
+<milestone unit="card" n="1284" edRef="Storr"/>Oh Hades, all-receiving, whom no sacrifice can
 
 appease! Hast thou, then, no mercy for me? O thou
 
@@ -2496,13 +2500,13 @@ message that thou bringest—woe, woe is me !—of a wife’s
 doom, —of slaughter heaped on slaughter?
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-Thou canst behold: ’tis no longer hidden within.
+<milestone unit="card" n="1293" edRef="Storr"/>Thou canst behold: ’tis no longer hidden within.
 <stage>The doors of the palace are opened, and the corpse of EURYDICE is disclosed.</stage>
 
 <milestone unit="ant" n="2"/>
 
 </p></sp><sp><speaker>Creon</speaker><p>
-Ah me,—yonder I behold a new, a second woe!
+<milestone unit="card" n="1294" edRef="Storr"/> me,—yonder I behold a new, a second woe!
 
 What destiny, ah what, can yet await me? I have but
 
@@ -2518,7 +2522,7 @@ knife, she suffered her darkening eyes to close, when
 she had wailed for the noble fate of Megareus who died
 before, and then for his fate who lies there,—and when,
 with her last breath, she had invoked evil fortunes upon
-thee, the slayer of thy sons,
+thee, the slayer of thy sons.
 
 
 <pb n="171"/>
@@ -2527,7 +2531,7 @@ thee, the slayer of thy sons,
 <milestone unit="str" n="3"/>
 
 </p></sp><sp><speaker>Creon</speaker><p>
-Woe, woe! I thrill with dread. Is there none 
+<milestone unit="card" n="1306" edRef="Storr"/>Woe, woe! I thrill with dread. Is there none 
 to strike me to the heart with two-edged sword ?—O
 <milestone unit="line" n="1310"/>
 miserable that I am, and steeped in miserable anguish!
@@ -2548,6 +2552,7 @@ she had learned her son’s sorely lamented fate.
 <milestone unit="str" n="4"/>
 
 </p></sp><sp><speaker>Creon</speaker><p>
+    <milestone unit="card" n="1317" edRef="Storr"/>
 Ah me, this guilt can never be fixed on any 
 other of mortal kind, for my acquittal! I, even I, was
 <milestone unit="line" n="1320"/>
@@ -2560,14 +2565,14 @@ Thy counsels are good, if there can be good
 with ills; briefest is best, when trouble is in our path.
 
 </p></sp><sp><speaker>Creon</speaker><p>
-Oh, let it come, let it appear, that fairest of anv. 3.
+<milestone unit="card" n="1328" edRef="Storr"/>Oh, let it come, let it appear, that fairest of anv. 3.
 <milestone unit="line" n="1330"/>
 fates for me, that brings my last day,—aye, best fate
 of all! Oh, let it come, that I may never look upon
 to-morrow’s light.
 
 </p></sp><sp><speaker>Chorus</speaker><p>
-These things are in the future; present tasks
+<milestone unit="card" n="1334" edRef="Storr"/>These things are in the future; present tasks
 claim our care: the ordering of the future rests where
 it should rest.
 
@@ -2585,7 +2590,7 @@ from destined woe,
 <milestone unit="ant" n="4"/>
 
 </p></sp><sp><speaker>Creon</speaker><p>
-Lead me away, I pray you; a rash, foolish
+<milestone unit="card" n="1339" edRef="Storr"/>Lead me away, I pray you; a rash, foolish
 
 <milestone unit="line" n="1340"/>
 man; who have slain thee, ah my son, unwittingly, and
@@ -2599,9 +2604,12 @@ seek support ; for all is amiss with that which is in my
 hands,—and yonder, again, a crushing fate hath leapt
 upon my head.
 
+
+</p></sp>
+<milestone unit="card" n="1347" edRef="Storr"/>
 <stage>As CREON is being conducted into the house, the Coryphaeus speaks the closing verses.</stage>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+<sp><speaker>Chorus</speaker><p>
 Wisdom is the supreme part of happiness; and
 reverence towards the gods must be inviolate. Great
 <milestone unit="line" n="1350"/>

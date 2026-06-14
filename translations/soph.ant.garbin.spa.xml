@@ -11,11 +11,9 @@
 <funder>National Endowment for the Humanities</funder>
 <respStmt>
 <resp>Published original versions of the electronic texts</resp>
-<orgName ref="https://www.opengreekandlatin.org">Open Greek and Latin</orgName>
+<orgName n="https://www.opengreekandlatin.org">Open Greek and Latin</orgName>
 <persName role="principal">Gregory Crane</persName>
-<persName role="principal">Leonard Muellner</persName>
-<persName role="principal">Bruce Robertson</persName>
-</respStmt>
+<</respStmt>
 
 <respStmt>
 <resp>Proofreading and CTS conversion</resp>
@@ -37,7 +35,7 @@ Creative Commons Attribution-ShareAlike 4.0 International License</licence>
 <sourceDesc>
 <biblStruct>
 <monogr>
-<title xml:lang="deu">La Antígona de Sofócles, la Apología de Sócrates, las Poetisas de Lesbos</title>
+<title xml:lang="spa">La Antígona de Sofócles, , las Poetisas de Lesbos</title>
 <editor role="translator">Antionio G. Garbin</editor>
 <author xml:lang="grc">Sophocles</author>
 <imprint>
@@ -105,7 +103,7 @@ LA ANTÍGONA
 
 DE SÓFOCLES
 
-LA APOLOGÍA DE SÓCRATES
+
 
 primera traducción directa del griego
 
@@ -4692,7 +4690,7 @@ Granada, 1889.
 <ref n="1048355-068.png"/>
 
 
-LA APOLOGÍA DE SÓCRATES
+
 
  
 
@@ -4722,13 +4720,13 @@ LA APOLOGÍA DE SÓCRATES
 
  
 
-LA APOLOGÍA DE SÓCRATES
+
 
 POR JENOFONTE
 
 INTRODUCCIÓN
 
-Es la Apología de Sócrates escrita por Jenofonle, uno de los documentos referentes al suceso
+Es  escrita por Jenofonle, uno de los documentos referentes al suceso
 quizás más trascendente de la historia de
 Grecia y uno de los más interesantes que registra la historia de la humanidad: al Proceso
 y muerte de Sócrates (1), del gran filósofo que si
@@ -4923,7 +4921,7 @@ bres.»
 Los pormenores de este interesante drama,
 asi como las doctrinas (1) y los hechos de
 aquel pensador ilustre, se han conservado religiosamente por sus dos esclarecidos discipulos Platon y Jenofonte. Y puesto que vamos á.
-publicar la Apología de Sócrates, atribuida á
+publicar , atribuida á
 Jenofonte, nos vemos precisados á decir algo
 previamente acerca de este escritor y sobre
 aquella pieza literaria.
@@ -5176,7 +5174,7 @@ Las obras literarias de Jenofonte se pueden:
 dividir en filosóficas, didácticas, históricas y
 politicas. Sus obras filosóficas son: los Hechos
 memorables 6 Memorias de Sócrates, la Economía,
-la Apología de Sócrates, el Banquete de los filósofos
+, el Banquete de los filósofos
 y el Hierón. Sus tratados didácticos: la Equitación, el Jefe de caballería y la Caza. Son sus
 
 (1) Puede consultarse, sobre la vida de este famoso capitán é ilustre escritor de la antigiedad,
@@ -6229,7 +6227,7 @@ amante de la virtud, se ha encontrado con un
 hombre más útil que el sabio de Atenas, desde luego declaro que ese es el más afortunado
 de los mortales.
 
-FIN DE LA APOLOGÍA DE SÓCRATES
+FIN DE 
 
 
 <pb n="169"/> 
@@ -7292,7 +7290,7 @@ FIN.
 ÍNDICE
 
 «La Antígona,» de Sófocles
-La Apología de Sócrates. .
+. .
 Las poetisas de Lésbos....
 
  
