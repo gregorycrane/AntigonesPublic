@@ -534,11 +534,13 @@
 </sp>
 </div>
 <pb n="26"/>
+<milestone unit="card" edRef="Storr" n="333"/>
 <div type="textpart" subtype="stasimon" n="4">
 <head>4. ΣΤΑΣΙΜΟΝ ΠΡΩ͂ΤΟΝ.</head>
 <sp><speaker>Χορός</speaker> 
 <milestone unit="strophe" n="1"/>
-<milestone unit="card" edRef="Storr" n="333"/><l n="329">πολλὰ τὰ δεινά, κοὐδὲν ἀν-</l>
+
+<l n="329">πολλὰ τὰ δεινά, κοὐδὲν ἀν-</l>
 <l n="330">θρώπου δεινότερον πέλει.</l>
 <l n="331">τοῦτο καὶ πολιοῦ πέραν</l>
 <l n="332">πόντου χειμερίῳ νότῳ</l>
@@ -1867,18 +1869,20 @@
 <l n="1202">εἰ θέμις εἰπεῖν, οὐκ ἀλλοτρίαν</l>
 <l n="1203">ἄτην, ἀλλ᾽ αὐτὸς ἁμαρτών.</l>
 </sp>
+<milestone unit="card" edRef="Storr" n="1261"/>
 <milestone unit="strophe" n="1"/>
 <sp><speaker>Κρέων</speaker>
 <l n="1204">ἰὼ</l>
 <l n="1205">φρενῶν δυσρφρόνων ἁμαρτήματα</l>
 <l n="1206">στερεά, θανατόεντ᾽ · ὦ κτανόντας τε καὶ</l>
 <l n="1207">θανόντας βλέποντες ἐμφυλίους.</l>
-<milestone unit="card" edRef="Storr" n="1281"/><l n="1208">ὤ μοι ἐμῶν ἄνολβα βουλευμάτων.</l>
+<l n="1208">ὤ μοι ἐμῶν ἄνολβα βουλευμάτων.</l>
 <l n="1209">ἰὼ παῖ, νέος νέῳ ξὺν μόρῳ,</l>
 <l n="1210">αἰαῖ, αἰαῖ,</l>
 <l n="1211">ἔθανες, ἀπελύθης ἐμαῖς, οὐδὲ σαῖσι δυσβουλίαις.</l>
 </sp>
-<milestone unit="card" edRef="Storr" n="1270"/><sp><speaker>Χορός</speaker>
+<milestone unit="card" edRef="Storr" n="1270"/>
+<sp><speaker>Χορός</speaker>
 <l n="1212">οἴμ᾽, ὡς ἔοικας ὀψὲ τὴν δίκην ἰδεῖν.</l>
 </sp>
 <milestone unit="strophe" n="2"/>
@@ -1890,11 +1894,13 @@
 <l n="1217">οἴμοι, λακπάτητον ἀντρέπων χαράν.</l>
 <l n="1218">φεῦ φεῦ, ὦ πόνοι βροτῶν δύσπονοι.</l>
 </sp>
+<milestone unit="card" edRef="Storr" n="1278"/>
 <sp><speaker>Ἐξάγγελος</speaker>
 <l n="1219">ὦ δέσποθ᾽, ὡς ἔχων τε καὶ κεκτημένος,</l>
 <l n="1220">τὰ μὲν πρὸ χειρῶν τάδε φέρων, τὰ δ᾽ ἐν δόμοις</l>
 <l n="1221">ἔοικας ἥκειν καὶ τάχ᾽ ὄψεσθαι κακά.</l>
 </sp>
+<milestone unit="card" edRef="Storr" n="1281"/>
 <sp><speaker>Κρέων</speaker>
 <l n="1222">τί δ᾽ ἔστιν αὖ κάκιον, ἢ κακῶν ἔτι;</l>
 </sp>
@@ -1903,7 +1909,7 @@
 <l n="1224">δύστηνος, ἄρτι νεοτόμοισι πλήγμασιν.</l>
 </sp>
 <pb n="88"/>
-<milestone unit="card" edRef="Storr" n="1261"/>
+
 <sp><speaker>Κρέων</speaker>
 <milestone unit="antistrophe" n="1"/>
 
@@ -1919,7 +1925,7 @@
 <milestone unit="card" edRef="Storr" n="1293"/><sp><speaker>Χορός</speaker>
 <l n="1233">ὁρᾶν πάρεστιν· οὐ γὰρ ἐν μυχοῖς ἔτι.</l>
 </sp>
-<milestone unit="card" edRef="Storr" n="1293"/>
+<milestone unit="card" edRef="Storr" n="1294"/>
 <sp><speaker>Κρέων</speaker>
 <milestone unit="antistrophe" n="2"/>
 <l n="1234">οἴμοι,</l>
