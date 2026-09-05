@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:greekLit:tlg0011.tlg002" groupUrn="urn:cts:greekLit:tlg0011" xml:lang="grc">
+  <ti:title xml:lang="eng">Antigone</ti:title>
+  <ti:edition urn="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="grc">
+    <ti:label xml:lang="grc">Ἀντιγόνη</ti:label>
+    <ti:description xml:lang="eng">Antigone. Francis Storr, 1912.</ti:description>
+  </ti:edition>
+  <ti:edition urn="urn:cts:greekLit:tlg0011.tlg002.benloew1858-grc1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="grc">
+    <ti:label xml:lang="grc">Ἀντιγόνη</ti:label>
+    <ti:description xml:lang="eng">Antigone. Louis Benloew, 1858.</ti:description>
+  </ti:edition>
+  <ti:edition urn="urn:cts:greekLit:tlg0011.tlg002.boeckh1884-grc1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="grc">
+    <ti:label xml:lang="grc">Ἀντιγόνη</ti:label>
+    <ti:description xml:lang="eng">Antigone. August Boeckh, 1884.</ti:description>
+  </ti:edition>
+  <ti:edition urn="urn:cts:greekLit:tlg0011.tlg002.bothe1806-grc1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="grc">
+    <ti:label xml:lang="grc">Ἀντιγόνη</ti:label>
+    <ti:description xml:lang="eng">Antigone. Friedrich Heinrich Bothe, 1806.</ti:description>
+  </ti:edition>
+  <ti:edition urn="urn:cts:greekLit:tlg0011.tlg002.colonna1978-grc1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="grc">
+    <ti:label xml:lang="grc">Ἀντιγόνη</ti:label>
+    <ti:description xml:lang="eng">Antigone. Aristide Colonna, 1978.</ti:description>
+  </ti:edition>
+  <ti:edition urn="urn:cts:greekLit:tlg0011.tlg002.dain1955-grc1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="grc">
+    <ti:label xml:lang="grc">Ἀντιγόνη</ti:label>
+    <ti:description xml:lang="eng">Antigone. Alphonse Dain, 1955.</ti:description>
+  </ti:edition>
+  <ti:edition urn="urn:cts:greekLit:tlg0011.tlg002.dawe1979-grc1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="grc">
+    <ti:label xml:lang="grc">Ἀντιγόνη</ti:label>
+    <ti:description xml:lang="eng">Antigone. Roger D. Dawe, 1979.</ti:description>
+  </ti:edition>
+  <ti:edition urn="urn:cts:greekLit:tlg0011.tlg002.hermann1830-grc1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="grc">
+    <ti:label xml:lang="grc">Ἀντιγόνη</ti:label>
+    <ti:description xml:lang="eng">Antigone. Gottfried Hermann, 1830.</ti:description>
+  </ti:edition>
+  <ti:edition urn="urn:cts:greekLit:tlg0011.tlg002.jebb1906-grc1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="grc">
+    <ti:label xml:lang="grc">Ἀντιγόνη</ti:label>
+    <ti:description xml:lang="eng">Antigone. Richard Claverhouse Jebb, 1906.</ti:description>
+  </ti:edition>
+  <ti:edition urn="urn:cts:greekLit:tlg0011.tlg002.pearson1924-grc1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="grc">
+    <ti:label xml:lang="grc">Ἀντιγόνη</ti:label>
+    <ti:description xml:lang="eng">Antigone. A. C. Pearson, 1924.</ti:description>
+  </ti:edition>
+  <ti:edition urn="urn:cts:greekLit:tlg0011.tlg002.reinhardt1949-grc1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="grc">
+    <ti:label xml:lang="grc">Ἀντιγόνη</ti:label>
+    <ti:description xml:lang="eng">Antigone. Karl Reinhardt, 1949.</ti:description>
+  </ti:edition>
+  <ti:edition urn="urn:cts:greekLit:tlg0011.tlg002.campbell1879-grc1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="grc">
+    <ti:label xml:lang="grc">Ἀντιγόνη</ti:label>
+    <ti:description xml:lang="eng">Antigone. Lewis Campbell, editor. Sophocles: The Plays and Fragments, volume 1. Oxford: Clarendon Press, 1879.</ti:description>
+  </ti:edition>
+  <ti:translation urn="urn:cts:greekLit:tlg0011.tlg002.boeckh1884-deu2" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="deu">
+    <ti:label xml:lang="deu">Antigone</ti:label>
+    <ti:description xml:lang="eng">Antigone. August Boeckh, 1884. German translation.</ti:description>
+  </ti:translation>
+  <ti:translation urn="urn:cts:greekLit:tlg0011.tlg002.bolufer1921-spa2" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="spa">
+    <ti:label xml:lang="spa">Antígona</ti:label>
+    <ti:description xml:lang="eng">Antígona. José Alemany Bolufer, 1921. Spanish translation.</ti:description>
+  </ti:translation>
+  <ti:translation urn="urn:cts:greekLit:tlg0011.tlg002.bothe1806-lat1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="lat">
+    <ti:label xml:lang="lat">Antigone</ti:label>
+    <ti:description xml:lang="eng">Antigone. Friedrich Heinrich Bothe, 1806. Latin translation.</ti:description>
+  </ti:translation>
+  <ti:translation urn="urn:cts:greekLit:tlg0011.tlg002.garbin1889-spa2" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="spa">
+    <ti:label xml:lang="spa">La Antígona de Sófocles</ti:label>
+    <ti:description xml:lang="eng">La Antígona de Sófocles. Antonio González Garbín, 1889. Spanish translation.</ti:description>
+  </ti:translation>
+  <ti:translation urn="urn:cts:greekLit:tlg0011.tlg002.hoelderlin1805-deu1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="deu">
+    <ti:label xml:lang="deu">Antigonä</ti:label>
+    <ti:description xml:lang="eng">Antigonä. Friedrich Hölderlin, 1805. German translation.</ti:description>
+  </ti:translation>
+  <ti:translation urn="urn:cts:greekLit:tlg0011.tlg002.jebb1904-eng1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="eng">
+    <ti:label xml:lang="eng">Antigone</ti:label>
+    <ti:description xml:lang="eng">Antigone. Richard Claverhouse Jebb, 1904. English translation.</ti:description>
+  </ti:translation>
+  <ti:translation urn="urn:cts:greekLit:tlg0011.tlg002.campbell1906-eng1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="eng"><ti:label xml:lang="eng">Antigone</ti:label><ti:description xml:lang="eng">Antigone. Lewis Campbell's revised English verse translation, first published in The World's Classics in 1906.</ti:description></ti:translation><ti:translation urn="urn:cts:greekLit:tlg0011.tlg002.potter1788-eng1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="eng"><ti:label xml:lang="eng">Antigone</ti:label><ti:description xml:lang="eng">Antigone. Robert Potter's English verse translation, first published in 1788; text based on the 1820 N. Bliss printing.</ti:description></ti:translation><ti:translation urn="urn:cts:greekLit:tlg0011.tlg002.francklin1758-eng1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="eng"><ti:label xml:lang="eng">Antigone</ti:label><ti:description xml:lang="eng">Antigone. Thomas Francklin's English verse translation, first published across the 1758 and 1759 volumes of The Tragedies of Sophocles.</ti:description></ti:translation><ti:commentary urn="urn:cts:greekLit:tlg0011.tlg002.campbell1879-eng1" workUrn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="eng">
+    <ti:label xml:lang="eng">Commentary on Antigone</ti:label>
+    <ti:description xml:lang="eng">Lewis Campbell's English commentary on Sophocles' Antigone, from Sophocles: The Plays and Fragments, volume 1 (Oxford, 1879).</ti:description>
+    <ti:about urn="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2"/>
+  </ti:commentary>
+</ti:work>

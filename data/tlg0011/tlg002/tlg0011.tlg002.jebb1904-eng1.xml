@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -37,11 +36,6 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <refsDecl n="CTS">
-                <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
-                    <p>This pointer pattern extracts line</p>
-                </cRefPattern>
-             </refsDecl>
             <!--<refsDecl n="CTS">
 
                 <cRefPattern n="card" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
@@ -49,20 +43,20 @@
                 </cRefPattern>
 
             </refsDecl>-->
-        </encodingDesc>
+        <refsDecl n="CTS"><cRefPattern n="turn" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:sp[@n='$1'])"><p>This pointer pattern extracts turns.</p></cRefPattern></refsDecl><refsDecl xml:id="CTS-modern"><citeStructure match="/TEI/text/body" use="@xml:base"><citeStructure match=".//sp" unit="turn" use="@n" delim=":" n="chunk"/></citeStructure></refsDecl><refsDecl xml:id="CTS-card"><citeStructure match="/TEI/text/body" use="@xml:base"><citeStructure match=".//milestone[@unit='card']" unit="card" use="@n" delim=":" n="chunk"/></citeStructure></refsDecl></encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="grc">Greek</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2021" who="GRC">Basic formatting.</change>
+            <change when="2026-08-30" who="#gcrane">Added CTS metadata and aligned every translation speech to the Storr reference edition. Modern citeStructure and legacy refsDecl declarations are both retained.</change><change when="2021" who="GRC">Basic formatting.</change>
 </revisionDesc>
     </teiHeader>
 
-    <text xml:lang="grc">
-        <body>
-            <div type="edition" n="urn:cts:greekLit:tlg0011.tlg002.TBA" xml:lang="grc">
+    <text xml:lang="eng">
+        <body xml:base="urn:cts:greekLit:tlg0011.tlg002.jebb1904-eng1">
+            <div type="translation" n="urn:cts:greekLit:tlg0011.tlg002.jebb1904-eng1" xml:lang="eng">
 <div type="textpart" subtype="episode">
 
 <pb n="125"/>
@@ -70,7 +64,7 @@
 
 <stage>Scene: Before the Royal Palace at Thebes.</stage>
 
- 
+
 
 
 <pb n="126"/>
@@ -79,7 +73,7 @@
 <pb n="127"/>
 
 
-<sp><speaker>Antigone</speaker><p>
+<sp n="1" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1-10"><speaker>Antigone</speaker><p>
 
 <milestone unit="card" n="1" edRef="Storr"/>Ismene, sister, mine own dear sister, knowest thou
 what ill there is, of all bequeathed by Oedipus, that
@@ -94,7 +88,7 @@ from thee that our friends are threatened with the doom
 <milestone unit="line" n="10"/>
 of our foes?
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="2" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:11-17"><speaker>Ismene</speaker><p>
 
 
 No word of friends, Antigone, gladsome or painful,
@@ -104,12 +98,12 @@ and since in this last night the Argive host hath fled,
 I know no more, whether my fortune be brighter, or
 more grievous.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="3" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:18-19"><speaker>Antigone</speaker><p>
 I knew it well, and therefore sought to bring
 thee beyond the gates of the court, that thou mightest
 hear alone.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="4" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:20-20"><speaker>Ismene</speaker><p>
 <milestone unit="line" n="20"/>
 What is it? ’Tis plain that thou art brooding
 on some dark tidings.
@@ -117,7 +111,7 @@ on some dark tidings.
 
 <pb n="128"/>
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="5" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:21-38"><speaker>Antigone</speaker><p>
 What, hath not Creon destined our brothers,
 the one to honoured burial, the other to unburied shame?
 Eteocles, they say, with due observance of right and
@@ -139,39 +133,39 @@ all the folk. Thou knowest it now; and thou wilt soon
 show whether thou art nobly bred, or the base daughter
 of.a noble line.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="6" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:39-40"><speaker>Ismene</speaker><p>
 <milestone unit="card" n="39" edRef="Storr"/>Poor sister,—and if things stand thus, what
 
 <milestone unit="line" n="40"/>
 could I help to do or undo?
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="7" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:41-41"><speaker>Antigone</speaker><p>
 Consider if thou wilt share the toil and the
 deed.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="8" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:42-42"><speaker>Ismene</speaker><p>
 In what venture? What can be thy meaning?
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="9" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:43-43"><speaker>Antigone</speaker><p>
 Wilt thou aid this hand to lift the dead?
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="10" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:44-44"><speaker>Ismene</speaker><p>
 Thou wouldst bury him,—when ’tis forbidden
 to Thebes?
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="11" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:45-46"><speaker>Antigone</speaker><p>
 I will do my part,—and thine, if thou wilt
 not,—to a brother. False to him will I never be found.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="12" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:47-47"><speaker>Ismene</speaker><p>
 Ah, over-bold! when Creon hath forbidden ?
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="13" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:48-48"><speaker>Antigone</speaker><p>
 Nay, he hath no right to keep me from mine own.
 
 <milestone unit="line" n="50"/>
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="14" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:49-68"><speaker>Ismene</speaker><p>
 Ah me! think, sister, how our father perished,
 amid hate and scorn, when sins bared by his own search
 
@@ -196,7 +190,7 @@ sorer. I, therefore, asking the Spirits Infernal to pardon,
 seeing that force is put on me herein, will hearken to
 our rulers; for ’tis witless to be over busy.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="15" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:69-77"><speaker>Antigone</speaker><p>
 <milestone unit="card" n="69" edRef="Storr"/>I will not urge thee,—no, nor, if thou yet
 <milestone unit="line" n="70"/>
 shouldst have the mind, wouldst thou be welcome as
@@ -208,19 +202,19 @@ to the living: in that world I shall abide for ever. But
 "if thou wilt, be guilty of dishonouring laws which the
 gods have stablished in honour.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="16" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:78-79"><speaker>Ismene</speaker><p>
 I do them no dishonour; but to defy the State,
 I have no strength for that.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="17" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:80-81"><speaker>Antigone</speaker><p>
 <milestone unit="line" n="80"/>
 Such be thy plea:—I, then, will go to heap the
 earth above the brother whom I love.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="18" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:82-82"><speaker>Ismene</speaker><p>
 Alas, unhappy one! How I fear for thee!
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="19" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:83-83"><speaker>Antigone</speaker><p>
 Fear not for me: guide thine own fate
 aright.
 
@@ -229,50 +223,50 @@ aright.
 
 <pb n="130"/>
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="20" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:84-85"><speaker>Ismene</speaker><p>
 At least, then, disclose this plan to none, but
 hide it closely,—and so, too, will I.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="21" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:86-87"><speaker>Antigone</speaker><p>
 Oh, denounce it! Thou wilt be far more
 hateful for thy silence, if thou proclaim not these things
 to all.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="22" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:88-88"><speaker>Ismene</speaker><p>
 Thou hast a hot heart for chilling deeds.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="23" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:89-89"><speaker>Antigone</speaker><p>
 I know that I please where I am most bound
 to please.
 
 <milestone unit="line" n="90"/>
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="24" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:90-90"><speaker>Ismene</speaker><p>
 Aye, if thou canst; but thou wouldst what thou
 canst not.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="25" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:91-91"><speaker>Antigone</speaker><p>
 Why, then, when my strength fails, I shall
 have done.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="26" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:92-92"><speaker>Ismene</speaker><p>
 A hopeless quest should not be made at all.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="27" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:93-97"><speaker>Antigone</speaker><p>
 If thus thou speakest, thou wilt have hatred.
 from me, and will justly be subject to the lasting hatred
 of the dead. But leave me, and the folly that is mine
 alone, to suffer this dread thing; for I shall not suffer
 aught so dreadful as an ignoble death.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="28" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:98-154"><speaker>Ismene</speaker><p>
 Go, then, if thou must; and of this be sure,—
 that, though thine errand is foolish, to thy dear ones
-thou art truly dear. 
+thou art truly dear.
 
 <stage>Exit ANTIGONE on the spectators’ left. ISMENE retires into the palace by one of the two side-doors.</stage>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="29" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:100-161b"><speaker>Chorus</speaker><p>
 <milestone unit="line" n="100"/>
 <milestone unit="str" n="1"/>
 <milestone unit="card" n="100" edRef="Storr"/>Beam of the sun, fairest light that ever dawned on
@@ -287,7 +281,7 @@ flight, in swifter career ;
 
 
 <milestone unit="syst" n="1"/>
-<milestone unit="card" n="110" edRef="Storr"/>who set forth against our land by reason of the 
+<milestone unit="card" n="110" edRef="Storr"/>who set forth against our land by reason of the
 <milestone unit="line" n="110"/>
 vexed claims of Polyneices; and, like shrill-screaming
 eagle, he flew over into our land, in snow-white pinion
@@ -295,7 +289,7 @@ sheathed, with an arméd throng, and with plumage of
 helms. </p>
 
 <p><milestone unit="ant" n="1"/>
-<milestone unit="card" n="117" edRef="Storr"/>He paused above our dwellings; he ravened around 
+<milestone unit="card" n="117" edRef="Storr"/>He paused above our dwellings; he ravened around
 <milestone unit="line" n="120"/>
 our sevenfold portals with spears athirst for blood; but
 he went hence, or ever his jaws were glutted with our
@@ -305,7 +299,7 @@ raised behind him, a thing too hard for him to conquer,
 as he wrestled with his dragon foe.</p>
 
 <p><milestone unit="syst" n="2"/>
-<milestone unit="card" n="127" edRef="Storr"/>For Zeus utterly abhors the boasts of a proud 
+<milestone unit="card" n="127" edRef="Storr"/>For Zeus utterly abhors the boasts of a proud
 tongue; and when he beheld them coming on in a
 <milestone unit="line" n="130"/>
 great stream, in the haughty pride of clanging gold,
@@ -314,7 +308,7 @@ he smote with brandished fire one who was now hasting
 to shout victory at his goal upon our ramparts.</p>
 
 <p><milestone unit="str" n="2"/>
-<milestone unit="card" n="134" edRef="Storr"/>Swung down, he fell on the earth with a crash, 
+<milestone unit="card" n="134" edRef="Storr"/>Swung down, he fell on the earth with a crash,
 torch in hand, he who so lately, in the frenzy of the
 mad onset, was raging against us with the blasts of his
 tempestuous hate. But those threats fared not as he
@@ -325,7 +319,7 @@ helper at our need.</p>
 
 <p>
 <milestone unit="syst" n="3"/>
-<milestone unit="card" n="141" edRef="Storr"/>For seven captains at seven gates, matched against 
+<milestone unit="card" n="141" edRef="Storr"/>For seven captains at seven gates, matched against
 seven, left the tribute of their panoplies to Zeus who
 tutns the battle; save those two of cruel fate, who,
 born of one sire and one mother, set against each other
@@ -363,7 +357,7 @@ summoned by his general mandate?
 
 <stage>Enter CREON, from the central doors of the palace, in the garb of king ; with two attendants.</stage>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="30" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:162-210"><speaker>Creon</speaker><p>
 <milestone unit="card" n="162" edRef="Storr"/>Sirs, the vessel of our State, after being tossed
 on wild waves, hath once more been safely steadied by
 the gods: and ye, out of all the folk, have been called
@@ -428,44 +422,44 @@ just ; but whoso hath good will to Thebes, he shall be
 <milestone unit="line" n="210"/>
 honoured of me, in his life and in his death.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="31" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:211-214"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="211" edRef="Storr"/>Such is thy pleasure, Creon, son of Menoeceus,
 touching this city’s foe, and its friend; and thou hast
 power, I ween, to take what order thou wilt, both for
 the dead, and for all us who live.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="32" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:215-215"><speaker>Creon</speaker><p>
 See, then, that ye be guardians of the mandate.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="33" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:216-216"><speaker>Chorus</speaker><p>
 Lay
 the burden of this task on some younger
 man.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="34" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:217-217"><speaker>Creon</speaker><p>
 Nay, watchers of the corpse have been found.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="35" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:218-218"><speaker>Chorus</speaker><p>
 What, then, is this further charge that: thou
 wouldst give?
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="36" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:219-219"><speaker>Creon</speaker><p>
 That ye side not with the breakers of these
 commands.
 
 <milestone unit="line" n="220"/>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="37" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:220-220"><speaker>Chorus</speaker><p>
 No man is so foolish that he is enamoured of
 death.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="38" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:221-222"><speaker>Creon</speaker><p>
 In sooth, that is the meed; yet lucre hath oft
 ruined men through their hopes.
 
 <stage>Enter GUARD.</stage>
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="39" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:223-236"><speaker>Guard</speaker><p>
  liege, I will not say that I come breathless
 from speed, or that I have plied a nimble foot ; for often
 did my thoughts make me pause, and wheel round in my
@@ -485,39 +479,39 @@ day that I should come hither—to thee; and, though
 
 my tale be nought, yet will I tell it; for_I_come with C
 a good grip on one hope,—that I can suffer nothing but ate
-what is my fate. 
+what is my fate.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="40" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:237-237"><speaker>Creon</speaker><p>
 <milestone unit="card" n="237" edRef="Storr"/>And what is it that disquiets thee thus?
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="41" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:238-240"><speaker>Guard</speaker><p>
  I wish to tell thee first about myself—I did
 not do the deed—I did not see the doer—it were not
 <milestone unit="line" n="240"/>
 right that I should come to any harm.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="42" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:241-242"><speaker>Creon</speaker><p>
 Thou hast a shrewd eye for thy mark; well
 dost thou fence thyself round against the blame:—
 clearly thou hast some strange thing to tell.
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="43" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:243-243"><speaker>Guard</speaker><p>
  Aye, truly; dread news makes one pause long.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="44" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:244-244"><speaker>Creon</speaker><p>
 Then tell it, wilt thou, and so get thee gone?
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="45" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:245-247"><speaker>Guard</speaker><p>
  Well, this is it—The corpse—some one hath
 just given it burial, and gone away,—after sprinkling
 thirsty dust on the flesh, with such other rites as piety
 enjoins, .
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="46" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:248-248"><speaker>Creon</speaker><p>
 What sayest thou? What living man hath
 dared this deed?
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="47" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:249-277"><speaker>Guard</speaker><p>
  I know not; no stroke of pickaxe was seen
 <milestone unit="line" n="250"/>
 there, no earth thrown up by mattock ; the ground was
@@ -557,12 +551,12 @@ self to win this prize. So here I stand,—as unwelcome
 as unwilling, well I wot; for no man delights in the
 bearer of bad news.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="48" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:278-279"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="278" edRef="Storr"/>O king, my thoughts have long been whispering,
 can this deed, perchance, be e’en the work of gods?
 <milestone unit="line" n="280"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="49" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:280-314"><speaker>Creon</speaker><p>
 Cease, ere thy words fill me utterly with wrath,
 lest thou be found at once an old man and foolish. For
 thou sayest what is not to be borne, in saying that the
@@ -606,57 +600,57 @@ should be won, and learn that it is not well to love gain
 from every source. For thou wilt find that ill-gotten
 pelf brings more men to ruin than to weal.
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="50" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:315-315"><speaker>Guard</speaker><p>
  <milestone unit="card" n="315" edRef="Storr"/>May I speak? Or shall I just turn and go?
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="51" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:316-316"><speaker>Creon</speaker><p>
 Knowest thou not that even now thy voice
 offends?
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="52" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:317-317"><speaker>Guard</speaker><p>
  Is thy smart in the ears, or in the soul?
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="53" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:318-318"><speaker>Creon</speaker><p>
 And why wouldst thou define the seat of my
 
 pain?
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="54" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:319-319"><speaker>Guard</speaker><p>
  The doer vexcs thy mind, but I, thine ears,
 <milestone unit="line" n="320"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="55" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:320-320"><speaker>Creon</speaker><p>
 Ah, thou art a born babbler, ’tis well scen.
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="56" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:321-321"><speaker>Guard</speaker><p>
  May be, but never the doer of this deed.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="57" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:322-322"><speaker>Creon</speaker><p>
 Yea,and more,—the seller of thy life for silver.
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="58" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:323-323a"><speaker>Guard</speaker><p>
  Alas! ’Tis sad, truly, that he who judges should
 misjudge.
 
-</p></sp><sp><speaker>Creon</speaker><p>
-Let thy fancy play with ‘judgment’.asit will; 
+</p></sp><sp n="59" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:324-326"><speaker>Creon</speaker><p>
+Let thy fancy play with ‘judgment’.asit will;
 but, if ye show me not the doers of these things, ye
 shall avow that dastardly gains work sorrows. [Z£xtz.
 
 
 <pb n="138"/>
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="60" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:327-375"><speaker>Guard</speaker><p>
  Well, may he be found! so ’twere best. But,
 be he caught or be he not—fortune must settle that—
 truly thou wilt not see me here again. Saved, even
 
 <milestone unit="line" n="330"/>
 now, beyond hope and thought, I owe the gods great
-thanks, 
+thanks,
 <stage>Exit</stage>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="61" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:333-383"><speaker>Chorus</speaker><p>
 
 
 <milestone unit="str" n="1"/>
@@ -706,14 +700,14 @@ yea, he hath resource for all; without resource he meets
 nothing that must come: only against Death shall he
 
 call for aid in vain; but from baffling maladies he hath
-devised escapes. 
+devised escapes.
 
 
 <pb n="139"/>
 
 
 <milestone unit="ant" n="2"/>
-<milestone unit="card" n="365" edRef="Storr"/>Cunning beyond fancy’s dream is the fertile skill 
+<milestone unit="card" n="365" edRef="Storr"/>Cunning beyond fancy’s dream is the fertile skill
 which brings him, now to evil, now to good. When he
 honours the laws of the land, and that justice which
 he hath sworn by the gods to uphold, proudly stands
@@ -733,20 +727,20 @@ O hapless, and child of hapless sire,—of Oedipus !
 What means this? Thou brought a prisoner?—thou,
 disloyal to the king’s laws, and taken in folly?
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="62" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:384-385"><speaker>Guard</speaker><p>
 
 <milestone unit="card" n="384" edRef="Storr"/>Here she is, the doer of the deed :—we caught this
 girl burying him :—but where is Creon?
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="63" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:386-386"><speaker>Chorus</speaker><p>
 Lo, he comes forth again from the house, at
 our need.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="64" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:387-387"><speaker>Creon</speaker><p>
 What is it? What hath chanced, that makes
 my coming timely?
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="65" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:388-400"><speaker>Guard</speaker><p>
  O king, against nothing should men pledge
 their word ; for the after-thought belies the first intent.
 <milestone unit="line" n="390"/>
@@ -772,25 +766,25 @@ her, as thou wilt; but I have a right to free and final
 <milestone unit="line" n="400"/>
 quittance of this trouble.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="66" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:401-401"><speaker>Creon</speaker><p>
 And thy prisoner here—how and whence hast
 thou taken her?
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="67" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:402-402"><speaker>Guard</speaker><p>
  She was burying the man; thou knowest all.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="68" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:403-403"><speaker>Creon</speaker><p>
 Dost thou mean what thou sayest? Dost thou
 speak aright?
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="69" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:404-405"><speaker>Guard</speaker><p>
  I saw her burying the corpse that thou hadst
 forbidden to bury, Is that plain and clear?
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="70" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:406-406"><speaker>Creon</speaker><p>
 And how was she seen? how taken in the act ?
 
-</p></sp><sp><speaker>Guard</speaker><p>
+</p></sp><sp n="71" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:407-440"><speaker>Guard</speaker><p>
  <milestone unit="card" n="407" edRef="Storr"/>It befell on this wise. When we had come to
 the place,—with those dread menaces of thine upon
 
@@ -840,18 +834,18 @@ self is a great joy; but ‘tis painful to bring friends to
 ill. Howbeit, all such things are of less account to me
 than mine own safety.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="72" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:441-442"><speaker>Creon</speaker><p>
 <milestone unit="card" n="441" edRef="Storr"/>Thou—thou whose face is bent to earth—dost
 thou avow, or disavow, this deed ?
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="73" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:443-443"><speaker>Antigone</speaker><p>
 I avow it; I make no denial.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="74" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:444-447"><speaker>Creon</speaker><p>
 
 <stage>to Guard.</stage>
 Thou canst betake thee whither
-thou wilt, free and clear of a grave charge. 
+thou wilt, free and clear of a grave charge.
 
 <stage>Exit Guard.</stage>
 
@@ -860,14 +854,14 @@ Now, tell me thou—not in many
 words, but briefly—knewest thou that an edict had forbidden
 this ?
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="75" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:448-448"><speaker>Antigone</speaker><p>
 I knew it: could I help it? It was public.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="76" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:449-449"><speaker>Creon</speaker><p>
 And thou didst indeed dare to transgress that
 law?
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="77" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:450-470"><speaker>Antigone</speaker><p>
 <milestone unit="line" n="450"/>
 Yes; for it was not Zeus that had published
 me that edict; not such are the laws set among men
@@ -906,12 +900,12 @@ in thy sight, it may be that a foolish judge arraigns my
 
 folly.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="78" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:471-472"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="471" edRef="Storr"/>The maid shows herself passionate child of
 passionate sire, and knows not how to bend before
 troubles.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="79" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:473-496"><speaker>Creon</speaker><p>
 Yet I would have thee know that_o’er-stubborn:
 spirits are led; ’tis the stiffest iron,
 baked to hardness in the fire, that thou shalt oftenest
@@ -945,14 +939,14 @@ folks are plotting mischief in the dark. But verily this,
 too, is_hateful—when one who hath been caught in
 wickedness then seeks to make the crime a glory.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="80" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:497-497"><speaker>Antigone</speaker><p>
 Wouldst thou do more than take and slay
 me?
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="81" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:498-498"><speaker>Creon</speaker><p>
 No more, indeed; having that, I have all.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="82" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:499-507"><speaker>Antigone</speaker><p>
  <milestone unit="card" n="499"/>Why then dost thou delay? In thy discourse
 <milestone unit="line" n="500"/>
 there is nought that pleases me,—never may there be
@@ -963,74 +957,74 @@ would own that they thought it well, were not their lips
 sealed by fear. But royalty, blest in so much besides,
 hath the power to do and say what it will.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="83" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:508-508"><speaker>Creon</speaker><p>
 Thou differest from all these Thebans in that
 view.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
-These also share it; but they curb their tongues 
+</p></sp><sp n="84" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:509-509"><speaker>Antigone</speaker><p>
+These also share it; but they curb their tongues
 for thee. diy Cen
 <milestone unit="line" n="510"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="85" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:510-510"><speaker>Creon</speaker><p>
 And art thou not ashamed to act apart from
-them? 
+them?
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="86" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:511-511"><speaker>Antigone</speaker><p>
 No; there is nothing shameful in piety to
 
 a brother.
 
- 
+
 
 
 <pb n="144"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="87" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:512-512"><speaker>Creon</speaker><p>
 Was it not a brother, too, that died in the
 opposite cause?
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="88" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:513-513"><speaker>Antigone</speaker><p>
 Brother by the same mother and the same sire.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="89" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:514-514"><speaker>Creon</speaker><p>
 Why, then, dost thou render a grace that is
 impious in his sight?
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="90" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:515-515"><speaker>Antigone</speaker><p>
 The dead man will not say that he so deems it.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="91" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:516-516"><speaker>Creon</speaker><p>
 Yea, if thou makest him but equal in honour
 with the wicked.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="92" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:517-517"><speaker>Antigone</speaker><p>
 It was his brother, not his slave, that perished.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="93" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:518-518"><speaker>Creon</speaker><p>
 Wasting this land; while 4e fell as its champion.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="94" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:519-519"><speaker>Antigone</speaker><p>
 Nevertheless, Hades desires these rites.
 
 <milestone unit="line" n="520"/>
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="95" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:520-520"><speaker>Creon</speaker><p>
 But the good desires not a like portion with
 
 the evil.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="96" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:521-521"><speaker>Antigone</speaker><p>
 Who knows but this seems blameless in the
 world below?
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="97" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:522-522"><speaker>Creon</speaker><p>
 A foe is never a friend—not even in death.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="98" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:523-523"><speaker>Antigone</speaker><p>
 ‘Tis not my nature to join in hating, but in
 loving.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="99" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:524-525"><speaker>Creon</speaker><p>
 Pass, then, to the world of the dead, and, if
 thou must needs love, love them. While I live, no
 
@@ -1040,7 +1034,7 @@ woman shall rule me,
 
 <stage>Enter ISMENE from the house, led in by two attendants.</stage>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="100" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:526-530"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="526" edRef="Storr"/>Lo, yonder Ismene comes forth, shedding such
 
 tears as fond sisters weep; a cloud upon her brow casts
@@ -1049,7 +1043,7 @@ tears as fond sisters weep; a cloud upon her brow casts
 its shadow over her darkly-flushing face, and breaks in
 rain on her fair cheek.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="101" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:531-535"><speaker>Creon</speaker><p>
 <milestone unit="card" n="531"/>And thou, who, lurking like a viper in my
 house, wast secretly draining my life-blood, while I
 
@@ -1062,63 +1056,63 @@ my throne—come, tell me now, wilt thou also confess
 thy part in this burial, or wilt thou forswear all knowledge
 of it?
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="102" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:536-537"><speaker>Ismene</speaker><p>
 I have done the deed,—if she allows my claim,
 —and share the burden of the charge.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="103" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:538-539"><speaker>Antigone</speaker><p>
 Nay, justice will not suffer thee to do that:
 thou didst not consent to the deed, nor did I give thee
 
-part in it. 
+part in it.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="104" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:540-556"><speaker>Ismene</speaker><p>
 <milestone unit="line" n="540"/>
 <milestone unit="card" n="556" edRef="Storr"/>But, now that ills beset thee, I am not ashamed
-to sail the sea of trouble at thy side. 
+to sail the sea of trouble at thy side.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="105" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:542-543"><speaker>Antigone</speaker><p>
 Whose was the deed, Hades and the dead are
 witnesses: a friend in words is not the friend that I
 love.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="106" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:544-545"><speaker>Ismene</speaker><p>
 Nay, sister, reject me not, but let me die with
 thee, and_duly honour the dead.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="107" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:546-547"><speaker>Antigone</speaker><p>
 Share not thou my death, nor claim deeds to
 which thou hast not put thy hand: my death will
 suffice.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="108" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:548-548"><speaker>Ismene</speaker><p>
 And what life is dear to me, bereft of thee?
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="109" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:549-549"><speaker>Antigone</speaker><p>
 Ask Creon; all thy care is for him.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="110" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:550-550"><speaker>Ismene</speaker><p>
 <milestone unit="line" n="550"/>
 Why vex me thus, when it avails thee nought?
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="111" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:551-551"><speaker>Antigone</speaker><p>
 Indeed, if I mock, ’tis with pain that I mock
 thee.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="112" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:552-552"><speaker>Ismene</speaker><p>
 Tell me,—how can I serve thee, even now?
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="113" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:553-553"><speaker>Antigone</speaker><p>
 Save thyself: I grudge not thy escape.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="114" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:554-554"><speaker>Ismene</speaker><p>
 Ah, woe is me! And shall I have no share in
 thy fate?
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="115" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:555-555"><speaker>Antigone</speaker><p>
 Thy choice was to live; mine, to die. #4 oe of
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="116" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:556-556"><speaker>Ismene</speaker><p>
 At least thy choice was not made without my
 protest.
 
@@ -1126,74 +1120,74 @@ protest.
 
 <pb n="146"/>
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="117" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:557-557"><speaker>Antigone</speaker><p>
 Qne_world approved thy wisdom; another,
 mine.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="118" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:558-558"><speaker>Ismene</speaker><p>
 Howbeit, the offence is the same for both of us.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="119" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:559-560"><speaker>Antigone</speaker><p>
 Be of good cheer; thou livest; but my life
 
 <milestone unit="line" n="560"/>
 hath long been given to death, that so I might serve
 the dead.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="120" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:561-562"><speaker>Creon</speaker><p>
 Lo, one of these maidens hath newly shown
 herself foolish, as the other hath been since her life
 began.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="121" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:563-564"><speaker>Ismene</speaker><p>
 Yea, O king, such reason as nature may have
 given abides not with the unfortunate, but goes astray.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="122" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:565-565"><speaker>Creon</speaker><p>
 Thine did, when thou chosest vile deeds with
 the vile.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="123" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:566-566"><speaker>Ismene</speaker><p>
 What life could I endure, without ther presenc ce?
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="124" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:567-567"><speaker>Creon</speaker><p>
 Nay, speak not of her 'presence'; she lives no
-more. 
+more.
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="125" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:568-568"><speaker>Ismene</speaker><p>
 But wilt thou slay the hetrothed of thine own
 
-Son? 
+Son?
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="126" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:569-569"><speaker>Creon</speaker><p>
 Nay, there are other fields for him to plough. ux¢!
 <milestone unit="line" n="570"/>
 
-</p></sp><sp><speaker>Ismene</speaker><p>
+</p></sp><sp n="127" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:570-570"><speaker>Ismene</speaker><p>
 But there can never be such love as bound him
 
-to her. 
+to her.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="128" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:571-571"><speaker>Creon</speaker><p>
 I like not an evil wife for my son.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="129" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:572-572"><speaker>Antigone</speaker><p>
 Haemon, beloved! How thy father wrongs
 thee!
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="130" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:573-573"><speaker>Creon</speaker><p>
 Enough, enough of thee and of thy marriage!
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="131" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:574-574"><speaker>Chorus</speaker><p>
 Wilt thou indeed rob thy son of this maiden?
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="132" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:575-575"><speaker>Creon</speaker><p>
 ’Tis Death that shall stay these bridals for me.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="133" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:576-576"><speaker>Chorus</speaker><p>
 ’Tis determined, it seems, that she shall die.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="134" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:577-625"><speaker>Creon</speaker><p>
 Determined, yes, for thee and for me—
 <stage>to the two attendants.</stage>
 No more delay—servants, take them
@@ -1206,7 +1200,7 @@ within! Henceforth they must be women, and not range
 
 
 
- 
+
 
 
 <pb n="147"/>
@@ -1217,7 +1211,7 @@ at large; for verily even the bold seek to fly, when they
 see Death now closing on their life.
 <stage>Exeunt attendants, guarding ANTIGONE and ISMENE.—CREON remains.</stage>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="135" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:583-630"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="583" edRef="Storr"/>Blest are they whose days have not tasted of
 evil. For when a house hath once been shaken from
 heaven, there the curse fails nevermore, passing from
@@ -1279,19 +1273,19 @@ and bitter for the baffled hope of his marriage?
 
 <stage>Enter HAEMON.</stage>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="136" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:631-634"><speaker>Creon</speaker><p>
 <milestone unit="card" n="631" edRef="Storr"/>We shall know soon, better than seers could
 tell us—My son, hearing the fixed doom of thy betrothed,
 art thou come in rage against thy father? Or
 have I thy good will, act how I may?
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="137" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:635-638"><speaker>Haemon</speaker><p>
 Father, Iam thine; and thou, in thy wisdom,
 tracest for me—rules which I shall follow. No marriage
 shall be deemed by me a-greater gain than thy good
 guidance.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="138" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:639-680"><speaker>Creon</speaker><p>
 Yea, this, my son, should be thy heart’s fixed
 
 <milestone unit="line" n="640"/>
@@ -1300,14 +1294,14 @@ this that men pray to see dutiful children grow up
 around them in their homes,—that such may requite
 their father’s foe with evil, and honour, as their father
 
- 
+
 
 
 <pb n="149"/>
 
 
 
-doth, his friend. But he who begets unprofitable 
+doth, his friend. But he who begets unprofitable
 children—what shall we say that he hath sown, but —
 troubles for himself, and much triumph for his foes?
 Then do not thou, my son, at pleasure’s beck, dethrone
@@ -1326,12 +1320,12 @@ So let her appeal as she will to the majesty of kindred
 blood. If I am to nurture mine own kindred in
 <milestone unit="line" n="660"/>
 naughtiness, needs must I bear with it in aliens. He
-who does his duty in his own household will be found 
-righteous in the State also. But if any one transgresses, 
+who does his duty in his own household will be found
+righteous in the State also. But if any one transgresses,
 and does violence to the laws, or thinks to dictate to
 his rulers, such an one can win no praise from me. No,
-whomsoever the city may appoint, that man must be 
-obeyed, in little things and great, in just things and 
+whomsoever the city may appoint, that man must be
+obeyed, in little things and great, in just things and
 unjust; and I should feel sure that one who thus obeys
 would be a good ruler no less than a good subject, and
 <milestone unit="line" n="670"/>
@@ -1358,11 +1352,11 @@ hand; then we should not be called weaker than a
 
 woman.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="139" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:681-682"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="681" edRef="Storr"/>To us, unless our years have stolen our wit,
 thou seemest to say wisely what thou sayest.
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="140" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:683-723"><speaker>Haemon</speaker><p>
 Father, the gods implant reason in men, the
 highest of all things that we call our own. Not mine
 the skill—far from me be the quest!—to.say wherein
@@ -1396,7 +1390,7 @@ that thy word, and thine alone, must be right. For if
 any man thinks that he alone is wise,—that in speech,
 or in mind, he hath no peer,—such a soul, when Taid
 
- 
+
 
 open, is ever found empty.
 
@@ -1420,119 +1414,119 @@ far best, I ween, that men should be all-wise. by nature ;
 but, otherwise—and oft the scale inclines not so—'tis
 good also to learn from those who speak aright.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="141" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:724-725"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="724" edRef="Storr"/>Sire, ’tis meet that thou shouldest profit by his
 words, if he speaks aught in season, and thou, Haemon,
 by thy father’s ; for on both parts there hath been wise
 speech.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="142" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:726-727"><speaker>Creon</speaker><p>
 Men of my age—are we indeed to be-schooled,
 then, by-men-of his ?
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="143" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:728-729"><speaker>Haemon</speaker><p>
 In nothing that is not right; but if I am
 young, thou shouldest look to my merits, not to my
 
 years.
 <milestone unit="line" n="730"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="144" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:730-730"><speaker>Creon</speaker><p>
 Is it a merit to honour the unruly?
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="145" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:731-731"><speaker>Haemon</speaker><p>
 I could wish no one to show respect for evildoers.
 Tre Furl.
 
-</p></sp><sp><speaker>Creon</speaker><p>
-Then is not she tainted with that malady? “> Ji
+</p></sp><sp n="146" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:732-732"><speaker>Creon</speaker><p>
+Then is not she tainted with that malady? “&gt; Ji
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="147" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:733-733"><speaker>Haemon</speaker><p>
 Our Theban folk, with one voice, denies it~
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="148" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:734-734"><speaker>Creon</speaker><p>
 Shall Thebes prescribe to me how I must rule?
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="149" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:735-735"><speaker>Haemon</speaker><p>
 See, there thou hast spoken like a youth
 indeed.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="150" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:736-736"><speaker>Creon</speaker><p>
 Am Ito rule this land by other judgment than
 mine own?
 
 
 <pb n="152"/>
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="151" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:737-737"><speaker>Haemon</speaker><p>
 That is no city, which belongs to one man.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="152" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:738-738"><speaker>Creon</speaker><p>
 Is not the city held to be the ruler’s?
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="153" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:739-739"><speaker>Haemon</speaker><p>
 Thou wouldst make a good monarch of a
 desert.
 <milestone unit="line" n="740"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="154" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:740-740"><speaker>Creon</speaker><p>
 This boy, it seems, is the woman’s champion.
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="155" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:741-741"><speaker>Haemon</speaker><p>
 If thou art a woman; indeed, my care is for
 thee.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="156" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:742-742"><speaker>Creon</speaker><p>
 Shameless, at open feud with thy father !
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="157" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:743-743"><speaker>Haemon</speaker><p>
 Nay, I see thee offending against justice.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="158" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:744-744"><speaker>Creon</speaker><p>
 Do I offend, when I respect mine own prerogatives
 ?
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="159" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:745-745"><speaker>Haemon</speaker><p>
 Thou dost not respect them, when thou
 tramplest on the gods’ honours.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="160" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:746-746"><speaker>Creon</speaker><p>
 O dastard nature, yielding place to womanit
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="161" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:747-747"><speaker>Haemon</speaker><p>
 Thou wilt never find me yield to baseness.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="162" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:748-748"><speaker>Creon</speaker><p>
 All thy words, at least, plead for that girl,
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="163" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:749-749"><speaker>Haemon</speaker><p>
 And for thee, and for me, and for the gods
 
 below.
 <milestone unit="line" n="750"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="164" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:750-750"><speaker>Creon</speaker><p>
 Thou canst never marry her, on this side the
 grave.
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="165" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:751-751"><speaker>Haemon</speaker><p>
 Then she must die, and in death destroy
 another,
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="166" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:752-752"><speaker>Creon</speaker><p>
 How! doth thy boldness run to open threats?
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="167" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:753-753"><speaker>Haemon</speaker><p>
 What threat is it, to combat vain resolyes?
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="168" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:754-754"><speaker>Creon</speaker><p>
 Thou shalt rue thy witless teaching of wisdom.
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="169" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:755-755"><speaker>Haemon</speaker><p>
 Wert thou not my father, I would have called
 thee unwise.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="170" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:756-757"><speaker>Creon</speaker><p>
 Thou woman’s slave, use not wheedling speech
 with me.
 
@@ -1542,7 +1536,7 @@ reply?
 
 <pb n="153"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="171" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:758-761"><speaker>Creon</speaker><p>
 <milestone unit="card" n="758" edRef="Storr"/>Sayest thou so? Now, by the heaven above
 us—be sure of it—thou shalt smart for taunting me in
 <milestone unit="line" n="760"/>
@@ -1550,36 +1544,36 @@ this opprobrious strain. Bring forth that hated thing,
 that she may die forthwith in his presence—before his
 eyes—at her bridegroom’s side!
 
-</p></sp><sp><speaker>Haemon</speaker><p>
+</p></sp><sp n="172" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:762-765"><speaker>Haemon</speaker><p>
 No, not at my side—never think it—shall
 she perish; nor shalt thou ever set eyes more upon my
 face :—rave, then, with such friends as can endure thee.
 
 <stage>Exit HAEMON.</stage>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
-The man is gone, O king, in angry haste; 
-a youthful man, when stung, is fierce. 
+</p></sp><sp n="173" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:766-767"><speaker>Chorus</speaker><p>
+The man is gone, O king, in angry haste;
+a youthful man, when stung, is fierce.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="174" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:768-769"><speaker>Creon</speaker><p>
 Let him do, or dream, more than man—good
 speed to him!—But he shall not save these two girls
 from their doom.
 
 <milestone unit="line" n="770"/>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="175" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:770-770"><speaker>Chorus</speaker><p>
 Dost thou indeed purpose to slay both?
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="176" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:771-771"><speaker>Creon</speaker><p>
 Not her whose hands are pure: thou sayest
 well.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="177" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:772-772"><speaker>Chorus</speaker><p>
 And by what doom mean’st thou to slay the
 other?
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="178" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:773-800"><speaker>Creon</speaker><p>
 I will take her where the path is loneliest, and
 hide her, living, in a rocky vault, with so much food
 set forth as piety prescribes, that the city may avoid
@@ -1589,7 +1583,7 @@ from death; or else will learn, at last, though late,
 <milestone unit="line" n="780"/>
 that it is lost labour to revere the dead. [zit CREON.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="179" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:781-805"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="781" edRef="Storr"/>Love, unconquered in the fight, Love, who sr. ‘
 makest havoc of wealth, who keepest thy vigil on the
 soft cheek of a maiden; thou roamest over the sea, and
@@ -1620,7 +1614,7 @@ where all are laid to rest.
 
 <milestone unit="str" n="1"/>
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="180" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:806-815"><speaker>Antigone</speaker><p>
 <milestone unit="card" n="806" edRef="Storr"/>See me, citizens of my fatherland, setting forth
 on my last way, looking my last on the sunlight that is
 <milestone unit="line" n="810"/>
@@ -1631,7 +1625,7 @@ been mine for the crowning of bridals; whom the lord
 
 of the Dark Lake shall wed.</p></sp>
 
-<milestone unit="syst" n="1"/><sp><speaker>Chorus</speaker><p>
+<milestone unit="syst" n="1"/><sp n="181" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:817-822"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="817" edRef="Storr"/>Glorious, therefore, and with praise, thou departest
 
 to that deep place of the dead: wasting sickness
@@ -1647,9 +1641,9 @@ kind hath passed.
 
 <pb n="155"/>
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="182" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:823-831"><speaker>Antigone</speaker><p>
 <milestone unit="ant" n="1"/>
-<milestone unit="card" n="823" edRef="Storr"/>I have heard in other days how dread a doom 
+<milestone unit="card" n="823" edRef="Storr"/>I have heard in other days how dread a doom
 
 befell our Phrygian guest, the daughter of Tantalus, on
 
@@ -1665,17 +1659,17 @@ my rest.
 
 <milestone unit="syst" n="2"/>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
-<milestone unit="card" n="834" edRef="Storr"/>Yet she was a goddess, thou knowest, and born 
+</p></sp><sp n="183" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:834-838"><speaker>Chorus</speaker><p>
+<milestone unit="card" n="834" edRef="Storr"/>Yet she was a goddess, thou knowest, and born
 of gods; we are mortals, and of mortal race. But ’tis
 great renown for a woman who hath perished that she
 should have shared the doom of the godlike, in her life,
 and afterward in death.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="184" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:839-851"><speaker>Antigone</speaker><p>
 
 <milestone unit="str" n="2"/>
-<milestone unit="card" n="839" edRef="Storr"/>Ah, I am mocked! In the name of our 
+<milestone unit="card" n="839" edRef="Storr"/>Ah, I am mocked! In the name of our
 <milestone unit="line" n="840"/>
 fathers’ gods, can ye not wait till I am gone,—must
 ye taunt me to my face, O my city, and ye, her wealthy
@@ -1690,12 +1684,12 @@ with the dead.
 
 <milestone unit="str" n="3"/>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
-<milestone unit="card" n="853" edRef="Storr"/>Thou hast rushed forward to the utmost verge 
+</p></sp><sp n="185" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:853-856"><speaker>Chorus</speaker><p>
+<milestone unit="card" n="853" edRef="Storr"/>Thou hast rushed forward to the utmost verge
 of daring; and against that throne where Justice sits
 on high thou hast fallen, my daughter, with a grievous
 fall. But in this ordeal thou art paying, haply, for thy
-fathcr’s sin, 
+fathcr’s sin,
 
 
 <pb n="156"/>
@@ -1705,7 +1699,7 @@ fathcr’s sin,
 
 <milestone unit="ant" n="2"/>
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="186" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:858-871"><speaker>Antigone</speaker><p>
 <milestone unit="card" n="858" edRef="Storr"/>Thou hast touched on my bitterest thought —
 <milestone unit="line" n="860"/>
 awaking the ever-new lament for my sire and for all
@@ -1721,7 +1715,7 @@ my life!
 
 <milestone unit="ant" n="3"/>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="187" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:872-875"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="872" edRef="Storr"/>Reverent action claims a certain praise for
 
 reverence; but an offence against power cannot be
@@ -1730,7 +1724,7 @@ self-willed temper hath wrought thy ruin,
 
 <milestone unit="epode"/>
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="188" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:876-882"><speaker>Antigone</speaker><p>
 <milestone unit="card" n="876" edRef="Storr"/>Unwept, unfriended, without marriage-song,
 I am led forth in my sorrow on this journey that can
 
@@ -1739,7 +1733,7 @@ be delayed no more. No longer, hapless one, may
 I behold yon day-star’s sacred eye; but for my fate
 no tear is shed, no friend makes moan,
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="189" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:883-890"><speaker>Creon</speaker><p>
 <milestone unit="card" n="883" edRef="Storr"/>Know ye not that songs and wailings before
 death would never cease, if it profited to utter them?
 Away with her—away! And when ye have enclosed
@@ -1751,7 +1745,7 @@ a buried life in such a home. Our hands are clean as
 touching this maiden. But this is certain—she shall be
 deprived of her sojourn in the light.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="190" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:891-928"><speaker>Antigone</speaker><p>
 Tomb, bridal-chamber, eternal prison in the
 
 
@@ -1803,24 +1797,24 @@ to know my sin; but if the sin is with my judges, I could
 wish them no fuller measure of evil than they, on their
 part, mete wrongfully to me.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="191" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:929-930"><speaker>Chorus</speaker><p>
 Still the same tempest of the soul vexes this
 <milestone unit="line" n="930"/>
 maiden with the same fierce gusts.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="192" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:931-932"><speaker>Creon</speaker><p>
 Then for this shall her guards have cause to
 rue their slowness.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="193" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:933-936"><speaker>Antigone</speaker><p>
 Ah me! that word hath come very near to
 death.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="194" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:937-943"><speaker>Creon</speaker><p>
 I can cheer thee with no hope that this doom
 is not thus to be fulfilled.
 
-</p></sp><sp><speaker>Antigone</speaker><p>
+</p></sp><sp n="195" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:937-965"><speaker>Antigone</speaker><p>
 O city of my fathers in the land of Thebè!
 O ye gods, eldest of our race!—they lead me hence—
 <milestone unit="line" n="940"/>
@@ -1832,7 +1826,7 @@ cast away the fear of Heaven!
 
 <milestone unit="str" n="1"/>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="196" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:929-987"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="929" edRef="Storr"/>Even thus endured Danaé in her beauty to
 change the light of day for brass-bound walls; and in
 that chamber, secret as the grave, she was held close
@@ -1849,7 +1843,7 @@ city, or dark, sea-beaten ships.
 
 
 <milestone unit="ant" n="1"/>
-<milestone unit="card" n="944" edRef="Storr"/>And bonds tamed the son of Dryas, swift to wrath, 
+<milestone unit="card" n="944" edRef="Storr"/>And bonds tamed the son of Dryas, swift to wrath,
 that king of the Edonians ; so paid he for his frenzied
 taunts, when, by the will of Dionysus, he was pent in
 a rocky prison. There the fierce exuberance of his
@@ -1861,7 +1855,7 @@ women, and the Bacchanalian fire; and he
 angered the Muses that love the flute.
 
 <milestone unit="str" n="2"/>
-<milestone unit="card" n="955" edRef="Storr"/>And by the waters of the Dark Rocks, the waters 
+<milestone unit="card" n="955" edRef="Storr"/>And by the waters of the Dark Rocks, the waters
 of the twofold sea, are the shores of Bosporus, and
 <milestone unit="line" n="970"/>
 Thracian Salmydessus; where Ares, neighbour to the
@@ -1873,7 +1867,7 @@ for a dagger.</p>
 
 <p>
 <milestone unit="ant" n="2"/>
-<milestone unit="card" n="966" edRef="Storr"/>Pining in their misery, they bewailed their cruel 
+<milestone unit="card" n="966" edRef="Storr"/>Pining in their misery, they bewailed their cruel
 <milestone unit="line" n="980"/>
 doom, those sons of a mother hapless in her marriage ;
 but she traced her descent from the ancient line of the
@@ -1884,46 +1878,46 @@ upon her also the gray Fates bore hard, my daughter.
 
 <stage>Enter TEIRESIAS, led by a Boy, on the spectators’ right.</stage>
 
-</p></sp><sp><speaker>Teiresias</speaker><p>
-<milestone unit="card" n="977" edRef="Storr"/>Princes of Thebes, we have come with linked 
+</p></sp><sp n="197" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:977-990"><speaker>Teiresias</speaker><p>
+<milestone unit="card" n="977" edRef="Storr"/>Princes of Thebes, we have come with linked
 <milestone unit="line" n="990"/>
 steps, both served by the eyes of one; for thus, by a
 guide’s help, the blind must walk.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="198" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:991-991"><speaker>Creon</speaker><p>
 And what, aged Teiresias, are thy tidings?
 
 
 <pb n="160"/>
 
-</p></sp><sp><speaker>Teiresias</speaker><p>
+</p></sp><sp n="199" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:988-992"><speaker>Teiresias</speaker><p>
 <milestone unit="card" n="988" edRef="Storr"/>I will tell thee; and do thou hearken to the
 seer.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="200" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:993-993"><speaker>Creon</speaker><p>
 Indeed, it has not been my wont to slight thy
 counsel.
 
-</p></sp><sp><speaker>Teiresias</speaker><p>
+</p></sp><sp n="201" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:994-994"><speaker>Teiresias</speaker><p>
 Therefore didst thou steer our city’s course
 aright.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="202" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:995-995"><speaker>Creon</speaker><p>
 I have felt, and can attest, thy benefits.
 
-</p></sp><sp><speaker>Teiresias</speaker><p>
+</p></sp><sp n="203" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:996-996"><speaker>Teiresias</speaker><p>
 Mark that now, once more, thou standest on
 fate’s fine edge.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="204" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:997-997"><speaker>Creon</speaker><p>
 What means this? How I shudder at thy
 message!
 
-</p></sp><sp><speaker>Teiresias</speaker><p>
+</p></sp><sp n="205" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:998-1032"><speaker>Teiresias</speaker><p>
 Thou wilt learn, when thou hearest the warnings
 of mine art. As I took my place on mine old seat
 
-<milestone unit="line" n="1000"/> 
+<milestone unit="line" n="1000"/>
 of augury, where all birds have been. wont to gather
 
 within my ken, I heard a strange voice among them; they
@@ -1938,7 +1932,7 @@ showed no flame; a dank moisture, oozing from the
 thigh-flesh, trickled forth upon the embers, and smoked,
 
 
-<milestone unit="line" n="1010"/> 
+<milestone unit="line" n="1010"/>
 and sputtered; the gall was scattered to the air; and
 
 the streaming thighs lay bared of the fat that had been
@@ -1957,7 +1951,7 @@ altars of our city and of our hearths have been tainted,
 
 one_and all, by birds and dogs, with carri e
 hapless corpse, the son of Oedipus: and therefore the
-<milestone unit="line" n="1020"/> 
+<milestone unit="line" n="1020"/>
 gods no more accept prayer and sacrifice at our hands,
 
 or the flame of meat-offering ; nor doth any bird give
@@ -1972,7 +1966,7 @@ into which he hath fallen, and remains not stubborn.
 Self-will, we know, incurs the charge of folly. Nay,
 
 allow the claim of the dead; stab not the fallen; what
-<milestone unit="line" n="1030"/> 
+<milestone unit="line" n="1030"/>
 prowess is it to slay the slain anew? I have sought
 
 
@@ -1980,14 +1974,14 @@ thy good, and for thy good I speak: and never is it
 sweeter to learn from a good counsellor than when he
 counsels for thine own gain.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="206" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1033-1047"><speaker>Creon</speaker><p>
 <milestone unit="card" n="1033" edRef="Storr"/>Old man, ye all shoot your shafts at me, as
 archers at the butts;—ye must needs practise on me
 with seer-craft also;—aye, the seer-tribe hath long
 trafficked in me, and made me their merchandise. Gain
 your gains, drive your trade, if ye list, in the silver-gold
 of Sardis and the gold of India; but ye shall not hide
-<milestone unit="line" n="1040"/> 
+<milestone unit="line" n="1040"/>
 that man in the grave,—no, though the eagles of Zeus
 
 should bear the carrion morsels to their Master’s throne
@@ -1997,72 +1991,71 @@ gods.—But, aged Teiresias, the wisest fall with a shameful
 fall, when they clothe shameful thoughts in fair
 words, for lucre’s sake.
 
-</p></sp><sp><speaker>Teiresias</speaker><p>
+</p></sp><sp n="207" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1048-1048a"><speaker>Teiresias</speaker><p>
 Alas! Doth any man know, doth any consider...
 
 
 
 
-<pb
-n="162"/>
+<pb n="162"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="208" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1049-1049"><speaker>Creon</speaker><p>
 Whereof? What general truth dost thou
 
 announce?
 
 
 
-<milestone unit="line" n="1050"/> 
+<milestone unit="line" n="1050"/>
 
-</p></sp><sp><speaker>Teiresias</speaker><p>
+</p></sp><sp n="209" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1050-1050"><speaker>Teiresias</speaker><p>
 How precious, above all wealth, is good counsel.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="210" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1051-1051"><speaker>Creon</speaker><p>
 As folly, I think, is the worst mischief.
 
-</p></sp><sp><speaker>Teiresias</speaker><p>
+</p></sp><sp n="211" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1052-1052"><speaker>Teiresias</speaker><p>
 Yet thou art tainted with that distemper.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="212" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1053-1053"><speaker>Creon</speaker><p>
 I would not answer the seer with a taunt.
 
-</p></sp><sp><speaker>Teiresias</speaker><p>
+</p></sp><sp n="213" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1054-1064"><speaker>Teiresias</speaker><p>
 <milestone unit="card" n="1064" edRef="Storr"/>But thou dost, in saying that I prophesy falsely.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="214" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1055-1055"><speaker>Creon</speaker><p>
 Well, the prophet-tribe was ever fond of money.
 
-</p></sp><sp><speaker>Teiresias</speaker><p>
+</p></sp><sp n="215" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1056-1056"><speaker>Teiresias</speaker><p>
 And the race bred of tyrants loves base gain.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="216" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1057-1057"><speaker>Creon</speaker><p>
 Knowest thou that thy speech is spoken of thy king?
 
-</p></sp><sp><speaker>Teiresias</speaker><p>
+</p></sp><sp n="217" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1058-1058"><speaker>Teiresias</speaker><p>
 I know it; for through me thou hast saved Thebes.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="218" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1059-1059"><speaker>Creon</speaker><p>
 Thou art a wise seer; but thou lovest evil deeds.
 
 <milestone unit="line" n="1060"/>
 
-</p></sp><sp><speaker>Teiresias</speaker><p>
+</p></sp><sp n="219" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1060-1060"><speaker>Teiresias</speaker><p>
 Thou wilt rouse me to utter the dread secret
 
 in my soul.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="220" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1061-1061"><speaker>Creon</speaker><p>
 Out with it !—Only speak it not for gain.
 
-</p></sp><sp><speaker>Teiresias</speaker><p>
+</p></sp><sp n="221" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1062-1062"><speaker>Teiresias</speaker><p>
 Indeed, methinks, I shall not,—as touching
 thee.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="222" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1063-1063"><speaker>Creon</speaker><p>
 Know that thou shalt not trade on my resolve.
 
-</p></sp><sp><speaker>Teiresias</speaker><p>
+</p></sp><sp n="223" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1064-1090"><speaker>Teiresias</speaker><p>
 Then know thou—aye, know it well—that thou
 
 shalt not live through many more courses of the sun’s
@@ -2071,9 +2064,9 @@ swift chariot, ere one begotten of thine own loins shall
 have been given by thee, a corpse for corpses; because
 thou hast thrust children of the sunlight to the shades,
 
-<milestone unit="line" n="1070"/> 
+<milestone unit="line" n="1070"/>
 and ruthlessly lodged a living soul in the grave; but
- 
+
 
 keepest in this world one who belongs to the gods
 infernal, a corpse unburied, unhonoured, all unhallowed.
@@ -2083,7 +2076,7 @@ In such thou hast no part, nor have the gods above, but
 <pb n="163"/>
 
 
-this is a violence done to them by thee. Therefore the 
+this is a violence done to them by thee. Therefore the
 avenging destroyers lie in wait for thee, the Furies of
 Hades and of the gods, that thou mayest be taken in
 these same ills.</p>
@@ -2108,55 +2101,55 @@ Boy, lead me home, that he may spend his rage on
 younger men, and learn to keep a tongue more temperate,
 <milestone unit="line" n="1090"/>
 and to bear within his breast a better mind than
-now he bears. 
+now he bears.
 <stage>Exit TEIRESIAS.</stage>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="224" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1091-1094"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="1091" edRef="Storr"/>The man hath gone, O king, with dread prophecies.
 And, since the hair on this head, once dark,
-hath been white, I know that he hath never been a false 
+hath been white, I know that he hath never been a false
 prophet to our city.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="225" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1095-1097"><speaker>Creon</speaker><p>
 I, too, know it well, and am troubled in soul.
-'Tis dire to yield ; but, by resistance, to smite my pride 
+'Tis dire to yield ; but, by resistance, to smite my pride
 with ruin--this, too, is a dire choice.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="226" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1098-1098"><speaker>Chorus</speaker><p>
 Son of Menoeceus, it behoves thee to take wise:
 counsel.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="227" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1099-1099"><speaker>Creon</speaker><p>
 What should I do, then? Speak, and I will
 obey.
 
 <milestone unit="line" n="1110"/>
-</p></sp><sp><speaker>Chorus</speaker><p>
-Go thou, and free the maiden from her rocky 
+</p></sp><sp n="228" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1100-1101"><speaker>Chorus</speaker><p>
+Go thou, and free the maiden from her rocky
 chamber, and make a tomb for the unburied dead.
 
 
 
 <pb n="164"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="229" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1102-1102"><speaker>Creon</speaker><p>
 And this is thy counsel? Thou wouldst have
 me yield?
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="230" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1103-1104"><speaker>Chorus</speaker><p>
 Yea, King, and with all speed; for swift harms
 from the gods cut short the folly of men.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="231" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1105-1106"><speaker>Creon</speaker><p>
 Ah me, ’tis hard, but I resign my cherished
 resolve,—I obey. We must not wage a vain war with
 destiny.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="232" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1107-1107"><speaker>Chorus</speaker><p>
 Go, thou, and do these things; leave them not
 to others.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="233" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1108-1145"><speaker>Creon</speaker><p>
 Even as I am I'll go:—on, on, my servants,
 each and all of you,—take axes in your hands, and
 
@@ -2167,7 +2160,7 @@ her, as I myself bound her. My heart misgives
 me, ’tis best to keep the established laws, even to life’s
 end.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="234" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1115-1152"><speaker>Chorus</speaker><p>
 
 <milestone unit="str" n="1"/>
 
@@ -2220,7 +2213,7 @@ or over the moaning strait!
 
 
 <milestone unit="ant" n="2"/>
-<milestone unit="card" n="1146" edRef="Storr"/>O thou with whom the stars rejoice as they move, 
+<milestone unit="card" n="1146" edRef="Storr"/>O thou with whom the stars rejoice as they move,
 
 the stars whose breath is fire; O master of the voices
 of the night; son begotten of Zeus; appear, O king,
@@ -2233,7 +2226,7 @@ dance before thee, the giver of good gifts, Iacchus!
 
 <stage>Enter MESSENGER, on the spectators left hand.</stage>
 
-</p></sp><sp><speaker>Messenger</speaker><p>
+</p></sp><sp n="235" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1155-1171"><speaker>Messenger</speaker><p>
 <milestone unit="card" n="1155" edRef="Storr"/>Dwellers by the house of Cadmus and of Amphion,
 there is no estate of mortal life that I would ever
 praise or blame as settled. Fortune raises and Fortune
@@ -2260,43 +2253,43 @@ vapour for all the rest, compared with joy.
 
 <pb n="166"/>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="236" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1172-1172"><speaker>Chorus</speaker><p>
 And what is this new grief that thou hast to
 tell for our princes?
 
-</p></sp><sp><speaker>Messenger</speaker><p>
+</p></sp><sp n="237" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1173-1173"><speaker>Messenger</speaker><p>
 Death; and the living are guilty for the dead.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="238" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1174-1174"><speaker>Chorus</speaker><p>
 And who is the slayer? Who the stricken?
 Speak.
 
-</p></sp><sp><speaker>Messenger</speaker><p>
+</p></sp><sp n="239" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1175-1175"><speaker>Messenger</speaker><p>
 Haemon hath perished; his blood hath been
 shed by no stranger.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="240" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1176-1176"><speaker>Chorus</speaker><p>
 By his father’s hand, or by his own?
 
-</p></sp><sp><speaker>Messenger</speaker><p>
+</p></sp><sp n="241" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1177-1177"><speaker>Messenger</speaker><p>
 By his own, in wrath with his sire for the murder.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="242" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1178-1178"><speaker>Chorus</speaker><p>
 O prophet, how true, then, hast thou proved
 thy word!
 
-</p></sp><sp><speaker>Messenger</speaker><p>
+</p></sp><sp n="243" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1179-1179"><speaker>Messenger</speaker><p>
 These things stand thus; ye must consider of the rest.
 <milestone unit="line" n="1180"/>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="244" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1180-1182"><speaker>Chorus</speaker><p>
 Lo, I see the hapless Eurydicé, Creon’s wife,
 approaching; she comes from the house by chance,
 haply,—or because she knows the tidings of her son.</p></sp>
 
 <stage>Enter EURYDICE.</stage>
-    
-    <sp><speaker>Eurydice</speaker><p>
+
+    <sp n="245" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1183-1218"><speaker>Eurydice</speaker><p>
 <milestone unit="card" n="1183" edRef="Storr"/>People of Thebes, I heard your words as
 I was going forth, to salute the goddess Pallas with
 my prayers. Even as I was loosing the fastenings of
@@ -2308,7 +2301,7 @@ the arms of my handmaids, and my senses fled. But
 say again what the tidings were; I shall hear them as
 one who is no stranger to sorrow.
 
-</p></sp><sp><speaker>Messenger</speaker><p>
+</p></sp><sp n="246" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1219-1243"><speaker>Messenger</speaker><p>
 <milestone unit="card" n="1219" edRef="Storr"/>Dear lady, I will witness of what I saw, and
 will leave no word of the truth untold. Why, indeed,
 should I soothe thee with words in which I must presently
@@ -2390,12 +2383,12 @@ curses which cleave to man, ill counsel is the sovereign
 curse.
 <stage>EURYDICE retires into the house.</stage>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="247" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1244-1245"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="1244" edRef="Storr"/>What wouldst thou augur from this? The
 lady hath turned back, and is gone, without a word,
 good or evil.
 
-</p></sp><sp><speaker>Messenger</speaker><p>
+</p></sp><sp n="248" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1246-1250"><speaker>Messenger</speaker><p>
 I, too, am startled; yet I nourish the hope
 that, at these sore tidings of her son, she cannot deign
 to give her sorrow public vent, but in the privacy of the
@@ -2405,12 +2398,12 @@ house will set her handmaids to mourn the household
 grief. For she is not untaught of discretion, that she
 should err.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="249" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1251-1252"><speaker>Chorus</speaker><p>
 I know not; but to me, at least, a strained
 silence seems to portend peril, no less than vain abundance
 of lament.
 
-</p></sp><sp><speaker>Messenger</speaker><p>
+</p></sp><sp n="250" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1253-1257"><speaker>Messenger</speaker><p>
 <milestone unit="card" n="1257" edRef="Storr"/>Well, I will enter the house, and learn whether
 
 
@@ -2426,7 +2419,7 @@ excess of silence, too, may have a perilous meaning.
 
 <stage>Enter CREON, on the spectators’ left, with attendants, carrying the shrouded body of HAEMON on a bier.</stage>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="251" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1257-1260"><speaker>Chorus</speaker><p>
 Lo, yonder the king himself draws near, bearing
 that which tells too clear a tale,—the work of no
 <milestone unit="line" n="1260"/>
@@ -2435,9 +2428,9 @@ misdecds.
 
 <milestone unit="str" n="1"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="252" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1261-1269"><speaker>Creon</speaker><p>
 
-<milestone unit="card" n="1261" edRef="Storr"/>Woe for the sins of a darkened soul, stubborn 
+<milestone unit="card" n="1261" edRef="Storr"/>Woe for the sins of a darkened soul, stubborn
 sins, fraught with death! Ah, ye behold us, the sire
 who hath slain, the son who hath perished! Woe is
 me, for the wretched blindness of my counsels! Alas,
@@ -2445,15 +2438,15 @@ my son, thou hast died in thy youth, by a timeless
 doom, woe_is_me!—thy spirit hath fled,—not by thy
 folly, but by mine own!
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="253" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1270-1270"><speaker>Chorus</speaker><p>
 <milestone unit="str" n="2"/>
 <milestone unit="card" n="1270" edRef="Storr"/>
 <milestone unit="line" n="1270"/>
-Ah me, how all too late thou seemest to see 
+Ah me, how all too late thou seemest to see
 
 the right !
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="254" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1271-1280"><speaker>Creon</speaker><p>
 Ah me, I have learned the bitter lesson! But
 then, methinks, oh then, some god smote me from above
 with crushing weight, and hurled me into ways of
@@ -2462,7 +2455,7 @@ joy! Woe, woe, for the troublous toils of men!
 
 <stage>Enter MESSENGER from the house.</stage>
 
-</p></sp><sp><speaker>Messenger</speaker><p>
+</p></sp><sp n="255" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1278-1281"><speaker>Messenger</speaker><p>
 <milestone unit="card" n="1278"/>Sire, thou hast come, methinks, as one whose
 
 
@@ -2475,16 +2468,16 @@ thou bearest yonder burden with thee; and thou
 art soon to look upon the woes within thy house.
 
 <milestone unit="card" n="1281" edRef="Storr"/>
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="256" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1281-1281"><speaker>Creon</speaker><p>
 And what worse ill is yet to follow upon ills?
 
-</p></sp><sp><speaker>Messenger</speaker><p>
+</p></sp><sp n="257" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1282-1283"><speaker>Messenger</speaker><p>
 Thy queen hath died, true mother of yon
 corpse—ah, hapless lady !—by blows newly dealt.
 
 <milestone unit="ant" n="1"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="258" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1284-1292"><speaker>Creon</speaker><p>
 <milestone unit="card" n="1284" edRef="Storr"/>Oh Hades, all-receiving, whom no sacrifice can
 
 appease! Hast thou, then, no mercy for me? O thou
@@ -2499,13 +2492,13 @@ anew! What sayest thou, my son? What is this new
 message that thou bringest—woe, woe is me !—of a wife’s
 doom, —of slaughter heaped on slaughter?
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="259" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1293-1293"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="1293" edRef="Storr"/>Thou canst behold: ’tis no longer hidden within.
 <stage>The doors of the palace are opened, and the corpse of EURYDICE is disclosed.</stage>
 
 <milestone unit="ant" n="2"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="260" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1294-1300"><speaker>Creon</speaker><p>
 <milestone unit="card" n="1294" edRef="Storr"/> me,—yonder I behold a new, a second woe!
 
 What destiny, ah what, can yet await me? I have but
@@ -2516,7 +2509,7 @@ now raised my son in my arms,—and there, again, I see
 a corpse before me! Alas, alas, unhappy mother! Alas,
 my child!
 
-</p></sp><sp><speaker>Messenger</speaker><p>
+</p></sp><sp n="261" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1301-1305"><speaker>Messenger</speaker><p>
 There, at the altar, self-stabbed with a keen
 knife, she suffered her darkening eyes to close, when
 she had wailed for the noble fate of Megareus who died
@@ -2530,66 +2523,66 @@ thee, the slayer of thy sons.
 
 <milestone unit="str" n="3"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
-<milestone unit="card" n="1306" edRef="Storr"/>Woe, woe! I thrill with dread. Is there none 
+</p></sp><sp n="262" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1306-1311"><speaker>Creon</speaker><p>
+<milestone unit="card" n="1306" edRef="Storr"/>Woe, woe! I thrill with dread. Is there none
 to strike me to the heart with two-edged sword ?—O
 <milestone unit="line" n="1310"/>
 miserable that I am, and steeped in miserable anguish!
 
-</p></sp><sp><speaker>Messenger</speaker><p>
+</p></sp><sp n="263" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1306-1313"><speaker>Messenger</speaker><p>
 Yea, both this son’s doom, and that other’s,
 were laid to thy charge by her whose corpse thou
 seest.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="264" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1314-1314"><speaker>Creon</speaker><p>
 And what was the manner of the violent deed
 by which she passed away?
 
-</p></sp><sp><speaker>Messenger</speaker><p>
+</p></sp><sp n="265" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1314-1316"><speaker>Messenger</speaker><p>
 Her own hand struck her to the heart, when
 she had learned her son’s sorely lamented fate.
 
 <milestone unit="str" n="4"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="266" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1317-1325"><speaker>Creon</speaker><p>
     <milestone unit="card" n="1317" edRef="Storr"/>
-Ah me, this guilt can never be fixed on any 
+Ah me, this guilt can never be fixed on any
 other of mortal kind, for my acquittal! I, even I, was
 <milestone unit="line" n="1320"/>
 thy slayer, wretched that I am—I own the truth. Lead
 me away, O my servants, lead me hence with all speed,
 whose life is but as death!
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="267" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1326-1327"><speaker>Chorus</speaker><p>
 Thy counsels are good, if there can be good
 with ills; briefest is best, when trouble is in our path.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="268" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1328-1332"><speaker>Creon</speaker><p>
 <milestone unit="card" n="1328" edRef="Storr"/>Oh, let it come, let it appear, that fairest of anv. 3.
 <milestone unit="line" n="1330"/>
 fates for me, that brings my last day,—aye, best fate
 of all! Oh, let it come, that I may never look upon
 to-morrow’s light.
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="269" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1334-1335"><speaker>Chorus</speaker><p>
 <milestone unit="card" n="1334" edRef="Storr"/>These things are in the future; present tasks
 claim our care: the ordering of the future rests where
 it should rest.
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="270" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1336-1336"><speaker>Creon</speaker><p>
 All my desires, at least, were summed in that
 prayer.
 
 
 <pb n="172"/>
 
-</p></sp><sp><speaker>Chorus</speaker><p>
+</p></sp><sp n="271" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1337-1338"><speaker>Chorus</speaker><p>
 Pray thou no more; for mortals have no escape
 from destined woe,
 
 <milestone unit="ant" n="4"/>
 
-</p></sp><sp><speaker>Creon</speaker><p>
+</p></sp><sp n="272" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1339-1346"><speaker>Creon</speaker><p>
 <milestone unit="card" n="1339" edRef="Storr"/>Lead me away, I pray you; a rash, foolish
 
 <milestone unit="line" n="1340"/>
@@ -2609,7 +2602,7 @@ upon my head.
 <milestone unit="card" n="1347" edRef="Storr"/>
 <stage>As CREON is being conducted into the house, the Coryphaeus speaks the closing verses.</stage>
 
-<sp><speaker>Chorus</speaker><p>
+<sp n="273" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1347-1353"><speaker>Chorus</speaker><p>
 Wisdom is the supreme part of happiness; and
 reverence towards the gods must be inviolate. Great
 <milestone unit="line" n="1350"/>

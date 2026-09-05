@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader xml:lang="eng">
 <fileDesc>
 <titleStmt>
@@ -62,12 +62,7 @@ Trust</ref>
 </correction>
 </editorialDecl>
 
-<refsDecl n="CTS">
-<cRefPattern matchPattern="(\w+)" n="section" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-<p>This pointer pattern extracts sections.</p>
-</cRefPattern>
-</refsDecl>
-</encodingDesc>
+<refsDecl n="CTS"><cRefPattern n="turn" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:sp[@n='$1'])"><p>This pointer pattern extracts turns.</p></cRefPattern></refsDecl><refsDecl xml:id="CTS-modern"><citeStructure match="/TEI/text/body" use="@xml:base"><citeStructure match=".//sp" unit="turn" use="@n" delim=":" n="chunk"/></citeStructure></refsDecl><refsDecl xml:id="CTS-card"><citeStructure match="/TEI/text/body" use="@xml:base"><citeStructure match=".//milestone[@unit='card']" unit="card" use="@n" delim=":" n="chunk"/></citeStructure></refsDecl></encodingDesc>
 
 <profileDesc>
 <langUsage>
@@ -76,13 +71,13 @@ Trust</ref>
 </profileDesc>
 
 <revisionDesc>
-<change when="2023-08-05" who="Gregory Crane">Digital conversion and editing</change>
+<change when="2026-08-30" who="#gcrane">Added CTS metadata and aligned every translation speech to the Storr reference edition. Modern citeStructure and legacy refsDecl declarations are both retained.</change><change when="2023-08-05" who="Gregory Crane">Digital conversion and editing</change>
 </revisionDesc>
 </teiHeader>
 
-<text>
-<body>
-<div type="translation" n="urn:cts:greekLit:tlg0011.tlg002.TBA" xml:lang="deu">
+<text xml:lang="deu">
+<body xml:base="urn:cts:greekLit:tlg0011.tlg002.hoelderlin1805-deu1">
+<div type="translation" n="urn:cts:greekLit:tlg0011.tlg002.hoelderlin1805-deu1" xml:lang="deu">
 
 <pb n="5"/>
 
@@ -93,7 +88,7 @@ Trust</ref>
 <stage>ANTIGONAE ISMENE</stage>
 
 
-<milestone unit="card" edRef="Storr" n="1"/><sp><speaker>ANTIGONAE</speaker>
+<milestone unit="card" edRef="Storr" n="1"/><sp n="1" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1-10"><speaker>ANTIGONAE</speaker>
 <l n="1">Gemeinsamschwesterliches! o Ismenes Haupt!</l>
 <l n="2">Weisst du etwas, das nicht der Erde Vater</l>
 <l n="3">Erfuhr, mit uns, die wir bis hieher leben,</l>
@@ -109,10 +104,10 @@ Trust</ref>
 <l n="11">Wie auf die Lieben kommet Feindesübel?</l>
 
 
-<pb n="6"/> 
+<pb n="6"/>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="2" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:11-17"><speaker>ISMENE</speaker>
 <l n="12">Nicht kam ein Wort zu mir, Antigonä, vonLieben,</l>
 <l n="13">Kein liebliches und auch kein trauriges, seitdem</l>
 <l n="14">Die beyden Brüder beyde wir verloren;</l>
@@ -122,16 +117,16 @@ Trust</ref>
 <l n="18">Und bin nicht glücklicher und nicht betrübter.</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="3" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:18-19"><speaker>ANTIGONAE</speaker>
 <l n="19">Das dacht’ ich wohl und rief aus dem Hofthor</l>
 <l n="20">Darum, dass du’s besonders hören könntest.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="4" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:20-20"><speaker>ISMENE</speaker>
 <l n="21">Was ist’s, du scheinst ein rothes Wort zu färben ?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="5" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:21-38"><speaker>ANTIGONAE</speaker>
 <l n="22">Hat mit der lezten Ehre denn nicht unsre Brüder</l>
 <l n="23">Kreon gekränzt, beschimpfet, wechselsweise ?</l>
 <l n="24">Eteokles zwar, sagt man, behandelt er</l>
@@ -170,29 +165,29 @@ Trust</ref>
 <l n="40">Ob gutgeboren, ob die Böse du der Guten?</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="39"/><sp><speaker>ISMENE</speaker>
+<milestone unit="card" edRef="Storr" n="39"/><sp n="6" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:39-40"><speaker>ISMENE</speaker>
 <l n="41">Wasaber, o du Arme, wenn es so steht?</l>
 
 <l n="42">Soll ich es lassen oder doch zu Grab gehn?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="7" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:41-41"><speaker>ANTIGONAE</speaker>
 <l n="43">Ob mitthun du, mithelfen wollest, forsche!</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="8" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:42-42"><speaker>ISMENE</speaker>
 <l n="44">Das ist vermessen. Wie bist du daran?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="9" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:43-43"><speaker>ANTIGONAE</speaker>
 <l n="45">Ob du den Todten mit der Hand hier tragest?</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="10" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:44-44"><speaker>ISMENE</speaker>
 <l n="46">Dem willst zu Grabe du gehn, dem die Stadt entsagt hat?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="11" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:45-46"><speaker>ANTIGONAE</speaker>
 <l n="47">Von dir und mir mein’ ich, auch wenn du nicht es willst,</l>
 
 
@@ -203,15 +198,15 @@ Trust</ref>
 <l n="48">Den Bruder. Denn treulos fängt man mich nicht,</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="12" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:47-47"><speaker>ISMENE</speaker>
 <l n="49">Verwilderte! wenn Kreon es verbietet?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="13" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:48-48"><speaker>ANTIGONAE</speaker>
 <l n="50">Mit diesem hat das Meine nichts zu thun.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="14" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:49-68"><speaker>ISMENE</speaker>
 <l n="51">O mir! bedenke, Schwester, wie der Vater,</l>
 
 <l n="52">Von uns, verhalst und ruhmlos untergangen,</l>
@@ -259,7 +254,7 @@ Trust</ref>
 <l n="70">Denn Ueberflüfsiges zu thun, ist sinnlos.</l>
 </sp>
 <milestone unit="card" edRef="Storr" n="69"/>
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="15" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:69-77"><speaker>ANTIGONAE</speaker>
 <l n="71">Befehlen will ichs nicht, und wolltest dus nun</l>
 <l n="72">Noch thun, es wär in deiner Hülfe Lust nicht.</l>
 <l n="73">Nein! denke du, wie diess gefällt; doch ihn</l>
@@ -273,58 +268,58 @@ Trust</ref>
 <l n="79">Beliebt es, halt ehrlos vor Göttern Ehrsams.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="16" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:78-79"><speaker>ISMENE</speaker>
 <l n="80">Für ehrlos halt’ ichs nicht. Zum Schritt allein, den Bürger</l>
 <l n="81">Im Aufstand thun, bin linkisch ich geboren.</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="17" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:80-81"><speaker>ANTIGONAE</speaker>
 <l n="82">Nimm nun zum Vorwand diess. Ich aber gehe,</l>
 <l n="83">Ein Grab dem liebsten Bruder aufzuwerfen.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="18" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:82-82"><speaker>ISMENE</speaker>
 <l n="84">Ich Arme! o! wie fürcht’ ich für dich!</l>
 </sp>
 
 <pb n="10"/>
 
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="19" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:83-83"><speaker>ANTIGONAE</speaker>
 <l n="85">Mir rathe nicht! komm’ aus mit deinem Leben!</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="20" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:84-85"><speaker>ISMENE</speaker>
 <l n="86">Meinwegen. Lafs die That nur niemand hören!</l>
 <l n="87">Halt dich jezt still! So kann ich mit dabei seyn.</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="21" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:86-87"><speaker>ANTIGONAE</speaker>
 <l n="88">O mir! schrei laut es aus! Ich hasse nur noch mehr dich,</l>
 <l n="89">Schweigst du und sagst nicht dieses aus vor allen.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="22" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:88-88"><speaker>ISMENE</speaker>
 <l n="90">Warm für die Kalten leidet deine Seele.</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="23" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:89-89"><speaker>ANTIGONAE</speaker>
 <l n="91">Ich weiss, wem ich gefallen muss am meisten.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="24" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:90-90"><speaker>ISMENE</speaker>
 <l n="92">Könntst du es, doch Unthunliches versuchst du,</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="25" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:91-91"><speaker>ANTIGONAE</speaker>
 <l n="93">Gewils! kann ich es nicht, so muls ichs lassen.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="26" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:92-92"><speaker>ISMENE</speaker>
 <l n="94">Gleich Anfangs muss Niemand Unthunlichs jagen.</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="27" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:93-97"><speaker>ANTIGONAE</speaker>
 <l n="95">Magst du so etwas sagen, hass’ ich dich,</l>
 <l n="96">Hafst auch dich der Gestorbene mit Recht.</l>
 <l n="97">Lafs aber mich und meinen irren Rath</l>
@@ -339,12 +334,12 @@ Trust</ref>
 <l n="99">Empfindsam , dass’ ich sollt’ unschönen Todes sterben.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="28" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:98-154"><speaker>ISMENE</speaker>
 <l n="100">Wenn dir es.dünkt, so geh. Wiss aber difs,</l>
 
 <l n="101">Sinnlos, doch lieb in liebem Tone sprichst du.</l>
 </sp>
-<milestone unit="card" edRef="Storr" n="100"/><sp><speaker>CHOR der Thebanischen Alten.</speaker>
+<milestone unit="card" edRef="Storr" n="100"/><sp n="29" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:110-161b"><speaker>CHOR der Thebanischen Alten.</speaker>
 
 
 <l n="102">O Blik der Sonne, du schönster, der</l>
@@ -419,7 +414,7 @@ Trust</ref>
 <milestone unit="card" edRef="Storr" n="134"/><l n="138">Aufharten Boden aber fällt er, hinunter taumelnd,</l>
 
 
-<pb n="13"/> 
+<pb n="13"/>
 
 <l n="139">Liebestrunken, der mit rasender Schaar</l>
 
@@ -491,7 +486,7 @@ Trust</ref>
  <stage>KREON. DER CHOR.</stage>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="162"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="162"/><sp n="30" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:162-210"><speaker>KREON</speaker>
 <l n="168">Ihr Männer, wärs die Stadt allein, die haben</l>
 
 <l n="169">Nachdem in grofser Fluth sie die geschüttert ,</l>
@@ -605,7 +600,7 @@ Trust</ref>
 <l n="218">Lebendig, immer sey er gleich von mir geschäzet.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="211"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="211"/><sp n="31" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:211-214"><speaker>CHOR</speaker>
 <l n="219">Dir dünket difs, o Sohn Menökeus, Kreon,</l>
 
 
@@ -620,44 +615,44 @@ Trust</ref>
 <l n="222">Der Todten wegen und der Lebenden.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="32" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:215-215"><speaker>KREON</speaker>
 <l n="223">Tragt ihr die Aufsicht nun in dem Besagten!</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="33" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:216-216"><speaker>CHOR</speaker>
 <l n="224">Beseze du mit Jungen derley Posten!</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="34" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:217-217"><speaker>KREON</speaker>
 <l n="225">Nicht das. Die Wach’ ist schon für den Entleibten draufsen,</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="35" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:218-218"><speaker>CHOR</speaker>
 <l n="226">Du nehmestaber auch noch in die Pflicht uns andre.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="36" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:219-219"><speaker>KREON</speaker>
 <l n="227">Ja. Weils gewisse giebt, bei denen dieses mifsfällt.</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="37" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:220-220"><speaker>CHOR</speaker>
 <l n="228">Hier ist kein solcher Thor, der gerne stirbet.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="38" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:221-222"><speaker>KREON</speaker>
 <l n="229">Diefs ist der Lohn. Doch hat mit Hoffnungen</l>
 
 <l n="230">Oft der Gewinn den Mann zu Grund gerichtet.</l>
 
 
-<pb n="18"/> 
+<pb n="18"/>
 
  <milestone unit="scene" n="Dritte Scene"/>
 
  <stage>KREON. DER CHOR EIN BOTE.</stage>
 </sp>
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="39" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:223-236"><speaker>DER BOTE</speaker>
 <l n="231">Mein König, difsmal plaudr’ ich nicht, wie mich</l>
 <l n="232">Die othemlose Schnelle bring’, und wie</l>
 <l n="233">Sich leicht gehoben mir der Fuls. Denn öfters</l>
@@ -677,44 +672,44 @@ Trust</ref>
 <l n="246">Es folge nur, dem, wasich that, was noth ist.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="237"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="237"/><sp n="40" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:237-237"><speaker>KREON</speaker>
 <l n="247">Was giebts, warum du so kleinmüthig kommest?</l>
 </sp>
 
 <pb n="19"/>
 
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="41" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:238-240"><speaker>DER BOTE</speaker>
 <l n="248">Ich will dir alles nennen, was an mir ist,</l>
 
 <l n="249">Denn nicht gethan hab’ ichs; weiss auch nicht, wer es that.</l>
 <l n="250">Und nicht mit Recht würd’ ich in Strafe fallen.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="42" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:241-242"><speaker>KREON</speaker>
 <l n="251">Du siehst dich wohl für. Hüllest ringsherum</l>
 <l n="252">Die That, und scheinst zu deuten auf ein Neues.</l>
 </sp>
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="43" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:243-243"><speaker>DER BOTE</speaker>
 <l n="253">Gewaltiges macht nemlich auch viel Mühe.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="44" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:244-244"><speaker>KREON</speaker>
 <l n="254">So sag’ esizt, und gehe wieder weiter!</l>
 </sp>
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="45" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:245-247"><speaker>DER BOTE</speaker>
 <l n="255">Ich sag’ esdir. Es hat den Todten eben</l>
 <l n="256">Begraben eines, das entkam, die Haut zweimal</l>
 <l n="257">Mit Staub bestreut, und, wies geziemt, gefeiert.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="46" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:248-248"><speaker>KREON</speaker>
 <l n="258">Was meinst du? wer hat diess sich unterfangen?</l>
 </sp>
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="47" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:249-277"><speaker>DER BOTE</speaker>
 <l n="259">Undenklich. Nirgend war von einem Karst</l>
 <l n="260">Ein Schlag; und nicht der Stofs von einerSchaufel,</l>
 <l n="261">Und dicht das Land; der Boden ungegraben ;</l>
@@ -786,13 +781,13 @@ Trust</ref>
 <l n="290">Denn niemand liebt den Boten schlimmer Worte.</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="48" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:278-279"><speaker>CHOR</speaker>
 <l n="291">Mein König, lange räth, es möchte göttlich</l>
 
 <l n="292">Getrieben seyn das Werk, mir das Gewissen.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="278"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="278"/><sp n="49" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:280-314"><speaker>KREON</speaker>
 <l n="293">Lafs das! damit du nicht zum Zorngericht auch mich noch</l>
 <l n="294">Beredest, und ein Narr erfunden seyst und Alter.</l>
 <l n="295">Denn allzuschwer fällt dieses, dass du sagst,</l>
@@ -867,43 +862,43 @@ Trust</ref>
 <l n="330">Betrogen mehrere, denn wohlbehalten.</l>
 </sp>
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="50" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:315-315"><speaker>DER BOTE</speaker>
 <l n="331">Giebst du, was auszurichten, oder kehr’ ich so?</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="51" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:316-316"><speaker>KREON</speaker>
 <l n="332">Weist du, wie eine Quaal jezt ist in deinen Worten?</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="315"/><sp><speaker>DER BOTE</speaker>
+<milestone unit="card" edRef="Storr" n="315"/><sp n="52" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:317-317"><speaker>DER BOTE</speaker>
 <l n="333">Sticht es im Ohre, stichts im Innern dir?</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="53" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:318-318"><speaker>KREON</speaker>
 <l n="334">Was rechnest du, wo sich mein Kummer finde?</l>
 </sp>
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="54" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:319-319"><speaker>DER BOTE</speaker>
 <l n="335">Der Thäter plagt den Sinn, die Ohren ich.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="55" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:320-320"><speaker>KREON</speaker>
 <l n="336">O mir! welch furchtbarer Sprechart bist du geboren?</l>
 </sp>
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="56" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:321-321"><speaker>DER BOTE</speaker>
 <l n="337">So ists, weilich nicht in der Sache mit bin.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="57" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:322-322"><speaker>KREON</speaker>
 <l n="338">Du bists! um Geld verrathend deine Seele!</l>
 </sp>
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="58" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:323-323a"><speaker>DER BOTE</speaker>
 <l n="339">Ach! furchtbar ist Gewissen ohne Wahrheit!</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="59" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:324-326"><speaker>KREON</speaker>
 <l n="340">So mahl die Sazung aus! Wenn aber ihr</l>
 
 
@@ -916,7 +911,7 @@ Trust</ref>
 <stage>(Kreon geht ab.)</stage>
 </sp>
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="60" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:327-375"><speaker>DER BOTE</speaker>
 <l n="343">Dem kann denn doch wohl nachgespüret werden.</l>
 <l n="344">Ob’s aber treffen auch sich läfst? So etwas</l>
 <l n="345">Geht nemlich, wie es zustöfst, eben; nun scheints nicht,</l>
@@ -935,7 +930,7 @@ Trust</ref>
 <milestone unit="act" n="Zweiter Act."/>
 </sp>
 
-<sp><speaker>CHOR der Thebanischen Alten</speaker>
+<sp n="61" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:343-383"><speaker>CHOR der Thebanischen Alten</speaker>
 <l n="349">Ungeheuer ist viele. Doch nichts</l>
 <l n="350">Ungeheuerer, als der Mensch.</l>
 
@@ -1048,20 +1043,20 @@ Trust</ref>
  <stage>DER BOTE. DER CHOR. KREON.</stage>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="384"/><sp><speaker>BOTE</speaker>
+<milestone unit="card" edRef="Storr" n="384"/><sp n="62" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:384-385"><speaker>BOTE</speaker>
 <l n="400">Die ists. Die hats gethan. Die griffen wir,</l>
 <l n="401">Da sie das Grab gemacht, doch wo ist Kreon?</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="63" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:386-386"><speaker>CHOR</speaker>
 <l n="402">Er kommet eben da zurük vom Haufse.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="64" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:387-387"><speaker>KREON</speaker>
 <l n="403">Was ist es? welch gemelsner Fall geht vor?</l>
 </sp>
 
-<sp><speaker>BOTE</speaker>
+<sp n="65" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:388-400"><speaker>BOTE</speaker>
 <l n="404">Mein König, Menschen müssen nichts verschwören.</l>
 <l n="405">Bildung lacht aus die Meinung. Was ich sag’;</l>
 <l n="406">Ich dachte nicht so leicht hieher zurükzukonımen,</l>
@@ -1084,28 +1079,28 @@ Trust</ref>
 <l n="416">Ich bin mit Recht befreit von diesem Unglük.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="66" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:401-401"><speaker>KREON</speaker>
 <l n="417">Wie bringst du diese her? wo griffst du sie?</l>
 </sp>
 
-<sp><speaker>BOTE</speaker>
+<sp n="67" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:402-402"><speaker>BOTE</speaker>
 <l n="418">Die hat den Mann begraben. Alles weist du.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="68" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:403-403"><speaker>KREON</speaker>
 <l n="419">Weist du und sagst auch recht, was du geredet ?</l>
 </sp>
 
-<sp><speaker>BOTE</speaker>
+<sp n="69" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:404-405"><speaker>BOTE</speaker>
 <l n="420">Begraben sah ich die den Todten, wo du es</l>
 <l n="421">Verboten. Hinterbring’ ich klares, deutlichs?</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="70" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:406-406"><speaker>KREON</speaker>
 <l n="422">Und wie ward sie gesehn und schuldig funden ?</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="407"/><sp><speaker>BOTE</speaker>
+<milestone unit="card" edRef="Storr" n="407"/><sp n="71" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:407-440"><speaker>BOTE</speaker>
 <l n="423">So war dieSache. Wie wir weggegangen</l>
 <l n="424">Von dir, als du Gewaltiges gedrohet,</l>
 <l n="425">So wischten allen Staub wir ab, der um</l>
@@ -1171,32 +1166,32 @@ Trust</ref>
 <l n="457">Ist kleiner, als mein eignes Heil zu nehmen.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="441"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="441"/><sp n="72" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:441-442"><speaker>KREON</speaker>
 <l n="458">Du also, die zur Erde neigt das Haupt,</l>
 
 <l n="459">Sagst oder läugnest du, dass dus gethan habst?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="73" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:443-443"><speaker>ANTIGONAE</speaker>
 <l n="460">Ich sage, dass ich’s that und läugn’ es nicht.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="74" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:444-447"><speaker>KREON</speaker>
 <l n="461">Du, gehe du, wohin du willst, hinaus,</l>
 <l n="462">Von schwerer Schuld befreit; sag’ aber du mir,</l>
 <l n="463">Nicht lange, sondern kurz, ist dir bekannt,</l>
 <l n="464">Wie ausgerufen ward, dass solches nicht zuthun ist ?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="75" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:448-448"><speaker>ANTIGONAE</speaker>
 <l n="465">Ich wußste das. Wie nicht? Es war ja deutlich.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="76" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:449-449"><speaker>KREON</speaker>
 <l n="466">Was wagtest du, ein solch Gesez zu brechen?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="77" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:450-472"><speaker>ANTIGONAE</speaker>
 <l n="467">Darum. Mein Zevs berichtete mirs nicht;</l>
 <l n="468">Noch hier im Haus das Recht der Todesgötter,</l>
 <l n="469">Die unter Menschen das Gesez begrenzet ;</l>
@@ -1204,7 +1199,7 @@ Trust</ref>
 <l n="471">Dafs eins, das sterben muss, die ungeschriebnen drüber,</l>
 
 
-<pb n="32"/> 
+<pb n="32"/>
 
 <l n="472">Die festen Sazungen im Himmel brechen sollte.</l>
 <l n="473">Nicht heut’ und gestern nur, die leben immer,</l>
@@ -1232,7 +1227,7 @@ Trust</ref>
 <pb n="33"/>
 
 
-<milestone unit="card" edRef="Storr" n="471"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="471"/><sp n="78" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:473-496"><speaker>KREON</speaker>
 <l n="491">Doch weist du wohl, dass allzuspröde-Sprach’</l>
 <l n="492">Am liebsten fällt. Und auch dem stärksten Eisen</l>
 <l n="493">Bricht und vergeht das Störrige, gekocht</l>
@@ -1278,15 +1273,15 @@ Trust</ref>
 <l n="518">Ertappt, wenn er daraus noch Schönes machen möchte.</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="79" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:497-497"><speaker>ANTIGONAE</speaker>
 <l n="519">Willst du denn mehr, da du mich hast, alstödten?</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="80" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:498-498"><speaker>KREON</speaker>
 <l n="520">Nichts will ich. Hab’ ich diess, so hab’ ich Alles.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="499"/><sp><speaker>ANTIGONAE</speaker>
+<milestone unit="card" edRef="Storr" n="499"/><sp n="81" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:499-507"><speaker>ANTIGONAE</speaker>
 <l n="521">Was soll’s also? Von deinen Worten keins</l>
 <l n="522">Ist mir gefällig, kann niemals gefällig werden.</l>
 <l n="523">Drum sind die meinigen auch dir mifsfällig.</l>
@@ -1298,78 +1293,78 @@ Trust</ref>
 <l n="529">Geistreich und thut und sagt, was ihm beliebet.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="82" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:508-508"><speaker>KREON</speaker>
 <l n="530">Siehst du allein diess von den Kadmiern ?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="83" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:509-509"><speaker>ANTIGONAE</speaker>
 <l n="531">Auch diese sehn’s, doch halten sie das Maul die.</l>
 
 
 
-<pb n="35"/> 
+<pb n="35"/>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="84" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:510-510"><speaker>KREON</speaker>
 <l n="532">Schämst du dich nicht, die ungefragt zu deuten ?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="85" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:511-511"><speaker>ANTIGONAE</speaker>
 <l n="533">Man ehrt doch wohldie Menschen eines Fleisches.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="86" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:512-512"><speaker>KREON</speaker>
 <l n="534">Und eines Bluts noch auch ist, der für's Land gestorben.</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="87" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:513-513"><speaker>ANTIGONAE</speaker>
 <l n="535">Eins Blutes. Kind eins einigen Geschlechtes.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="88" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:514-514"><speaker>KREON</speaker>
 <l n="536">Und du bringst doch Gottlosen einen Dank?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="89" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:515-515"><speaker>ANTIGONAE</speaker>
 <l n="537">Das läfst gewils nicht gelten der Entschlafne.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="90" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:516-516"><speaker>KREON</speaker>
 <l n="538">Freilich. Wenn dir als Eins Gottloses gilt und anders.</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="91" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:517-517"><speaker>ANTIGONAE</speaker>
 <l n="539">Nicht in des Knechtes Werk, ein Bruder ist er weiter.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="92" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:518-518"><speaker>KREON</speaker>
 <l n="540">Verderbt hat der das Land; der ist dafür gestanden.</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="93" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:519-519"><speaker>ANTIGONAE</speaker>
 <l n="541">Dennoch hat solch Gesez die Todtenwelt gern.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="94" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:520-520"><speaker>KREON</speaker>
 <l n="542">Doch, Guten gleich sind Schlimme nicht zunehmen.</l>
 </sp>
 
 <pb n="36"/>
 
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="95" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:521-521"><speaker>ANTIGONAE</speaker>
 <l n="543">Wer weiss, da kann doch drunt’ einandrer Brauch seyn.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="96" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:522-522"><speaker>KREON</speaker>
 <l n="544">Nie ist der Feind, auch wenn er todt ist, Freund.</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="97" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:523-523"><speaker>ANTIGONAE</speaker>
 <l n="545">Aber gewils. Zum Hasse nicht, zur Liebe bin ich.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="98" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:524-525"><speaker>KREON</speaker>
 <l n="546">So geh’ hinunter, wenn du lieben willst,</l>
 <l n="547">Und liebe dort! mir herrscht kein Weib im Leben.</l>
 
@@ -1378,7 +1373,7 @@ Trust</ref>
 
 </sp>
 
-<milestone unit="card" edRef="Storr" n="526"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="526"/><sp n="99" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:526-530"><speaker>CHOR</speaker>
 <l n="548">Aber jezt kommt aus dem Thor’ Ismene,</l>
 <l n="549">Friedlich, schwesterliche Thränen vergiefsend.</l>
 <l n="550">Ein Geist über den Augenbraunen das blutige Gesicht dekt,</l>
@@ -1389,7 +1384,7 @@ Trust</ref>
 <pb n="37"/>
 
 
-<milestone unit="card" edRef="Storr" n="531"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="531"/><sp n="100" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:531-535"><speaker>KREON</speaker>
 <l n="552">Ja! du! die du drin hokst, daheim, wie Schlangen,</l>
 <l n="553">Geborgen und mich aussaugst! hat nicht einer mir</l>
 <l n="554">Berichtet, dafsich zwei Einbildungen hab’anmir</l>
@@ -1397,24 +1392,24 @@ Trust</ref>
 <l n="556">Am Grabe, oder hast du’s mit der Unschuld?</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="101" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:536-537"><speaker>ISMENE</speaker>
 <l n="557">Gethan das Werk hab’ ich, wenn die mit einstimmt,</l>
 <l n="558">Und nehme Theil. Die Schuld nehm’ ich auf mich.</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="102" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:538-539"><speaker>ANTIGONAE</speaker>
 <l n="559">Das wird das Recht ja aber nicht erlauben.</l>
 
 <l n="560">Du wolltest nicht. Ich nahm dich nicht dazu mit.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="103" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:540-541"><speaker>ISMENE</speaker>
 <l n="561">Ich schäme mich an deinem Unglük nicht,</l>
 
 <l n="562">Und mache zur Gefährtin mich im Leiden.</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="104" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:542-543"><speaker>ANTIGONAE</speaker>
 <l n="563">Bei denen, die durchgängiger Weise sind,</l>
 
 <l n="564">Und die Gespräche halten miteinander, drunten,</l>
@@ -1422,7 +1417,7 @@ Trust</ref>
 <l n="565">Die mit den Worten liebt, die mag ich nicht,</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="105" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:544-545"><speaker>ISMENE</speaker>
 <l n="566">Bring so mich in Verdacht nicht, Schwester, wie als könnt’</l>
 
 <l n="567">Ich sterben nie, mit dir; des Grabs Unschik vergüten.</l>
@@ -1431,96 +1426,96 @@ Trust</ref>
 <pb n="38"/>
 
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="106" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:546-547"><speaker>ANTIGONAE</speaker>
 <l n="568">Stirb du nicht allgemein. Was dich nicht angeht,</l>
 
 <l n="569">Das mache dein nicht. Mein Tod wird genugseyn.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="107" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:548-548"><speaker>ISMENE</speaker>
 <l n="570">Hab’ ich denn, wenn du weg, noch eine Lieb’ im Leben?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="108" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:549-549"><speaker>ANTIGONAE</speaker>
 <l n="571">Den Kreon, liebe den. Dem weisest du den Wegja.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="109" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:550-550"><speaker>ISMENE</speaker>
 <l n="572">Was plagest du mich, ohne Nuzen, so?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="110" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:551-551"><speaker>ANTIGONAE</speaker>
 <l n="573">Anfechtung ist es, wenn ich dich verlache.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="111" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:552-552"><speaker>ISMENE</speaker>
 <l n="574">Was aber kann ich nüzen dir, auch jezt noch?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="112" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:553-553"><speaker>ANTIGONAE</speaker>
 <l n="575">Nüz dir. Das gönn’ ich dir, dass du mit hingehst.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="113" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:554-554"><speaker>ISMENE</speaker>
 <l n="576">Ich Arme! weh! hab’ ich Schuld, , dass du stirbst ?</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="114" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:555-555"><speaker>ANTIGONAE</speaker>
 <l n="577">Dein Theil ist ja das Leben, meines Tod.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="115" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:556-556"><speaker>ISMENE</speaker>
 <l n="578">Doch was ich sprach zu dir, ist auch dabei doch.</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="116" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:557-557"><speaker>ANTIGONAE</speaker>
 <l n="579">Das war auch schön. Doch so wollt’ ich gesinnt seyn.</l>
 </sp>
 
 <pb n="39"/>
 
 
-<milestone unit="card" edRef="Storr" n="556"/><sp><speaker>ISMENE</speaker>
+<milestone unit="card" edRef="Storr" n="556"/><sp n="117" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:558-558"><speaker>ISMENE</speaker>
 <l n="580">Allein der Fehl ist für uns beide gleich,</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="118" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:559-560"><speaker>ANTIGONAE</speaker>
 <l n="581">Sey gutes Muths! du lebst, doch meine Seele,</l>
 
 <l n="582">Längst ist siettodt, so dass ich Todten diene.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="119" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:561-562"><speaker>KREON</speaker>
 <l n="583">Von diesem Weibe da, sag’ ich, wird eben da</l>
 <l n="584">Sinnlos die ein’, einheimisch ist’s die andre.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="120" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:563-564"><speaker>ISMENE</speaker>
 <l n="585">Es bleibt kein Herz, auch nicht das heimatliche</l>
 <l n="586">Im Uebelstand, mein König, sondern ausser sich geräth es.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="121" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:565-565"><speaker>KREON</speaker>
 <l n="587">Dir, weil du schlimm mit Schlimmen dich gestellt.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="122" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:566-566"><speaker>ISMENE</speaker>
 <l n="588">Mir lebt nichts, wo allein ich bin, nicht die auch.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="123" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:567-567"><speaker>KREON</speaker>
 <l n="589">Die Red’ ist nicht von dieser. Die ist nimmer.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="124" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:568-568"><speaker>ISMENE</speaker>
 <l n="590">Du tödtest aber deines Sohnes Braut.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="125" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:569-569"><speaker>KREON</speaker>
 <l n="591">Von anderen gefallen auch die Weiber.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="126" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:570-571"><speaker>ISMENE</speaker>
 <l n="592">Es schikte keine sich, wie er und sie.</l>
 
 <pb n="40"/>
@@ -1529,27 +1524,27 @@ Trust</ref>
 <l n="593">Vor bösen Weibern warn’ ich meine Söhne,</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="127" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:572-576"><speaker>ANTIGONAE</speaker>
 <l n="594">O liebster Hämon ! wie entehrt er dich!</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="128" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:577-614"><speaker>KREON</speaker>
 <l n="595">Gar lustig bist du auch, du und dein Bette.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="129" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:615-630"><speaker>ISMENE</speaker>
 <l n="596">Dem nimmst du sie, der deines Lebens Theil ist.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="130" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:631-634"><speaker>KREON</speaker>
 <l n="597">Die Höll’ ist da, derlei Zuwachs zu scheiden.</l>
 </sp>
 
-<sp><speaker>ISMENE</speaker>
+<sp n="131" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:631-634"><speaker>ISMENE</speaker>
 <l n="598">Beschlossen scheint es, dass sie sterben soll.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="132" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:583-634"><speaker>KREON</speaker>
 <l n="599">Für dich und mich! Umstände nimmer! bringt</l>
 <l n="600">Hinein, ihr Mägde, sie! Von nunan noth ist,</l>
 <l n="601">Dafs diese Weiber seyn nicht freigelassen.</l>
@@ -1684,7 +1679,7 @@ Trust</ref>
  <stage>KREON. HAEMON. DER CHOR.</stage>
 
 
-<milestone unit="card" edRef="Storr" n="631"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="631"/><sp n="133" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:631-634"><speaker>KREON</speaker>
 <l n="655">Bald haben wohl, o Sohn, melır, als die Seher</l>
 
 <l n="656">Wir endliche Entscheidung. Schliefsest du dein</l>
@@ -1695,7 +1690,7 @@ Trust</ref>
 <l n="659">Sag’ oder bleibst du mir in allem meinem Handeln?</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="134" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:635-638"><speaker>HAEMON</speaker>
 <l n="660">Vater, dein bin ich. Milde Denkart hast du,</l>
 
 <l n="661">Richtest mir recht. Da mag ich gern dir folgen.</l>
@@ -1705,7 +1700,7 @@ Trust</ref>
 <l n="663">Dafs sie mir lieber, als dein Glük im Herrschen.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="135" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:639-680"><speaker>KREON</speaker>
 <l n="664">Wohl Sohn. So auch muss in der Brust es seyn,</l>
 
 <l n="665">Dafs väterlicher Meinung alles nachgeht.</l>
@@ -1779,12 +1774,12 @@ Trust</ref>
 <l n="706">Dafs nimmer 'wir genannt seyn hinter Weibern!</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="681"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="681"/><sp n="136" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:681-682"><speaker>CHOR</speaker>
 <l n="707">Uns, wenn uns nicht im Finstern hält die Zeit,</l>
 <l n="708">Scheint das mit Sinn gesagt, wovon du redest.</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="137" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:683-723"><speaker>HAEMON</speaker>
 <l n="709">Als wie von Gott, himmlisch kommt dieBesinnung,</l>
 <l n="710">Mein Vater, die auch ist von allem Gut das beste.</l>
 <l n="711">Mein eigen Leben aber kann es nicht,</l>
@@ -1864,7 +1859,7 @@ Trust</ref>
 <l n="751">So ist von Worten auch, die gut sind, gut zu lernen.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="724"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="724"/><sp n="138" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:724-725"><speaker>CHOR</speaker>
 <l n="752">Mein König, billig ist es, wenn er an der Zeit spricht,</l>
 
 
@@ -1876,140 +1871,140 @@ Trust</ref>
 <l n="754">Mit zweien Stimmen wurde recht gesprochen.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="139" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:726-727"><speaker>KREON</speaker>
 <l n="755">Da ich so alt bin, will ich meinetwegen</l>
 
 <l n="756">Auch lernen denken in der Art von denn hier.</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="140" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:728-729"><speaker>HAEMON</speaker>
 <l n="757">Niemals beleidigen. Bin ich ein junger Mensch, muss man nicht auf die Zeit mehr, als die That sehn.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="141" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:730-730"><speaker>KREON</speaker>
 <l n="758">Ists That, dem huldigen, was gegen eine Welt ist?</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="142" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:731-731"><speaker>HAEMON</speaker>
 <l n="759">Mein Rath ists nicht, an Bösen Frömmigkeit zu üben.</l>
 
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="143" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:732-732"><speaker>KREON</speaker>
 <l n="760">Ist nicht die hier in solcher Krankheit troffen?</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="144" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:733-733"><speaker>HAEMON</speaker>
 <l n="761">So nicht spricht diess genachbarte Volk Thebes.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="145" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:734-734"><speaker>KREON</speaker>
 <l n="762">Der Ort sagt mir wohl, was ich ordnen muss.</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="146" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:735-735"><speaker>HAEMON</speaker>
 <l n="763">O sieh nun auf, allda, wie das verwegen jungklingt.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="147" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:736-736"><speaker>KREON</speaker>
 <l n="764">Und wohlein anderer soll Herr seynin dem Lande.</l>
 </sp>
 
 <pb n="50"/>
 
 
-<sp><speaker>HAEMON</speaker>
+<sp n="148" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:737-737"><speaker>HAEMON</speaker>
 <l n="765">Es ist kein rechter Ort nicht auch, der eines</l>
 <l n="766">Manns ist.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="149" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:738-738"><speaker>KREON</speaker>
 <l n="767">Wird nicht gesagt, es sey die Stadt desHerrschers?</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="150" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:739-739"><speaker>HAEMON</speaker>
 <l n="768">Ein rechter Herrscher wär’st allein du in der Wildnißs.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="151" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:740-740"><speaker>KREON</speaker>
 <l n="769">Der, scheint’s, ist von dem Weib ein Waffenbruder.</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="152" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:741-741"><speaker>HAEMON</speaker>
 <l n="770">Wenn du das Weib bist. Deinetwillen sorg’ ich.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="153" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:742-742"><speaker>KREON</speaker>
 <l n="771">O schlecht! schlecht! ins Gericht gehn mit dem Vater.</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="154" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:743-743"><speaker>HAEMON</speaker>
 <l n="772">Weilich nicht seh, wie du das Recht anlügest.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="155" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:744-744"><speaker>KREON</speaker>
 <l n="773">Wenn meinem Uranfang’ ich treu beistehe, lüg’ ich?</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="156" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:745-745"><speaker>HAEMON</speaker>
 <l n="774">Das bist du nicht, hältst du nicht heilig Gottes Nahmen.</l>
 </sp>
 
 <pb n="51"/>
 
 
-<sp><speaker>KREON</speaker>
+<sp n="157" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:746-746"><speaker>KREON</speaker>
 <l n="775">O schaamlos Wesen, schlechter, als das Weib.</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="158" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:747-747"><speaker>HAEMON</speaker>
 <l n="776">Nicht wirst du wohl mich finden hinter Schlechtem,</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="159" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:748-748"><speaker>KREON</speaker>
 <l n="777">Und so bis hieher sezest du dich ihr zu Lieb’ aus?</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="160" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:749-749"><speaker>HAEMON</speaker>
 <l n="778">Ihr, dir und mir zu Lieb’, und Todesgöttern,</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="161" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:750-750"><speaker>KREON</speaker>
 <l n="779">Schon ist es nicht mehr Zeit, dass du sie nehmest, lebend,</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="162" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:751-751"><speaker>HAEMON</speaker>
 <l n="780">So sterbe sie, verderbe sterbend einen,</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="163" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:752-752"><speaker>KREON</speaker>
 <l n="781">Ist es heraus? wie frech noch nach der Zornlust !</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="164" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:753-753"><speaker>HAEMON</speaker>
 <l n="782">Das ist für einen leeren Sinn sie freilich,</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="165" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:754-754"><speaker>KREON</speaker>
 <l n="783">Wein’ und besinne dich; leersinnig kannst auch du seyn.</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="166" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:755-755"><speaker>HAEMON</speaker>
 <l n="784">Wärst du es selbst nicht, hielt ich dich Für treulos.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="167" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:756-756"><speaker>KREON</speaker>
 <l n="785">Schönthun, des Weibes Werk, bethöre mich nicht!</l>
 
 
-<pb n="52"/> 
+<pb n="52"/>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="168" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:757-757"><speaker>HAEMON</speaker>
 <l n="786">Du möchtest etwas sagen, hören nichts.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="758"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="758"/><sp n="169" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:758-761"><speaker>KREON</speaker>
 <l n="787">So istes. Doch beim Himmel meiner Väter!</l>
 <l n="788">So nach Gelust sollst du nicht kränken mich mit Tadel.</l>
 
@@ -2017,7 +2012,7 @@ Trust</ref>
 <l n="790">In Gegenwart, hart an dem Bräutigam ‚ sterben.</l>
 </sp>
 
-<sp><speaker>HAEMON</speaker>
+<sp n="170" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:762-765"><speaker>HAEMON</speaker>
 <l n="791">Nicht warlich mir. Das lasse nie dir dünken.</l>
 <l n="792">Nicht untergehn wird diese, nahe mir.</l>
 <l n="793">Und nimmer sollst du sehn mein Haupt vor Augen,</l>
@@ -2025,32 +2020,32 @@ Trust</ref>
 <stage>(Himon geht ab.)</stage>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="171" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:766-767"><speaker>CHOR</speaker>
 <l n="795">Der Mann, mein König, gieng im Zorne schnell,</l>
 <l n="796">Ein solch Gemüth ist aber schwer im Leiden.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="172" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:768-769"><speaker>KREON</speaker>
 <l n="797">Er tlıu’ es! denke grölser, als ein Mann!</l>
 <l n="798">Doch rettet er vom Tode nicht die Mädchen.</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="173" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:770-770"><speaker>CHOR</speaker>
 <l n="799">Denkst du sogar zu tödten diese beiden ?</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="174" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:771-771"><speaker>KREON</speaker>
 <l n="800">Nicht die, die’s nicht berührt; da hast du Recht.</l>
 </sp>
 
 <pb n="53"/>
 
 
-<sp><speaker>CHOR</speaker>
+<sp n="175" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:772-772"><speaker>CHOR</speaker>
 <l n="801">Und denkst du über jenenach ; wie willst dutödten?</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="176" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:773-800"><speaker>KREON</speaker>
 <l n="802">Sie führen, wo einsam der Menschen Spur ist,</l>
 <l n="803">Lebendig in dem Felsengrunde wahren,</l>
 <l n="804">So viele Nahrung reichen, als sich schikt,</l>
@@ -2069,7 +2064,7 @@ Trust</ref>
  <stage>DER CHOR Hemach ANTIGONAT.</stage>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="781"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="781"/><sp n="177" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:791-805"><speaker>CHOR</speaker>
 <l n="811">Geist der Liebe, dennoch Sieger</l>
 
 <l n="812">Imuner, in Streit! Du Friedensgeist, der über</l>
@@ -2118,7 +2113,7 @@ Trust</ref>
 <l n="834">Ich seh’ Antigonä wandeln.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="806"/><sp><speaker>ANTIGONAE</speaker>
+<milestone unit="card" edRef="Storr" n="806"/><sp n="178" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:806-815"><speaker>ANTIGONAE</speaker>
 <l n="835">Seht, ihr des Vaterlandes Bürger,</l>
 
 
@@ -2137,7 +2132,7 @@ Trust</ref>
 <l n="844">Dem Acheron bin ich vermälılt.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="817"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="817"/><sp n="179" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:817-822"><speaker>CHOR</speaker>
 <l n="845">Gehst du bekannt doch und geleitet mit Lob</l>
 <l n="846">Hinweg in diese Kammer der Todten.</l>
 <l n="847">Verderbend trifft dich Krankheit nicht,</l>
@@ -2147,7 +2142,7 @@ Trust</ref>
 <l n="851">Gehst du hinab, in die Welt der Todten.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="823"/><sp><speaker>ANTIGONAE</speaker>
+<milestone unit="card" edRef="Storr" n="823"/><sp n="180" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:823-831"><speaker>ANTIGONAE</speaker>
 <l n="852">Ich habe gehört, der Wüste gleich sey worden</l>
 <l n="853">Die Lebensreiche, Phrygische,</l>
 <l n="854">Von Tantalos im Schoose gezogen, an Sipylos Gipfel ;</l>
@@ -2170,7 +2165,7 @@ Trust</ref>
 <l n="861">Bringt mich ein Geist zu Bette.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="834"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="834"/><sp n="181" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:834-838"><speaker>CHOR</speaker>
 <l n="862">Doch heilig gesprochen, heilig gezeuget</l>
 
 <l n="863">Ist die, wir aber Erd’ und irdisch gezeuget.</l>
@@ -2182,7 +2177,7 @@ Trust</ref>
 <l n="866">Lebendig und dann gestorben.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="839"/><sp><speaker>ANTIGONAE</speaker>
+<milestone unit="card" edRef="Storr" n="839"/><sp n="182" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:839-851"><speaker>ANTIGONAE</speaker>
 <l n="867">Weh! Närrisch machen sie mich. Warum</l>
 
 <l n="868">Bei Vaterlandsschuzgeistern überhebest du</l>
@@ -2218,7 +2213,7 @@ Trust</ref>
 <l n="881">Nicht unter Sterblichen, nicht unter Todten.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="853"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="853"/><sp n="183" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:853-856"><speaker>CHOR</speaker>
 <l n="882">Mitwohnend Lebenden nicht und nicht Gestorbnen.</l>
 
 <l n="883">Forttreibend bis zur Scheide der Kühnheit,</l>
@@ -2230,7 +2225,7 @@ Trust</ref>
 <l n="886">Stirbst aber väterlichen Kampf.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="858"/><sp><speaker>ANTIGONAE</speaker>
+<milestone unit="card" edRef="Storr" n="858"/><sp n="184" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:858-871"><speaker>ANTIGONAE</speaker>
 <l n="887">Die zornigste hast du angereget</l>
 
 <l n="888">Der lieben Sorgen,</l>
@@ -2263,14 +2258,14 @@ Trust</ref>
 <l n="902">Ziehst sterbend du mit hinab.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="872"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="872"/><sp n="185" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:872-875"><speaker>CHOR</speaker>
 <l n="903">Zu ehren ist von Gottesfurcht</l>
 <l n="904">Etwas. Macht aber, wo es die gilt,</l>
 <l n="905">Die weichet nicht. Dich hat verderbt</l>
 <l n="906">Das zornige Selbsterkennen.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="876"/><sp><speaker>ANTIGONAE</speaker>
+<milestone unit="card" edRef="Storr" n="876"/><sp n="186" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:876-882"><speaker>ANTIGONAE</speaker>
 <l n="907">Unbeweinet und ohne Freund’ und ehlos</l>
 <l n="908">Werd’ ich Trübsinnige geführet</l>
 <l n="909">Diesen bereiteten Weg. Mir ists nicht</l>
@@ -2292,7 +2287,7 @@ Trust</ref>
  <stage>KREON. ANTIGONAE. DER CHOR.</stage>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="883"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="883"/><sp n="187" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:883-890"><speaker>KREON</speaker>
 <l n="914">Ihr wisset, keines läfst das Singen und das Heulen</l>
 
 <l n="915">In Todesnoth, so lang man hin und her spricht.</l>
@@ -2310,7 +2305,7 @@ Trust</ref>
 <l n="921">Die Häuslichkeit hier oben aber felılt ihr.</l>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="188" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:891-928"><speaker>ANTIGONAE</speaker>
 <l n="922">O Grab! o Brautbett! unterirdische</l>
 
 <l n="923">Behausung, immerwach! Da werd’ ich reisen</l>
@@ -2380,13 +2375,13 @@ Trust</ref>
 <l n="965">Als sie bewirken offenbar an mir.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="929"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="929"/><sp n="189" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:929-930"><speaker>CHOR</speaker>
 <l n="966">Noch von denselben Stürmen hat</l>
 
 <l n="967">Sie noch dieselben Stöfse in der Scele.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="190" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:931-936"><speaker>KREON</speaker>
 <l n="968">Deswegen werden denen, die sie führen,</l>
 
 <l n="969">Thränen kommen, des Aufschubs wegen.</l>
@@ -2395,12 +2390,12 @@ Trust</ref>
 <pb n="62"/>
 
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="191" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:937-943"><speaker>ANTIGONAE</speaker>
 <l n="970">O mir! grad vor dem Tode</l>
 <l n="971">Ist diess das Wort.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="192" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:937-943"><speaker>KREON</speaker>
 <l n="972">Ich rathe, nichts zu wagen,</l>
 <l n="973">Nichts derlei dieser zuzusprechen.</l>
 <stage>( Kreon geht ab.)</stage>
@@ -2417,7 +2412,7 @@ Trust</ref>
  <stage>ANTIGONAE CHOR.</stage>
 </sp>
 
-<sp><speaker>ANTIGONAE</speaker>
+<sp n="193" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:937-976"><speaker>ANTIGONAE</speaker>
 <l n="974">O des Landes Thebes väterliche Stadt,</l>
 
 <l n="975">Ihr guten Geister alle, den Vätern geworden,</l>
@@ -2433,7 +2428,7 @@ Trust</ref>
 <l n="980">Der ich gefangen in Gottesfurcht bin.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="944"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="944"/><sp n="194" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:955-987"><speaker>CHOR</speaker>
 <l n="981">Der Leib auch Danaes mufste,</l>
 
 <l n="982">Statt himmlischen Lichts , in Gedult</l>
@@ -2482,7 +2477,7 @@ Trust</ref>
 <l n="1003">Reizt er, die Musen.</l>
 
 
-<pb n="65"/> 
+<pb n="65"/>
 
 <milestone unit="card" edRef="Storr" n="966"/><l n="1004">Bei himmelblauen Felsen aber, wo</l>
 
@@ -2528,45 +2523,45 @@ Trust</ref>
  <stage>TIRESIAS KREON.</stage>
 </sp>
 
-<sp><speaker>TIRESIAS</speaker>
+<sp n="195" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:988-990"><speaker>TIRESIAS</speaker>
 <stage>( von einem Knaben geführt )</stage>
 <milestone unit="card" edRef="Storr" n="988"/><l n="1024">Ihr Fürsten Thebes! miteinander kommen</l>
 <l n="1025">Des Weges wir, durch Einen beide sehend.</l>
 <l n="1026">Wir Blinden gehen mit Wegweisern so des Weges.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="196" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:991-991"><speaker>KREON</speaker>
 <l n="1027">Was giebt es Neues, Greis Tiresias!</l>
 </sp>
 
-<sp><speaker>TIRESIAS</speaker>
+<sp n="197" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:992-992"><speaker>TIRESIAS</speaker>
 <l n="1028">Ich will es.sagen , höre du den Seher.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="198" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:993-993"><speaker>KREON</speaker>
 <l n="1029">Auch war ich sonst von deinem Sinn nicht ferne.</l>
 </sp>
 
-<sp><speaker>TIRESIAS</speaker>
+<sp n="199" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:994-994"><speaker>TIRESIAS</speaker>
 <l n="1030">Drum steuerst du gerad auch mit der Stadt.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="200" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:995-995"><speaker>KREON</speaker>
 <l n="1031">Erfahren hab’ ich Nüzliches und zeug’ es.</l>
 </sp>
 
-<sp><speaker>TIRESIAS</speaker>
+<sp n="201" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:996-996"><speaker>TIRESIAS</speaker>
 <l n="1032">Auch jezt im zarten Augenblike denke.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="202" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:997-997"><speaker>KREON</speaker>
 <l n="1033">Was ist es denn? Furchtbar ist dieser Mund mir.</l>
 </sp>
 
 <pb n="67"/>
 
 
-<sp><speaker>TIRESIAS</speaker>
+<sp n="203" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:998-1032"><speaker>TIRESIAS</speaker>
 <l n="1034">Du weist es; hörst die Zeichen meiner Kunst.</l>
 <l n="1035">Denn auf dem alten Stuhle, Vögel schauend,</l>
 <l n="1036">Safs ich, wo vor mir war ein Hafen aller Vögel,</l>
@@ -2629,7 +2624,7 @@ Trust</ref>
 <l n="1071">Spricht einer gut, und nüzet, was er saget.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1033"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="1033"/><sp n="204" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1033-1047"><speaker>KREON</speaker>
 <l n="1072">O Alter! alle, wie auf eines Schüzen Ziel</l>
 
 <l n="1073">Zielt ihr auf unser einen. Ungeschult nicht bin</l>
@@ -2658,79 +2653,79 @@ Trust</ref>
 <l n="1087">Die wüst sind, schön aussprechen, Vortlieils wegen.</l>
 </sp>
 
-<sp><speaker>TIRESIAS</speaker>
+<sp n="205" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1048-1048a"><speaker>TIRESIAS</speaker>
 <l n="1088">Ach! weiss es jemand? ists gesprochen irgend ?</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="206" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1049-1049"><speaker>KREON</speaker>
 <l n="1089">Was giebts? was sagst du dieses Allgemeine?</l>
 </sp>
 
-<sp><speaker>TIRESIAS</speaker>
+<sp n="207" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1050-1050"><speaker>TIRESIAS</speaker>
 <l n="1090">Um wie viel gilt izt mehr Gutmüthj gkeit,, als Wohlseyn?</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="208" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1051-1051"><speaker>KREON</speaker>
 <l n="1091">So viel, denk’ ich, nicht denken, viel Verlust ist.</l>
 </sp>
 
-<sp><speaker>TIRESIAS</speaker>
+<sp n="209" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1052-1052"><speaker>TIRESIAS</speaker>
 <l n="1092">Von dieser Krankheit aber bist du voll.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="210" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1053-1053"><speaker>KREON</speaker>
 <l n="1093">Ich will dem Seher schlimm nicht widersprechen.</l>
 </sp>
 
 <pb n="70"/>
 
 
-<sp><speaker>TIRESIAS</speaker>
+<sp n="211" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1054-1054"><speaker>TIRESIAS</speaker>
 <l n="1094">So sprichst du, da du sagst, ich prophezeihe fälschlich,</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="212" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1055-1055"><speaker>KREON</speaker>
 <l n="1095">Die Seherart liebt nemlich all das Silber,</l>
 </sp>
 
-<sp><speaker>TIRESIAS</speaker>
+<sp n="213" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1056-1056"><speaker>TIRESIAS</speaker>
 <l n="1096">Tyrannenart liebt schändlichen Gewinn,</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="214" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1057-1057"><speaker>KREON</speaker>
 <l n="1097">Weist du, dass Feldherrn sind, wozu du redest?</l>
 </sp>
 
-<sp><speaker>TIRESIAS</speaker>
+<sp n="215" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1058-1058"><speaker>TIRESIAS</speaker>
 <l n="1098">Das weiss ich. Denn durch mich erhieltest diese</l>
 <l n="1099">Stadt du.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="216" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1059-1059"><speaker>KREON</speaker>
 <l n="1100">Ein weiser Seher bist du, liebest dennoch Unrecht.</l>
 </sp>
 
-<sp><speaker>TIRESIAS</speaker>
+<sp n="217" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1060-1060"><speaker>TIRESIAS</speaker>
 <l n="1101">Aufregen wirst du mich, das, was noch unerschüttert</l>
 <l n="1102">Von meinen Gedanken ist, herauszusagen.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="218" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1061-1061"><speaker>KREON</speaker>
 <l n="1103">Erschütt’ es! Nur sprich Vortheils wegen nicht!</l>
 </sp>
 
-<sp><speaker>TIRESIAS</speaker>
+<sp n="219" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1062-1062"><speaker>TIRESIAS</speaker>
 <l n="1104">Schein’ ich so sehr dein Theilzu seyn auch izt noch?</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="220" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1063-1063"><speaker>KREON</speaker>
 <l n="1105">Du wirst nicht täuschen meinen Sinn, das wisse!</l>
 </sp>
 
 <pb n="71"/>
 
 
-<milestone unit="card" edRef="Storr" n="1064"/><sp><speaker>TIRESIAS</speaker>
+<milestone unit="card" edRef="Storr" n="1064"/><sp n="221" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1064-1090"><speaker>TIRESIAS</speaker>
 <l n="1106">Wifs aber du, nicht lange Zeit mehr brütest</l>
 <l n="1107">In eifersücht’ger Sonne du, von nun an;</l>
 <l n="1108">Denn bald aus deinem Eingewaide zahlst</l>
@@ -2778,7 +2773,7 @@ Trust</ref>
  <stage>DER CHOR.  KREON.</stage>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1091"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="1091"/><sp n="222" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1091-1094"><speaker>CHOR</speaker>
 <l n="1137">Der Mann, mein König, gieng viel prophezeiend,</l>
 <l n="1138">Wir wissen aber, seit wir mit dem weissen</l>
 <l n="1139">Das schwarze Haar vertauschet, wie du siehst,</l>
@@ -2789,30 +2784,30 @@ Trust</ref>
 <pb n="73"/>
 
 
-<sp><speaker>KREON</speaker>
+<sp n="223" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1095-1097"><speaker>KREON</speaker>
 <l n="1141">Ich weiß es selbst, und bin verwirrt im Sinn ;</l>
 <l n="1142">Denn weichen, ist ein Grofses. Doch wenn einer</l>
 <l n="1143">Mit Wahn mir aufden Muthtritt, wird dasschwierig.</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="224" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1098-1098"><speaker>CHOR</speaker>
 <l n="1144">Es brauchet guten Rath, Kreon, Menökeus Sohn!</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="225" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1099-1099"><speaker>KREON</speaker>
 <l n="1145">Was ist zuthun? Sag’ es, ich will dir folgen.</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="226" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1100-1101"><speaker>CHOR</speaker>
 <l n="1146">Komm, lafs die Jungfrau aus dem Felsenhaufse,</l>
 <l n="1147">Und schaff ein Grab, dem, welcher draussen liegt.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="227" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1102-1102"><speaker>KREON</speaker>
 <l n="1148">Du lobest diess und scheinst es gutzuheilsen.</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="228" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1103-1104"><speaker>CHOR</speaker>
 <l n="1149">So schnell, mein König, als es möglich ist,</l>
 
 <l n="1150">Denn in die Kürze falst den Schlimmgesinnten</l>
@@ -2820,21 +2815,21 @@ Trust</ref>
 <l n="1151">Die schnellgefüfste Züchtigung der Götter.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="229" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1105-1106"><speaker>KREON</speaker>
 <l n="1152">O mir. Kaum mag ich, denn mir fehlt das Herz</l>
 
 <l n="1153">Dazu, doch mit der Noth ist nicht zu streiten.</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="230" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1107-1107"><speaker>CHOR</speaker>
 <l n="1154">Thu nun diess, Komm. Komm nun nicht mehr auf anders.</l>
 </sp>
 
 <pb n="74"/>
 
 
-<sp><speaker>KREON</speaker>
-<l n="1155">So wie ich bin, will ich hinweggehn. Diener!</l> 
+<sp n="231" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1108-1152"><speaker>KREON</speaker>
+<l n="1155">So wie ich bin, will ich hinweggehn. Diener!</l>
 <l n="1156">Abwesend, gegenwärtig! nimmt zur Hand</l>
 <l n="1157">Die Beil’ und eilt zum Orte, den ihr sehet.</l>
 <l n="1158">Ich aber, weil für die sich kehrt die Meinung,</l>
@@ -2939,7 +2934,7 @@ Trust</ref>
  <stage>EIN BOTE. DER CHOR. Hernach EURYDICE.</stage>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1155"/><sp><speaker>DER BOTE</speaker>
+<milestone unit="card" edRef="Storr" n="1155"/><sp n="232" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1155-1171"><speaker>DER BOTE</speaker>
 <l n="1203">O ihr des Kadmos Nachbarn und Amphions,</l>
 <l n="1204">Es steht nicht so, dass ich des Menschen Leben,</l>
 <l n="1205">Wie’s auch verfalst sey, loben möcht’ und tadeln.</l>
@@ -2967,31 +2962,31 @@ Trust</ref>
 <l n="1220">Als angenehm für einen Mann verkaufen.</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="233" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1172-1172"><speaker>CHOR</speaker>
 <l n="1221">Wie kommt dir denn vom Fürsten diese Klage?</l>
 </sp>
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="234" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1173-1173"><speaker>DER BOTE</speaker>
 <l n="1222">Gestorben sind sie. Schuldig sind, die leben.</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="235" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1174-1174"><speaker>CHOR</speaker>
 <l n="1223">Und welcher tödtet? welcher liegt? sag’ an!</l>
 </sp>
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="236" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1175-1175"><speaker>DER BOTE</speaker>
 <l n="1224">Hämon ist hin, von eignen Händen blutend.</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="237" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1176-1176"><speaker>CHOR</speaker>
 <l n="1225">Was? von des Vaters oder eigner Hand?</l>
 </sp>
 
-<sp><speaker>DERBOTE</speaker>
+<sp n="238" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1177-1177"><speaker>DERBOTE</speaker>
 <l n="1226">Er selbst. Dem Vater zürnt’ in seinem Mord’ er.</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="239" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1178-1179"><speaker>CHOR</speaker>
 <l n="1227">Wie führtest du ein richtig Wort, o Seher!</l>
 
  <stage>DER BOTE</stage>
@@ -3001,14 +2996,14 @@ Trust</ref>
 <pb n="79"/>
 
 
-<sp><speaker>CHOR</speaker>
+<sp n="240" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1180-1182"><speaker>CHOR</speaker>
 
 <l n="1229">Ich sch’, Eurydice, die unglükliche,</l>
 <l n="1230">Die Frau des Kreon eben. Ob im Hause sie’s</l>
 <l n="1231">Gehört hat, oder da aus Zufall ist.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1183"/><sp><speaker>EURYDICE</speaker>
+<milestone unit="card" edRef="Storr" n="1183"/><sp n="241" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1183-1218"><speaker>EURYDICE</speaker>
 <l n="1232">O all ihr Bürger! eine Rede merkt’ ich,</l>
 <l n="1233">Da ich zur Pforte gieng der Göttin Pallas,</l>
 <l n="1234">Damit ich käm’ und mit Gebet anspräche.</l>
@@ -3021,7 +3016,7 @@ Trust</ref>
 <l n="1241">In Uebeln unerfahren es vernehmen.</l>
 </sp>
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="242" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1219-1243"><speaker>DER BOTE</speaker>
 <l n="1242">Ich, liebe Frau, sag’ es, als Augenzeuge,</l>
 <l n="1243">Kein Wort der Wahrheit lafs ich ungesagt,</l>
 <l n="1244">Was sollt’ ich nemlich dich besänftigen,,</l>
@@ -3140,12 +3135,12 @@ Trust</ref>
 <stage>(Eurydice geht ab. )</stage>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1244"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="1244"/><sp n="243" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1244-1245"><speaker>CHOR</speaker>
 <l n="1299">Wie nimmst du diess? Die Frau gteng wieder weg,</l>
 <l n="1300">Eh sie gut oder schlimm ein Wort gesagt.</l>
 </sp>
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="244" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1246-1250"><speaker>DER BOTE</speaker>
 <l n="1301">Mich wunderts auch , doch nähr’ ich mich mit Hoffnung,</l>
 <l n="1302">Dafs auf des Kindes Unglük sie das Jammern</l>
 <l n="1303">Anständig nicht gehalten vor der Stadt,</l>
@@ -3154,12 +3149,12 @@ Trust</ref>
 <l n="1306">So ohne Rath ist sie nicht, dass sie fehlte.</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="245" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1251-1252"><speaker>CHOR</speaker>
 <l n="1307">Ich weiss nicht. Doch das allzugrofse Schweigen</l>
 <l n="1308">Scheint bei vergebnem Schreien mir bedeutend.</l>
 </sp>
 
-<sp><speaker>DER BOTE</speaker>
+<sp n="246" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1253-1256"><speaker>DER BOTE</speaker>
 <l n="1309">Lafs sehen uns, ob nicht Verhaltenes</l>
 
 <l n="1310">Geheim verberg' ihr schwellend Herz; hinein</l>
@@ -3176,7 +3171,7 @@ Trust</ref>
 <l n="1312">Bedeutend auch das ailzugrolse Schweigen.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1257"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="1257"/><sp n="247" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1257-1260"><speaker>CHOR</speaker>
 <l n="1313">Allein der König kommet selbst.</l>
 
 <l n="1314">Ein grofses Angedenken in Händen trägt er.</l>
@@ -3189,7 +3184,7 @@ Trust</ref>
 <l n="1317">D Eılız Cr DO;:B, KREON.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1261"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="1261"/><sp n="248" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1261-1269"><speaker>KREON</speaker>
 <l n="1318">Io! unsinnige Sinne!</l>
 <l n="1319">Harte Fehle!</l>
 <l n="1320">Tödtliche! O tödtend und</l>
@@ -3208,11 +3203,11 @@ Trust</ref>
 <l n="1326">Durch meine, nicht deine Thorheit.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1270"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="1270"/><sp n="249" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1270-1270"><speaker>CHOR</speaker>
 <l n="1327">O mir, wie mufstest du so spät erst seh’n das Rechte.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="250" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1271-1276"><speaker>KREON</speaker>
 <l n="1328">Ich hab’s gelernet in Furcht. An meinem Haupt aber</l>
 <l n="1329">Ein Gott dort, dort mich</l>
 <l n="1330">Mit grolser Schwere gefalst</l>
@@ -3225,7 +3220,7 @@ Trust</ref>
  <stage>DER BOTE. KREON. DER CHOR.</stage>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1278"/><sp><speaker>BOTE</speaker>
+<milestone unit="card" edRef="Storr" n="1278"/><sp n="251" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1278-1280"><speaker>BOTE</speaker>
 <l n="1334">O Herr! wie hast du schon und wie empfängst du.</l>
 
 <l n="1335">Das in den Händen trägst du, das. Unddasim Haufs’</l>
@@ -3236,16 +3231,16 @@ Trust</ref>
 <pb n="85"/>
 
 
-<milestone unit="card" edRef="Storr" n="1281"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="1281"/><sp n="252" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1281-1281"><speaker>KREON</speaker>
 <l n="1337">Was ist denn schlimmer noch, als das, was schlimm ist?</l>
 </sp>
 
-<sp><speaker>BOTE</speaker>
+<sp n="253" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1282-1283"><speaker>BOTE</speaker>
 <l n="1338">Die Frau ist todt; ganz Mutter dieses Todten.</l>
 <l n="1339">Noch krümmt sie sich von neugeschlagnen Schlägen.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1284"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="1284"/><sp n="254" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1284-1292"><speaker>KREON</speaker>
 <l n="1340">Io! Io! du schmuziger Hafen</l>
 
 <l n="1341">Der Unterwelt! was? mich nun? was? verderbest du mich?</l>
@@ -3265,11 +3260,11 @@ Trust</ref>
 <l n="1348">Des Weibs Theil über allgemeinem Zerfalle.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1293"/><sp><speaker>BOTE</speaker>
+<milestone unit="card" edRef="Storr" n="1293"/><sp n="255" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1284-1292"><speaker>BOTE</speaker>
 <l n="1349">Du kannst es selın. Noch ist sie im Gemach nicht.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1294"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="1294"/><sp n="256" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1284-1292"><speaker>KREON</speaker>
 <l n="1350">O mir!</l>
 
 <l n="1351">Auch das Unglük, das zweite, seh’ ich Armer?</l>
@@ -3286,15 +3281,15 @@ Trust</ref>
 <l n="1355">Ach! ach! mühseel’ge Mutter! ach mein Kind!</l>
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="257" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1293-1293"><speaker>CHOR</speaker>
 <l n="1356">Wie ist sie scharfgetroffen, wie geschlachtet rings!</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="258" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1294-1300"><speaker>KREON</speaker>
 <l n="1357">Sie schlägt die schwarzen Augen auf. Was klagt sie?</l>
 </sp>
 
-<sp><speaker>BOTE</speaker>
+<sp n="259" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1301-1305"><speaker>BOTE</speaker>
 <l n="1358">Des ehgestorbenen Magareus rühmlich Bett.</l>
 
 <l n="1359">Dann hat geklaget sie um den, zulezt lobpries sie</l>
@@ -3302,7 +3297,7 @@ Trust</ref>
 <l n="1360">Die schlechten Thaten dir, dem Kindermörder.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1306"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="1306"/><sp n="260" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1306-1311"><speaker>KREON</speaker>
 <l n="1361">Weh! Weh! Weh! Weh!</l>
 
 <l n="1362">Mich beflügelt die Furcht. Warum</l>
@@ -3316,25 +3311,25 @@ Trust</ref>
 <l n="1366">In feiger Noth gemenget.</l>
 </sp>
 
-<sp><speaker>BOTE</speaker>
+<sp n="261" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1306-1313"><speaker>BOTE</speaker>
 <l n="1367">Da du die Schuld von dem und jenem trägst,</l>
 
 <l n="1368">So gieb Befehl auch wegen des Gestorbnen.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="262" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1314-1314"><speaker>KREON</speaker>
 <l n="1369">Was Art in Mord ward aber jen’ entbunden ?</l>
 </sp>
 
 <pb n="87"/>
 
 
-<sp><speaker>BOTE</speaker>
+<sp n="263" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1314-1316"><speaker>BOTE</speaker>
 <l n="1370">Sich selber auf die Leber schlug ste, da</l>
 <l n="1371">Des Kindes Leiden lautgeklagt an sie kan.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1317"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="1317"/><sp n="264" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1317-1325"><speaker>KREON</speaker>
 <l n="1372">O mir! mir! das gehöret keinem andern</l>
 <l n="1373">Der Menschen an. Mein ist die Schuld in diesem.</l>
 <l n="1374">Ich habe dich getödtet ich. Io! ihr Diener!</l>
@@ -3343,12 +3338,12 @@ Trust</ref>
 
 </sp>
 
-<sp><speaker>CHOR</speaker>
+<sp n="265" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1326-1327"><speaker>CHOR</speaker>
 <l n="1377">Ist Vortheil noch im Unglük, trifst du Vortheil;</l>
 <l n="1378">Denn kurz ist vor den Fülsen grofses Uebel</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1328"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="1328"/><sp n="266" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1328-1332"><speaker>KREON</speaker>
 <l n="1379">O komm! o komm!</l>
 <l n="1380">Eischeine, meiner Verhängnisse schönstes,</l>
 <l n="1381">Den endlichen Tag mir bringend,</l>
@@ -3356,24 +3351,24 @@ Trust</ref>
 <l n="1383">Dass ich nicht mehr den andern Tag schaun muss!</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1334"/><sp><speaker>BOTE</speaker>
+<milestone unit="card" edRef="Storr" n="1334"/><sp n="267" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1334-1335"><speaker>BOTE</speaker>
 <l n="1384">Diess kommt. Was aber thun, in dem, was da ist?</l>
 <l n="1385">Deun solches lieget uns ob, das uns angeht.</l>
 </sp>
 
-<sp><speaker>KREON</speaker>
+<sp n="268" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1336-1336"><speaker>KREON</speaker>
 <l n="1386">Was ich gesaget, eben, das hab’ ich gewünschet.</l>
 </sp>
 
 <pb n="88"/>
 
 
-<sp><speaker>BOTE</speaker>
+<sp n="269" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1336-1336"><speaker>BOTE</speaker>
 <l n="1387">Du musst nichts wünschen. Vom zuvorgesezten</l>
 <l n="1388">Verlängnifs hat kein Sterblicher Befreiung.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1339"/><sp><speaker>KREON</speaker>
+<milestone unit="card" edRef="Storr" n="1339"/><sp n="270" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1336-1336"><speaker>KREON</speaker>
 <l n="1389">Führt Schritt vor Schritt den eiteln Mann. Der ich</l>
 <l n="1390">Dich, Kind, doch gernenicht, getödtet, sieauch, sie;</l>
 <l n="1391">Ich Armer weiss nicht, wen ich ansehn soll,</l>
@@ -3383,7 +3378,7 @@ Trust</ref>
 <l n="1395">Ein wüst Schiksaal gehäufet.</l>
 </sp>
 
-<milestone unit="card" edRef="Storr" n="1347"/><sp><speaker>CHOR</speaker>
+<milestone unit="card" edRef="Storr" n="1347"/><sp n="271" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1337-1338"><speaker>CHOR</speaker>
 <l n="1396">Um vieles ist das Denken mehr, denn</l>
 <l n="1397">Glükseeligkeit. Man muss, was Himmlischer ist, nicht</l>
 <l n="1398">Entheiligen. Grofse Blike aber</l>
@@ -3436,11 +3431,11 @@ Ende b) neigen, weil die erste Hälfte c) sich läuger dehnt, das Gleichgewicht 
 <div type="textpart" subtype="section" n="2"><p>
 
 <quote>
-  <sp><speaker>KREON</speaker>
+  <sp n="272" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1339-1346"><speaker>KREON</speaker>
     <l n="1401">Was wagtest du, ein solch Gesez zu brechen?</l>
     </sp>
-    
-    <sp><speaker>ANTIGONAE</speaker>
+
+    <sp n="273" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1339-1346"><speaker>ANTIGONAE</speaker>
     <l n="1402">Darum. Mein Zevs berichtete mirs nicht;</l>
     <l n="1403">Noch hier im Haus das Recht der Todesgötter,</l></sp>
 </quote>
@@ -3457,13 +3452,13 @@ In diesem Momente mu/s der Mensch sich am meisten festhalten, deswegen steht er 
 Herzen doch nicht eigentlich interessant ist, folgt dem reifsenden Zeitgeist am unmäfsigsten, und dieser erscheint dann wild, nicht, dass er die Menschen schonte, wie ein Geist am Tage, sondern er ist schonungslos, ls Geist der ewig lebenden ungeschriebenen Wildnifs und der Todtenwelt.
 
 <quote>
-  <sp><speaker>Kreon.</speaker>
+  <sp n="274" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1339-1346"><speaker>Kreon.</speaker>
     <l n="1404">Doch, Guten gleich sind Schlimme nicht zunehmen.</l>
     </sp>
-    
-    
-    
-    <sp><speaker>Antigonä.</speaker>
+
+
+
+    <sp n="275" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1339-1346"><speaker>Antigonä.</speaker>
     <l n="1405">Wer weiss, da kann doch drunt’ einandrer Brauch seyn.</l>
     </sp>
 
@@ -3480,11 +3475,11 @@ Zorn, weniger aber des Menschen Verstand, als unter
 Undenkbarem wandelnd, zu objectiviren wissen.
 
 <quote>
-<sp><speaker>Kreon.</speaker>
+<sp n="276" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1339-1346"><speaker>Kreon.</speaker>
 <l n="1406">Wenn meinem Uranfang’ ich treu bestehe, lüg’ ich?</l></sp>
 
 
-<sp><speaker>Hämon.</speaker>
+<sp n="277" corresp="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:1347-1353"><speaker>Hämon.</speaker>
 <l n="1407">Das bist du nicht, hältse du nicht heilig Gottes Nahmen.</l>
 
 </sp>

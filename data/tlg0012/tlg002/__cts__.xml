@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+         groupUrn="urn:cts:greekLit:tlg0012"
+         projid="greekLit:tlg002"
+         urn="urn:cts:greekLit:tlg0012.tlg002"
+         xml:lang="grc">
+  <ti:title xml:lang="eng">Odyssey</ti:title>
+  <ti:title xml:lang="grc">Ὀδύσσεια</ti:title>
+
+  <ti:edition urn="urn:cts:greekLit:tlg0012.tlg002.perseus-grc2"
+              workUrn="urn:cts:greekLit:tlg0012.tlg002" xml:lang="grc">
+    <ti:label xml:lang="eng">Greek edition (Monro–Murray)</ti:label>
+    <ti:description xml:lang="eng">The Greek reference edition used for passage citation and bridge alignment.</ti:description>
+  </ti:edition>
+
+  <ti:translation urn="urn:cts:greekLit:tlg0012.tlg002.perseus-eng3"
+                  workUrn="urn:cts:greekLit:tlg0012.tlg002" xml:lang="eng">
+    <ti:label xml:lang="eng">English translation (A. T. Murray, 1924)</ti:label>
+    <ti:description xml:lang="eng">The Odyssey, translated by A. T. Murray.</ti:description>
+  </ti:translation>
+  <ti:translation urn="urn:cts:greekLit:tlg0012.tlg002.butlernagy2020-eng2"
+                  workUrn="urn:cts:greekLit:tlg0012.tlg002" xml:lang="eng">
+    <ti:label xml:lang="eng">English translation (Butler, revised Nagy et al., 2020)</ti:label>
+    <ti:description xml:lang="eng">Samuel Butler's translation in a modern collaborative revision.</ti:description>
+  </ti:translation>
+  <ti:translation urn="urn:cts:greekLit:tlg0012.tlg002.bryant1873-eng2"
+                  workUrn="urn:cts:greekLit:tlg0012.tlg002" xml:lang="eng">
+    <ti:label xml:lang="eng">English translation (William Cullen Bryant, 1873)</ti:label>
+    <ti:description xml:lang="eng">William Cullen Bryant's English verse translation.</ti:description>
+  </ti:translation>
+  <ti:translation urn="urn:cts:greekLit:tlg0012.tlg002.pope1726watson1858-eng2"
+                  workUrn="urn:cts:greekLit:tlg0012.tlg002" xml:lang="eng">
+    <ti:label xml:lang="eng">English translation (Alexander Pope, 1726; Watson edition, 1858)</ti:label>
+    <ti:description xml:lang="eng">Alexander Pope's verse translation in the Watson edition.</ti:description>
+  </ti:translation>
+  <ti:translation urn="urn:cts:greekLit:tlg0012.tlg002.hobbes1667molesworth-eng2"
+                  workUrn="urn:cts:greekLit:tlg0012.tlg002" xml:lang="eng">
+    <ti:label xml:lang="eng">English translation (Thomas Hobbes, 1667; Molesworth edition)</ti:label>
+    <ti:description xml:lang="eng">Thomas Hobbes's English translation in the Molesworth edition.</ti:description>
+  </ti:translation>
+  <ti:translation urn="urn:cts:greekLit:tlg0012.tlg002.chapman1615hooper-eng2"
+                  workUrn="urn:cts:greekLit:tlg0012.tlg002" xml:lang="eng">
+    <ti:label xml:lang="eng">English translation (George Chapman, 1615; Hooper edition)</ti:label>
+    <ti:description xml:lang="eng">George Chapman's English verse translation in the Hooper edition.</ti:description>
+  </ti:translation>
+  <ti:translation urn="urn:cts:greekLit:tlg0012.tlg002.cowper-eng2"
+                  workUrn="urn:cts:greekLit:tlg0012.tlg002" xml:lang="eng">
+    <ti:label xml:lang="eng">English translation (William Cowper, 1791)</ti:label>
+    <ti:description xml:lang="eng">William Cowper's English verse translation.</ti:description>
+  </ti:translation>
+  <ti:translation urn="urn:cts:greekLit:tlg0012.tlg002.cotterill1911-eng2"
+                  workUrn="urn:cts:greekLit:tlg0012.tlg002" xml:lang="eng">
+    <ti:label xml:lang="eng">English translation (H. B. Cotterill, 1911)</ti:label>
+    <ti:description xml:lang="eng">H. B. Cotterill's English translation.</ti:description>
+  </ti:translation>
+  <ti:translation urn="urn:cts:greekLit:tlg0012.tlg002.parrish2023-eng1"
+                  workUrn="urn:cts:greekLit:tlg0012.tlg002" xml:lang="eng">
+    <ti:label xml:lang="eng">Odyssey Book 5 English-first bridge translation</ti:label>
+    <ti:description xml:lang="eng">A bridge translation by Amelia Parrish and Gregory Crane, aligned at phrase level to stable Odyssey treebank tokens.</ti:description>
+  </ti:translation>
+</ti:work>
